@@ -4,17 +4,20 @@
 
 ## 先下载哪个
 
-- **只运行一个模型**：进入[Release下载页](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)，选例如`resnet18-B-merged.zip`，解压后按照包内README安装依赖，运行`python predict.py examples/1.jpg`。十二个小包各自包含真实权重，不依赖此源码浏览目录。
-- **接收全部项目**：同页下载`MA6216_ResNet_full_20261103.zip.001`到`.004`四段及`full_project_manifest.json`；把它们放在同一目录。下载本仓库的`restore_full_project.py`，运行`python restore_full_project.py 你的下载目录`。程序逐段校验并恢复完整ZIP；再正常解压。
+- **只运行一个模型**：进入[模型与完整项目Release下载页](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)，选例如`resnet18-B-merged.zip`，解压后按照包内README安装依赖，运行`python predict.py examples/1.jpg`。十二个小包各自包含真实权重，不依赖此源码浏览目录。
+- **接收全部项目**：先在[原完整项目Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)下载`MA6216_ResNet_full_20261103.zip.001`到`.004`四段及`full_project_manifest.json`，放在同一目录。下载本仓库的`restore_full_project.py`，运行`python restore_full_project.py 你的下载目录`，逐段校验并恢复完整ZIP后正常解压。再从[双语文档与图源更新Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03-bilingual)下载`ResNet_当前正式文档与双语图源_20261103.zip`并解压，取得当前三份正式文档及配套图源。原四分卷提供完整数据、权重和实验记录，更新ZIP提供当前文档与双语图源，两部分配套使用。
+- **只阅读当前文档或使用双语图源**：从[双语文档与图源更新Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03-bilingual)下载`ResNet_当前正式文档与双语图源_20261103.zip`。包内`documents/`为三份正式Word；各图源目录提供中英文图、图注、来源清单及重排脚本。
 - **在线看代码**：打开[src/Vision_CA](src/Vision_CA)；[configs](configs)是十二包的固定配置。在线浏览树不重复保存原图和大权重，完整源码、数据、逐次训练和原始预测均在上述完整包。
 
 GitHub的“Code → Download ZIP”只下载浏览源码和文档，不包含Release数据与模型。完整项目必须从Release取得。
 
 ## 文档阅读顺序
 
-1. [交接说明](docs/交接说明.docx)：项目介绍、历史Word阅读顺序、组员后续工作。
-2. [综合实验报告v3](docs/A与B协议ResNet训练与对比实验报告_v3.docx)：全部结果、速度、错误及CAM。
-3. [项目方案v12](docs/基于ResNet18的手势识别项目方案_v12.docx)：方法、数据、架构及实施过程。
+1. [交接说明v2（中英文配图）](docs/交接说明_v2_中英文配图.docx)：项目入口、交接内容和组员后续工作。
+2. [综合实验报告v4（中英文配图）](docs/A与B协议ResNet训练与对比实验报告_v4_中英文配图.docx)：全部结果、速度、错误及CAM。
+3. [项目方案v13（中英文配图）](docs/基于ResNet18的手势识别项目方案_v13_中英文配图.docx)：方法、数据、架构及实施过程。
+
+当前文档的配图同时提供中文和英文版本，使用同一批冻结实验输出。图源更新包包含原图、可编辑图源和重排方法；其中参考图改编与真实实验结果在图内及图注中区分。历史[交接说明](docs/交接说明.docx)、[综合实验报告v3](docs/A与B协议ResNet训练与对比实验报告_v3.docx)和[项目方案v12](docs/基于ResNet18的手势识别项目方案_v12.docx)继续保留，用于追溯。
 
 ## 标签与实际程序
 
