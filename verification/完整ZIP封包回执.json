@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "files": 96986,
+  "archive_crc_sha256_verified": true,
+  "junction_or_symlink_count": 0,
+  "training_executed": false,
+  "archive": "E:\\ResNet_合并与不合并完整交接_20261103.zip",
+  "archive_sha256": "4448838cbc4e8a4a5cf4199a20ad593db996e1a5cf1d6208b9a24129d60a2a96",
+  "archive_bytes": 6188474282,
+  "finalization_recovery_record": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\最终封包句柄恢复记录_20261103.json",
+  "finalization_recovery_sha256": "98c52812492175a14d983b277bbb9d66fccd18ae0df6598529f6153ec186e93f",
+  "finalizer_sha256": "36ab9855784a0cab19d4146ceffc4d9813fac847e7d8519c587f45109928203c"
+}

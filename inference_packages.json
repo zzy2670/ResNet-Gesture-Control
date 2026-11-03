@@ -1,0 +1,86 @@
+[
+  {
+    "variant": "unmerged",
+    "protocol": "A",
+    "architecture": "resnet18",
+    "asset": "resnet18-A-unmerged.zip",
+    "sha256": "780565200cb0bda91ced457fe48e0f317b6c86cc3ec4e814637c1b3f1460513e"
+  },
+  {
+    "variant": "unmerged",
+    "protocol": "A",
+    "architecture": "resnet34",
+    "asset": "resnet34-A-unmerged.zip",
+    "sha256": "83092f0eecb291f7d0630ecf5ab3472beab74b26966642e1c64a31926ddc6fc8"
+  },
+  {
+    "variant": "unmerged",
+    "protocol": "A",
+    "architecture": "resnet50",
+    "asset": "resnet50-A-unmerged.zip",
+    "sha256": "63e9cf96920ec0e661f5c77262835fae31ce033ba8e6b523555ac9580adcf8e4"
+  },
+  {
+    "variant": "unmerged",
+    "protocol": "B",
+    "architecture": "resnet18",
+    "asset": "resnet18-B-unmerged.zip",
+    "sha256": "e7d0e24c30126f0dcc98d4c913da5fcaf4ea15f4c9edd57c03b0523f9c24f804"
+  },
+  {
+    "variant": "unmerged",
+    "protocol": "B",
+    "architecture": "resnet34",
+    "asset": "resnet34-B-unmerged.zip",
+    "sha256": "3d9b9d720b91dfee475575be7ee0ff2787d59684f4caff3bf926b4dc686b093c"
+  },
+  {
+    "variant": "unmerged",
+    "protocol": "B",
+    "architecture": "resnet50",
+    "asset": "resnet50-B-unmerged.zip",
+    "sha256": "519d1f27684b0de2ce8777ab0ecfa347b3d6b4b188b05d8d6976c7e7c82dad5b"
+  },
+  {
+    "variant": "merged",
+    "protocol": "A",
+    "architecture": "resnet18",
+    "asset": "resnet18-A-merged.zip",
+    "sha256": "d3c25a88cb1832b273da513ed1a92d33e973f3af84490c06cfabfd8e4b21cd17"
+  },
+  {
+    "variant": "merged",
+    "protocol": "A",
+    "architecture": "resnet34",
+    "asset": "resnet34-A-merged.zip",
+    "sha256": "6abbc770fe9af8dd35b5909f448fd8471fecdd1a59a1b5ad97445685715a4088"
+  },
+  {
+    "variant": "merged",
+    "protocol": "A",
+    "architecture": "resnet50",
+    "asset": "resnet50-A-merged.zip",
+    "sha256": "48a2b14799d64115c7dac6cdad73f5992f3438fff71e8aa04f353d7a31344699"
+  },
+  {
+    "variant": "merged",
+    "protocol": "B",
+    "architecture": "resnet18",
+    "asset": "resnet18-B-merged.zip",
+    "sha256": "849d0faa274a7f8acb6ee3023a9ed5b76493a4c6dc1e5d496385486357d216d9"
+  },
+  {
+    "variant": "merged",
+    "protocol": "B",
+    "architecture": "resnet34",
+    "asset": "resnet34-B-merged.zip",
+    "sha256": "ec0144a53aaf82c6799adf64fcb951d9c24b0d38696b332b3a3d1ed4e9cd1ae0"
+  },
+  {
+    "variant": "merged",
+    "protocol": "B",
+    "architecture": "resnet50",
+    "asset": "resnet50-B-merged.zip",
+    "sha256": "b0da9a9532ed733dc300cc6716f4bc4abc68cbdf441057abd41ce91d36c19f6e"
+  }
+]

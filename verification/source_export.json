@@ -1,0 +1,217 @@
+[
+  {
+    "path": "src/Vision_CA/AGENTS.md",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/AGENTS.md",
+    "sha256": "a660cd68a17763441cda75009bdb653196e247e7cdffa0bce5b60a13bcb50f72"
+  },
+  {
+    "path": "src/Vision_CA/PROJECT_STATUS_B.md",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/PROJECT_STATUS_B.md",
+    "sha256": "172c721230dcdd6f8d92a7907c4e4c659abf8a3970d23d82c3638a4cb5ec6057"
+  },
+  {
+    "path": "src/Vision_CA/README.md",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/README.md",
+    "sha256": "df989331f01b2f0d2aca86017334ed3b5ebcaf8b3df6a4661b20fa85bbd11202"
+  },
+  {
+    "path": "src/Vision_CA/audit_B_gesture_delivery.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/audit_B_gesture_delivery.py",
+    "sha256": "1499f000b18bbed51c7b89aa16c266efa729867da35a33d3483f0f5327006901"
+  },
+  {
+    "path": "src/Vision_CA/audit_B_preflight.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/audit_B_preflight.py",
+    "sha256": "f49f6818cc717fe0984f08409b42428d2283921c2265ef7ade55a4d9da0a2305"
+  },
+  {
+    "path": "src/Vision_CA/audit_gesture_delivery.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/audit_gesture_delivery.py",
+    "sha256": "5a042ab8708506101bae463f4f70065b01d848a510a701991755c9dbacb62e5e"
+  },
+  {
+    "path": "src/Vision_CA/benchmark_AB_matched_cpu.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/benchmark_AB_matched_cpu.py",
+    "sha256": "cd38b346af669e7b308723ff04396394d66b9410039582f942db1f2b4da4b4fb"
+  },
+  {
+    "path": "src/Vision_CA/benchmark_A_classifiers.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/benchmark_A_classifiers.py",
+    "sha256": "926fccbb8ac43ff512da153ef0bbab698549a7c08127f8b94768975d735ccae8"
+  },
+  {
+    "path": "src/Vision_CA/benchmark_label_variants_cpu.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/benchmark_label_variants_cpu.py",
+    "sha256": "d359f637088212f8730f89461881a82589e8ab3ac013ddbec437c42586d79269"
+  },
+  {
+    "path": "src/Vision_CA/build_AB_handover_docs.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_AB_handover_docs.py",
+    "sha256": "675871fd54038288c4f15c4f080e9b6afb06514f5c4729db0dc13829af5a2022"
+  },
+  {
+    "path": "src/Vision_CA/build_B_gesture_delivery.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_B_gesture_delivery.py",
+    "sha256": "3f4dea2d518dde85d7912b3ad0f43915b84d3bb340ad7845e39136a091cb63ab"
+  },
+  {
+    "path": "src/Vision_CA/build_ab_project_bundle.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_ab_project_bundle.py",
+    "sha256": "36988cbafa2b217815fc44a30ea70b95f5fa3bbe36961fd594f6fba38bd3a0bc"
+  },
+  {
+    "path": "src/Vision_CA/build_gesture_delivery.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_gesture_delivery.py",
+    "sha256": "ea733a686afe456901c593bcab381b1156252bb2eb85ce5dec0bd766f02cacae"
+  },
+  {
+    "path": "src/Vision_CA/build_handover_docx.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_handover_docx.py",
+    "sha256": "bb4715572f94d51e0c374d02ea4914609197347161707425f44e1ed7bb50d37e"
+  },
+  {
+    "path": "src/Vision_CA/build_label_comparison_bundle.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_label_comparison_bundle.py",
+    "sha256": "ec8827f2a479f64172232d02058ad4f25e2ac108846c7d0d5e18d8177a8f3a90"
+  },
+  {
+    "path": "src/Vision_CA/build_label_comparison_handover.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_label_comparison_handover.py",
+    "sha256": "2406321cd19afdb86d308cee30ca2e8f3242ef017a83c7610e730755e61e58c5"
+  },
+  {
+    "path": "src/Vision_CA/build_merged_gesture_delivery.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_merged_gesture_delivery.py",
+    "sha256": "c159f13f359f699984c3591218512909a557090c6daf07d7ef2d2e9d29518fde"
+  },
+  {
+    "path": "src/Vision_CA/build_project_plan_v11.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_project_plan_v11.py",
+    "sha256": "239d54f85682b0c332612656eb2d5c175577fbdb94712f411fcbc26ccf774956"
+  },
+  {
+    "path": "src/Vision_CA/build_project_plan_v12.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/build_project_plan_v12.py",
+    "sha256": "c5534fd79ff3ea061e81563f4d12b0981520daf0b3f713a259e720dd7d5b0414"
+  },
+  {
+    "path": "src/Vision_CA/check_project_bundle.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/check_project_bundle.py",
+    "sha256": "086e2a4df63bdacae32161bba097a97fb5f21faa82d17805882c02f3c1a7ad00"
+  },
+  {
+    "path": "src/Vision_CA/compare_resnets_A.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/compare_resnets_A.py",
+    "sha256": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f"
+  },
+  {
+    "path": "src/Vision_CA/deployment_src/gesture_predict.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/deployment_src/gesture_predict.py",
+    "sha256": "d8d7f63a724e9d3084487991e96b1d64ecb69f21a8233cad7964d852328d9d99"
+  },
+  {
+    "path": "src/Vision_CA/make_A_error_examples.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/make_A_error_examples.py",
+    "sha256": "71235d310b413e466cd9008a23d156de59f20e794d8d38a3a5f1526a987e353f"
+  },
+  {
+    "path": "src/Vision_CA/make_A_trained_gradcam.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/make_A_trained_gradcam.py",
+    "sha256": "eaea6337877fa15878f906068782986c84d222d2896760fbab3de9d267a3b1f6"
+  },
+  {
+    "path": "src/Vision_CA/make_B_error_examples.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/make_B_error_examples.py",
+    "sha256": "984177e8cd248f8de44e603f7742e771e84b1bedd79f633d4e255490b23cdb3f"
+  },
+  {
+    "path": "src/Vision_CA/make_B_trained_gradcam.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/make_B_trained_gradcam.py",
+    "sha256": "71461bbf298f2b1b6fbc71bba5d058b2fc093a3237c51dadfbddccc0693714da"
+  },
+  {
+    "path": "src/Vision_CA/portable_B_training.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/portable_B_training.py",
+    "sha256": "5d30bbf3638057b640bd582b58ed45797c61fec4151bf14d96761f2d55630217"
+  },
+  {
+    "path": "src/Vision_CA/portable_ab_project.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/portable_ab_project.py",
+    "sha256": "05453e6bcf1e544b56feaa47f0992fb28e3f601f0d3d74245a363e4abad7eb07"
+  },
+  {
+    "path": "src/Vision_CA/portable_project.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/portable_project.py",
+    "sha256": "0c5fb85366c737b590aec0ae913dc8b5b89f16df3411e8eb0f87b5ea33532c13"
+  },
+  {
+    "path": "src/Vision_CA/postprocess_AB_results.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/postprocess_AB_results.py",
+    "sha256": "7e168d00ba0c9cc6b72c65e7af8a29c8048dda816f07b7bbbdfbb176a98e3bb1"
+  },
+  {
+    "path": "src/Vision_CA/postprocess_A_results.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/postprocess_A_results.py",
+    "sha256": "1cd6206b6c6c0ffc8ef792ee4ba1f2f1aa27149bcaddd64021696490d5e73d78"
+  },
+  {
+    "path": "src/Vision_CA/prepare_B_datasets.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/prepare_B_datasets.py",
+    "sha256": "c5f7e21f20d2524d427511e2a9f0274af2bd1cf50e5c33b1334f421b51d272ef"
+  },
+  {
+    "path": "src/Vision_CA/prepare_datasets.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/prepare_datasets.py",
+    "sha256": "8cbfa0bfafb8d1f62e52bc2f82b9af92741528e876399a92a22e7cd418fafa97"
+  },
+  {
+    "path": "src/Vision_CA/prepare_merged_labels.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/prepare_merged_labels.py",
+    "sha256": "d341b809862fb9d60c7aff41dd951b00344b2d9d0e0d7115a0ce4683aa5cf2e4"
+  },
+  {
+    "path": "src/Vision_CA/prepare_training_delivery.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/prepare_training_delivery.py",
+    "sha256": "0a7a96d72bdc864d9094e79f6e9573c376e9ae4af84f9a0a2f48ec7635a7ef2a"
+  },
+  {
+    "path": "src/Vision_CA/run_A_budget.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/run_A_budget.py",
+    "sha256": "74e154bc8d6ba812b7bcc04f8eb9962fac0d92bfc0892176ca4ac9e6165a7bd6"
+  },
+  {
+    "path": "src/Vision_CA/run_A_comparisons.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/run_A_comparisons.py",
+    "sha256": "eab7c1d53efe3ed75b69b3a38ded8dfdd1a410706348420a362eb9b2b39fb791"
+  },
+  {
+    "path": "src/Vision_CA/run_B_pipeline.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/run_B_pipeline.py",
+    "sha256": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205"
+  },
+  {
+    "path": "src/Vision_CA/run_B_training.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/run_B_training.py",
+    "sha256": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3"
+  },
+  {
+    "path": "src/Vision_CA/run_merged_pipeline.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/run_merged_pipeline.py",
+    "sha256": "0a5266c4673a733c1c8b08d49313332d29d2615174f649fad657b127253f7f4d"
+  },
+  {
+    "path": "src/Vision_CA/run_merged_training.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/run_merged_training.py",
+    "sha256": "5e10536bfb801db20f1e1467d372202cf5a0bf5c580e8f06ded2d02611923a92"
+  },
+  {
+    "path": "src/Vision_CA/save_A_environment.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/save_A_environment.py",
+    "sha256": "635b6c0d3e38ea6ce7bf591e40caa4ffb91715c1ed23781b687b33b811b8c5eb"
+  },
+  {
+    "path": "src/Vision_CA/train_A.py",
+    "source_member": "ResNet_合并与不合并完整交接_20261103/完整源码与数据/Vision_CA/train_A.py",
+    "sha256": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d"
+  }
+]

@@ -1,0 +1,1325 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "reviewed_at": "2026-11-03T02:10:14.690506+08:00",
+  "reviewer_role": "non_author_independent_document_reviewer",
+  "scope": "Three exact final Word files, facts semantics and static identities, actual OOXML, all 104 rendered pages, README/read-order/team-role content and logical final-bundle links. No author source edits.",
+  "documents": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+      "status": "PASS",
+      "sha256": "f9f136d40aac91325732a31bd3586409be9a5c9de989805fc30a706c0443d5bb",
+      "pages": 37,
+      "tables": 15,
+      "embedded_image_occurrences": 29,
+      "render_summary": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\render_summary.json",
+      "render_summary_sha256": "366e3ccf517f99ca900e8a480131745aae2f9cbbdb30429d70391258716bf5b5",
+      "pdf": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\基于ResNet18的手势识别项目方案_v12.pdf",
+      "pdf_sha256": "4ae82af4b9d547f162e8bef8cbc3b337dfbce294b2d85668288d421f7c3abc25",
+      "all_pages_independently_viewed": true,
+      "view_method": "逐页查看由最终作者PNG制作的双页联系图；正文和表格另核实际OOXML",
+      "review_contact_images": [
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_01-02.jpg",
+          "sha256": "8f00694bd9bf3b2c03cee3a32a76c900bee90757743637331de2d270e549aea4"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_03-04.jpg",
+          "sha256": "b32dc76639cc60dcda86682bee3efd7611204df570252420b0093fb47c292f56"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_05-06.jpg",
+          "sha256": "8d716e3691225e755086db7072a853fda66682621fc9ebd3510f1d0abb1c4e7a"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_07-08.jpg",
+          "sha256": "bc996cbaaa466af59d697545d7f63588a24b083d7a58396f0eb65ca92d211a6f"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_09-10.jpg",
+          "sha256": "a2f3d956c1097dbb8b113e110388a76e76550ff6f87d8e98ca145aeaebcdca77"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_11-12.jpg",
+          "sha256": "5d316626f860906922271f52635ead9963efb7360983777b9646a6d693c63100"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_13-14.jpg",
+          "sha256": "36a71dcdefba275593e75754d91e1348ed3c7ee89167fe3f8db3e6efe9306db1"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_15-16.jpg",
+          "sha256": "b89a6ea96d9c11c5d3188f3e9bd25ad976a07f127bc750c2735961695f959d4c"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_17-18.jpg",
+          "sha256": "a803ff1a67c076f331f9aca6b5f0173dd959f55bd6bbfd8057cfa4957c8aa9dd"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_19-20.jpg",
+          "sha256": "e9e46561a1a9759fdbc9a91c5791b107325fac889e03978bb224c344ecf1317b"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_21-22.jpg",
+          "sha256": "2ae8bf9c7218e7b64a96bab7ec5e9b371efa3c8230caf54db3992964e2119615"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_23-24.jpg",
+          "sha256": "9b09b6b4a78746920a7afdaafd9ce19b7d3f6fb39648a71b5e4ab2a8b5b695d8"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_25-26.jpg",
+          "sha256": "0bda0adf122af09bab629d22c98ed04f94796b9488d40673300be77db5e4558e"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_27-28.jpg",
+          "sha256": "29e7a8916a5de32db20701bf6557bc2bc87ac7a7a612c5f10a62258e5a51b364"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_29-30.jpg",
+          "sha256": "296508fd41099ae237f639126e834e1b5429da07f27fec7f7902c7edcfbf8c8a"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_31-32.jpg",
+          "sha256": "387475a93b68f8b0d2396c9f09c5de60a623b521324feccebc2a69cd8e3b5255"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_33-34.jpg",
+          "sha256": "48c3981beaa606b371c54247474bdd6ce6e0994da69d27ab76bdb014f6251911"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_35-36.jpg",
+          "sha256": "31127f3813a697fd6441d15c5739f894a7e2ed7bda34616c2a574bed704754ce"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\plan_37-37.jpg",
+          "sha256": "5544a011a5ec4b93ccd620cce73a7b7f58948967056b8fbbdcdf13d90466d8de"
+        }
+      ],
+      "render_pages": [
+        {
+          "page": 1,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-1.png",
+          "sha256": "5c35a6969a73b7a42cb9106d0c96a2f63e94e947ee18aee90ab721f5ace98165",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 2,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-2.png",
+          "sha256": "72b1df85cb2c0b0534bb9fc916009c99d329e0bc6af8a21ab94e942944480cb8",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 3,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-3.png",
+          "sha256": "3ef3b906724cc3f5375604e0c81c9d5d476ea36f690525abdfe3accdd804012f",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 4,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-4.png",
+          "sha256": "a7f66551aff2644d7710f3388f9fe28f5018c240dce231f73f6819bd63251449",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 5,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-5.png",
+          "sha256": "9524ff06efa4182ba4a731386c9c2e04848f099f99c78c40964caa76e3262e4d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 6,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-6.png",
+          "sha256": "d8a3bb33c4f71a59c813261d846b3a5b10da2af778d03588ebde0bb2cd1614f7",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 7,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-7.png",
+          "sha256": "634a24a26cf3dcfa63d3e733c6292b057e01f369e34cc12fbf70d0e5d14db57f",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 8,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-8.png",
+          "sha256": "9bf21adf476da6874086c000ee83ae7432feb51fcca03425bf73e031bf358688",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 9,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-9.png",
+          "sha256": "f06781130d7f5ab3e374aa50c1bcdcf3c1ff0b2c444c9d8b123ac59349b2ae52",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 10,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-10.png",
+          "sha256": "3c69d3662645056e88cebb5117b19e349babb0085ca66a44a8473f824a65b3d8",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 11,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-11.png",
+          "sha256": "234cac1f8dbe3d0e547f824eaf020e1134db29f55a0b6fbd057a83dfe080f08e",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 12,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-12.png",
+          "sha256": "f2595454a8c215d0fef8444d34c3165f24da153e6bb2ce126684f74069511c6b",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 13,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-13.png",
+          "sha256": "1fe06d7143b064410f2fe38cf0e5928c51bab433d7a693486ecf775ed564b5cf",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 14,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-14.png",
+          "sha256": "aded18e53b425a8924e088e774d6872be76e3fc19519866e432fc150ff8112fd",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 15,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-15.png",
+          "sha256": "3fe17412b6e3d62cf9ceba6b751583fb635ad6384c612c60fdf3565e217efc3c",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 16,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-16.png",
+          "sha256": "f6363dd4156a9dc16b01518ea02ca780929710bad9e46b52cf038198bb23ba1b",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 17,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-17.png",
+          "sha256": "ba798856a66874b1f972172fc5ca62b5953a56c2c45c8ca152183cda5797cd44",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 18,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-18.png",
+          "sha256": "ad8cf90cb988d3fec9968065bb1ec61d7ccc88a64c2f2bcda75c09d381e07c47",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 19,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-19.png",
+          "sha256": "9b6c30ea4b262f433577e3c934c0da805fb1a7b36096ebeb604cf067249d2a55",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 20,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-20.png",
+          "sha256": "0466cb5094787eb9a346dee721aec77fa87816ab6b153f502a5d014e4370d447",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 21,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-21.png",
+          "sha256": "71d3360f47c849ad985bc7c362ed4ecac54e05cddda3e5a7d563122a87f5cafa",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 22,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-22.png",
+          "sha256": "5ea3883d086c99949a228d936ec367dc8cfa3887e261f3ec2555dbc28fd01cf0",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 23,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-23.png",
+          "sha256": "bf75c8ce9befa56145a3d201a291c1430ae52e4a37bd596f232ba127e2295bbd",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 24,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-24.png",
+          "sha256": "ff8484f84f83a9db297590ea0ee9946f41e8d4e3dee9d1ef2420dc3c8684f292",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 25,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-25.png",
+          "sha256": "7ce5c4fe33c57bb5af64aa145095c0b7646662f23f287729158267d582ff673e",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 26,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-26.png",
+          "sha256": "20fa9789f011fbd36e4bc0c82fe77db4b3a95ff1c612348318685d423cc23c76",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 27,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-27.png",
+          "sha256": "fb5ed9a7f42e3c8a4b7ba4aedd22da17499fa066c1e7bd10fac78d3b565db049",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 28,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-28.png",
+          "sha256": "279be92676cf61018d8eb6a16d7a31810f5fc41291c356ff6d30bb48c5c7dea4",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 29,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-29.png",
+          "sha256": "77fe258f2875cc16e9cb3ae0a0ce45dd1a757184c63c2562d3486e51ea1757f1",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 30,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-30.png",
+          "sha256": "1b160cf2238592274d0314d0bee94b68305d009dff89d971e13ff410d5d9c74d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 31,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-31.png",
+          "sha256": "473da047a9a33dced6f3859d2f0c6377da3b0584dfae62167d3a201908862bf0",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 32,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-32.png",
+          "sha256": "7fd4716cf7e0f68c71c0bb422432a6947e7cb81df85106ea7aee9c911b39ee7a",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 33,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-33.png",
+          "sha256": "a595991169c457de484900430b61f3d3f8eb46943ec10936597f80dbc7fcf17f",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 34,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-34.png",
+          "sha256": "e6a6d9204db785532f685a45d772837d0bd725226d0b03b7958058933520839e",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 35,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-35.png",
+          "sha256": "0f6be518bb17e345a9b5a75dc1cdba8f3b59a37fb19b2a44ca70e032debb2dd8",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 36,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-36.png",
+          "sha256": "f4d732f83634df7f0b8d1f0218be496209b91422ab3aea74af6c141d14d7970d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 37,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\page-37.png",
+          "sha256": "d50b2580164c6b3dbdcc80e43ff5901efce12a6ce3caad6be6abe9ab6689d3c8",
+          "independent_visual_status": "PASS"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\A与B协议ResNet训练与对比实验报告_v3.docx",
+      "status": "PASS",
+      "sha256": "f8071465cb0742ee86dd4e2f9c8c05481d491f00ccc53b319710001b79ae8b28",
+      "pages": 58,
+      "tables": 52,
+      "embedded_image_occurrences": 15,
+      "render_summary": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\render_summary.json",
+      "render_summary_sha256": "b879144f63590c6de05217ff9a644067de963cb0df78b68bc4ba08b124cbc8dd",
+      "pdf": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\A与B协议ResNet训练与对比实验报告_v3.pdf",
+      "pdf_sha256": "314e70206e2361992efde07e47a26d74f73bc830156024c2d93c64e9c428bd5d",
+      "all_pages_independently_viewed": true,
+      "view_method": "逐页查看由最终作者PNG制作的双页联系图；正文和表格另核实际OOXML",
+      "review_contact_images": [
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_01-02.jpg",
+          "sha256": "9ed5888be7044c62a5194b87694265edcfa34accdf8b5ad92bb043b001afb509"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_03-04.jpg",
+          "sha256": "19f7d8a1bd2c44a646f7e2f88d3648d3165aa694ef4cdf2fd65ad0a762c26695"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_05-06.jpg",
+          "sha256": "79faf2c605a687ce9d8960e79f449b693f6bc99c2d0462e320445bb7b0c57e32"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_07-08.jpg",
+          "sha256": "759a4a2249ba250f16bd151a7b4d0358b1b7d344712233cb8e6cf7131e4ae8cf"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_09-10.jpg",
+          "sha256": "919c655bd1a70fd4ca7af61c018afba3308d247e0a47379223458c64e9731ee3"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_11-12.jpg",
+          "sha256": "b2d19ae1d1f08bdb5fdd1d129925f456c37e819e761bd72451c9cd75653a68ab"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_13-14.jpg",
+          "sha256": "01188d2361d8a23e6a0a1aac5559900aff75a78122ffde28b70d976356fb7357"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_15-16.jpg",
+          "sha256": "31a04c078dd299112f494d7a14b48d0a7de2252408eb359b57ca130af6659b27"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_17-18.jpg",
+          "sha256": "d34da729d1574fe66ce77b8b9e349190ee2c990a584229abc201821c84f1b308"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_19-20.jpg",
+          "sha256": "969ca5fa9177b50431bef3b5fa2e6bba4fd24014c0f6b21799c259d367ca9807"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_21-22.jpg",
+          "sha256": "c9007d000c024895b96d9c141234418e8dcf50909abb28e1c90f9b7b85e712f4"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_23-24.jpg",
+          "sha256": "d2702b892926a36539ed2ebc6f0b53872f47bfe7fd163982835cc44e76afa3a6"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_25-26.jpg",
+          "sha256": "6bb298ade5907b1e65e9277e2dee3f76c55946850e59deb25c5146e08067a137"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_27-28.jpg",
+          "sha256": "a37be200b2c6bbf827cafd1449ba993111292ce4ba7cca6fcba70588ba7575a0"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_29-30.jpg",
+          "sha256": "60dd08bd2a6cf495bfdf649ac200ddaf51d91f4dd123cc4c1894c4ead28b1116"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_31-32.jpg",
+          "sha256": "2dc3988a3b82d5a86cb2e5c12ed816089eb448bf482c8b32f67bdf0214c02604"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_33-34.jpg",
+          "sha256": "096973d31c8b1402adc1f736f063c0dbcd73f4b7e8243db6e17e10cae93eaa98"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_35-36.jpg",
+          "sha256": "54b3719e65e4c1f2deca57eeef5506d11a8dd92aa44f0c10b7332d9344fe76ba"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_37-38.jpg",
+          "sha256": "3c2c7cd7cacbcba9bd8a17e0272030f66be886572f3c5847230f946f4f194397"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_39-40.jpg",
+          "sha256": "b9aa29f8e6647df9a7594cd808310b9477ed115336053d1efe6008efff3d4b0e"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_41-42.jpg",
+          "sha256": "6f868e9a10c7ec37edf3c0b14dde61e5a6a7ae54c7eee3464bb8a4e77ebe665c"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_43-44.jpg",
+          "sha256": "4058814e3624a8f8547e343523c65c8269c8e6669ab0feb9b029923ce5f99f65"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_45-46.jpg",
+          "sha256": "c96a541c029f53ffc9c44c725ec2071343f8af7b2b8245b550a5523b59acbab1"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_47-48.jpg",
+          "sha256": "44d32d52678178a35fec9217b54e7d2d7e72ea8c283afe917446ce0f326e067c"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_49-50.jpg",
+          "sha256": "84d407e821f8e9f69527dfc3d4d3c2ada5fee3658c5c968998f77398f3846e3b"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_51-52.jpg",
+          "sha256": "18048869e5a634138327c0f21e4452c9329c8fc2bb27ef92a92ca77db270abda"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_53-54.jpg",
+          "sha256": "8921c770fadeacf6e805c0d58ef0dd80fdb2e2950da956d103ad25c1639cb687"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_55-56.jpg",
+          "sha256": "480b6786012aaf9e9995413cc38a87eb03a13cc7acc5412b20a94b0331be12ab"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\final_report_57-58.jpg",
+          "sha256": "e8cc60b5d2c25851627468a0dc304100b141c6fdf32c1939a3a3ff88318eb158"
+        }
+      ],
+      "render_pages": [
+        {
+          "page": 1,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-01.png",
+          "sha256": "9ff55d1abba00ea8be456098491eb0452b1dcbb2d80dcd860aee23404003200c",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 2,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-02.png",
+          "sha256": "06d7e44bab7ab378651db4d840362e9065ead0531f12017de5e73076c60637e3",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 3,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-03.png",
+          "sha256": "390ce96b6bf1fda3ee198b859155d4b476da26da812b8bd803569018ce6bbfcd",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 4,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-04.png",
+          "sha256": "91067886f1b07dca9e80b00350387e7f48720b6d2370409f76080bcdc654c384",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 5,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-05.png",
+          "sha256": "d3292b77ea978c0a76358407a6c1bced5fd59e29e739e7229caab1180fc6bc28",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 6,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-06.png",
+          "sha256": "97f699005e968b34755624f3102f7cb7456754391ba697942cef5b105e49ca11",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 7,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-07.png",
+          "sha256": "05a2efe285adad5fac199c4a89c0f1d8eabd62724c80c7e30aab02f5ec35e050",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 8,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-08.png",
+          "sha256": "b1656c428926064ce0efd32a87880157d4fba204c3b74bf69b6bedb57b92880a",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 9,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-09.png",
+          "sha256": "352c0b40e9c17cd2c8c6008de3347ef0900ff06dc4198e29d6c592e6888a5bee",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 10,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-10.png",
+          "sha256": "a2418d8543793604bb418dbab71211663297b07a394b96f57b7915f33f73b173",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 11,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-11.png",
+          "sha256": "00b06e1695e879f138065987ccc8351666ecea0041d1cefa3ca5e0cbff924e34",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 12,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-12.png",
+          "sha256": "a24ff4fe7b1c5860b0657c431d1bef6c7c26438be897ce4e5f6b30ec70138512",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 13,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-13.png",
+          "sha256": "32b2df1e651bee2057ffa8a42815836ebcd5def82683a37beb62b438b5fd3124",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 14,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-14.png",
+          "sha256": "8b654056bdf94738c31228b10302e33dbc4facf191a803e1b918fb96e740fa2e",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 15,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-15.png",
+          "sha256": "35adc16dc2a18183a37d6a19dcc7d81c480096feb5e7ee5718baef0ce443d3ad",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 16,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-16.png",
+          "sha256": "84712340fbb574f17c24b625145c5a20e6e0f952dd2fdc1851195b4f74fa5b55",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 17,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-17.png",
+          "sha256": "0f4d1d23e1a041d47b92206dbb3a36e7664a1c925d23463b66a48b00fc0f959b",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 18,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-18.png",
+          "sha256": "bfc08c47e0a8ed7f172a8c6ec0da63f5a61ea2b1c6c9d20ac6ceb4b513066397",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 19,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-19.png",
+          "sha256": "24bc42fd09899a158e75ccbb5ed01dbfd9d965afd20a3e440932fcfee445bf5d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 20,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-20.png",
+          "sha256": "a498383166366031fef123fea92b31c90a61b058a62d92fc543aae91fac21f05",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 21,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-21.png",
+          "sha256": "f8b369eac983b410807e2743a401d9dd5993cfec8b8a6caf53d6bc6183ab540a",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 22,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-22.png",
+          "sha256": "457413bd5c98af6bd9f8feb30d5743657afa4dc501f1ec9ed35085cf0baf2403",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 23,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-23.png",
+          "sha256": "8c479d5511903c89d392810de3d95ba725b3b081468729d9f6a0004fe052b15f",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 24,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-24.png",
+          "sha256": "808427056361f3e5e49561337127802e32c69a187ec242120fd48b7449098232",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 25,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-25.png",
+          "sha256": "eef4b55119aa3eea9206289395ee1130c9e098dbb271fac780d3a63cc5640781",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 26,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-26.png",
+          "sha256": "e1e0a870bd5ab373279b868fd4336ca8758ccc2b59d45dc3bd7ee615857634fe",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 27,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-27.png",
+          "sha256": "a1f72429ecfa7d769b17b11b142b1fa02e5a313476776b8afae25031ec521da5",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 28,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-28.png",
+          "sha256": "1ac5527452309b814c33aef8c4897186646976ef759180346f937230e7e0f458",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 29,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-29.png",
+          "sha256": "8af666fe046c8ea13fbfd92273f4e554818d75e38f1cb034a0ce1dde95d2440d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 30,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-30.png",
+          "sha256": "726cabe830447cd0d27b5e5c688982e20526444e69d21a146847dd16e9abcb63",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 31,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-31.png",
+          "sha256": "0f26acccd79583959d4eac69ddea737539c1eb8cc9e5b80bdbdeb4300c98fa9d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 32,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-32.png",
+          "sha256": "e98ae3724733f5bee71a299a31ee2eae55a5cb8f62d983a5bdf4b25651f3fdce",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 33,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-33.png",
+          "sha256": "d0cdff6090823b1b2ccccb23306657972c921fcc26b1646d81121bed7aebffb3",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 34,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-34.png",
+          "sha256": "e0575865e951588c2f36dddebea086c0c58630806b17b59c15acf9f7a7faa4de",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 35,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-35.png",
+          "sha256": "b1d4c2cf49fc5d579d9c7195396992e81e003d131e80a07f5d9e6074bab883ce",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 36,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-36.png",
+          "sha256": "91071c71085ae20709866a65b117097dd443412793524c4721e2bd0de6812be7",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 37,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-37.png",
+          "sha256": "95e8d23d005671f9bdf40df4237536a8f54a42749560e197fb193d1729825b2d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 38,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-38.png",
+          "sha256": "e376bb412997039ba91558ce1466d4c5c1c7d21fadb23c73630be5dc3df201aa",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 39,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-39.png",
+          "sha256": "62171de2503ab1f79f95424c812000de04a6e2807aaf13f12e8da6782b684c43",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 40,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-40.png",
+          "sha256": "6c409c282c860705c94a229d06bbd6cf3bf7f39b79ff7311f009f788c2c49cc0",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 41,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-41.png",
+          "sha256": "f14bea3e2548eda10cd3de60c259fa1f8198f79a11b0fa1fcb298295a2df6c7d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 42,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-42.png",
+          "sha256": "c4799ca792600ffcb3ce9b3f234ed245620c5e9f9651ff6bcefa794638ebecfe",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 43,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-43.png",
+          "sha256": "9a0df703bb1523bcf87d9fb3d979aee4df096c779118270f7deefc88ddab6ff3",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 44,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-44.png",
+          "sha256": "ddf5107490d271a77f55c5922c30783ad4878b0a2b0e7030359870c5840406f9",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 45,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-45.png",
+          "sha256": "d529575ca511dc22b3da050f73c49798166a94986a7f53acb2efd57913fe7c1f",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 46,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-46.png",
+          "sha256": "f9b61a972c0982dc88b77e388d7992e83a0cd91f49698bcf0f1bd2199d17f48b",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 47,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-47.png",
+          "sha256": "e671023e13eeb434960de2fd496ba60720fd8ed13844aa9b8dc796f234563931",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 48,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-48.png",
+          "sha256": "d6d371319ecd9f6225c2114eb106ce28ce41030006b2d55b776a56e7c24ddb82",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 49,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-49.png",
+          "sha256": "d8644d2393a17f27d71a1382413d1f38caee1dceb28148a4f37e16586f60d263",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 50,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-50.png",
+          "sha256": "9b33f51e849c21c84da12f81b8dd4d61b7d7b8a649b9c258152c4c6e3f784f43",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 51,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-51.png",
+          "sha256": "c5af46a7f5a528a4c8c11a9a91b06aee1d62141ec591b2b0d9cae589a0604f35",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 52,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-52.png",
+          "sha256": "204bf9f83346ada9944df88afa3984d70b0752df593d615b9a0ddd21f071c1a7",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 53,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-53.png",
+          "sha256": "f5fdff2cab2b43399874de8c2d72c2e636bbc3b314f9daae8a6fecb6f18c057f",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 54,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-54.png",
+          "sha256": "b6875a5703339795f7fa4fc30d31da73d976c60466ce478f267c70f71248ac09",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 55,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-55.png",
+          "sha256": "2a407afecb21619571dc88c045993514594550deb8af40e4f866707024dff63f",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 56,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-56.png",
+          "sha256": "7142c78d721d6b6d380a14b505a84ee36b3b1ae4eefaa0b216e1798fc52840c1",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 57,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-57.png",
+          "sha256": "e5958e7eb98d44da585212061e6b6e0a0c5b6f4b6370142f9b0ff6367600a58e",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 58,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_report_final_render_v3\\page-58.png",
+          "sha256": "43592fcfab7de999bc0562c637fb3385e5a91211afe35451ac68d2a17dc80a16",
+          "independent_visual_status": "PASS"
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103\\交接说明.docx",
+      "status": "PASS",
+      "sha256": "87d35dac652b5d0bafc460818c3dadc36e637479e2ac23d75633d701efabbb23",
+      "pages": 9,
+      "tables": 9,
+      "embedded_image_occurrences": 0,
+      "render_summary": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\render_summary.json",
+      "render_summary_sha256": "4fc5aed87fce8b676619af71ebe2168b14fac668ace48494b34b177981a5a846",
+      "pdf": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\交接说明.pdf",
+      "pdf_sha256": "ef3b6d82a122e9f45de7bebe300cdef4bd0d15654073543deb2f6620e0bd34f2",
+      "all_pages_independently_viewed": true,
+      "view_method": "逐页查看由最终作者PNG制作的双页联系图；正文和表格另核实际OOXML",
+      "review_contact_images": [
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\handover_01-02.jpg",
+          "sha256": "52d982e3a287312f169b60139760130ce2c491defc8208b6825588d42355951d"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\handover_03-04.jpg",
+          "sha256": "07f7611984f085dcd5fba543762619691de873bcadaad3a0edda81a43902367d"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\handover_05-06.jpg",
+          "sha256": "da62c59da8bda73a7071153aff1e6597882a0550aa63a0ebaa57980c43a4c9f5"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\handover_07-08.jpg",
+          "sha256": "433d630600ede57f20fd8ac97d77b194d2c910bf2ec4969e8c7bf8cf22c3eac2"
+        },
+        {
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103\\handover_09-09.jpg",
+          "sha256": "ab84dee3f870a9cd3b66da98b3a510536b917cdf90b8bbdd73880c20e308a570"
+        }
+      ],
+      "render_pages": [
+        {
+          "page": 1,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-1.png",
+          "sha256": "e04c33de9dad85c083843d58f2b778f63277d0da8144415737b5148939dbef8d",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 2,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-2.png",
+          "sha256": "6b3cf41e3f323892dd99237e143e75accef04a76c8ae783ac9b8fc19b6af99db",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 3,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-3.png",
+          "sha256": "7a48cf273cfaa99e5adbc9efce414d00f89ca9ec09a3878e802c526b433a513b",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 4,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-4.png",
+          "sha256": "f5ba92735ed8e8bc82ccd83aa1d31f785d36062d6b55670ccc87fb04e39e95a9",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 5,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-5.png",
+          "sha256": "26780f4ca2735984104b53d731580c727e0bf83278336d3e9e26b315cbddcae1",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 6,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-6.png",
+          "sha256": "1fd98963153da38906d51dd32d443560575d061d2cff0d0fef04bd593700a2dd",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 7,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-7.png",
+          "sha256": "2a4186fb90c2474455bad39596444632bf68c306e0e1cfb345bd05d9f5dc3a15",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 8,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-8.png",
+          "sha256": "245a6773f4026020359d78ebe79133fbaf4b779bab5558dc26acfa248c8e61de",
+          "independent_visual_status": "PASS"
+        },
+        {
+          "page": 9,
+          "source_png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\page-9.png",
+          "sha256": "46c5a5675b04cf3135334974931b069c248fa50efd845f0df376430bc2906983",
+          "independent_visual_status": "PASS"
+        }
+      ]
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\accepted_comparison_facts.json",
+      "sha256": "4b41152c8b40a912c772ba027d67ad9ed56b3828f5f535329b2986b536617931",
+      "status": "PASS"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103\\README.md",
+      "sha256": "ad7a81b1a22963e06a28979ecf3dc9f06cd069a08b2d026fcc3403bd5c422aa4",
+      "status": "PASS"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103\\交接说明.md",
+      "sha256": "8b5a6b8bba50544f4a89853ce9e64f447c06b2001ad0d7aa80571ec510b2b950",
+      "status": "PASS"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\packaged_project_README.md",
+      "sha256": "df989331f01b2f0d2aca86017334ed3b5ebcaf8b3df6a4661b20fa85bbd11202",
+      "status": "PASS"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\report_analysis_v3.md",
+      "sha256": "89bb84597a22494330bbdecccad732c1ac64691b173d3160e4c319bb4558defa",
+      "status": "PASS"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\report_payload_v3.json",
+      "sha256": "1934d5e94da587f9e402f24a47e7a3e212dce8d6e6d04ac4fcd9d3bc19d4f5fb",
+      "status": "PASS"
+    }
+  ],
+  "checks": {
+    "twelve_rows_against_actual_test_json": true,
+    "twenty_four_cpu_summaries_against_independent_recomputed_values": true,
+    "chapter16_twelve_class_metric_tables_exact_rounded_cells": true,
+    "chapter17_twenty_four_raw_hand_rows_and_twenty_four_raw_photo_rows": true,
+    "chapter18_twelve_model_eight_cpu_statistics_table": true,
+    "facts_verified_files_current_sha256": 115,
+    "new_word_personal_file_uri_count": 0,
+    "placeholder_or_visible_brand_junk_hits": 0,
+    "semantics": "two_up旧0新1；0无新指令不续期/取消，3取消运动；SSDLite定位、ResNet单手分类、Python单整数汇总责任清楚",
+    "safety": "各任务真实0/停止分母与同一共同负类分别说明，不以总体准确率宣称合并更安全或必然提升",
+    "CAM": "GT手图和真实类logit；每map独立归一化；新B0单手0/整图1及新B拳GT3/整图无框0准确；旧图身份保留",
+    "execution": "保留原B18/B50中断恢复、概率差与单标签变化；六新模型自然早停/完成范围准确",
+    "programs": "仅六新程序72固定接口调用同源一致，67标签相同/5自然错例；不声称12程序全72识别正确",
+    "handover": "最新v3/v12优先、历史保全；共同ResNet角色/输入产物/接收方明确，无虚构姓名或已批准会议分工；控制/课程尚待后续",
+    "portability": "十二小包为推理入口，合并controller固定RUN边界与移机新目录/路径缓存要求明确；个人媒体排除、科学CAM保留"
+  },
+  "old_content_preservation": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v11.docx",
+      "sha256": "e05c3935d302d895ffc2b87535caaf2e1f88a5bf708b4292d546453c85022c1b",
+      "all_table_cell_contents_and_multiplicities_preserved": true,
+      "old_tables": 8,
+      "old_image_bytes_order_and_multiplicities_preserved": true,
+      "old_images": 27,
+      "table_index_map_zero_based": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ]
+      ]
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\A与B协议ResNet训练与对比实验报告_v2.docx",
+      "sha256": "f0423c89427e68c19ce877185db4a547b608f213f58575a6d9c8fd9dc7504770",
+      "all_table_cell_contents_and_multiplicities_preserved": true,
+      "old_tables": 29,
+      "old_image_bytes_order_and_multiplicities_preserved": true,
+      "old_images": 12,
+      "table_index_map_zero_based": [
+        [
+          0,
+          51
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          11,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          15,
+          15
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          27,
+          27
+        ],
+        [
+          28,
+          50
+        ]
+      ]
+    }
+  ],
+  "layout": {
+    "pages_viewed": 104,
+    "plan_pages": 37,
+    "report_pages": 58,
+    "handover_pages": 9,
+    "clipping_or_overlap_issues": [],
+    "notes": [
+      "旧大教学图和CAM保留可读尺寸及分图页，部分页下方留白不构成缺页。",
+      "报告原开头六行摘要保留到附录，历史CPU表保留到新内容之后；29表内容与重复次数未丢失。",
+      "采用最终报告SHA f8071465…ae8b28和merged_report_final_render_v3，首轮报告联系图不作最终验收证据。"
+    ],
+    "contact_directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\交接文档最终排版检查\\合并文档独审_20261103",
+    "contact_images_are_not_delivery_content": true
+  },
+  "logical_links": [
+    {
+      "source_member": "README.md",
+      "target": "交接说明.md",
+      "resolved_member": "交接说明.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "README.md",
+      "target": "交接说明.docx",
+      "resolved_member": "交接说明.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "README.md",
+      "target": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "resolved_member": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "README.md",
+      "target": "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "resolved_member": "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "README.md",
+      "target": "完整源码与数据/Vision_CA/README.md",
+      "resolved_member": "完整源码与数据/Vision_CA/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "交接说明.md",
+      "target": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "resolved_member": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "交接说明.md",
+      "target": "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "resolved_member": "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "交接说明.md",
+      "target": "历史与正式文档/手势合并与数字编码.docx",
+      "resolved_member": "历史与正式文档/手势合并与数字编码.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "交接说明.md",
+      "target": "完整源码与数据/Vision_CA/README.md",
+      "resolved_member": "完整源码与数据/Vision_CA/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "交接说明.docx",
+      "target": "%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%AD%A3%E5%BC%8F%E6%96%87%E6%A1%A3/A%E4%B8%8EB%E5%8D%8F%E8%AE%AEResNet%E8%AE%AD%E7%BB%83%E4%B8%8E%E5%AF%B9%E6%AF%94%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A_v3.docx",
+      "resolved_member": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "交接说明.docx",
+      "target": "%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%AD%A3%E5%BC%8F%E6%96%87%E6%A1%A3/%E5%9F%BA%E4%BA%8EResNet18%E7%9A%84%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB%E9%A1%B9%E7%9B%AE%E6%96%B9%E6%A1%88_v12.docx",
+      "resolved_member": "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "交接说明.docx",
+      "target": "%E5%8E%86%E5%8F%B2%E4%B8%8E%E6%AD%A3%E5%BC%8F%E6%96%87%E6%A1%A3/%E6%89%8B%E5%8A%BF%E5%90%88%E5%B9%B6%E4%B8%8E%E6%95%B0%E5%AD%97%E7%BC%96%E7%A0%81.docx",
+      "resolved_member": "历史与正式文档/手势合并与数字编码.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "交接说明.docx",
+      "target": "%E5%AE%8C%E6%95%B4%E6%BA%90%E7%A0%81%E4%B8%8E%E6%95%B0%E6%8D%AE/Vision_CA/README.md",
+      "resolved_member": "完整源码与数据/Vision_CA/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../交接说明.md",
+      "resolved_member": "交接说明.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../交接说明.docx",
+      "resolved_member": "交接说明.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "resolved_member": "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "resolved_member": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../历史与正式文档/基于ResNet18的手势识别项目方案_v11.docx",
+      "resolved_member": "历史与正式文档/基于ResNet18的手势识别项目方案_v11.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../历史与正式文档/A与B协议ResNet训练与对比实验报告_v2.docx",
+      "resolved_member": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v2.docx",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/不合并/A/resnet18/README.md",
+      "resolved_member": "程序/不合并/A/resnet18/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/不合并/A/resnet34/README.md",
+      "resolved_member": "程序/不合并/A/resnet34/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/不合并/A/resnet50/README.md",
+      "resolved_member": "程序/不合并/A/resnet50/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/不合并/B/resnet18/README.md",
+      "resolved_member": "程序/不合并/B/resnet18/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/不合并/B/resnet34/README.md",
+      "resolved_member": "程序/不合并/B/resnet34/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/不合并/B/resnet50/README.md",
+      "resolved_member": "程序/不合并/B/resnet50/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/合并/A/resnet18/README.md",
+      "resolved_member": "程序/合并/A/resnet18/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/合并/A/resnet34/README.md",
+      "resolved_member": "程序/合并/A/resnet34/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/合并/A/resnet50/README.md",
+      "resolved_member": "程序/合并/A/resnet50/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/合并/B/resnet18/README.md",
+      "resolved_member": "程序/合并/B/resnet18/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/合并/B/resnet34/README.md",
+      "resolved_member": "程序/合并/B/resnet34/README.md",
+      "status": "PASS"
+    },
+    {
+      "source_member": "完整源码与数据/Vision_CA/README.md",
+      "target": "../../程序/合并/B/resnet50/README.md",
+      "resolved_member": "程序/合并/B/resnet50/README.md",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "本审查不重复运行模型、CAM或CPU计时，也不重新hash全raw。",
+    "上述链接按已读最终default_spec及实际源文件核；最终大型ZIP的真实成员/SHA/CRC/解压入口仍由总包独审负责。",
+    "隔离headless LibreOffice渲染已逐页实看；未声称与所有Microsoft Word版本像素完全一致。"
+  ]
+}
