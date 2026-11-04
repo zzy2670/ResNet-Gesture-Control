@@ -1,13 +1,13 @@
-# ResNet手势识别：MA6216项目交接
+# Slate Kit
 
 输入一张RGB照片，先用SSDLite找手，再逐手用ResNet分类，最后汇总为一个0—5整数。包含合并/不合并两种标签方案、A随机照片/B人员互斥两种评价及ResNet18/34/50，共十二个已训练程序。
 
 ## 先下载哪个
 
-- **只运行一个模型**：进入[模型与完整项目Release下载页](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)，选例如`resnet18-B-merged.zip`，解压后按照包内README安装依赖，运行`python predict.py examples/1.jpg`。十二个小包各自包含真实权重，不依赖此源码浏览目录。
-- **接收全部项目**：先在[原完整项目Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)下载`MA6216_ResNet_full_20261103.zip.001`到`.004`四段及`full_project_manifest.json`，放在同一目录。下载本仓库的`restore_full_project.py`，运行`python restore_full_project.py 你的下载目录`，逐段校验并恢复完整ZIP后正常解压。再从[双语文档与图源更新Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03-bilingual)下载`ResNet_当前正式文档与双语图源_20261103.zip`并解压，取得当前三份正式文档及配套图源。原四分卷提供完整数据、权重和实验记录，更新ZIP提供当前文档与双语图源，两部分配套使用。
-- **只阅读当前文档或使用双语图源**：从[双语文档与图源更新Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03-bilingual)下载`ResNet_当前正式文档与双语图源_20261103.zip`。包内`documents/`为三份正式Word；各图源目录提供中英文图、图注、来源清单及重排脚本。
-- **在线看代码**：打开[src/Vision_CA](src/Vision_CA)；[configs](configs)是十二包的固定配置。在线浏览树不重复保存原图和大权重，完整源码、数据、逐次训练和原始预测均在上述完整包。
+- **只运行一个模型**：进入[模型与完整项目Release下载页](https://github.com/zzy2670/slate-kit/releases/tag/v2026.11.03)，选例如`resnet18-B-merged.zip`，解压后按照包内README安装依赖，运行`python predict.py examples/1.jpg`。十二个小包各自包含真实权重，不依赖此源码浏览目录。
+- **接收全部项目**：先在[原完整项目Release](https://github.com/zzy2670/slate-kit/releases/tag/v2026.11.03)下载`slate-kit-full-20261103.zip.001`到`.004`四段及`full_project_manifest.json`，放在同一目录。下载本仓库的`restore_full_project.py`，运行`python restore_full_project.py 你的下载目录`，逐段校验并恢复完整ZIP后正常解压。再从[双语文档与图源更新Release](https://github.com/zzy2670/slate-kit/releases/tag/v2026.11.03-bilingual)下载`ResNet_bilingual_documents_and_sources_20261103.zip`并解压，取得当前三份正式文档及配套图源。原四分卷提供完整数据、权重和实验记录，更新ZIP提供当前文档与双语图源，两部分配套使用。
+- **只阅读当前文档或使用双语图源**：从[双语文档与图源更新Release](https://github.com/zzy2670/slate-kit/releases/tag/v2026.11.03-bilingual)下载`ResNet_bilingual_documents_and_sources_20261103.zip`。包内`documents/`为三份正式Word；各图源目录提供中英文图、图注、来源清单及重排脚本。
+- **在线看代码**：打开[源代码](src)；[configs](configs)是十二包的固定配置。在线浏览树不重复保存原图和大权重，完整源码、数据、逐次训练和原始预测均在上述完整包。
 
 GitHub的“Code → Download ZIP”只下载浏览源码和文档，不包含Release数据与模型。完整项目必须从Release取得。
 
@@ -50,6 +50,6 @@ A测试3180张照片，B测试3102张。手图分类使用人工框，整图指�
 
 ## 数据与使用范围
 
-采用课程指定HaGRID Sample30K，见[来源及原许可](THIRD_PARTY.md)。本仓库用于课程组内交接，保持私有；组员需要仓库访问权限。没有为第三方数据、课程文件和作者材料另行授予统一开源许可。
+采用公开的HaGRID Sample30K，见[来源及原许可](THIRD_PARTY.md)。本仓库公开提供代码、模型和实验记录。没有为第三方数据、文档和作者材料另行授予统一开源许可。
 
-十二推理小包可按各自README迁移。历史训练控制器含原机索引；跨机重训须从完整包原图与固定名单重建索引，并写新运行目录，不覆盖原成果。原历史文档的部分本机路径保留，详见交接说明。识别交付不等于已完成机器人/ROS集成或整门课程验收。
+十二推理小包可按各自README迁移。历史训练控制器含原机索引；跨机重训须从完整包原图与固定名单重建索引，并写新运行目录，不覆盖原成果。原历史文档的部分本机路径保留，详见交接说明。机器人控制集成仍需按交接说明完成。
