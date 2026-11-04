@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "script_sha256": "d341b809862fb9d60c7aff41dd951b00344b2d9d0e0d7115a0ce4683aa5cf2e4",
+  "cpu_threads": 2,
+  "gpu_used": false,
+  "original_files_written": false,
+  "identity_sha256": "5d344a22190f7672fd78bb0c060871db16d964b06190b1bee6bbe2246f21132f"
+}
