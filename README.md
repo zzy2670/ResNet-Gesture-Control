@@ -13,12 +13,13 @@
 
 ## 先下载哪个
 
-- **只运行一个模型**：进入[模型与完整项目Release下载页](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)，选例如`resnet18-B-merged.zip`，解压后按照包内README安装依赖，运行`python predict.py examples/1.jpg`。十二个小包各自包含真实权重，不依赖此源码浏览目录。
-- **接收全部项目**：先在[原完整项目Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)下载`MA6216_ResNet_full_20261103.zip.001`到`.004`四段及`full_project_manifest.json`，放在同一目录。下载本仓库的`restore_full_project.py`，运行`python restore_full_project.py 你的下载目录`，逐段校验并恢复完整ZIP后正常解压。再从[双语文档与图源更新Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03-bilingual)下载`ResNet_bilingual_documents_and_sources_20261103.zip`并解压，取得当前三份正式文档及配套图源。原四分卷提供完整数据、权重和实验记录，更新ZIP提供当前文档与双语图源，两部分配套使用。
-- **只阅读当前文档或使用双语图源**：从[双语文档与图源更新Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03-bilingual)下载`ResNet_bilingual_documents_and_sources_20261103.zip`。包内`documents/`为三份正式Word；各图源目录提供中英文图、图注、来源清单及重排脚本。
-- **在线看代码**：打开[src/Vision_CA](src/Vision_CA)；[configs](configs)是十二包的固定配置。在线浏览树不重复保存原图和大权重，完整源码、数据、逐次训练和原始预测均在上述完整包。
+- **只运行一个模型**：进入[已展开的程序目录](complete_project/程序/)，选择合并或不合并、A或B协议及模型，参照对应文件夹内的 README 运行。也可从[模型 Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)下载对应的小压缩包。
+- **接收全部项目**：直接浏览或克隆本仓库，[完整项目](complete_project/)包含源码、数据、权重和实验记录；[当前正式文档与图源](current_bilingual/)包含最新 Word 和中英文图源。仓库较大，克隆前请预留足够空间。
+- **使用原有分卷**：也可在[完整项目 Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)下载四个分卷及清单，按 `restore_full_project.py` 的说明恢复原 ZIP；当前正式文档和图源另见上方目录或双语 Release。
+- **只阅读当前文档或使用双语图源**：浏览[当前正式文档与图源目录](current_bilingual/)，其中 `documents/` 为三份正式 Word，各图源目录提供中英文图、图注、来源清单及重排脚本。也可在[双语 Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03-bilingual)下载压缩包。
+- **在线看代码和数据**：打开[完整项目](complete_project/)；原先的精简源码入口仍在[src/Vision_CA](src/Vision_CA)，[configs](configs)保留十二包的固定配置。
 
-GitHub的“Code → Download ZIP”只下载浏览源码和文档，不包含Release数据与模型。完整项目必须从Release取得。
+完整文件已放入仓库；克隆时需要下载大量数据。如需单独运行一个模型，可直接使用程序目录或对应 Release 小包。
 
 ## 文档阅读顺序
 

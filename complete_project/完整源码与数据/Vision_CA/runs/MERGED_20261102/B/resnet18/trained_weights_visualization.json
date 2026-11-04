@@ -1,0 +1,20 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\classifier_best.pt",
+  "epoch": 13,
+  "stage": "layer4_finetune",
+  "conv1_shape": [
+    64,
+    3,
+    7,
+    7
+  ],
+  "shared_kernel_abs_max": 1.0164732933044434,
+  "convolution_stage_mean_abs_weight": {
+    "conv1": 0.0761537104845047,
+    "layer1": 0.032352838665246964,
+    "layer2": 0.024645008146762848,
+    "layer3": 0.01752406358718872,
+    "layer4": 0.013216457329690456
+  },
+  "note": "Actual learned weights; not activations or Grad-CAM; no training performed."
+}
