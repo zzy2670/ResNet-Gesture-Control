@@ -1,27 +1,27 @@
 {
-  "repository": "zzy2670/slate-kit",
+  "repository": "zzy2670/MA6216-ResNet-Gesture-Control",
   "tag": "v2026.11.03",
-  "original_name": "slate-kit-full-20261103.zip",
+  "original_name": "MA6216_ResNet_full_20261103.zip",
   "archive_bytes": 6188474282,
   "archive_sha256": "4448838cbc4e8a4a5cf4199a20ad593db996e1a5cf1d6208b9a24129d60a2a96",
   "parts": [
     {
-      "name": "slate-kit-full-20261103.zip.001",
+      "name": "MA6216_ResNet_full_20261103.zip.001",
       "bytes": 1800000000,
       "sha256": "9c24bd26e90dbf38f7bfbe94a550059af81054abc138e976b45af24cd30112a6"
     },
     {
-      "name": "slate-kit-full-20261103.zip.002",
+      "name": "MA6216_ResNet_full_20261103.zip.002",
       "bytes": 1800000000,
       "sha256": "f46abdeed0f3c015eb10b119efb98fc854e90bfa424c36d2c0300bc5970c1417"
     },
     {
-      "name": "slate-kit-full-20261103.zip.003",
+      "name": "MA6216_ResNet_full_20261103.zip.003",
       "bytes": 1800000000,
       "sha256": "3095dca5c3a42600bdaee06e6061437d5fab5007e397dced1616e54b0662e2c7"
     },
     {
-      "name": "slate-kit-full-20261103.zip.004",
+      "name": "MA6216_ResNet_full_20261103.zip.004",
       "bytes": 788474282,
       "sha256": "e0f9ab8cbd7770072109d3d7ab7ad8cec81e4a5ec0a9179fa10bc638ee6c6ffe"
     }
