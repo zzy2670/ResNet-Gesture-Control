@@ -1,0 +1,77 @@
+{"time": "2026-11-02T15:12:44.868575+08:00", "stage": "calibrate", "status": "start", "args": {"stage": "calibrate", "split_root": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image", "out": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE", "pretrained": null, "device": "cuda", "workers": 4, "batch_size": 32, "epochs": 12, "trials": 12, "timeout": 0, "deadline": "2026-11-02T16:35:00+08:00", "lr": 0.0001, "patience": 4, "detector_threshold": 0.5, "class_threshold": 0.5}}
+E:\python\Lib\site-packages\torchvision\models\detection\backbone_utils.py:162: UserWarning: Changing trainable_backbone_layers has no effect if neither pretrained nor pretrained_backbone have been set to True, falling back to trainable_backbone_layers=6 so that all layers are trainable
+  warnings.warn(
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\Vision_CA\train_A.py", line 778, in <module>
+    main()
+  File "C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\Vision_CA\train_A.py", line 767, in main
+    {"prepare": prepare_crops, "features": feature_cache, "search": search,
+  File "C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\Vision_CA\train_A.py", line 616, in calibrate
+    detector, classifier = frozen_models(out, device)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\Vision_CA\train_A.py", line 606, in frozen_models
+    detector.load_state_dict(torch.load(Path(out) / "detector_best.pt", map_location="cpu", weights_only=True)["model"])
+  File "E:\python\Lib\site-packages\torch\nn\modules\module.py", line 2639, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for SSD:
+	size mismatch for backbone.features.1.0.3.0.weight: copying a param with shape torch.Size([160, 672, 1, 1]) from checkpoint, the shape in current model is torch.Size([80, 672, 1, 1]).
+	size mismatch for backbone.features.1.0.3.1.weight: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.0.3.1.bias: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.0.3.1.running_mean: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.0.3.1.running_var: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.1.block.0.0.weight: copying a param with shape torch.Size([960, 160, 1, 1]) from checkpoint, the shape in current model is torch.Size([480, 80, 1, 1]).
+	size mismatch for backbone.features.1.1.block.0.1.weight: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.0.1.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.0.1.running_mean: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.0.1.running_var: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.1.0.weight: copying a param with shape torch.Size([960, 1, 5, 5]) from checkpoint, the shape in current model is torch.Size([480, 1, 5, 5]).
+	size mismatch for backbone.features.1.1.block.1.1.weight: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.1.1.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.1.1.running_mean: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.1.1.running_var: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.2.fc1.weight: copying a param with shape torch.Size([240, 960, 1, 1]) from checkpoint, the shape in current model is torch.Size([120, 480, 1, 1]).
+	size mismatch for backbone.features.1.1.block.2.fc1.bias: copying a param with shape torch.Size([240]) from checkpoint, the shape in current model is torch.Size([120]).
+	size mismatch for backbone.features.1.1.block.2.fc2.weight: copying a param with shape torch.Size([960, 240, 1, 1]) from checkpoint, the shape in current model is torch.Size([480, 120, 1, 1]).
+	size mismatch for backbone.features.1.1.block.2.fc2.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.1.block.3.0.weight: copying a param with shape torch.Size([160, 960, 1, 1]) from checkpoint, the shape in current model is torch.Size([80, 480, 1, 1]).
+	size mismatch for backbone.features.1.1.block.3.1.weight: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.1.block.3.1.bias: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.1.block.3.1.running_mean: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.1.block.3.1.running_var: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.2.block.0.0.weight: copying a param with shape torch.Size([960, 160, 1, 1]) from checkpoint, the shape in current model is torch.Size([480, 80, 1, 1]).
+	size mismatch for backbone.features.1.2.block.0.1.weight: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.0.1.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.0.1.running_mean: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.0.1.running_var: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.1.0.weight: copying a param with shape torch.Size([960, 1, 5, 5]) from checkpoint, the shape in current model is torch.Size([480, 1, 5, 5]).
+	size mismatch for backbone.features.1.2.block.1.1.weight: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.1.1.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.1.1.running_mean: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.1.1.running_var: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.2.fc1.weight: copying a param with shape torch.Size([240, 960, 1, 1]) from checkpoint, the shape in current model is torch.Size([120, 480, 1, 1]).
+	size mismatch for backbone.features.1.2.block.2.fc1.bias: copying a param with shape torch.Size([240]) from checkpoint, the shape in current model is torch.Size([120]).
+	size mismatch for backbone.features.1.2.block.2.fc2.weight: copying a param with shape torch.Size([960, 240, 1, 1]) from checkpoint, the shape in current model is torch.Size([480, 120, 1, 1]).
+	size mismatch for backbone.features.1.2.block.2.fc2.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.2.block.3.0.weight: copying a param with shape torch.Size([160, 960, 1, 1]) from checkpoint, the shape in current model is torch.Size([80, 480, 1, 1]).
+	size mismatch for backbone.features.1.2.block.3.1.weight: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.2.block.3.1.bias: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.2.block.3.1.running_mean: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.2.block.3.1.running_var: copying a param with shape torch.Size([160]) from checkpoint, the shape in current model is torch.Size([80]).
+	size mismatch for backbone.features.1.3.0.weight: copying a param with shape torch.Size([960, 160, 1, 1]) from checkpoint, the shape in current model is torch.Size([480, 80, 1, 1]).
+	size mismatch for backbone.features.1.3.1.weight: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.3.1.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.3.1.running_mean: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.features.1.3.1.running_var: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for backbone.extra.0.0.0.weight: copying a param with shape torch.Size([256, 960, 1, 1]) from checkpoint, the shape in current model is torch.Size([256, 480, 1, 1]).
+	size mismatch for head.classification_head.module_list.1.0.0.weight: copying a param with shape torch.Size([960, 1, 3, 3]) from checkpoint, the shape in current model is torch.Size([480, 1, 3, 3]).
+	size mismatch for head.classification_head.module_list.1.0.1.weight: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for head.classification_head.module_list.1.0.1.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for head.classification_head.module_list.1.0.1.running_mean: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for head.classification_head.module_list.1.0.1.running_var: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for head.classification_head.module_list.1.1.weight: copying a param with shape torch.Size([12, 960, 1, 1]) from checkpoint, the shape in current model is torch.Size([12, 480, 1, 1]).
+	size mismatch for head.regression_head.module_list.1.0.0.weight: copying a param with shape torch.Size([960, 1, 3, 3]) from checkpoint, the shape in current model is torch.Size([480, 1, 3, 3]).
+	size mismatch for head.regression_head.module_list.1.0.1.weight: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for head.regression_head.module_list.1.0.1.bias: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for head.regression_head.module_list.1.0.1.running_mean: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for head.regression_head.module_list.1.0.1.running_var: copying a param with shape torch.Size([960]) from checkpoint, the shape in current model is torch.Size([480]).
+	size mismatch for head.regression_head.module_list.1.1.weight: copying a param with shape torch.Size([24, 960, 1, 1]) from checkpoint, the shape in current model is torch.Size([24, 480, 1, 1]).

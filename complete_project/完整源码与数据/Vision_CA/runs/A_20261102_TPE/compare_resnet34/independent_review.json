@@ -1,0 +1,413 @@
+{
+  "status": "pass",
+  "architecture": "resnet34",
+  "reviewed_at": "2026-11-02T15:50:25.249289+08:00",
+  "scope": "Saved final prediction replay; no model execution or test-guided tuning",
+  "weights": {
+    "classifier_best.pt": "e3ad53c1b04ea89a01ec31f5c342ff2b9cadde935995a330a245944b803f463d",
+    "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+  },
+  "all_four_shared_crop_and_audit_files_byte_equal": true,
+  "GT_anchor": "Original annotations already directly verified in ResNet18 final_independent_review; every current key, label, image size and GT box equals that verified immutable evidence",
+  "oracle": {
+    "n": 3917,
+    "all_keys_unique_complete": true,
+    "all_truth_and_raw_labels_match": true,
+    "all_probabilities_argmax_and_metrics_recomputed": true,
+    "metrics": {
+      "n": 3917,
+      "accuracy": 0.9918304825121266,
+      "macro_f1": 0.9883678448556243,
+      "confusion_matrix": [
+        [
+          2495,
+          1,
+          5,
+          2,
+          6,
+          1
+        ],
+        [
+          8,
+          343,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          529,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          171,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          170,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          177
+        ]
+      ],
+      "precision": [
+        0.9932324840764332,
+        0.997093023255814,
+        0.9906367041198502,
+        0.9884393063583815,
+        0.9659090909090909,
+        0.9943820224719101
+      ],
+      "recall": [
+        0.9940239043824701,
+        0.9772079772079773,
+        0.9943609022556391,
+        0.9884393063583815,
+        0.9826589595375722,
+        0.9943820224719101
+      ],
+      "f1": [
+        0.9936280366387894,
+        0.9870503597122302,
+        0.9924953095684803,
+        0.9884393063583815,
+        0.9742120343839542,
+        0.9943820224719101
+      ],
+      "support": [
+        2510,
+        351,
+        532,
+        173,
+        173,
+        178
+      ]
+    }
+  },
+  "whole": {
+    "n": 3180,
+    "all_keys_equal_test_manifest_order": true,
+    "all_truth_match_verified_original": true,
+    "all_acceptance_aggregation_and_metrics_recomputed": true,
+    "thresholds": [
+      0.3,
+      0.5
+    ],
+    "metrics": {
+      "n": 3180,
+      "accuracy": 0.9314465408805032,
+      "macro_f1": 0.8976078999611522,
+      "confusion_matrix": [
+        [
+          1756,
+          6,
+          4,
+          1,
+          4,
+          2
+        ],
+        [
+          31,
+          319,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          39,
+          0,
+          493,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          140,
+          1,
+          0
+        ],
+        [
+          44,
+          0,
+          0,
+          1,
+          126,
+          2
+        ],
+        [
+          50,
+          0,
+          0,
+          0,
+          0,
+          128
+        ]
+      ],
+      "precision": [
+        0.8995901639344263,
+        0.9815384615384616,
+        0.9919517102615694,
+        0.9790209790209791,
+        0.9618320610687023,
+        0.9696969696969697
+      ],
+      "recall": [
+        0.9904117315284828,
+        0.9088319088319088,
+        0.9266917293233082,
+        0.8092485549132948,
+        0.7283236994219653,
+        0.7191011235955056
+      ],
+      "f1": [
+        0.9428187919463089,
+        0.9437869822485208,
+        0.9582118561710397,
+        0.8860759493670888,
+        0.8289473684210527,
+        0.8258064516129031
+      ],
+      "support": [
+        1773,
+        351,
+        532,
+        173,
+        173,
+        178
+      ]
+    },
+    "safety": {
+      "zero_samples": 1773,
+      "zero_to_motion": 16,
+      "stop_samples": 173,
+      "stop_to_motion": 1,
+      "zero_to_motion_rate": 0.009024252679075015,
+      "stop_to_motion_rate": 0.005780346820809248
+    }
+  },
+  "detector": {
+    "shared_checkpoint_hash_equal_main": true,
+    "all_GT_boxes_equal_main": true,
+    "prediction_boxes_equal_whole_records": true,
+    "all_counts_and_precision_recall_recomputed": true,
+    "metrics": {
+      "tp": 3241,
+      "fp": 431,
+      "fn": 676,
+      "precision": 0.8826252723311547,
+      "recall": 0.827418943068675,
+      "score_threshold": 0.3,
+      "iou_threshold": 0.5
+    },
+    "max_same_count_return_order_box_difference": 11.82269287109375,
+    "max_same_count_return_order_score_difference": 0.0062316060066223145,
+    "count_different_photos": [
+      {
+        "image_id": "a47f254b-9a19-4dd3-bcc8-19c0053347e7",
+        "main_boxes": 2,
+        "comparison_boxes": 1
+      },
+      {
+        "image_id": "f45fe09d-f98e-4299-940d-49b76baf6f7d",
+        "main_boxes": 0,
+        "comparison_boxes": 1
+      },
+      {
+        "image_id": "039917c1-a122-478f-8c15-aef9e6a4d889",
+        "main_boxes": 0,
+        "comparison_boxes": 1
+      }
+    ],
+    "shared_weight_does_not_mean_identical_returned_boxes": true,
+    "metric_is_fixed_score_and_IoU_not_AP": true
+  },
+  "validation": {
+    "all3185keys_and_truth_equal_original": true,
+    "all12_threshold_candidates_metrics_and_selection_recomputed": true,
+    "freeze_precedes_test_start": true
+  },
+  "TPE": {
+    "completed_trials": 24,
+    "readonly_sqlite_equals_summary_and_best_logged_epochs": true,
+    "best_trial": 21,
+    "best_validation_macro_f1": 0.7656223795997009
+  },
+  "finetune": {
+    "complete_epochs": 18,
+    "selected_epoch": 15,
+    "best_val_macro_f1": 0.9886918197973579,
+    "complete_epoch_seconds": 845.4481770992279,
+    "checkpoint_equals_best_complete_validation_epoch": true
+  },
+  "architecture_verified_from_state": {
+    "parameters": 21287750,
+    "residual_blocks": [
+      3,
+      4,
+      6,
+      3
+    ],
+    "feature_dim": 512
+  },
+  "CPU_latency_review": {
+    "status": "pass",
+    "unified_classifier": {
+      "parameters": 21287750,
+      "mean_ms": 21.741291333576857,
+      "p50_ms": 21.768450002127793,
+      "p95_ms": 24.17031500281155,
+      "all300_statistics_recomputed": true,
+      "same100_keys": true,
+      "weights_match": true,
+      "artifact_sha256": "67f17a4e1d9f30b7b44f9fa3ce03e03c06b69bf6cfd5b7a91b7a4e44ecf1907d"
+    },
+    "whole_photo": {
+      "mean_ms": 45.88313999989623,
+      "p95_ms": 65.96611499844583,
+      "same_first100_photos_and_all100_statistics_verified": true,
+      "artifact_sha256": "9ccdfb5cffb121eadfd000646a66c47ff2f6f84dd2fdca5cada3859d713db6a1"
+    }
+  },
+  "issues": [],
+  "limitations": [
+    "One A split and training seed; not B subject-independent evaluation.",
+    "Separate model-specific validation selection and wall-clock caps; not proof of a universal effect of network depth.",
+    "Shared detector weights do not ensure bit-identical predictions under different inference algorithm settings; retain original detections and avoid a strict classifier-only causal claim for whole-photo differences."
+  ],
+  "detector_prediction_difference_diagnostic": {
+    "method": "Replay each original prediction with fixed IoU0.5; no model rerun",
+    "different_TP_FP_FN_photo_count": 3,
+    "cases": [
+      {
+        "image_id": "a47f254b-9a19-4dd3-bcc8-19c0053347e7",
+        "main_counts": [
+          2,
+          0,
+          0
+        ],
+        "r34_counts": [
+          1,
+          0,
+          1
+        ],
+        "main_predictions": [
+          {
+            "score": 0.6788334846496582,
+            "best_GT_IoU": 0.7236785888671875,
+            "matched_gt_index": 1
+          },
+          {
+            "score": 0.30020785331726074,
+            "best_GT_IoU": 0.6947012543678284,
+            "matched_gt_index": 0
+          }
+        ],
+        "r34_predictions": [
+          {
+            "score": 0.6784573197364807,
+            "best_GT_IoU": 0.7234376668930054,
+            "matched_gt_index": 1
+          }
+        ]
+      },
+      {
+        "image_id": "f45fe09d-f98e-4299-940d-49b76baf6f7d",
+        "main_counts": [
+          0,
+          0,
+          2
+        ],
+        "r34_counts": [
+          1,
+          0,
+          1
+        ],
+        "main_predictions": [],
+        "r34_predictions": [
+          {
+            "score": 0.3000297248363495,
+            "best_GT_IoU": 0.6093143224716187,
+            "matched_gt_index": 0
+          }
+        ]
+      },
+      {
+        "image_id": "039917c1-a122-478f-8c15-aef9e6a4d889",
+        "main_counts": [
+          0,
+          0,
+          1
+        ],
+        "r34_counts": [
+          1,
+          0,
+          0
+        ],
+        "main_predictions": [],
+        "r34_predictions": [
+          {
+            "score": 0.30001628398895264,
+            "best_GT_IoU": 0.7028645873069763,
+            "matched_gt_index": 0
+          }
+        ]
+      }
+    ],
+    "different_box_count_photos": [
+      {
+        "image_id": "a47f254b-9a19-4dd3-bcc8-19c0053347e7",
+        "main_scores": [
+          0.6788334846496582,
+          0.30020785331726074
+        ],
+        "r34_scores": [
+          0.6784573197364807
+        ]
+      },
+      {
+        "image_id": "f45fe09d-f98e-4299-940d-49b76baf6f7d",
+        "main_scores": [],
+        "r34_scores": [
+          0.3000297248363495
+        ]
+      },
+      {
+        "image_id": "039917c1-a122-478f-8c15-aef9e6a4d889",
+        "main_scores": [],
+        "r34_scores": [
+          0.30001628398895264
+        ]
+      }
+    ],
+    "same_count_return_order_max_coord_difference_percentiles_p50_p90_p95_p99_p100": [
+      0.016204833984375,
+      0.03526916503906251,
+      0.04586944580078124,
+      0.0744064331054686,
+      11.82269287109375
+    ],
+    "interpretation": "Present scores on the three count-change cases lie near0.3; absent below-threshold candidates were not saved, so threshold-crossing cause cannot be proved directly. cuDNN benchmark setting differs by code and is a candidate explanation, not a measured causal conclusion."
+  }
+}

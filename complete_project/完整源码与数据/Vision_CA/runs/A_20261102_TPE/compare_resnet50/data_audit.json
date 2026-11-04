@@ -1,0 +1,56 @@
+{
+  "split_root": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image",
+  "margin": 0.1,
+  "label_mapping": {
+    "peace": 1,
+    "peace_inverted": 1,
+    "stop": 2,
+    "stop_inverted": 2,
+    "palm": 2,
+    "fist": 3,
+    "like": 4,
+    "dislike": 5
+  },
+  "default_other": 0,
+  "splits": {
+    "train": {
+      "photos": 25468,
+      "hand_crops": 31095,
+      "class_counts": {
+        "0": 19828,
+        "5": 1427,
+        "3": 1388,
+        "4": 1386,
+        "2": 4257,
+        "1": 2809
+      },
+      "manifest_sha256": "f6c8df1447c4e4dbd73717d81ba1302ea3527f0f3081aab0a526e6f96b5e8f43"
+    },
+    "val": {
+      "photos": 3185,
+      "hand_crops": 3872,
+      "class_counts": {
+        "0": 2465,
+        "5": 178,
+        "3": 173,
+        "4": 173,
+        "2": 532,
+        "1": 351
+      },
+      "manifest_sha256": "1708ff8c88e7ad15f6e8b40352573a68828c28ddf9cdc1552856f2cab6ba3bc7"
+    },
+    "test": {
+      "photos": 3180,
+      "hand_crops": 3917,
+      "class_counts": {
+        "0": 2510,
+        "5": 178,
+        "3": 173,
+        "4": 173,
+        "2": 532,
+        "1": 351
+      },
+      "manifest_sha256": "e7fb855f1d3872cc3cd01fb06918320c133835fcca639aa15d241e82b7f58081"
+    }
+  }
+}

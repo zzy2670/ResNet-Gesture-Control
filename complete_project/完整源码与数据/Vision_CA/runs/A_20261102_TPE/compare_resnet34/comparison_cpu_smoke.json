@@ -1,0 +1,6 @@
+{
+  "status": "pass",
+  "architecture": "resnet34",
+  "feature_dim": 512,
+  "GPU_training_started": false
+}

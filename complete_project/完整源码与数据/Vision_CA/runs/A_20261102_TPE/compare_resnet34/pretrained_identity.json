@@ -1,0 +1,10 @@
+{
+  "architecture": "resnet34",
+  "weights_enum": "ResNet34_Weights.IMAGENET1K_V1",
+  "url": "https://download.pytorch.org/models/resnet34-b627a593.pth",
+  "path": "C:\\Users\\Administrator\\.cache\\torch\\hub\\checkpoints\\resnet34-b627a593.pth",
+  "sha256": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+  "bytes": 87319819,
+  "strict_architecture_load": true,
+  "GPU_training_started": false
+}
