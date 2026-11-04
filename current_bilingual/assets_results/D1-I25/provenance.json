@@ -1,0 +1,76 @@
+{
+  "id": "D1-I25",
+  "original_sha256": "f04bd5480d738ac0589478fdbe791a9fda55dc7a6c7e350f79e84dffe9fa263f",
+  "source_records": [
+    {
+      "name": "metadata.json",
+      "sha256": "3d2367694ef50927f4291b9a17119b23fdbf93abc240abdb73c29d10719ed95c"
+    },
+    {
+      "name": "row_0_tensors.npz",
+      "sha256": "110f12cc5d9c4c45613eb825e1c95643b363468d35b721ec03be106f87350e01"
+    },
+    {
+      "name": "row_1_tensors.npz",
+      "sha256": "fe507d0b22ba875182695486426593c6fc5956e2f50863342ff6482e467909ca"
+    },
+    {
+      "name": "row_2_tensors.npz",
+      "sha256": "8ee5ef3ab4b20af6033d028cb1daaef1a34ae06b64bce6f8fb3ad9b0651bede8"
+    },
+    {
+      "name": "row_3_tensors.npz",
+      "sha256": "ce01a38a32b5aa1c4869ae6be119506c4ba634ca6abcb242974e7aa96e164feb"
+    },
+    {
+      "name": "row_4_tensors.npz",
+      "sha256": "192dea3613cfc52959485e8598dff4ae51ca248c59ad5b5cb99318d9412ab235"
+    },
+    {
+      "name": "row_5_tensors.npz",
+      "sha256": "63d594d178f44dee5efa7695c521106437791f125be02a6d998a8edaae0289af"
+    }
+  ],
+  "occurrences": {
+    "D1-I25": "图15 A协议已训练ResNet18六类分层Grad-CAM。真实测试手图与固定任务权重，各图独立归一化；该图不表示跨层响应强弱或总体性能。",
+    "D2-I05": "图5 已训练ResNet18六类手图分层Grad-CAM"
+  },
+  "array_equality": {
+    "row_0_tensors.npz": {
+      "layer4_normalized_224_cam": "91369a7997de2c34680a547b7b7c9a686615a385af78476f096cbb232c0a466f",
+      "layer1_normalized_224_cam": "a254d7a99dd769ce89a67140a52eb4293155d409cba6e1c6e35fbf66dae7871b",
+      "layer2_normalized_224_cam": "ed127811c6ca2ec9c47a8952615eac4585de6114e69067a95e09966a3b7ac0ed",
+      "layer3_normalized_224_cam": "c44c7865769422248b0225b7878218f07a9c656eaf75ca2fc13f5fb04125d6fb"
+    },
+    "row_1_tensors.npz": {
+      "layer4_normalized_224_cam": "6b9c82ea93f3729e9ed38adb981406aae723833af9f9058feb033fab461a3311",
+      "layer1_normalized_224_cam": "d005c01e487b177945fe810604c07402518684d67dc510a945d44d397451716c",
+      "layer2_normalized_224_cam": "672f93080e294c2bf884aac21874d44e4563bf82ba9cecda10e80e9f0c09381e",
+      "layer3_normalized_224_cam": "bfe40be30d03e38b3cb77454691de4ed634c40cd3848a1a354e582794c2d9bf0"
+    },
+    "row_2_tensors.npz": {
+      "layer4_normalized_224_cam": "ffb6fca5871452cc9224ceadf3a6e33b6c1b0009a8f872555b18b34d88d3bca0",
+      "layer1_normalized_224_cam": "9b1246a3f3ac7320c8819cd2453ee16f13806604d80544cc1b7033f0f7257274",
+      "layer2_normalized_224_cam": "724de534b776808153169dd30a6b20f0ee32079265b6d659a53fd814f88abd08",
+      "layer3_normalized_224_cam": "23e99114805d5900f7bfcc9f66353c0a1c8dd07269d0b4a7ee75c81c5388589a"
+    },
+    "row_3_tensors.npz": {
+      "layer4_normalized_224_cam": "dca54d2e1ae46bb4298a40bd6689605bb50b6fa193dbf489cf8f89d9114f300e",
+      "layer1_normalized_224_cam": "4a3fbaaae9ae146c8849deca66f6d04f0a9b0a912f929694d559744b3d67f480",
+      "layer2_normalized_224_cam": "292ea3dd3037b78861a74564d010d293ba9eba29f62bd61e86f64384d98f60d7",
+      "layer3_normalized_224_cam": "7042280c09bdad40ec5f4a0f6947c8fff57366ca40d7a7eff1296a67fbb93a59"
+    },
+    "row_4_tensors.npz": {
+      "layer4_normalized_224_cam": "d37dcd559433b08a1486615cde5d39862c14b4e123bfeca8082d8fb280d2ae2b",
+      "layer1_normalized_224_cam": "b7d73d5f5148d66c60e3ebbdc4b5b1534329dd397ebc42133ef03d98c61b04fe",
+      "layer2_normalized_224_cam": "e15a0936bd4484bcb0ce310ab6c74cd61debaca67bb5ee5a073ab2f4df11da98",
+      "layer3_normalized_224_cam": "76485ef1106f75e5fc05860848fcc88b1400795c4360299b8c7d12d3999f8b3a"
+    },
+    "row_5_tensors.npz": {
+      "layer4_normalized_224_cam": "7bb4f837f2acf2bd9ff5ccfc08a5a28780eea73a73cf81ca94a4f8de9725d258",
+      "layer1_normalized_224_cam": "b180b4c934dc19deeb3d584a7b4c8f5cc74562598caee7d243ceb10710a12101",
+      "layer2_normalized_224_cam": "15a40d835a3596aee11101966143e2fefad392638efbec32bd17fbab1a171ac9",
+      "layer3_normalized_224_cam": "9439bb46a2030279a0312f832118ae25e5fcb15138270df9cff6030ccd909588"
+    }
+  }
+}

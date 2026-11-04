@@ -1,0 +1,2108 @@
+{
+  "items": [
+    {
+      "id": "D1-I10",
+      "original_vsdx": "originals/D1-I10/source.vsdx",
+      "original_png": "originals/D1-I10/source.png",
+      "caption_zh": "图2a 普通CNN与残差CNN的连接方式对照。残差块把主分支F(x)与旁路x逐位置相加；5＋1＝6是单个特征位置的教学算例。残差连接帮助深层网络训练，不代表本项目准确率已提高。",
+      "caption_en": "Figure 2a. Connections in plain and residual CNNs. A residual block adds the main branch F(x) and shortcut x elementwise; 5 + 1 = 6 is a teaching example at one feature position. Residual connections aid deep-network training; this does not mean that accuracy in this project has already improved.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_fig2a_residual_compare.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_fig2a_residual_compare.png",
+        "native_sha256": "49d181e5df70ccd5eafa4023a1665cde7320d2b2f3a5b125a862cac8ebabbf68"
+      },
+      "original_sha256": "2be246b8667421cbcdad69df95b813c8ae070966d3932230992b9944568fd916",
+      "zh_png": "zh/D1-I10_zh.png",
+      "en_png": "en/D1-I10_en.png",
+      "editable_sources": [
+        "zh/D1-I10_zh.vsdx",
+        "en/D1-I10_en.vsdx",
+        "originals/D1-I10/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I10/source.vsdx",
+        "originals/D1-I10/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 16,
+        "translated_shape_count": 16,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 16.0,
+          "font_pt_en": 16.0,
+          "text": "Plain and residual convolutional networks",
+          "width_pt": 581.76,
+          "height_pt": 27.36
+        },
+        {
+          "shape_id": 3,
+          "font_pt_original": 13.0,
+          "font_pt_en": 11.75,
+          "text": "ResNet is a CNN. A residual connection adds a direct input path alongside the convolutional branch.",
+          "width_pt": 581.76,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 4,
+          "font_pt_original": 15.0,
+          "font_pt_en": 15.0,
+          "text": "Plain CNN",
+          "width_pt": 135.36,
+          "height_pt": 34.56
+        },
+        {
+          "shape_id": 5,
+          "font_pt_original": 15.0,
+          "font_pt_en": 15.0,
+          "text": "x",
+          "width_pt": 30.96,
+          "height_pt": 27.36
+        },
+        {
+          "shape_id": 7,
+          "font_pt_original": 14.0,
+          "font_pt_en": 14.0,
+          "text": "Convolutional\nbranch F(x)",
+          "width_pt": 144.72,
+          "height_pt": 45.36
+        },
+        {
+          "shape_id": 9,
+          "font_pt_original": 14.0,
+          "font_pt_en": 14.0,
+          "text": "Output H(x)=F(x)",
+          "width_pt": 124.56,
+          "height_pt": 38.16
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 15.0,
+          "font_pt_en": 15.0,
+          "text": "Residual CNN",
+          "width_pt": 135.36,
+          "height_pt": 34.56
+        },
+        {
+          "shape_id": 11,
+          "font_pt_original": 15.0,
+          "font_pt_en": 15.0,
+          "text": "x",
+          "width_pt": 30.96,
+          "height_pt": 27.36
+        },
+        {
+          "shape_id": 13,
+          "font_pt_original": 14.0,
+          "font_pt_en": 14.0,
+          "text": "Convolutional\nbranch F(x)",
+          "width_pt": 144.72,
+          "height_pt": 45.36
+        },
+        {
+          "shape_id": 15,
+          "font_pt_original": 16.0,
+          "font_pt_en": 16.0,
+          "text": "+",
+          "width_pt": 24.48,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 17,
+          "font_pt_original": 14.0,
+          "font_pt_en": 14.0,
+          "text": "H(x)=F(x)+x",
+          "width_pt": 120.96,
+          "height_pt": 38.16
+        },
+        {
+          "shape_id": 21,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Direct input path x",
+          "width_pt": 160.56,
+          "height_pt": 20.16
+        },
+        {
+          "shape_id": 22,
+          "font_pt_original": 14.0,
+          "font_pt_en": 14.0,
+          "text": "For a desired output H(x), the main branch learns the residual F(x)=H(x)−x.",
+          "width_pt": 567.36,
+          "height_pt": 27.36
+        },
+        {
+          "shape_id": 24,
+          "font_pt_original": 13.0,
+          "font_pt_en": 12.5,
+          "text": "Single-element\nexample",
+          "width_pt": 135.36,
+          "height_pt": 33.12
+        },
+        {
+          "shape_id": 25,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "Input x=5; desired output 6; learn F(x)=1; their sum gives 6.",
+          "width_pt": 412.56,
+          "height_pt": 33.12
+        },
+        {
+          "shape_id": 26,
+          "font_pt_original": 12.0,
+          "font_pt_en": 9.75,
+          "text": "The network adds feature tensors of the same shape; a projection matches shapes when needed.\nThe shortcut supports information and gradient flow and aids deep-network training; accuracy gains are\ntask-dependent.",
+          "width_pt": 574.56,
+          "height_pt": 38.16
+        }
+      ],
+      "en_png_size": [
+        1634,
+        895
+      ],
+      "sha256": {
+        "zh_png": "2be246b8667421cbcdad69df95b813c8ae070966d3932230992b9944568fd916",
+        "en_png": "88c9c46af96b194eb8a76d97fe62267c45f82ef909f055df7ea7c5559aa6210c",
+        "zh_vsdx": "49d181e5df70ccd5eafa4023a1665cde7320d2b2f3a5b125a862cac8ebabbf68",
+        "en_vsdx": "86182ba63b393d949651a9f849023ac139ab3683235a34801d3d8b6aad7591f2"
+      }
+    },
+    {
+      "id": "D1-I11",
+      "original_vsdx": "originals/D1-I11/source.vsdx",
+      "original_png": "originals/D1-I11/source.png",
+      "caption_zh": "图1 项目总体流程。完整照片→SSDLite320自动找手→按框裁图并预处理为224×224→ResNet18六类手势分类→可靠性与多手汇总规则→整图0—5整数。",
+      "caption_en": "Figure 1. Overall project pipeline. Full photograph → automatic hand detection with SSDLite320 → crop and preprocess hand images to 224 × 224 → compute six class scores with ResNet18 → apply confidence checks and multi-hand aggregation rules → return one integer from 0 to 5 for the photograph.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v8_overall_pipeline_final.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v8_overall_pipeline_final.png",
+        "native_sha256": "4f02d9c1e3d30b81d37f5ea8728d4303bdef32ee856684862e79bf812ca695f9"
+      },
+      "original_sha256": "8b92f5f1305e7ade907034c2d78c7bc158a44e0a2e3a62261bb5f00bc914454b",
+      "zh_png": "zh/D1-I11_zh.png",
+      "en_png": "en/D1-I11_en.png",
+      "editable_sources": [
+        "zh/D1-I11_zh.vsdx",
+        "en/D1-I11_en.vsdx",
+        "originals/D1-I11/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I11/source.vsdx",
+        "originals/D1-I11/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 11,
+        "translated_shape_count": 11,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 20.0,
+          "font_pt_en": 17.0,
+          "text": "Project pipeline: full photograph to integer command",
+          "width_pt": 624.96,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 3,
+          "font_pt_original": 17.0,
+          "font_pt_en": 14.5,
+          "text": "SSDLite320 detection\n320 × 320 → hand\nboxes",
+          "width_pt": 156.96,
+          "height_pt": 56.88
+        },
+        {
+          "shape_id": 4,
+          "font_pt_original": 17.0,
+          "font_pt_en": 13.25,
+          "text": "Crop RGB hand images\nPrepare 224 × 224\ninputs",
+          "width_pt": 156.96,
+          "height_pt": 56.88
+        },
+        {
+          "shape_id": 5,
+          "font_pt_original": 17.0,
+          "font_pt_en": 14.5,
+          "text": "ResNet18 features\n512-dimensional\noutput",
+          "width_pt": 156.96,
+          "height_pt": 56.88
+        },
+        {
+          "shape_id": 6,
+          "font_pt_original": 16.0,
+          "font_pt_en": 11.25,
+          "text": "Full RGB\nphoto",
+          "width_pt": 52.56,
+          "height_pt": 40.32
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 17.0,
+          "font_pt_en": 13.75,
+          "text": "Six-class gesture head\nScores for each class",
+          "width_pt": 156.96,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 11,
+          "font_pt_original": 17.0,
+          "font_pt_en": 11.75,
+          "text": "Confidence checks\nand multi-hand\naggregation",
+          "width_pt": 156.96,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 15,
+          "font_pt_original": 16.0,
+          "font_pt_en": 14.0,
+          "text": "512-dimensional visual features",
+          "width_pt": 221.76,
+          "height_pt": 18.72
+        },
+        {
+          "shape_id": 18,
+          "font_pt_original": 17.0,
+          "font_pt_en": 16.75,
+          "text": "Integer command\n0 / 1 / 2 / 3 / 4 / 5",
+          "width_pt": 180.0,
+          "height_pt": 43.92
+        },
+        {
+          "shape_id": 19,
+          "font_pt_original": 16.0,
+          "font_pt_en": 13.75,
+          "text": "Initialize ResNet18 from ImageNet weights; train the six-class head on the course training set.",
+          "width_pt": 646.56,
+          "height_pt": 20.16
+        },
+        {
+          "shape_id": 20,
+          "font_pt_original": 16.0,
+          "font_pt_en": 11.75,
+          "text": "Return 0 if no hand is found, detection fails, or results are unreliable. Multi-hand rules are described in the text.",
+          "width_pt": 646.56,
+          "height_pt": 15.84
+        }
+      ],
+      "en_png_size": [
+        1824,
+        723
+      ],
+      "sha256": {
+        "zh_png": "8b92f5f1305e7ade907034c2d78c7bc158a44e0a2e3a62261bb5f00bc914454b",
+        "en_png": "a6e1dac09cfbf93fee9fa25eb53fd6503c56923e1e996b22de8ad6b3f55ed97e",
+        "zh_vsdx": "4f02d9c1e3d30b81d37f5ea8728d4303bdef32ee856684862e79bf812ca695f9",
+        "en_vsdx": "49e2ef804a42e4b09ed39037163066ea646fa5a7c279a80d5632bdd85754e5e1"
+      }
+    },
+    {
+      "id": "D1-I12",
+      "original_vsdx": "originals/D1-I12/source.vsdx",
+      "original_png": "originals/D1-I12/source.png",
+      "caption_zh": "图2 ResNet18内部结构。初始卷积和池化后依次通过四组残差块，再经平均池化得到512维特征；本项目采用新的512→6分类层。下部展开残差块中的计算分支、旁路和相加位置。",
+      "caption_en": "Figure 2. Internal ResNet18 architecture. Initial convolution and pooling feed residual blocks at four channel widths; average pooling yields a 512-dimensional feature vector, followed by a new project-specific 512→6 classification layer. The lower panel expands the computational branch, shortcut, and addition within a residual block.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\resnet_plan_v2_resnet18_model.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\resnet_plan_v2_resnet18_model.png",
+        "native_sha256": "06077a52d6aeab1e90715fdc4844b1e5fff099383e0b8436c28fa1d66a9c8298"
+      },
+      "original_sha256": "bdf0ae3b309a3f1f3291d680beeff2fe1bd497a3591c15e7beddcba5c0b98d1a",
+      "zh_png": "zh/D1-I12_zh.png",
+      "en_png": "en/D1-I12_en.png",
+      "editable_sources": [
+        "zh/D1-I12_zh.vsdx",
+        "en/D1-I12_en.vsdx",
+        "originals/D1-I12/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I12/source.vsdx",
+        "originals/D1-I12/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 34,
+        "translated_shape_count": 34,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 26.0,
+          "font_pt_en": 22.5,
+          "text": "ResNet18 for six-class gestures: backbone and residual block",
+          "width_pt": 963.36,
+          "height_pt": 29.52
+        },
+        {
+          "shape_id": 3,
+          "font_pt_original": 19.0,
+          "font_pt_en": 13.0,
+          "text": "Input: 3 × 224 × 224 RGB hand image",
+          "width_pt": 246.96,
+          "height_pt": 25.92
+        },
+        {
+          "shape_id": 5,
+          "font_pt_original": 19.0,
+          "font_pt_en": 16.75,
+          "text": "7×7 conv\nStride 2\nBN + ReLU\n64\nchannels\n112×112",
+          "width_pt": 95.76,
+          "height_pt": 148.32
+        },
+        {
+          "shape_id": 6,
+          "font_pt_original": 19.0,
+          "font_pt_en": 19.0,
+          "text": "3×3\nMax pool\nStride 2\n64\nchannels\n56×56",
+          "width_pt": 95.76,
+          "height_pt": 148.32
+        },
+        {
+          "shape_id": 8,
+          "font_pt_original": 19.0,
+          "font_pt_en": 14.25,
+          "text": "layer1",
+          "width_pt": 92.16,
+          "height_pt": 18.72
+        },
+        {
+          "shape_id": 9,
+          "font_pt_original": 19.0,
+          "font_pt_en": 11.25,
+          "text": "BasicBlock 1",
+          "width_pt": 73.44,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 19.0,
+          "font_pt_en": 11.25,
+          "text": "BasicBlock 2",
+          "width_pt": 73.44,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 12,
+          "font_pt_original": 19.0,
+          "font_pt_en": 15.0,
+          "text": "64 channels\n56×56",
+          "width_pt": 92.16,
+          "height_pt": 43.92
+        },
+        {
+          "shape_id": 14,
+          "font_pt_original": 19.0,
+          "font_pt_en": 14.25,
+          "text": "layer2",
+          "width_pt": 92.16,
+          "height_pt": 18.72
+        },
+        {
+          "shape_id": 15,
+          "font_pt_original": 19.0,
+          "font_pt_en": 11.25,
+          "text": "BasicBlock 1",
+          "width_pt": 73.44,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 16,
+          "font_pt_original": 19.0,
+          "font_pt_en": 11.25,
+          "text": "BasicBlock 2",
+          "width_pt": 73.44,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 18,
+          "font_pt_original": 19.0,
+          "font_pt_en": 13.5,
+          "text": "128 channels\n28×28",
+          "width_pt": 92.16,
+          "height_pt": 43.92
+        },
+        {
+          "shape_id": 20,
+          "font_pt_original": 19.0,
+          "font_pt_en": 14.25,
+          "text": "layer3",
+          "width_pt": 92.16,
+          "height_pt": 18.72
+        },
+        {
+          "shape_id": 21,
+          "font_pt_original": 19.0,
+          "font_pt_en": 11.25,
+          "text": "BasicBlock 1",
+          "width_pt": 73.44,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 22,
+          "font_pt_original": 19.0,
+          "font_pt_en": 11.25,
+          "text": "BasicBlock 2",
+          "width_pt": 73.44,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 24,
+          "font_pt_original": 19.0,
+          "font_pt_en": 13.5,
+          "text": "256 channels\n14×14",
+          "width_pt": 92.16,
+          "height_pt": 43.92
+        },
+        {
+          "shape_id": 26,
+          "font_pt_original": 19.0,
+          "font_pt_en": 14.25,
+          "text": "layer4",
+          "width_pt": 92.16,
+          "height_pt": 18.72
+        },
+        {
+          "shape_id": 27,
+          "font_pt_original": 19.0,
+          "font_pt_en": 11.25,
+          "text": "BasicBlock 1",
+          "width_pt": 73.44,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 28,
+          "font_pt_original": 19.0,
+          "font_pt_en": 11.25,
+          "text": "BasicBlock 2",
+          "width_pt": 73.44,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 30,
+          "font_pt_original": 19.0,
+          "font_pt_en": 13.5,
+          "text": "512 channels\n7×7",
+          "width_pt": 92.16,
+          "height_pt": 43.92
+        },
+        {
+          "shape_id": 31,
+          "font_pt_original": 19.0,
+          "font_pt_en": 19.0,
+          "text": "Global\navg\npooling\n512×1×1\nFlatten:\n512",
+          "width_pt": 95.76,
+          "height_pt": 148.32
+        },
+        {
+          "shape_id": 32,
+          "font_pt_original": 19.0,
+          "font_pt_en": 16.25,
+          "text": "New head\nFully\nconnected\n512 → 6\nSix scores\nClasses\n0–5",
+          "width_pt": 95.76,
+          "height_pt": 148.32
+        },
+        {
+          "shape_id": 40,
+          "font_pt_original": 19.0,
+          "font_pt_en": 17.0,
+          "text": "Each of layer1–4 has two BasicBlocks; one block is expanded below.",
+          "width_pt": 948.96,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 41,
+          "font_pt_original": 22.0,
+          "font_pt_en": 17.0,
+          "text": "BasicBlock: add the convolutional branch and shortcut, then apply ReLU",
+          "width_pt": 948.96,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 42,
+          "font_pt_original": 19.0,
+          "font_pt_en": 19.0,
+          "text": "3×3 conv → BN\n→ ReLU",
+          "width_pt": 182.16,
+          "height_pt": 60.48
+        },
+        {
+          "shape_id": 43,
+          "font_pt_original": 19.0,
+          "font_pt_en": 19.0,
+          "text": "3×3 conv → BN",
+          "width_pt": 182.16,
+          "height_pt": 60.48
+        },
+        {
+          "shape_id": 44,
+          "font_pt_original": 25.0,
+          "font_pt_en": 25.0,
+          "text": "+",
+          "width_pt": 37.44,
+          "height_pt": 43.2
+        },
+        {
+          "shape_id": 45,
+          "font_pt_original": 19.0,
+          "font_pt_en": 19.0,
+          "text": "ReLU",
+          "width_pt": 102.96,
+          "height_pt": 60.48
+        },
+        {
+          "shape_id": 46,
+          "font_pt_original": 19.0,
+          "font_pt_en": 13.25,
+          "text": "Input x",
+          "width_pt": 45.36,
+          "height_pt": 25.92
+        },
+        {
+          "shape_id": 52,
+          "font_pt_original": 19.0,
+          "font_pt_en": 15.5,
+          "text": "Output",
+          "width_pt": 48.96,
+          "height_pt": 25.92
+        },
+        {
+          "shape_id": 56,
+          "font_pt_original": 19.0,
+          "font_pt_en": 17.0,
+          "text": "Shortcut x: identity when shapes match",
+          "width_pt": 524.16,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 57,
+          "font_pt_original": 19.0,
+          "font_pt_en": 15.5,
+          "text": "First block of layer2–4: the first 3×3 convolution has stride 2; a 1×1 shortcut convolution (stride 2) + BN matches the shape.",
+          "width_pt": 956.16,
+          "height_pt": 27.36
+        },
+        {
+          "shape_id": 58,
+          "font_pt_original": 19.0,
+          "font_pt_en": 17.25,
+          "text": "Transfer learning: initialize the backbone from ImageNet; replace the 512→1000 head with a new 512→6 head.",
+          "width_pt": 956.16,
+          "height_pt": 27.36
+        },
+        {
+          "shape_id": 59,
+          "font_pt_original": 19.0,
+          "font_pt_en": 19.0,
+          "text": "Train the six-class head with course labels; at inference, return six scores for classes 0–5.",
+          "width_pt": 956.16,
+          "height_pt": 27.36
+        }
+      ],
+      "en_png_size": [
+        2688,
+        1536
+      ],
+      "sha256": {
+        "zh_png": "bdf0ae3b309a3f1f3291d680beeff2fe1bd497a3591c15e7beddcba5c0b98d1a",
+        "en_png": "f11b8056a5fcd49c45d4aaf8fc68b6fff91dfdc0d5b5d9eb7121130627a3cff5",
+        "zh_vsdx": "06077a52d6aeab1e90715fdc4844b1e5fff099383e0b8436c28fa1d66a9c8298",
+        "en_vsdx": "bf36531e05b8276b7e03b1d258219615d14f4ccb0d8d26fb210f21cde5bbd59c"
+      }
+    },
+    {
+      "id": "D1-I13",
+      "original_vsdx": "originals/D1-I13/source.vsdx",
+      "original_png": "originals/D1-I13/source.png",
+      "caption_zh": "图3 ResNet18网络结构与特征计算示例。上部为完整网络结构，下部对应展开四阶段特征响应、局部卷积、残差相加及全局平均池化。",
+      "caption_en": "Figure 3. ResNet18 architecture and an example of feature computations. The upper panel shows the complete network; the lower panels expand the corresponding feature responses at four stages, local convolution, residual addition, and global average pooling.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_architecture_r4.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_architecture.png",
+        "native_sha256": "95454a2c1bec23240bdeca8514809c331c08830c34ff98165b3a47b5258abf4a"
+      },
+      "original_sha256": "3045b7d30d08e60bd9aba6f9d3b40e10f4f30df31a88739a106bada06d6df8df",
+      "zh_png": "zh/D1-I13_zh.png",
+      "en_png": "en/D1-I13_en.png",
+      "editable_sources": [
+        "zh/D1-I13_zh.vsdx",
+        "en/D1-I13_en.vsdx",
+        "originals/D1-I13/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I13/source.vsdx",
+        "originals/D1-I13/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 57,
+        "translated_shape_count": 57,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 17.0,
+          "font_pt_en": 17.0,
+          "text": "a ResNet18 gesture-recognition architecture",
+          "width_pt": 575.28,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 3,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Full photo",
+          "width_pt": 78.48,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 5,
+          "font_pt_original": 12.0,
+          "font_pt_en": 8.75,
+          "text": "SSDLite detection",
+          "width_pt": 79.92,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 7,
+          "font_pt_original": 12.0,
+          "font_pt_en": 8.75,
+          "text": "Ground-truth box",
+          "width_pt": 74.88,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 11,
+          "font_pt_original": 12.0,
+          "font_pt_en": 8.0,
+          "text": "Crop and\npreprocess",
+          "width_pt": 71.28,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 12,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "224 × 224",
+          "width_pt": 71.28,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 14,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "ResNet18 feature backbone",
+          "width_pt": 186.48,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 21,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.25,
+          "text": "64\nch.",
+          "width_pt": 35.28,
+          "height_pt": 29.52
+        },
+        {
+          "shape_id": 29,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.25,
+          "text": "128\nch.",
+          "width_pt": 35.28,
+          "height_pt": 29.52
+        },
+        {
+          "shape_id": 37,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.25,
+          "text": "256\nch.",
+          "width_pt": 35.28,
+          "height_pt": 29.52
+        },
+        {
+          "shape_id": 45,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.25,
+          "text": "512\nch.",
+          "width_pt": 35.28,
+          "height_pt": 29.52
+        },
+        {
+          "shape_id": 46,
+          "font_pt_original": 12.0,
+          "font_pt_en": 9.0,
+          "text": "Initial conv and pooling; four stages, 2 residual\nblocks each",
+          "width_pt": 229.68,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 53,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Avg pool",
+          "width_pt": 56.88,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 54,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "512-D",
+          "width_pt": 56.88,
+          "height_pt": 28.08
+        },
+        {
+          "shape_id": 56,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Linear head",
+          "width_pt": 128.88,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 66,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.5,
+          "text": "0",
+          "width_pt": 38.16,
+          "height_pt": 15.12
+        },
+        {
+          "shape_id": 72,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.5,
+          "text": "1",
+          "width_pt": 38.16,
+          "height_pt": 15.12
+        },
+        {
+          "shape_id": 78,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.5,
+          "text": "2",
+          "width_pt": 38.16,
+          "height_pt": 15.12
+        },
+        {
+          "shape_id": 84,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.5,
+          "text": "3",
+          "width_pt": 38.16,
+          "height_pt": 15.12
+        },
+        {
+          "shape_id": 90,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.5,
+          "text": "4",
+          "width_pt": 38.16,
+          "height_pt": 15.12
+        },
+        {
+          "shape_id": 96,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.5,
+          "text": "5",
+          "width_pt": 38.16,
+          "height_pt": 15.12
+        },
+        {
+          "shape_id": 97,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "512 → 6\nClasses 0–5",
+          "width_pt": 132.48,
+          "height_pt": 33.84
+        },
+        {
+          "shape_id": 104,
+          "font_pt_original": 16.0,
+          "font_pt_en": 16.0,
+          "text": "b Hierarchical feature responses",
+          "width_pt": 575.28,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 106,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.75,
+          "text": "Same hand\n224 × 224",
+          "width_pt": 78.48,
+          "height_pt": 28.08
+        },
+        {
+          "shape_id": 113,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Stage 1",
+          "width_pt": 91.44,
+          "height_pt": 16.56
+        },
+        {
+          "shape_id": 114,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "56 × 56 × 64",
+          "width_pt": 113.76,
+          "height_pt": 19.44
+        },
+        {
+          "shape_id": 122,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Stage 2",
+          "width_pt": 91.44,
+          "height_pt": 16.56
+        },
+        {
+          "shape_id": 123,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "28 × 28 × 128",
+          "width_pt": 113.76,
+          "height_pt": 19.44
+        },
+        {
+          "shape_id": 131,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Stage 3",
+          "width_pt": 91.44,
+          "height_pt": 16.56
+        },
+        {
+          "shape_id": 132,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "14 × 14 × 256",
+          "width_pt": 113.76,
+          "height_pt": 19.44
+        },
+        {
+          "shape_id": 140,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Stage 4",
+          "width_pt": 91.44,
+          "height_pt": 16.56
+        },
+        {
+          "shape_id": 141,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "7 × 7 × 512",
+          "width_pt": 113.76,
+          "height_pt": 19.44
+        },
+        {
+          "shape_id": 143,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.25,
+          "text": "Channels 0, 1, 2; each map is normalized separately. Colors cannot quantify responses across maps.",
+          "width_pt": 575.28,
+          "height_pt": 23.76
+        },
+        {
+          "shape_id": 145,
+          "font_pt_original": 14.0,
+          "font_pt_en": 14.0,
+          "text": "c Local convolution",
+          "width_pt": 193.68,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 146,
+          "font_pt_original": 14.0,
+          "font_pt_en": 14.0,
+          "text": "d Residual fusion",
+          "width_pt": 193.68,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 147,
+          "font_pt_original": 14.0,
+          "font_pt_en": 14.0,
+          "text": "e Global average pooling",
+          "width_pt": 190.08,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 148,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "3×3, stride 2; 128 → 256",
+          "width_pt": 190.08,
+          "height_pt": 16.56
+        },
+        {
+          "shape_id": 159,
+          "font_pt_original": 12.0,
+          "font_pt_en": 8.75,
+          "text": "Local 3×3 window",
+          "width_pt": 78.48,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 160,
+          "font_pt_original": 12.0,
+          "font_pt_en": 8.5,
+          "text": "Convolution\nresponse",
+          "width_pt": 85.68,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 161,
+          "font_pt_original": 12.0,
+          "font_pt_en": 9.5,
+          "text": "One output-channel example; the\nconvolution\nuses the 3×3 neighborhood in all 128\ninput channels.",
+          "width_pt": 182.88,
+          "height_pt": 49.68
+        },
+        {
+          "shape_id": 164,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Conv branch F(x)",
+          "width_pt": 107.28,
+          "height_pt": 26.64
+        },
+        {
+          "shape_id": 165,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Projection P(x)",
+          "width_pt": 110.88,
+          "height_pt": 22.32
+        },
+        {
+          "shape_id": 171,
+          "font_pt_original": 16.0,
+          "font_pt_en": 10.5,
+          "text": "+",
+          "width_pt": 13.68,
+          "height_pt": 13.68
+        },
+        {
+          "shape_id": 174,
+          "font_pt_original": 11.0,
+          "font_pt_en": 11.0,
+          "text": "ReLU[F(x)+P(x)]",
+          "width_pt": 92.88,
+          "height_pt": 34.56
+        },
+        {
+          "shape_id": 175,
+          "font_pt_original": 12.0,
+          "font_pt_en": 9.5,
+          "text": "First block of stage 3: a 1×1 projection\nmatches spatial size and channel\ncount.",
+          "width_pt": 182.88,
+          "height_pt": 41.04
+        },
+        {
+          "shape_id": 176,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "0.2079 + (−0.0254) ≈ 0.1825",
+          "width_pt": 186.48,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 180,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "1.119",
+          "width_pt": 42.48,
+          "height_pt": 25.2
+        },
+        {
+          "shape_id": 181,
+          "font_pt_original": 12.0,
+          "font_pt_en": 9.5,
+          "text": "7 × 7 positions",
+          "width_pt": 71.28,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 182,
+          "font_pt_original": 12.0,
+          "font_pt_en": 8.0,
+          "text": "Spatial mean per\nchannel",
+          "width_pt": 96.48,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 183,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "1.12",
+          "width_pt": 31.68,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 184,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "0.46",
+          "width_pt": 31.68,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 185,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "0.33",
+          "width_pt": 31.68,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 186,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "0.17",
+          "width_pt": 31.68,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 187,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "…",
+          "width_pt": 17.28,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 188,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "512 channels → 512-D vector",
+          "width_pt": 186.48,
+          "height_pt": 25.2
+        },
+        {
+          "shape_id": 189,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "First 4 pooled-vector\ncomponents",
+          "width_pt": 186.48,
+          "height_pt": 34.56
+        },
+        {
+          "shape_id": 191,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Image: HaGRID. Features: one forward pass through ImageNet-pretrained ResNet18.",
+          "width_pt": 582.48,
+          "height_pt": 30.96
+        }
+      ],
+      "en_png_size": [
+        1634,
+        1845
+      ],
+      "sha256": {
+        "zh_png": "3045b7d30d08e60bd9aba6f9d3b40e10f4f30df31a88739a106bada06d6df8df",
+        "en_png": "36cb78bc516a6f2a3c908ad75eb44fc26081470009ff123db0d6fa4d76b9e3f1",
+        "zh_vsdx": "95454a2c1bec23240bdeca8514809c331c08830c34ff98165b3a47b5258abf4a",
+        "en_vsdx": "0abc8796978b0e4e5d3d42203865498181b180a7dbed31ac7196e7460462af36"
+      }
+    },
+    {
+      "id": "D1-I14",
+      "original_vsdx": "originals/D1-I14/source.vsdx",
+      "original_png": "originals/D1-I14/source.png",
+      "caption_zh": "图4 PyTorch在本项目中的训练与预测过程。训练误差用于调整可学习参数；训练完成后保存参数，预测阶段加载参数并计算输出。",
+      "caption_en": "Figure 4. Training and prediction with PyTorch in this project. The training error is used to adjust the learnable parameters. Parameters are saved after training; at prediction time, they are loaded and used to compute the output.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_4_pytorch_r2.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_4_pytorch.png",
+        "native_sha256": "5a068560da212072f18c2e76cd590e685add49e241bd253c47ef924f43a8b21d"
+      },
+      "original_sha256": "eec8eec26de1a878d0eb84873c1b32102677dc1c7943c8d808384425fb4d1427",
+      "zh_png": "zh/D1-I14_zh.png",
+      "en_png": "en/D1-I14_en.png",
+      "editable_sources": [
+        "zh/D1-I14_zh.vsdx",
+        "en/D1-I14_en.vsdx",
+        "originals/D1-I14/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I14/source.vsdx",
+        "originals/D1-I14/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 9,
+        "translated_shape_count": 9,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 3,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.75,
+          "text": "Training\nhand",
+          "width_pt": 71.28,
+          "height_pt": 28.08
+        },
+        {
+          "shape_id": 4,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "True digit: 1",
+          "width_pt": 74.88,
+          "height_pt": 26.64
+        },
+        {
+          "shape_id": 6,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "ResNet18\nForward pass",
+          "width_pt": 107.28,
+          "height_pt": 48.24
+        },
+        {
+          "shape_id": 8,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.75,
+          "text": "Six scores\nfor classes\n0–5",
+          "width_pt": 78.48,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Classification loss\nCompare with true\ndigit",
+          "width_pt": 96.48,
+          "height_pt": 48.24
+        },
+        {
+          "shape_id": 12,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Backpropagation\nUpdate trainable\nparameters",
+          "width_pt": 114.48,
+          "height_pt": 48.24
+        },
+        {
+          "shape_id": 19,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Next training iteration after parameter update",
+          "width_pt": 323.28,
+          "height_pt": 19.44
+        },
+        {
+          "shape_id": 20,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "PyTorch: forward pass, loss, parameter updates, and model saving",
+          "width_pt": 560.88,
+          "height_pt": 17.28
+        },
+        {
+          "shape_id": 21,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "After training: save weights → load weights → predict on new photographs",
+          "width_pt": 575.28,
+          "height_pt": 17.28
+        }
+      ],
+      "en_png_size": [
+        1634,
+        611
+      ],
+      "sha256": {
+        "zh_png": "eec8eec26de1a878d0eb84873c1b32102677dc1c7943c8d808384425fb4d1427",
+        "en_png": "5cfe72d4a39bf422b6c94fd71edb0347167acd52492698ce3eff7664f33c5145",
+        "zh_vsdx": "5a068560da212072f18c2e76cd590e685add49e241bd253c47ef924f43a8b21d",
+        "en_vsdx": "d42a7ab8576a73021eba79044a48496822050544ba9f0720f2ca3016d31df0a4"
+      }
+    },
+    {
+      "id": "D1-I15",
+      "original_vsdx": "originals/D1-I15/source.vsdx",
+      "original_png": "originals/D1-I15/source.png",
+      "caption_zh": "图5 TorchVision网络代码、ImageNet预训练参数与六分类改造。网络结构与参数分别提供计算路径和训练起点，新分类层通过本项目手势数据学习。",
+      "caption_en": "Figure 5. TorchVision network implementations, ImageNet-pretrained parameters, and adaptation to six classes. The network architecture provides the computational path, while the parameters provide the training initialization; the new classification layer learns from this project’s gesture data.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_5_torchvision_r2.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_5_torchvision.png",
+        "native_sha256": "48f82baf04d7d76357fed0b1b6699bb6cdd0e9b4622441820287d3baed03e9da"
+      },
+      "original_sha256": "9faa4b257823079e58b5485403d8dabecf66e3212c446d03e3c753f8c026d3ab",
+      "zh_png": "zh/D1-I15_zh.png",
+      "en_png": "en/D1-I15_en.png",
+      "editable_sources": [
+        "zh/D1-I15_zh.vsdx",
+        "en/D1-I15_en.vsdx",
+        "originals/D1-I15/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I15/source.vsdx",
+        "originals/D1-I15/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 7,
+        "translated_shape_count": 7,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.25,
+          "text": "ResNet18 implementation\nConvolutions and residual\nlinks",
+          "width_pt": 146.88,
+          "height_pt": 43.92
+        },
+        {
+          "shape_id": 3,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.0,
+          "text": "ImageNet-pretrained weights\nLearned network parameters",
+          "width_pt": 146.88,
+          "height_pt": 43.92
+        },
+        {
+          "shape_id": 9,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "ResNet18\nbackbone\nRetain general\nfeatures\n512-D output",
+          "width_pt": 92.88,
+          "height_pt": 78.48
+        },
+        {
+          "shape_id": 11,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Replace the\nhead\n512→1000\nwith 512→6",
+          "width_pt": 100.08,
+          "height_pt": 78.48
+        },
+        {
+          "shape_id": 13,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Project training\nHaGRID hand\nimages\nSix digit labels",
+          "width_pt": 110.88,
+          "height_pt": 78.48
+        },
+        {
+          "shape_id": 14,
+          "font_pt_original": 13.0,
+          "font_pt_en": 12.75,
+          "text": "TorchVision: model implementations, image processing, and downloadable general weights",
+          "width_pt": 575.28,
+          "height_pt": 19.44
+        },
+        {
+          "shape_id": 15,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Code defines the computation; pretrained weights initialize parameters; the new six-class head\nlearns from project labels.",
+          "width_pt": 575.28,
+          "height_pt": 32.4
+        }
+      ],
+      "en_png_size": [
+        1634,
+        597
+      ],
+      "sha256": {
+        "zh_png": "9faa4b257823079e58b5485403d8dabecf66e3212c446d03e3c753f8c026d3ab",
+        "en_png": "5aeeff5ce1dd270a8e247db275fe82ffe5a5d4b609b57fcf4ada6444deeb66f8",
+        "zh_vsdx": "48f82baf04d7d76357fed0b1b6699bb6cdd0e9b4622441820287d3baed03e9da",
+        "en_vsdx": "56472ccc622261464044113dc13f4928b64b8196e48029cdfd22522027ce8a7e"
+      }
+    },
+    {
+      "id": "D1-I16",
+      "original_vsdx": "originals/D1-I16/source.vsdx",
+      "original_png": "originals/D1-I16/source.png",
+      "caption_zh": "图6 HaGRID数据来源及标注用途。照片、手框、手势标签与人员编号分别支持完整图像输入、手定位、手势分类和人员分组。",
+      "caption_en": "Figure 6. HaGRID data sources and annotation uses. Photographs, hand boxes, gesture labels, and person IDs respectively support image input, hand localization, gesture classification, and grouping by person.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_6_hagrid_r2.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_6_hagrid.png",
+        "native_sha256": "a9bc5e4d6882d7d9c6341426767b0723cafa25c3a584ffabec65c999bc8e1a8f"
+      },
+      "original_sha256": "22b35fb2b022bf7203938bfaa17482230b3da66c57265c42f070f469e035626d",
+      "zh_png": "zh/D1-I16_zh.png",
+      "en_png": "en/D1-I16_en.png",
+      "editable_sources": [
+        "zh/D1-I16_zh.vsdx",
+        "en/D1-I16_en.vsdx",
+        "originals/D1-I16/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I16/source.vsdx",
+        "originals/D1-I16/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 12,
+        "translated_shape_count": 12,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Original HaGRID gesture\ndataset",
+          "width_pt": 168.48,
+          "height_pt": 36.72
+        },
+        {
+          "shape_id": 4,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Sample 30K 384p release",
+          "width_pt": 190.08,
+          "height_pt": 36.72
+        },
+        {
+          "shape_id": 6,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Local copy used in the\ncourse",
+          "width_pt": 164.88,
+          "height_pt": 36.72
+        },
+        {
+          "shape_id": 7,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Data: RGB photographs + JSON annotations",
+          "width_pt": 560.88,
+          "height_pt": 20.88
+        },
+        {
+          "shape_id": 9,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.25,
+          "text": "Photograph and\nGT boxes",
+          "width_pt": 96.48,
+          "height_pt": 29.52
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Hand bbox\nPosition of each hand",
+          "width_pt": 144.72,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 12,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Train the detector\nLearn hand positions",
+          "width_pt": 147.6,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 13,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Gesture label\ne.g., peace → digit 1",
+          "width_pt": 144.72,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 15,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.75,
+          "text": "Crop hands by bbox\nTrain the six-class\nclassifier",
+          "width_pt": 147.6,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 16,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.75,
+          "text": "Person ID: user_id\nIdentify the same person",
+          "width_pt": 144.72,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 18,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.75,
+          "text": "Group by person\nPrevent identity leakage\nin testing",
+          "width_pt": 147.6,
+          "height_pt": 46.08
+        },
+        {
+          "shape_id": 19,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.0,
+          "text": "A photograph can contain multiple hands. Each hand has a box and label; the photograph has a person ID.",
+          "width_pt": 582.48,
+          "height_pt": 18.72
+        }
+      ],
+      "en_png_size": [
+        1634,
+        703
+      ],
+      "sha256": {
+        "zh_png": "22b35fb2b022bf7203938bfaa17482230b3da66c57265c42f070f469e035626d",
+        "en_png": "57a13ce6cd9830dfc49fc18634dbe9dd243b11252a13146bc66a2cd2d9819fb3",
+        "zh_vsdx": "a9bc5e4d6882d7d9c6341426767b0723cafa25c3a584ffabec65c999bc8e1a8f",
+        "en_vsdx": "dd75795ba06698332c633bd47bc7e581ca930d7e3957f93ca0c30fe0805a3666"
+      }
+    },
+    {
+      "id": "D1-I17",
+      "original_vsdx": "originals/D1-I17/source.vsdx",
+      "original_png": "originals/D1-I17/source.png",
+      "caption_zh": "图7 早期Vision_CA数据准备示意。图中“仅有summary统计”的状态属于当时的旧输出；本次实际使用的新A、B三组清单均已生成并核验，数量与位置见第1.2节。",
+      "caption_en": "Figure 7. Early Vision_CA data preparation. The “summary statistics only” state in the figure refers to the old outputs available at that time. All three new A and B split lists used in this study have now been generated and verified; their counts and locations are given in Section 1.2.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_7_visionca_final_r2.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_7_visionca.png",
+        "native_sha256": "913b054168b1251b5442a3c78d3fda52658dcf3f60de7168b0618a86cc220482"
+      },
+      "original_sha256": "e41784cdb14b519bf6d700556a9d475f5ab21fd1b7054d002ac0c194b25b2e56",
+      "zh_png": "zh/D1-I17_zh.png",
+      "en_png": "en/D1-I17_en.png",
+      "editable_sources": [
+        "zh/D1-I17_zh.vsdx",
+        "en/D1-I17_en.vsdx",
+        "originals/D1-I17/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I17/source.vsdx",
+        "originals/D1-I17/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 7,
+        "translated_shape_count": 7,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "Vision_CA: prepare training data and person records from images and annotations",
+          "width_pt": 575.28,
+          "height_pt": 19.44
+        },
+        {
+          "shape_id": 3,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.75,
+          "text": "Local RGB photographs\nJSON annotations",
+          "width_pt": 143.28,
+          "height_pt": 38.88
+        },
+        {
+          "shape_id": 5,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "prepare_datasets.py\nData preparation script",
+          "width_pt": 223.92,
+          "height_pt": 41.04
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "A: P1_random_image folder\nRandom assignment by photograph\nRecorded: 25,468 / 3,185 / 3,180 images",
+          "width_pt": 269.28,
+          "height_pt": 74.88
+        },
+        {
+          "shape_id": 11,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "B: P2_subject_independent folder\nArchive by user_id\nRecorded: 31,833 images; 7,973 people",
+          "width_pt": 269.28,
+          "height_pt": 74.88
+        },
+        {
+          "shape_id": 12,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.75,
+          "text": "Only summary.json statistics are available;\nverify or retrieve the three original image lists.",
+          "width_pt": 269.28,
+          "height_pt": 33.84
+        },
+        {
+          "shape_id": 13,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Only summary.json statistics are available;\nverify or complete the three person and image lists.",
+          "width_pt": 269.28,
+          "height_pt": 33.84
+        }
+      ],
+      "en_png_size": [
+        1634,
+        703
+      ],
+      "sha256": {
+        "zh_png": "e41784cdb14b519bf6d700556a9d475f5ab21fd1b7054d002ac0c194b25b2e56",
+        "en_png": "8c77e6b7925d764ab71381019d8b084ebbd10c6d0fa424a6639ef070e0fdd917",
+        "zh_vsdx": "913b054168b1251b5442a3c78d3fda52658dcf3f60de7168b0618a86cc220482",
+        "en_vsdx": "86391885d6ca2723d3bd9ae1a124ae7a8cacb15d26e2ef26313a534590ab3306"
+      }
+    },
+    {
+      "id": "D1-I18",
+      "original_vsdx": "originals/D1-I18/source.vsdx",
+      "original_png": "originals/D1-I18/source.png",
+      "caption_zh": "图8 自动手定位与手势分类的衔接。SSDLite320使用完整照片学习手框，ResNet18使用裁手图学习手势，整图结果经规则汇总为0—5。",
+      "caption_en": "Figure 8. Linking automatic hand localization and gesture classification. SSDLite320 learns hand boxes from full photographs; ResNet18 learns gestures from cropped hand images. Full-image results are then aggregated into 0–5.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_8_ssdlite_r2.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_8_ssdlite.png",
+        "native_sha256": "2770b1f5f650ab68dc0938d629bf4c5170bbd0fc646210839104820ba793f8b2"
+      },
+      "original_sha256": "9bf993ac3add4841e48b0d34a58ac7d29331f7ebac03c238116014188eb7e973",
+      "zh_png": "zh/D1-I18_zh.png",
+      "en_png": "en/D1-I18_en.png",
+      "editable_sources": [
+        "zh/D1-I18_zh.vsdx",
+        "en/D1-I18_en.vsdx",
+        "originals/D1-I18/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I18/source.vsdx",
+        "originals/D1-I18/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 9,
+        "translated_shape_count": 9,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 3,
+          "font_pt_original": 12.0,
+          "font_pt_en": 9.0,
+          "text": "Full photograph",
+          "width_pt": 71.28,
+          "height_pt": 19.44
+        },
+        {
+          "shape_id": 5,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "SSDLite320\nHand boxes and\nscores",
+          "width_pt": 103.68,
+          "height_pt": 53.28
+        },
+        {
+          "shape_id": 8,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Crop by\npredicted boxes",
+          "width_pt": 85.68,
+          "height_pt": 31.68
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "ResNet18\nSix class scores",
+          "width_pt": 103.68,
+          "height_pt": 53.28
+        },
+        {
+          "shape_id": 12,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Aggregate hands\nCheck\nconfidence",
+          "width_pt": 91.44,
+          "height_pt": 53.28
+        },
+        {
+          "shape_id": 14,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "Integer\n0–5",
+          "width_pt": 49.68,
+          "height_pt": 38.88
+        },
+        {
+          "shape_id": 15,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Detector training: full photographs +\nground-truth hand boxes",
+          "width_pt": 229.68,
+          "height_pt": 34.56
+        },
+        {
+          "shape_id": 17,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Label all gestures as 'hand' to learn hand\npositions.",
+          "width_pt": 262.08,
+          "height_pt": 34.56
+        },
+        {
+          "shape_id": 18,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Planned processing pipeline: train both detector and classifier using the project training data.",
+          "width_pt": 575.28,
+          "height_pt": 19.44
+        }
+      ],
+      "en_png_size": [
+        1634,
+        607
+      ],
+      "sha256": {
+        "zh_png": "9bf993ac3add4841e48b0d34a58ac7d29331f7ebac03c238116014188eb7e973",
+        "en_png": "51c359380073e5ac21aecf4bbadf9cb1a8937669c2dbc5cb30b3b8470b044311",
+        "zh_vsdx": "2770b1f5f650ab68dc0938d629bf4c5170bbd0fc646210839104820ba793f8b2",
+        "en_vsdx": "0b3fb49d8d9a21b60e0ec720361554cfcba7e31a49c641c6a124a255e7508770"
+      }
+    },
+    {
+      "id": "D1-I19",
+      "original_vsdx": "originals/D1-I19/source.vsdx",
+      "original_png": "originals/D1-I19/source.png",
+      "caption_zh": "图9 开源资源与本项目实现的总体关系。数据、整理代码、网络结构及通用权重共同支持本项目训练，训练后的定位与分类模型构成完整预测程序。",
+      "caption_en": "Figure 9. How open-source resources support the project implementation. Data, preparation code, network architectures, and general pretrained weights jointly support project training. The trained localization and classification models form the final prediction pipeline.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_9_summary_r2.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_9_summary.png",
+        "native_sha256": "45249271e1a2ddc70deee2726586e063953cf359bd5d1364d72135c2143fe931"
+      },
+      "original_sha256": "5f82b777d307c8f9e86b3ec35c062700a8563759fb92caefbd24554c5db029a1",
+      "zh_png": "zh/D1-I19_zh.png",
+      "en_png": "en/D1-I19_en.png",
+      "editable_sources": [
+        "zh/D1-I19_zh.vsdx",
+        "en/D1-I19_en.vsdx",
+        "originals/D1-I19/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I19/source.vsdx",
+        "originals/D1-I19/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 10,
+        "translated_shape_count": 10,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "HaGRID",
+          "width_pt": 134.64,
+          "height_pt": 36.72
+        },
+        {
+          "shape_id": 3,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Photographs, hand boxes,\ngesture labels and person\nIDs",
+          "width_pt": 139.68,
+          "height_pt": 41.04
+        },
+        {
+          "shape_id": 6,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "Vision_CA",
+          "width_pt": 134.64,
+          "height_pt": 36.72
+        },
+        {
+          "shape_id": 7,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Data preparation code\nOrganize images and\nperson records",
+          "width_pt": 139.68,
+          "height_pt": 41.04
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "TorchVision",
+          "width_pt": 134.64,
+          "height_pt": 36.72
+        },
+        {
+          "shape_id": 11,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Network implementations\nGeneral pretrained\nweights",
+          "width_pt": 139.68,
+          "height_pt": 41.04
+        },
+        {
+          "shape_id": 14,
+          "font_pt_original": 13.0,
+          "font_pt_en": 13.0,
+          "text": "PyTorch",
+          "width_pt": 134.64,
+          "height_pt": 36.72
+        },
+        {
+          "shape_id": 15,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Model execution\nframework\nTrain, save, and predict",
+          "width_pt": 139.68,
+          "height_pt": 41.04
+        },
+        {
+          "shape_id": 19,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Train and save: hand detector + six-class gesture classifier",
+          "width_pt": 420.48,
+          "height_pt": 43.92
+        },
+        {
+          "shape_id": 20,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Final function: full RGB photograph → automatic detection and classification → integer 0–5",
+          "width_pt": 575.28,
+          "height_pt": 24.48
+        }
+      ],
+      "en_png_size": [
+        1634,
+        655
+      ],
+      "sha256": {
+        "zh_png": "5f82b777d307c8f9e86b3ec35c062700a8563759fb92caefbd24554c5db029a1",
+        "en_png": "3628285c8dd0183110427270192e9583b4460da963caa43fa527779a2585e079",
+        "zh_vsdx": "45249271e1a2ddc70deee2726586e063953cf359bd5d1364d72135c2143fe931",
+        "en_vsdx": "0d5264da77cd96e4d7f2ec1451c49cbe059a1e7674ebda749dc27ff5f85248ee"
+      }
+    },
+    {
+      "id": "D1-I21",
+      "original_vsdx": "originals/D1-I21/source.vsdx",
+      "original_png": "originals/D1-I21/source.png",
+      "caption_zh": "图11 本项目ResNet18的标准Grad-CAM计算机制示意。前向取得目标类别分数，解释路径先对梯度作空间平均，再用所得通道权重组合特征，经过ReLU后，先上采样至输入尺寸，再逐图归一化并叠加到输入。本图说明计算机制，不给出六类手势识别成绩。",
+      "caption_en": "Figure 11. Standard Grad-CAM computation for the project’s ResNet18. The forward pass obtains the target class score. The explanation path spatially averages the gradients and uses the resulting channel weights to combine features. After ReLU, the map is first upsampled to the input size, then normalized separately and overlaid on the input. This figure explains the computation and does not report six-class gesture-recognition performance.",
+      "provenance": {
+        "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v10_our_gradcam_mechanism.vsdx",
+        "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v10_our_gradcam_mechanism.png",
+        "native_sha256": "284cbd0d62f545db53c5a548a721899c5015d25489be696ee6f4c6f8b75ae5d5"
+      },
+      "original_sha256": "c75de6134f51ef2ab74e38539b9fb3f8d3bec4786601b33d81341c99a2bdf8ca",
+      "zh_png": "zh/D1-I21_zh.png",
+      "en_png": "en/D1-I21_en.png",
+      "editable_sources": [
+        "zh/D1-I21_zh.vsdx",
+        "en/D1-I21_en.vsdx",
+        "originals/D1-I21/source.vsdx"
+      ],
+      "generator": "generate_diagrams.py",
+      "required_data": [
+        "originals/D1-I21/source.vsdx",
+        "originals/D1-I21/source.png",
+        "translation_map.json",
+        "diagram_spec.json"
+      ],
+      "translation_checks": {
+        "native_text_shape_count": 18,
+        "translated_shape_count": 18,
+        "english_chinese_remnants": false,
+        "numeric_tokens_equal": true,
+        "original_geometry_and_embedded_media": "preserved; only text, font and line wrapping edited",
+        "visual_review": "AUTHOR_PASS: actual English PNG inspected; no clipping, missing glyphs, detached suffixes or overlap; Chinese PNG unchanged and inspected in inventory contact sheets. Final embedded-page check pending.",
+        "source_geometry_equal": true,
+        "embedded_media_hashes_equal": true,
+        "source_vsdx_identical": true,
+        "all_english_labels_present": true,
+        "validation_status": "PASS"
+      },
+      "fitting": [
+        {
+          "shape_id": 2,
+          "font_pt_original": 16.0,
+          "font_pt_en": 16.0,
+          "text": "ResNet18 classification and standard Grad-CAM",
+          "width_pt": 581.76,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 3,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Real ImageNet 1000-class demonstration; target nail (index 677), not a gesture result",
+          "width_pt": 581.76,
+          "height_pt": 24.48
+        },
+        {
+          "shape_id": 4,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Input hand",
+          "width_pt": 76.32,
+          "height_pt": 20.16
+        },
+        {
+          "shape_id": 6,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "224 × 224",
+          "width_pt": 76.32,
+          "height_pt": 20.16
+        },
+        {
+          "shape_id": 8,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "ResNet18 backbone\nlayer1 → layer4\nFinal: 512 × 7 × 7",
+          "width_pt": 131.04,
+          "height_pt": 58.32
+        },
+        {
+          "shape_id": 10,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.0,
+          "text": "Global average\npooling\n512-D → classifier\n1000 class scores",
+          "width_pt": 109.44,
+          "height_pt": 58.32
+        },
+        {
+          "shape_id": 12,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.0,
+          "text": "Target logit: nail\nClass score yᶜ\nNo softmax in gradient\ncomputation",
+          "width_pt": 180.0,
+          "height_pt": 58.32
+        },
+        {
+          "shape_id": 13,
+          "font_pt_original": 12.0,
+          "font_pt_en": 12.0,
+          "text": "Forward pass: parameters remain fixed",
+          "width_pt": 322.56,
+          "height_pt": 20.16
+        },
+        {
+          "shape_id": 17,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Selected-layer features A: 512 maps of 7 × 7",
+          "width_pt": 231.84,
+          "height_pt": 14.4
+        },
+        {
+          "shape_id": 21,
+          "font_pt_original": 10.0,
+          "font_pt_en": 9.0,
+          "text": "Channels 0, 1, 2 shown; all 512 used in computation",
+          "width_pt": 236.16,
+          "height_pt": 23.04
+        },
+        {
+          "shape_id": 23,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.0,
+          "text": "Target gradient on features: G = ∂yᶜ/∂A",
+          "width_pt": 216.0,
+          "height_pt": 14.4
+        },
+        {
+          "shape_id": 27,
+          "font_pt_original": 10.0,
+          "font_pt_en": 8.25,
+          "text": "GAP + linear head: same gradient within each channel\nNo weight update (red +, blue −)",
+          "width_pt": 223.2,
+          "height_pt": 23.04
+        },
+        {
+          "shape_id": 29,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.75,
+          "text": "Spatially average each gradient map\nαₖ = meanᵢⱼ(Gₖᵢⱼ): 512 channel weights",
+          "width_pt": 231.84,
+          "height_pt": 41.76
+        },
+        {
+          "shape_id": 31,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.5,
+          "text": "Weighted sum of features, then\nReLU\nLᶜ = ReLU(Σₖ αₖAₖ)",
+          "width_pt": 172.8,
+          "height_pt": 41.76
+        },
+        {
+          "shape_id": 38,
+          "font_pt_original": 12.0,
+          "font_pt_en": 10.0,
+          "text": "Native 7 × 7 map",
+          "width_pt": 86.4,
+          "height_pt": 23.04
+        },
+        {
+          "shape_id": 40,
+          "font_pt_original": 12.0,
+          "font_pt_en": 9.5,
+          "text": "Interpolate to 224×224,\nthen normalize each\nmap",
+          "width_pt": 111.6,
+          "height_pt": 45.36
+        },
+        {
+          "shape_id": 43,
+          "font_pt_original": 12.0,
+          "font_pt_en": 8.75,
+          "text": "Overlay on the same\ninput",
+          "width_pt": 95.04,
+          "height_pt": 23.04
+        },
+        {
+          "shape_id": 44,
+          "font_pt_original": 12.0,
+          "font_pt_en": 11.0,
+          "text": "The heatmap locates responses for the target\nscore.\nInterpolation adds no true spatial resolution;\ncolor cannot establish gesture understanding.",
+          "width_pt": 246.96,
+          "height_pt": 63.36
+        }
+      ],
+      "en_png_size": [
+        1634,
+        1154
+      ],
+      "sha256": {
+        "zh_png": "c75de6134f51ef2ab74e38539b9fb3f8d3bec4786601b33d81341c99a2bdf8ca",
+        "en_png": "22737aff0da2a904908e86aeade8060174245260f449ec9bf2ef6c02bca126af",
+        "zh_vsdx": "284cbd0d62f545db53c5a548a721899c5015d25489be696ee6f4c6f8b75ae5d5",
+        "en_vsdx": "a71a0540a0b336b2c0d46760a4ccb7db668ef628684f302feb9c31bd4d265c66"
+      }
+    }
+  ],
+  "scope": "11 plan mechanism diagrams; original sources retained; no model execution",
+  "runtime": "Python + comtypes + Pillow + lxml; Microsoft Visio 16.0 InvisibleApp; Arial for English labels",
+  "author_review": {
+    "scope": "11 final English PNGs viewed; original Chinese PNGs inspected via inventory contact sheets.",
+    "issues_closed": [
+      "extra trailing newline and text overflow",
+      "narrow channel label suffix split",
+      "caption completeness",
+      "overlong Grad-CAM note"
+    ],
+    "independent_review": "pending root coordination"
+  }
+}

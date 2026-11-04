@@ -1,0 +1,14 @@
+{
+  "id": "D1-I27",
+  "original_sha256": "bbcf4e3c4614a64734ac778f93075fb66ba5986347eaed143c768b8e9ccd0742",
+  "source_records": [
+    {
+      "name": "actual_crop_comparison.json",
+      "sha256": "1e254285ae816fd62554d03a11e1c71a73aab580df56dcf7230e0fa233b1675c"
+    }
+  ],
+  "occurrences": {
+    "D1-I27": "图17 B测试照片的人工框分类与自动定位输入对照。上例右图仅为最高检测分数框，未声称一定与左侧真框匹配；下例没有通过阈值的自动框。",
+    "D2-I11": "图11 B同一照片人工框与自动定位实际输入对照"
+  }
+}

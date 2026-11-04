@@ -1,0 +1,84 @@
+{
+  "D1-I10": [
+    "Plain and residual convolutional networks",
+    "ResNet is a CNN. A residual connection adds a direct input path alongside the convolutional branch.",
+    "Plain CNN", "x", "Convolutional branch F(x)", "Output H(x)=F(x)",
+    "Residual CNN", "x", "Convolutional branch F(x)", "+", "H(x)=F(x)+x", "Direct input path x",
+    "For a desired output H(x), the main branch learns the residual F(x)=H(x)−x.",
+    "Single-element example", "Input x=5; desired output 6; learn F(x)=1; their sum gives 6.",
+    "The network adds feature tensors of the same shape; a projection matches shapes when needed.\nThe shortcut supports information and gradient flow and aids deep-network training; accuracy gains are task-dependent."
+  ],
+  "D1-I11": [
+    "Project pipeline: full photograph to integer command",
+    "SSDLite320 detection\n320 × 320 → hand boxes", "Crop RGB hand images\nPrepare 224 × 224 inputs", "ResNet18 features\n512-dimensional output",
+    "Full RGB\nphoto", "Six-class gesture head\nScores for each class", "Confidence checks\nand multi-hand aggregation", "512-dimensional visual features",
+    "Integer command\n0 / 1 / 2 / 3 / 4 / 5", "Initialize ResNet18 from ImageNet weights; train the six-class head on the course training set.",
+    "Return 0 if no hand is found, detection fails, or results are unreliable. Multi-hand rules are described in the text."
+  ],
+  "D1-I12": [
+    "ResNet18 for six-class gestures: backbone and residual block", "Input: 3 × 224 × 224 RGB hand image",
+    "7×7 conv\nStride 2\nBN + ReLU\n64 channels\n112×112", "3×3\nMax pool\nStride 2\n64 channels\n56×56",
+    "layer1", "BasicBlock 1", "BasicBlock 2", "64 channels\n56×56", "layer2", "BasicBlock 1", "BasicBlock 2", "128 channels\n28×28",
+    "layer3", "BasicBlock 1", "BasicBlock 2", "256 channels\n14×14", "layer4", "BasicBlock 1", "BasicBlock 2", "512 channels\n7×7",
+    "Global avg\npooling\n512×1×1\nFlatten: 512", "New head\nFully connected\n512 → 6\nSix scores\nClasses 0–5",
+    "Each of layer1–4 has two BasicBlocks; one block is expanded below.", "BasicBlock: add the convolutional branch and shortcut, then apply ReLU",
+    "3×3 conv → BN\n→ ReLU", "3×3 conv → BN", "+", "ReLU", "Input x", "Output", "Shortcut x: identity when shapes match",
+    "First block of layer2–4: the first 3×3 convolution has stride 2; a 1×1 shortcut convolution (stride 2) + BN matches the shape.",
+    "Transfer learning: initialize the backbone from ImageNet; replace the 512→1000 head with a new 512→6 head.",
+    "Train the six-class head with course labels; at inference, return six scores for classes 0–5."
+  ],
+  "D1-I13": [
+    "a  ResNet18 gesture-recognition architecture", "Full photo", "SSDLite detection", "Ground-truth box", "Crop and\npreprocess", "224 × 224", "ResNet18 feature backbone",
+    "64\nch.", "128\nch.", "256\nch.", "512\nch.", "Initial conv and pooling; four stages, 2 residual blocks each", "Avg pool", "512-D", "Linear head",
+    "0", "1", "2", "3", "4", "5", "512 → 6\nClasses 0–5", "b  Hierarchical feature responses", "Same hand\n224 × 224",
+    "Stage 1", "56 × 56 × 64", "Stage 2", "28 × 28 × 128", "Stage 3", "14 × 14 × 256", "Stage 4", "7 × 7 × 512",
+    "Channels 0, 1, 2; each map is normalized separately. Colors cannot quantify responses across maps.",
+    "c  Local convolution", "d  Residual fusion", "e  Global average pooling", "3×3, stride 2; 128 → 256", "Local 3×3 window", "Convolution response",
+    "One output-channel example; the convolution\nuses the 3×3 neighborhood in all 128 input channels.", "Conv branch F(x)", "Projection P(x)", "+", "ReLU[F(x)+P(x)]",
+    "First block of stage 3: a 1×1 projection\nmatches spatial size and channel count.", "0.2079 + (−0.0254) ≈ 0.1825", "1.119", "7 × 7 positions", "Spatial mean per channel",
+    "1.12", "0.46", "0.33", "0.17", "…", "512 channels → 512-D vector", "First 4 pooled-vector components",
+    "Image: HaGRID. Features: one forward pass through ImageNet-pretrained ResNet18."
+  ],
+  "D1-I14": [
+    "Training hand", "True digit: 1", "ResNet18\nForward pass", "Six scores\nfor classes 0–5", "Classification loss\nCompare with true digit", "Backpropagation\nUpdate trainable parameters",
+    "Next training iteration after parameter update", "PyTorch: forward pass, loss, parameter updates, and model saving", "After training: save weights → load weights → predict on new photographs"
+  ],
+  "D1-I15": [
+    "ResNet18 implementation\nConvolutions and residual links", "ImageNet-pretrained weights\nLearned network parameters", "ResNet18 backbone\nRetain general features\n512-D output",
+    "Replace the head\n512→1000\nwith 512→6", "Project training\nHaGRID hand images\nSix digit labels",
+    "TorchVision: model implementations, image processing, and downloadable general weights",
+    "Code defines the computation; pretrained weights initialize parameters; the new six-class head learns from project labels."
+  ],
+  "D1-I16": [
+    "Original HaGRID gesture dataset", "Sample 30K 384p release", "Local copy used in the course", "Data: RGB photographs + JSON annotations", "Photograph and GT boxes",
+    "Hand bbox\nPosition of each hand", "Train the detector\nLearn hand positions", "Gesture label\ne.g., peace → digit 1", "Crop hands by bbox\nTrain the six-class classifier",
+    "Person ID: user_id\nIdentify the same person", "Group by person\nPrevent identity leakage in testing",
+    "A photograph can contain multiple hands. Each hand has a box and label; the photograph has a person ID."
+  ],
+  "D1-I17": [
+    "Vision_CA: prepare training data and person records from images and annotations", "Local RGB photographs\nJSON annotations", "prepare_datasets.py\nData preparation script",
+    "A: P1_random_image folder\nRandom assignment by photograph\nRecorded: 25,468 / 3,185 / 3,180 images",
+    "B: P2_subject_independent folder\nArchive by user_id\nRecorded: 31,833 images; 7,973 people",
+    "Only summary.json statistics are available;\nverify or retrieve the three original image lists.",
+    "Only summary.json statistics are available;\nverify or complete the three person and image lists."
+  ],
+  "D1-I18": [
+    "Full photograph", "SSDLite320\nHand boxes and scores", "Crop by predicted boxes", "ResNet18\nSix class scores", "Aggregate hands\nCheck confidence", "Integer\n0–5",
+    "Detector training: full photographs + ground-truth hand boxes", "Label all gestures as 'hand' to learn hand positions.", "Planned processing pipeline: train both detector and classifier using the project training data."
+  ],
+  "D1-I19": [
+    "HaGRID", "Photographs, hand boxes,\ngesture labels and person IDs", "Vision_CA", "Data preparation code\nOrganize images and person records", "TorchVision", "Network implementations\nGeneral pretrained weights",
+    "PyTorch", "Model execution framework\nTrain, save, and predict", "Train and save: hand detector + six-class gesture classifier", "Final function: full RGB photograph → automatic detection and classification → integer 0–5"
+  ],
+  "D1-I21": [
+    "ResNet18 classification and standard Grad-CAM",
+    "Real ImageNet 1000-class demonstration; target nail (index 677), not a gesture result",
+    "Input hand", "224 × 224", "ResNet18 backbone\nlayer1 → layer4\nFinal: 512 × 7 × 7", "Global average pooling\n512-D → classifier\n1000 class scores",
+    "Target logit: nail\nClass score yᶜ\nNo softmax in gradient computation", "Forward pass: parameters remain fixed", "Selected-layer features A: 512 maps of 7 × 7",
+    "Channels 0, 1, 2 shown; all 512 used in computation", "Target gradient on features: G = ∂yᶜ/∂A",
+    "GAP + linear head: same gradient within each channel\nNo weight update (red +, blue −)",
+    "Spatially average each gradient map\nαₖ = meanᵢⱼ(Gₖᵢⱼ): 512 channel weights", "Weighted sum of features, then ReLU\nLᶜ = ReLU(Σₖ αₖAₖ)",
+    "Native 7 × 7 map", "Interpolate to 224×224,\nthen normalize each map", "Overlay on the same input",
+    "The heatmap locates responses for the target score.\nInterpolation adds no true spatial resolution;\ncolor cannot establish gesture understanding."
+  ]
+}

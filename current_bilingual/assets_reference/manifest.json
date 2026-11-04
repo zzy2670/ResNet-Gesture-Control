@@ -1,0 +1,1017 @@
+{
+  "figures": [
+    {
+      "id": "D1-I01",
+      "original_sha256": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6",
+      "zh_png": "D1_I01_zh.png",
+      "en_png": "D1_I01_en.png",
+      "zh_svg": "D1_I01_zh.svg",
+      "en_svg": "D1_I01_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I01_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：peace，掌心朝向镜头的V形；编码1，前进。",
+      "captions_en": "Gesture-code photograph: peace, a palm-facing V sign; code 1, Forward.",
+      "caption_zh": "手势编码表示例照片：peace，掌心朝向镜头的V形；编码1，前进。",
+      "caption_en": "Gesture-code photograph: peace, a palm-facing V sign; code 1, Forward.",
+      "editable_sources": [
+        "D1_I01_zh.svg",
+        "D1_I01_zh_text_layers.json",
+        "D1_I01_en.svg",
+        "D1_I01_en_text_layers.json",
+        "originals/D1_I01_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I01_zh.png": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6",
+        "D1_I01_en.png": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6",
+        "D1_I01_zh.svg": "535f60e894f5af999de8aea7ccfdb0633702d5a0abdaaabeee56b0c391c5f015",
+        "D1_I01_en.svg": "535f60e894f5af999de8aea7ccfdb0633702d5a0abdaaabeee56b0c391c5f015"
+      }
+    },
+    {
+      "id": "D1-I02",
+      "original_sha256": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d",
+      "zh_png": "D1_I02_zh.png",
+      "en_png": "D1_I02_en.png",
+      "zh_svg": "D1_I02_zh.svg",
+      "en_svg": "D1_I02_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I02_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：peace_inverted，手背朝向镜头的V形；编码1，前进。",
+      "captions_en": "Gesture-code photograph: peace_inverted, a back-facing V sign; code 1, Forward.",
+      "caption_zh": "手势编码表示例照片：peace_inverted，手背朝向镜头的V形；编码1，前进。",
+      "caption_en": "Gesture-code photograph: peace_inverted, a back-facing V sign; code 1, Forward.",
+      "editable_sources": [
+        "D1_I02_zh.svg",
+        "D1_I02_zh_text_layers.json",
+        "D1_I02_en.svg",
+        "D1_I02_en_text_layers.json",
+        "originals/D1_I02_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I02_zh.png": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d",
+        "D1_I02_en.png": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d",
+        "D1_I02_zh.svg": "58e702799f6231ddc0b8fd62a212f16f590dc9c628189d0e2b60542816dc3a6b",
+        "D1_I02_en.svg": "58e702799f6231ddc0b8fd62a212f16f590dc9c628189d0e2b60542816dc3a6b"
+      }
+    },
+    {
+      "id": "D1-I03",
+      "original_sha256": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716",
+      "zh_png": "D1_I03_zh.png",
+      "en_png": "D1_I03_en.png",
+      "zh_svg": "D1_I03_zh.svg",
+      "en_svg": "D1_I03_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I03_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：stop，三种张开手掌姿态之一；编码2，后退。",
+      "captions_en": "Gesture-code photograph: stop, one of the three open-hand postures; code 2, Backward.",
+      "caption_zh": "手势编码表示例照片：stop，三种张开手掌姿态之一；编码2，后退。",
+      "caption_en": "Gesture-code photograph: stop, one of the three open-hand postures; code 2, Backward.",
+      "editable_sources": [
+        "D1_I03_zh.svg",
+        "D1_I03_zh_text_layers.json",
+        "D1_I03_en.svg",
+        "D1_I03_en_text_layers.json",
+        "originals/D1_I03_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I03_zh.png": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716",
+        "D1_I03_en.png": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716",
+        "D1_I03_zh.svg": "19106c53ca65a9b95ba8e53e4808cfb13c022d6dbeff7df6d99dc4da37600b39",
+        "D1_I03_en.svg": "19106c53ca65a9b95ba8e53e4808cfb13c022d6dbeff7df6d99dc4da37600b39"
+      }
+    },
+    {
+      "id": "D1-I04",
+      "original_sha256": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824",
+      "zh_png": "D1_I04_zh.png",
+      "en_png": "D1_I04_en.png",
+      "zh_svg": "D1_I04_zh.svg",
+      "en_svg": "D1_I04_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I04_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：stop_inverted，三种张开手掌姿态之一；编码2，后退。",
+      "captions_en": "Gesture-code photograph: stop_inverted, one of the three open-hand postures; code 2, Backward.",
+      "caption_zh": "手势编码表示例照片：stop_inverted，三种张开手掌姿态之一；编码2，后退。",
+      "caption_en": "Gesture-code photograph: stop_inverted, one of the three open-hand postures; code 2, Backward.",
+      "editable_sources": [
+        "D1_I04_zh.svg",
+        "D1_I04_zh_text_layers.json",
+        "D1_I04_en.svg",
+        "D1_I04_en_text_layers.json",
+        "originals/D1_I04_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I04_zh.png": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824",
+        "D1_I04_en.png": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824",
+        "D1_I04_zh.svg": "be2fc8ade55ce64ae65f8fab7147830d7d7c7bad8e6e4e647eab446b5caa93cb",
+        "D1_I04_en.svg": "be2fc8ade55ce64ae65f8fab7147830d7d7c7bad8e6e4e647eab446b5caa93cb"
+      }
+    },
+    {
+      "id": "D1-I05",
+      "original_sha256": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7",
+      "zh_png": "D1_I05_zh.png",
+      "en_png": "D1_I05_en.png",
+      "zh_svg": "D1_I05_zh.svg",
+      "en_svg": "D1_I05_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I05_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：palm，三种张开手掌姿态之一；编码2，后退。",
+      "captions_en": "Gesture-code photograph: palm, one of the three open-hand postures; code 2, Backward.",
+      "caption_zh": "手势编码表示例照片：palm，三种张开手掌姿态之一；编码2，后退。",
+      "caption_en": "Gesture-code photograph: palm, one of the three open-hand postures; code 2, Backward.",
+      "editable_sources": [
+        "D1_I05_zh.svg",
+        "D1_I05_zh_text_layers.json",
+        "D1_I05_en.svg",
+        "D1_I05_en_text_layers.json",
+        "originals/D1_I05_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I05_zh.png": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7",
+        "D1_I05_en.png": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7",
+        "D1_I05_zh.svg": "eb5648c67adeeb4b328de1c6a08ba7390d59d53bd70c5d65ac22e8f0d204c495",
+        "D1_I05_en.svg": "eb5648c67adeeb4b328de1c6a08ba7390d59d53bd70c5d65ac22e8f0d204c495"
+      }
+    },
+    {
+      "id": "D1-I06",
+      "original_sha256": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae",
+      "zh_png": "D1_I06_zh.png",
+      "en_png": "D1_I06_en.png",
+      "zh_svg": "D1_I06_zh.svg",
+      "en_svg": "D1_I06_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I06_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：fist，握拳；编码3，停止。",
+      "captions_en": "Gesture-code photograph: fist; code 3, STOP.",
+      "caption_zh": "手势编码表示例照片：fist，握拳；编码3，停止。",
+      "caption_en": "Gesture-code photograph: fist; code 3, STOP.",
+      "editable_sources": [
+        "D1_I06_zh.svg",
+        "D1_I06_zh_text_layers.json",
+        "D1_I06_en.svg",
+        "D1_I06_en_text_layers.json",
+        "originals/D1_I06_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I06_zh.png": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae",
+        "D1_I06_en.png": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae",
+        "D1_I06_zh.svg": "3a5539167da475290002b9145a2934e7ff7a6bca6ef333b232be68abdbe687ac",
+        "D1_I06_en.svg": "3a5539167da475290002b9145a2934e7ff7a6bca6ef333b232be68abdbe687ac"
+      }
+    },
+    {
+      "id": "D1-I07",
+      "original_sha256": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b",
+      "zh_png": "D1_I07_zh.png",
+      "en_png": "D1_I07_en.png",
+      "zh_svg": "D1_I07_zh.svg",
+      "en_svg": "D1_I07_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I07_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：like，拇指向上；编码4，左转。",
+      "captions_en": "Gesture-code photograph: like, thumb up; code 4, Left turn.",
+      "caption_zh": "手势编码表示例照片：like，拇指向上；编码4，左转。",
+      "caption_en": "Gesture-code photograph: like, thumb up; code 4, Left turn.",
+      "editable_sources": [
+        "D1_I07_zh.svg",
+        "D1_I07_zh_text_layers.json",
+        "D1_I07_en.svg",
+        "D1_I07_en_text_layers.json",
+        "originals/D1_I07_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I07_zh.png": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b",
+        "D1_I07_en.png": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b",
+        "D1_I07_zh.svg": "738ab6d725595a227f366436d36905e38f54d219460b9d59bad9b90c0b5ad9f8",
+        "D1_I07_en.svg": "738ab6d725595a227f366436d36905e38f54d219460b9d59bad9b90c0b5ad9f8"
+      }
+    },
+    {
+      "id": "D1-I08",
+      "original_sha256": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab",
+      "zh_png": "D1_I08_zh.png",
+      "en_png": "D1_I08_en.png",
+      "zh_svg": "D1_I08_zh.svg",
+      "en_svg": "D1_I08_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I08_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：dislike，拇指向下；编码5，右转。",
+      "captions_en": "Gesture-code photograph: dislike, thumb down; code 5, Right turn.",
+      "caption_zh": "手势编码表示例照片：dislike，拇指向下；编码5，右转。",
+      "caption_en": "Gesture-code photograph: dislike, thumb down; code 5, Right turn.",
+      "editable_sources": [
+        "D1_I08_zh.svg",
+        "D1_I08_zh_text_layers.json",
+        "D1_I08_en.svg",
+        "D1_I08_en_text_layers.json",
+        "originals/D1_I08_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I08_zh.png": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab",
+        "D1_I08_en.png": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab",
+        "D1_I08_zh.svg": "1df5aa7165c713eb5d3ebde7186b22111946d3255f7116280289078f366319bc",
+        "D1_I08_en.svg": "1df5aa7165c713eb5d3ebde7186b22111946d3255f7116280289078f366319bc"
+      }
+    },
+    {
+      "id": "D1-I09",
+      "original_sha256": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d",
+      "zh_png": "D1_I09_zh.png",
+      "en_png": "D1_I09_en.png",
+      "zh_svg": "D1_I09_zh.svg",
+      "en_svg": "D1_I09_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I09_original.png"
+      ],
+      "captions_zh": "手势编码表示例照片：no_gesture，闲置手示例；编码0，不发送指令。",
+      "captions_en": "Gesture-code photograph: no_gesture, an idle-hand example; code 0, No command.",
+      "caption_zh": "手势编码表示例照片：no_gesture，闲置手示例；编码0，不发送指令。",
+      "caption_en": "Gesture-code photograph: no_gesture, an idle-hand example; code 0, No command.",
+      "editable_sources": [
+        "D1_I09_zh.svg",
+        "D1_I09_zh_text_layers.json",
+        "D1_I09_en.svg",
+        "D1_I09_en_text_layers.json",
+        "originals/D1_I09_original.png"
+      ],
+      "samepixel": true,
+      "editability": "Photographs have no internal language labels; SVG embeds the unchanged photograph. Photograph pixels are not editable vector geometry.",
+      "translation_checks": {
+        "no_internal_text": true,
+        "both_sha256_equal_original": true
+      },
+      "output_sha256": {
+        "D1_I09_zh.png": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d",
+        "D1_I09_en.png": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d",
+        "D1_I09_zh.svg": "a25825d9c3e971302a2fcc68e07591374369a208d0a723d4fbd9de5c87fd509d",
+        "D1_I09_en.svg": "a25825d9c3e971302a2fcc68e07591374369a208d0a723d4fbd9de5c87fd509d"
+      }
+    },
+    {
+      "id": "D1-I20",
+      "original_sha256": "54c610b5f2dec2f2e9bc1cecabe068c66626d2ee16de1dee056f84a0fd8ec1d9",
+      "zh_png": "D1_I20_zh.png",
+      "en_png": "D1_I20_en.png",
+      "zh_svg": "D1_I20_zh.svg",
+      "en_svg": "D1_I20_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I20_original.png"
+      ],
+      "captions_zh": "图10 电缆项目的解释路径原图参考。原图来自本地电缆项目报告图3.9，展示前向推理与目标层解释计算；图中的逐位置特征与梯度相乘后跨通道平均对应原项目实现。中文版为原图的翻译适配。本图只作为计算流程参考，不是本项目的手势实验结果。",
+      "captions_en": "Figure 10. Original explanation-path diagram from the cable project, reproduced from Figure 3.9 of the local cable-project report. It shows forward inference and explanation computation at the target layer. Element-wise multiplication of features by gradients, followed by averaging across channels, corresponds to the original cable implementation. The Chinese version is a translation adaptation of that original. This figure is a computation-flow reference, not a gesture-experiment result from this project.",
+      "caption_zh": "图10 电缆项目的解释路径原图参考。原图来自本地电缆项目报告图3.9，展示前向推理与目标层解释计算；图中的逐位置特征与梯度相乘后跨通道平均对应原项目实现。中文版为原图的翻译适配。本图只作为计算流程参考，不是本项目的手势实验结果。",
+      "caption_en": "Figure 10. Original explanation-path diagram from the cable project, reproduced from Figure 3.9 of the local cable-project report. It shows forward inference and explanation computation at the target layer. Element-wise multiplication of features by gradients, followed by averaging across channels, corresponds to the original cable implementation. The Chinese version is a translation adaptation of that original. This figure is a computation-flow reference, not a gesture-experiment result from this project.",
+      "translation_adaptation": true,
+      "editable_sources": [
+        "D1_I20_en.svg",
+        "D1_I20_en_text_layers.json",
+        "D1_I20_zh.svg",
+        "D1_I20_zh_text_layers.json"
+      ],
+      "editability": "Translation labels and presentation overlays are editable SVG text over unchanged scientific raster evidence. English external originals are raster-only SVG wrappers; native vector source was not found.",
+      "translation_checks": {
+        "zh_evidence_pixel_checks": [
+          {
+            "box_xyxy": [
+              166,
+              54,
+              322,
+              158
+            ],
+            "same_pixels": true,
+            "sha256": "719da16c27083be3670fee9a172db8eaa8106fd366584d55aeec4172f9e01024"
+          },
+          {
+            "box_xyxy": [
+              376,
+              70,
+              484,
+              164
+            ],
+            "same_pixels": true,
+            "sha256": "4352033dee60e66f90ba9b5f69a3b4aa5b0f5629711a8762d94537cd5bac7ba9"
+          },
+          {
+            "box_xyxy": [
+              548,
+              70,
+              660,
+              164
+            ],
+            "same_pixels": true,
+            "sha256": "175f7752e5291782631995bf3ea223d1b65469a1fb4ce83647bad43b906f692a"
+          },
+          {
+            "box_xyxy": [
+              730,
+              70,
+              839,
+              164
+            ],
+            "same_pixels": true,
+            "sha256": "a4c4c55cc392d2977b3c30aa3cb47b166a39173d6ee866226e99ec8e9bf50641"
+          },
+          {
+            "box_xyxy": [
+              594,
+              289,
+              836,
+              383
+            ],
+            "same_pixels": true,
+            "sha256": "8c789b67a3e84041670ae65054c075a02f68c3c40e873a4fab00127168d5a250"
+          },
+          {
+            "box_xyxy": [
+              908,
+              277,
+              966,
+              353
+            ],
+            "same_pixels": true,
+            "sha256": "a06004271936cd3117df098c655af331361a9e073365fbcdeda2ab6da101e2f5"
+          },
+          {
+            "box_xyxy": [
+              985,
+              277,
+              1044,
+              353
+            ],
+            "same_pixels": true,
+            "sha256": "693fe7ca473e532449716f4343d440d6897efc576d5dd262bcc55e984dd72a73"
+          },
+          {
+            "box_xyxy": [
+              1063,
+              277,
+              1121,
+              353
+            ],
+            "same_pixels": true,
+            "sha256": "7c31e948bf5d7ec0f5511be4e0d9c80eed8e7d8fe6605f2a0b9e4247af9662a1"
+          },
+          {
+            "box_xyxy": [
+              1115,
+              270,
+              1122,
+              361
+            ],
+            "same_pixels": true,
+            "sha256": "78ff9ed28654dec0c14446636a08423b70aae0f35dfb2705dbba8dccad61de4a"
+          },
+          {
+            "box_xyxy": [
+              125,
+              425,
+              325,
+              586
+            ],
+            "same_pixels": true,
+            "sha256": "d794f9fd779d83f38423efe633780b4af30c83a19727978de73daf832cd42b20"
+          },
+          {
+            "box_xyxy": [
+              561,
+              455,
+              656,
+              548
+            ],
+            "same_pixels": true,
+            "sha256": "62ce1b4e063be4f4cfc664f81c439a33c9db61750dcd0a21f136894fc81e4631"
+          },
+          {
+            "box_xyxy": [
+              661,
+              455,
+              667,
+              548
+            ],
+            "same_pixels": true,
+            "sha256": "efa3cac63f1be6ac465a3d61f65c1226d121170b7ad83729b41e2a1d5cc781f1"
+          }
+        ],
+        "english_original_byte_preserved": true
+      },
+      "output_sha256": {
+        "D1_I20_zh.png": "aff2d6183ecc334d7cc65e6bac7e68790d54d8b000253f3b2829ebda23463730",
+        "D1_I20_en.png": "54c610b5f2dec2f2e9bc1cecabe068c66626d2ee16de1dee056f84a0fd8ec1d9",
+        "D1_I20_zh.svg": "1e642a658d8ec3d7b23df8ed052f7ba45433371b47ec4f132cc154114e4e3e7f",
+        "D1_I20_en.svg": "b47229ac773850ea05f26051414bda59f801046fa5f3593c01adf729a240b573"
+      }
+    },
+    {
+      "id": "D1-I22",
+      "original_sha256": "6a2ceb8de7bf5b7658b3fa50f4730bd703b6e5fffbc7534c651b6250e1a79672",
+      "zh_png": "D1_I22_zh.png",
+      "en_png": "D1_I22_en.png",
+      "zh_svg": "D1_I22_zh.svg",
+      "en_svg": "D1_I22_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I22_original.png"
+      ],
+      "captions_zh": "图12 电缆论文的分类与分层总览原图参考。原图来自本地电缆论文图4.14。七行对应七类测量状态，四列依次为原始STFT、block3、block1和block2。中文版为原图的翻译适配。本图用于展示类别与模块维度的呈现方式，不是手势实验结果。",
+      "captions_en": "Figure 12. Original class-by-layer overview from Figure 4.14 of the local cable thesis. The seven rows correspond to seven measurement states; the four columns show the original STFT, block3, block1 and block2, in that order. The Chinese version is a translation adaptation of the original. This figure illustrates presentation across classes and modules; it is not a gesture-experiment result.",
+      "caption_zh": "图12 电缆论文的分类与分层总览原图参考。原图来自本地电缆论文图4.14。七行对应七类测量状态，四列依次为原始STFT、block3、block1和block2。中文版为原图的翻译适配。本图用于展示类别与模块维度的呈现方式，不是手势实验结果。",
+      "caption_en": "Figure 12. Original class-by-layer overview from Figure 4.14 of the local cable thesis. The seven rows correspond to seven measurement states; the four columns show the original STFT, block3, block1 and block2, in that order. The Chinese version is a translation adaptation of the original. This figure illustrates presentation across classes and modules; it is not a gesture-experiment result.",
+      "translation_adaptation": true,
+      "editable_sources": [
+        "D1_I22_en.svg",
+        "D1_I22_en_text_layers.json",
+        "D1_I22_zh.svg",
+        "D1_I22_zh_text_layers.json"
+      ],
+      "editability": "Translation labels and presentation overlays are editable SVG text over unchanged scientific raster evidence. English external originals are raster-only SVG wrappers; native vector source was not found.",
+      "translation_checks": {
+        "zh_evidence_pixel_checks": [
+          {
+            "box_xyxy": [
+              173,
+              63,
+              908,
+              651
+            ],
+            "same_pixels": true,
+            "sha256": "739afce16001db6591f531857715c54929c862d492030e9a3170cc6cc3a7e373"
+          },
+          {
+            "box_xyxy": [
+              979,
+              63,
+              1714,
+              651
+            ],
+            "same_pixels": true,
+            "sha256": "4b7bd6012e1ee87f1e0ac415be18fdeb490c4f2a6ed3685d1fa0288fc68606ea"
+          },
+          {
+            "box_xyxy": [
+              1781,
+              63,
+              2516,
+              651
+            ],
+            "same_pixels": true,
+            "sha256": "45a440bd7773be0702329df586e319f75862b17073ed9300eafa41811b3e1009"
+          },
+          {
+            "box_xyxy": [
+              2588,
+              63,
+              3323,
+              651
+            ],
+            "same_pixels": true,
+            "sha256": "da0e18ab8b6b449c52d708484df9ea95369c4e4fea271b88b3e08fe4711979a9"
+          },
+          {
+            "box_xyxy": [
+              173,
+              682,
+              908,
+              1270
+            ],
+            "same_pixels": true,
+            "sha256": "900a2e25811a725124d4a57a6d95f6af10de1110c01aa3adb4f06cddce25980f"
+          },
+          {
+            "box_xyxy": [
+              979,
+              682,
+              1714,
+              1270
+            ],
+            "same_pixels": true,
+            "sha256": "81d24ee0c4da400514e61d6b89b12e66add82d4dd510bf689e3b971d445edc66"
+          },
+          {
+            "box_xyxy": [
+              1781,
+              682,
+              2516,
+              1270
+            ],
+            "same_pixels": true,
+            "sha256": "46f851ca2bad0aa4b9b7120298a6507e8964af5b7ef862f6391c592d120b6bf1"
+          },
+          {
+            "box_xyxy": [
+              2588,
+              682,
+              3323,
+              1270
+            ],
+            "same_pixels": true,
+            "sha256": "89175341695fbcc809d85424ac467d20e874d538fbf3c6dc55128c27c0a3316b"
+          },
+          {
+            "box_xyxy": [
+              173,
+              1301,
+              908,
+              1889
+            ],
+            "same_pixels": true,
+            "sha256": "1afb239fca469d5cf4a1ab5794942d99c6280893857211be3b7c2d7a702d5d59"
+          },
+          {
+            "box_xyxy": [
+              979,
+              1301,
+              1714,
+              1889
+            ],
+            "same_pixels": true,
+            "sha256": "29a6d6e42826df8d972ddc43662e233f99c120b9e670a97308ea956247cad078"
+          },
+          {
+            "box_xyxy": [
+              1781,
+              1301,
+              2516,
+              1889
+            ],
+            "same_pixels": true,
+            "sha256": "54efe9c091fdea0d4421007fdd1ee443cbda5102c14857eedbc6a18ed7a14092"
+          },
+          {
+            "box_xyxy": [
+              2588,
+              1301,
+              3323,
+              1889
+            ],
+            "same_pixels": true,
+            "sha256": "91c71937eca72b7324e2c69b058d2d399ff2683bcb42cefc93d01c9eba6acbe9"
+          },
+          {
+            "box_xyxy": [
+              173,
+              1920,
+              908,
+              2508
+            ],
+            "same_pixels": true,
+            "sha256": "5cbdaae54435525acabd24839117803021b146e19526f96607e5226729343726"
+          },
+          {
+            "box_xyxy": [
+              979,
+              1920,
+              1714,
+              2508
+            ],
+            "same_pixels": true,
+            "sha256": "c488610253159b0ceb30bc6482a5f9461143a2116a81a89336a322dcdd1a5447"
+          },
+          {
+            "box_xyxy": [
+              1781,
+              1920,
+              2516,
+              2508
+            ],
+            "same_pixels": true,
+            "sha256": "634f7e156dfae6dd8306bfa29e96e263929de8bc3614298e17aa72eec9ce0613"
+          },
+          {
+            "box_xyxy": [
+              2588,
+              1920,
+              3323,
+              2508
+            ],
+            "same_pixels": true,
+            "sha256": "6a3b7cbd6d3c52e0b0658e91f77b2a6a7869b9fd856a5941c8128002c0834600"
+          },
+          {
+            "box_xyxy": [
+              173,
+              2539,
+              908,
+              3127
+            ],
+            "same_pixels": true,
+            "sha256": "cff3709c3f07f828b94e25cd0aaa8087df1ac32e44dd124ffe6d53b264e3a678"
+          },
+          {
+            "box_xyxy": [
+              979,
+              2539,
+              1714,
+              3127
+            ],
+            "same_pixels": true,
+            "sha256": "4e6de8e63585fc6f3211c0d4a08f742d9f8702130faa9401a42d01489e280995"
+          },
+          {
+            "box_xyxy": [
+              1781,
+              2539,
+              2516,
+              3127
+            ],
+            "same_pixels": true,
+            "sha256": "15e11d9bd6ee89005bdfac34d265b27c730d5476df976d64936fc7b3dea3864f"
+          },
+          {
+            "box_xyxy": [
+              2588,
+              2539,
+              3323,
+              3127
+            ],
+            "same_pixels": true,
+            "sha256": "1fa38ba653885e8417d56c6db72e326ee0e71be48c566a3c6c9b11a5806e2c11"
+          },
+          {
+            "box_xyxy": [
+              173,
+              3158,
+              908,
+              3746
+            ],
+            "same_pixels": true,
+            "sha256": "3fba41b3ebe6efb6206680f7a4955d5eb0436c88d3ef843346f184559acd3506"
+          },
+          {
+            "box_xyxy": [
+              979,
+              3158,
+              1714,
+              3746
+            ],
+            "same_pixels": true,
+            "sha256": "c9ccdd6a0136d2a66bed3a9504446b3dd7066127c9f8a51ad2a4fd0a6bcd3ebf"
+          },
+          {
+            "box_xyxy": [
+              1781,
+              3158,
+              2516,
+              3746
+            ],
+            "same_pixels": true,
+            "sha256": "aed243100158f652770e399ab584a1698d7eea9714c83f48b1738211fec23e37"
+          },
+          {
+            "box_xyxy": [
+              2588,
+              3158,
+              3323,
+              3746
+            ],
+            "same_pixels": true,
+            "sha256": "90c80ed9758b1c27d0fea8435f8b17b793e66fba39f54c7fbfa3d83d00690d59"
+          },
+          {
+            "box_xyxy": [
+              173,
+              3777,
+              908,
+              4365
+            ],
+            "same_pixels": true,
+            "sha256": "cdaed4b34ce3ff43c7880685953bb9231dcaaee276d502c31b8c0e1bb9062544"
+          },
+          {
+            "box_xyxy": [
+              979,
+              3777,
+              1714,
+              4365
+            ],
+            "same_pixels": true,
+            "sha256": "03ab57a57f69a075e0ced4153d2020103b8cd6c4650c4b1337498481e5a27514"
+          },
+          {
+            "box_xyxy": [
+              1781,
+              3777,
+              2516,
+              4365
+            ],
+            "same_pixels": true,
+            "sha256": "84ca2d4cb3d8b043cf93ef47015d1dce2816ba778c43a309ed2e12dc0b0f0cc1"
+          },
+          {
+            "box_xyxy": [
+              2588,
+              3777,
+              3323,
+              4365
+            ],
+            "same_pixels": true,
+            "sha256": "d648646676d6fe6461a0aac507a61eede53a12d342fa45e28d694fe97bd393c0"
+          }
+        ],
+        "english_original_byte_preserved": true
+      },
+      "output_sha256": {
+        "D1_I22_zh.png": "66ca4796b4c498e8298c8c7ca11ae858a0ca8b432c36eb607f48bb0751148e38",
+        "D1_I22_en.png": "6a2ceb8de7bf5b7658b3fa50f4730bd703b6e5fffbc7534c651b6250e1a79672",
+        "D1_I22_zh.svg": "5d02c913ed28d66eafbb5c35438db6d40c6b3a0220e2c08c96bc93e9c1ef718e",
+        "D1_I22_en.svg": "c32bacc570c6303994ef966684eacee496691d2d099fa2210c26f4a388b0f610"
+      }
+    },
+    {
+      "id": "D1-I23",
+      "original_sha256": "01ab7cd4f6f4b00b94e6eee2cace90c2bde4337d3622eae1ea2a4b2c839b6eeb",
+      "zh_png": "D1_I23_zh.png",
+      "en_png": "D1_I23_en.png",
+      "zh_svg": "D1_I23_zh.svg",
+      "en_svg": "D1_I23_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I23_original.png",
+        "source_evidence/v9_cam_matrix_metadata.json",
+        "source_evidence/v9_cam_matrix.vsdx"
+      ],
+      "captions_zh": "图13 任务训练前整理的六行手图分层布局示例。各行按来源标签0至5组织，各列依次为输入、layer4主解释、layer1、layer2和layer3。热图由通用ImageNet ResNet18实际计算，每行标明其实际ImageNet目标。本图保留用于说明布局，不能作为本项目六类手势识别结果。两个语言版本均复用已保存的原始证据像素，不重新运行模型。",
+      "captions_en": "Figure 13. Six-row layered layout example prepared before task training. Rows are organized by source labels 0–5; columns show the input, the main layer4 explanation, layer1, layer2 and layer3. Heatmaps were actually computed with a generic ImageNet ResNet18, and each row states its actual ImageNet target. The figure is retained to illustrate the layout and must not be presented as this project’s six-class recognition result. Both language versions reuse the saved original evidence pixels without model recomputation.",
+      "caption_zh": "图13 任务训练前整理的六行手图分层布局示例。各行按来源标签0至5组织，各列依次为输入、layer4主解释、layer1、layer2和layer3。热图由通用ImageNet ResNet18实际计算，每行标明其实际ImageNet目标。本图保留用于说明布局，不能作为本项目六类手势识别结果。两个语言版本均复用已保存的原始证据像素，不重新运行模型。",
+      "caption_en": "Figure 13. Six-row layered layout example prepared before task training. Rows are organized by source labels 0–5; columns show the input, the main layer4 explanation, layer1, layer2 and layer3. Heatmaps were actually computed with a generic ImageNet ResNet18, and each row states its actual ImageNet target. The figure is retained to illustrate the layout and must not be presented as this project’s six-class recognition result. Both language versions reuse the saved original evidence pixels without model recomputation.",
+      "editable_sources": [
+        "D1_I23_zh.svg",
+        "D1_I23_zh_text_layers.json",
+        "D1_I23_en.svg",
+        "D1_I23_en_text_layers.json"
+      ],
+      "editability": "SVG text and annotation overlays are editable; scientific photos, response maps and numeric color scale remain saved original raster evidence.",
+      "native_source_provenance": [
+        "source_evidence/v9_cam_matrix.vsdx"
+      ],
+      "native_source_note": "Historical original source retained for provenance; it is not the final bilingual adaptation.",
+      "translation_checks": {
+        "zh_evidence_pixel_checks": [
+          {
+            "box_xyxy": [
+              573,
+              334,
+              2506,
+              2598
+            ],
+            "same_pixels": true,
+            "sha256": "eeb6c10fff35d62ec607e688b3bba9da307accb97b7fd74395fd8744f9c0f380"
+          },
+          {
+            "box_xyxy": [
+              750,
+              2748,
+              2110,
+              2836
+            ],
+            "same_pixels": true,
+            "sha256": "77db1ea1a5e314084b872f13ecbcea654dd7067ee6dae18a27925a0e4210e949"
+          }
+        ],
+        "en_evidence_pixel_checks": [
+          {
+            "box_xyxy": [
+              573,
+              334,
+              2506,
+              2598
+            ],
+            "same_pixels": true,
+            "sha256": "eeb6c10fff35d62ec607e688b3bba9da307accb97b7fd74395fd8744f9c0f380"
+          },
+          {
+            "box_xyxy": [
+              750,
+              2748,
+              2110,
+              2836
+            ],
+            "same_pixels": true,
+            "sha256": "77db1ea1a5e314084b872f13ecbcea654dd7067ee6dae18a27925a0e4210e949"
+          }
+        ]
+      },
+      "output_sha256": {
+        "D1_I23_zh.png": "c726d3649445d1ced7f172f5b778b45583f07cc6d472e8b9e5411b2050a41b73",
+        "D1_I23_en.png": "c5c0be4cff6ca1a8a5ddfb059c03a049be8be95f9527afda52a6f03186d91f6a",
+        "D1_I23_zh.svg": "d95b7ddb306ae6abc21b65d469c56ce72c9bf542552ed554fea16b5a5d13c004",
+        "D1_I23_en.svg": "02752fa9e12b3db82ddec05a04c24cb582aef3c4eb40e89a2510fd0b43dfb964"
+      }
+    },
+    {
+      "id": "D1-I24",
+      "original_sha256": "580b3f53a7464472587c830602f53c0bd209a545c0f21e435c8a997d93212fea",
+      "zh_png": "D1_I24_zh.png",
+      "en_png": "D1_I24_en.png",
+      "zh_svg": "D1_I24_zh.svg",
+      "en_svg": "D1_I24_en.svg",
+      "generator": "generate_reference_bilingual.py",
+      "required_data": [
+        "originals/D1_I24_original.png",
+        "source_evidence/v7_cam_metadata.json",
+        "source_evidence/v7_fig12_local_evidence.vsdx"
+      ],
+      "captions_zh": "图14 原图、响应与手指局部细节的对应观察示例。标框和放大图对应同一输入的相同位置，可观察伸直手指的轮廓与指间空隙。该独立示例以通用ImageNet模型中的nail（钉子，索引677）为目标，不能说明模型已正确识别V形手势。正式局部分析将按实验需要补充。两个语言版本均复用已保存的原始证据像素，不重新运行模型。",
+      "captions_en": "Figure 14. Example linking the original image, response and local finger details. The boxes and magnified views correspond to the same positions in the same input, allowing inspection of extended-finger contours and the gap between the fingers. This independent example targets nail (index 677) in a generic ImageNet model; it does not demonstrate correct recognition of a V-sign gesture. Formal local analysis will be added as needed. Both language versions reuse the saved original evidence pixels without model recomputation.",
+      "caption_zh": "图14 原图、响应与手指局部细节的对应观察示例。标框和放大图对应同一输入的相同位置，可观察伸直手指的轮廓与指间空隙。该独立示例以通用ImageNet模型中的nail（钉子，索引677）为目标，不能说明模型已正确识别V形手势。正式局部分析将按实验需要补充。两个语言版本均复用已保存的原始证据像素，不重新运行模型。",
+      "caption_en": "Figure 14. Example linking the original image, response and local finger details. The boxes and magnified views correspond to the same positions in the same input, allowing inspection of extended-finger contours and the gap between the fingers. This independent example targets nail (index 677) in a generic ImageNet model; it does not demonstrate correct recognition of a V-sign gesture. Formal local analysis will be added as needed. Both language versions reuse the saved original evidence pixels without model recomputation.",
+      "editable_sources": [
+        "D1_I24_zh.svg",
+        "D1_I24_zh_text_layers.json",
+        "D1_I24_en.svg",
+        "D1_I24_en_text_layers.json"
+      ],
+      "editability": "SVG text and annotation overlays are editable; scientific photos, response maps and numeric color scale remain saved original raster evidence.",
+      "native_source_provenance": [
+        "source_evidence/v7_fig12_local_evidence.vsdx"
+      ],
+      "native_source_note": "Historical original source retained for provenance; it is not the final bilingual adaptation.",
+      "translation_checks": {
+        "zh_evidence_pixel_checks": [
+          {
+            "box_xyxy": [
+              122,
+              225,
+              399,
+              595
+            ],
+            "same_pixels": true,
+            "sha256": "f681525bcc87c0df26733160cf4142b59a86d00ad6528539321eee6b6b960063"
+          },
+          {
+            "box_xyxy": [
+              614,
+              225,
+              982,
+              595
+            ],
+            "same_pixels": true,
+            "sha256": "5dd4950c05178292e2d8df35be519ee59b425fcb1d60dd3a81a33cda1c0d899c"
+          },
+          {
+            "box_xyxy": [
+              1151,
+              225,
+              1518,
+              595
+            ],
+            "same_pixels": true,
+            "sha256": "c3915a93f437fefd2483e4d6c895e1e26de9372f0897246114ef48cf2743eb91"
+          },
+          {
+            "box_xyxy": [
+              538,
+              615,
+              762,
+              844
+            ],
+            "same_pixels": true,
+            "sha256": "06af74053c8a19ea015b8a740ff8f69660275917debe0c5f42f51f19259d6599"
+          },
+          {
+            "box_xyxy": [
+              1065,
+              615,
+              1289,
+              844
+            ],
+            "same_pixels": true,
+            "sha256": "fcfbc1d4354e54f4894e69bb1e6f56da1d961d156a39347a6266de4b614de21a"
+          }
+        ],
+        "en_evidence_pixel_checks": [
+          {
+            "box_xyxy": [
+              122,
+              225,
+              399,
+              595
+            ],
+            "same_pixels": true,
+            "sha256": "f681525bcc87c0df26733160cf4142b59a86d00ad6528539321eee6b6b960063"
+          },
+          {
+            "box_xyxy": [
+              614,
+              225,
+              982,
+              595
+            ],
+            "same_pixels": true,
+            "sha256": "5dd4950c05178292e2d8df35be519ee59b425fcb1d60dd3a81a33cda1c0d899c"
+          },
+          {
+            "box_xyxy": [
+              1151,
+              225,
+              1518,
+              595
+            ],
+            "same_pixels": true,
+            "sha256": "c3915a93f437fefd2483e4d6c895e1e26de9372f0897246114ef48cf2743eb91"
+          },
+          {
+            "box_xyxy": [
+              538,
+              615,
+              762,
+              844
+            ],
+            "same_pixels": true,
+            "sha256": "06af74053c8a19ea015b8a740ff8f69660275917debe0c5f42f51f19259d6599"
+          },
+          {
+            "box_xyxy": [
+              1065,
+              615,
+              1289,
+              844
+            ],
+            "same_pixels": true,
+            "sha256": "fcfbc1d4354e54f4894e69bb1e6f56da1d961d156a39347a6266de4b614de21a"
+          }
+        ]
+      },
+      "output_sha256": {
+        "D1_I24_zh.png": "bf6fca5a6cfaca4e0e63845f040b85ee79c3bcc374bc2d40c0249d2ddf31d299",
+        "D1_I24_en.png": "5f23b64545778f2b76b8ce9b7c8dbbadaf3c8b588287d4c6b633d51284bf72f3",
+        "D1_I24_zh.svg": "9ba40cd7366581516c9080d538ea1b4eff36956a6fa713ee055dfde2e977e2d1",
+        "D1_I24_en.svg": "6df47f6bc5b019e7ea81e925135361c2755911e4b78ba72d6e1e19ef562bc435"
+      }
+    }
+  ],
+  "limitations": "External originals retain original bytes. SVG files are editable translation/presentation adaptations over original evidence rasters, not original author Visio files. No model execution; historical sources unchanged.",
+  "qa": "Evidence raster regions passed exact pixel equality. Independent review is required before integrated delivery.",
+  "figure_count": 13,
+  "raster_count": 26,
+  "svg_count": 26,
+  "scientific_model_execution": false
+}

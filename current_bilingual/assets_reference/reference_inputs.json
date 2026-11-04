@@ -1,0 +1,768 @@
+[
+  {
+    "id": "D1-I01",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 1,
+    "paragraph_index": 110,
+    "media": "word/media/image1.png",
+    "relationship": "rId9",
+    "sha256": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6",
+    "size": [
+      200,
+      274
+    ],
+    "caption": "手势编码表内照片 peace",
+    "context_before": [
+      "含义",
+      "1"
+    ],
+    "context_after": [
+      "前进",
+      "2",
+      "stop＋stop_inverted＋palm三种手掌姿态      ",
+      "后退"
+    ],
+    "docpr": {
+      "id": "1",
+      "name": "Picture 1",
+      "descr": "真实HaGRID手图：peace，V形掌面姿态，对应数字1。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v4_feature_input_hand.png",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\peace_hand.png",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v4_feature_input_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v4_feature_input_hand.png",
+      "exists": true,
+      "sha256": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I01_original.png",
+    "caption_en": "Gesture-code photograph: peace, a palm-facing V sign; code 1, Forward."
+  },
+  {
+    "id": "D1-I02",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 2,
+    "paragraph_index": 110,
+    "media": "word/media/image2.png",
+    "relationship": "rId10",
+    "sha256": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d",
+    "size": [
+      154,
+      203
+    ],
+    "caption": "手势编码表内照片 peace_inverted",
+    "context_before": [
+      "含义",
+      "1"
+    ],
+    "context_after": [
+      "前进",
+      "2",
+      "stop＋stop_inverted＋palm三种手掌姿态      ",
+      "后退"
+    ],
+    "docpr": {
+      "id": "1",
+      "name": "Picture 1",
+      "descr": "真实HaGRID手图：peace，V形掌面姿态，对应数字1。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\peace_inverted_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\peace_inverted_hand.png",
+      "exists": true,
+      "sha256": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I02_original.png",
+    "caption_en": "Gesture-code photograph: peace_inverted, a back-facing V sign; code 1, Forward."
+  },
+  {
+    "id": "D1-I03",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 3,
+    "paragraph_index": 113,
+    "media": "word/media/image3.png",
+    "relationship": "rId11",
+    "sha256": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716",
+    "size": [
+      188,
+      250
+    ],
+    "caption": "手势编码表内照片 stop",
+    "context_before": [
+      "前进",
+      "2"
+    ],
+    "context_after": [
+      "后退",
+      "3",
+      "fist：握拳  ",
+      "停止"
+    ],
+    "docpr": {
+      "id": "3",
+      "name": "Picture 3",
+      "descr": "真实HaGRID手图：stop，张掌姿态，对应后退数字2。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\stop_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\stop_hand.png",
+      "exists": true,
+      "sha256": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I03_original.png",
+    "caption_en": "Gesture-code photograph: stop, one of the three open-hand postures; code 2, Backward."
+  },
+  {
+    "id": "D1-I04",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 4,
+    "paragraph_index": 113,
+    "media": "word/media/image4.png",
+    "relationship": "rId12",
+    "sha256": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824",
+    "size": [
+      141,
+      268
+    ],
+    "caption": "手势编码表内照片 stop_inverted",
+    "context_before": [
+      "前进",
+      "2"
+    ],
+    "context_after": [
+      "后退",
+      "3",
+      "fist：握拳  ",
+      "停止"
+    ],
+    "docpr": {
+      "id": "3",
+      "name": "Picture 3",
+      "descr": "真实HaGRID手图：stop，张掌姿态，对应后退数字2。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\stop_inverted_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\stop_inverted_hand.png",
+      "exists": true,
+      "sha256": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I04_original.png",
+    "caption_en": "Gesture-code photograph: stop_inverted, one of the three open-hand postures; code 2, Backward."
+  },
+  {
+    "id": "D1-I05",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 5,
+    "paragraph_index": 113,
+    "media": "word/media/image5.png",
+    "relationship": "rId13",
+    "sha256": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7",
+    "size": [
+      201,
+      221
+    ],
+    "caption": "手势编码表内照片 palm",
+    "context_before": [
+      "前进",
+      "2"
+    ],
+    "context_after": [
+      "后退",
+      "3",
+      "fist：握拳  ",
+      "停止"
+    ],
+    "docpr": {
+      "id": "3",
+      "name": "Picture 3",
+      "descr": "真实HaGRID手图：stop，张掌姿态，对应后退数字2。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\palm_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\palm_hand.png",
+      "exists": true,
+      "sha256": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I05_original.png",
+    "caption_en": "Gesture-code photograph: palm, one of the three open-hand postures; code 2, Backward."
+  },
+  {
+    "id": "D1-I06",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 6,
+    "paragraph_index": 116,
+    "media": "word/media/image6.png",
+    "relationship": "rId14",
+    "sha256": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae",
+    "size": [
+      263,
+      291
+    ],
+    "caption": "手势编码表内照片 fist",
+    "context_before": [
+      "后退",
+      "3"
+    ],
+    "context_after": [
+      "停止",
+      "4",
+      "like：拇指向上  ",
+      "左转"
+    ],
+    "docpr": {
+      "id": "6",
+      "name": "Picture 6",
+      "descr": "真实HaGRID手图：fist握拳，对应停止数字3。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\fist_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\fist_hand.png",
+      "exists": true,
+      "sha256": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I06_original.png",
+    "caption_en": "Gesture-code photograph: fist; code 3, STOP."
+  },
+  {
+    "id": "D1-I07",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 7,
+    "paragraph_index": 119,
+    "media": "word/media/image7.png",
+    "relationship": "rId15",
+    "sha256": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b",
+    "size": [
+      212,
+      286
+    ],
+    "caption": "手势编码表内照片 like",
+    "context_before": [
+      "停止",
+      "4"
+    ],
+    "context_after": [
+      "左转",
+      "5",
+      "dislike：拇指向下  ",
+      "右转"
+    ],
+    "docpr": {
+      "id": "7",
+      "name": "Picture 7",
+      "descr": "真实HaGRID手图：like拇指向上，对应左转数字4。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\like_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\like_hand.png",
+      "exists": true,
+      "sha256": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I07_original.png",
+    "caption_en": "Gesture-code photograph: like, thumb up; code 4, Left turn."
+  },
+  {
+    "id": "D1-I08",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 8,
+    "paragraph_index": 122,
+    "media": "word/media/image8.png",
+    "relationship": "rId16",
+    "sha256": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab",
+    "size": [
+      194,
+      296
+    ],
+    "caption": "手势编码表内照片 dislike",
+    "context_before": [
+      "左转",
+      "5"
+    ],
+    "context_after": [
+      "右转",
+      "0",
+      "其余原始标签及no_gesture；无手或不可靠结果也输出0  ",
+      "无指令"
+    ],
+    "docpr": {
+      "id": "8",
+      "name": "Picture 8",
+      "descr": "真实HaGRID手图：dislike拇指向下，对应右转数字5。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\dislike_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\dislike_hand.png",
+      "exists": true,
+      "sha256": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I08_original.png",
+    "caption_en": "Gesture-code photograph: dislike, thumb down; code 5, Right turn."
+  },
+  {
+    "id": "D1-I09",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 9,
+    "paragraph_index": 125,
+    "media": "word/media/image9.png",
+    "relationship": "rId17",
+    "sha256": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d",
+    "size": [
+      105,
+      179
+    ],
+    "caption": "手势编码表内照片 no_gesture",
+    "context_before": [
+      "右转",
+      "0"
+    ],
+    "context_after": [
+      "无指令",
+      "上述原编码表保留不合并版：peace和peace_inverted属于1，two_up和two_up_inverted属于0。新增合并版将这四种raw姿态全部定义为1，实际变更仅为两种two_up的0→1；其他映射、六个输出类别与原始标签均保留。数字2虽包含数据标签stop，控制含义仍是后退；握拳3才是明确停止，0是无新指令，不取消正在执行的运动。",
+      "",
+      "4 系统与ResNet18模型架构"
+    ],
+    "docpr": {
+      "id": "9",
+      "name": "Picture 9",
+      "descr": "真实HaGRID闲置手示例，对应无指令数字0。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\no_gesture_hand.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\历史文档\\数据集说明\\class_examples\\no_gesture_hand.png",
+      "exists": true,
+      "sha256": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "无图内文字，真实照片",
+    "bilingual_route": "同一照片原像素在正文中保留中文版与英文版两处；以两语言的图题/说明区分，勿凭空向照片绘制内容。",
+    "regeneration_without_model": true,
+    "local_original": "originals/D1_I09_original.png",
+    "caption_en": "Gesture-code photograph: no_gesture, an idle-hand example; code 0, No command."
+  },
+  {
+    "id": "D1-I20",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 20,
+    "paragraph_index": 327,
+    "media": "word/media/v10_figure_10.png",
+    "relationship": "rIdV10Image10",
+    "sha256": "54c610b5f2dec2f2e9bc1cecabe068c66626d2ee16de1dee056f84a0fd8ec1d9",
+    "size": [
+      2225,
+      831
+    ],
+    "caption": "图10 电缆项目的解释路径原图参考。原图来自本地电缆项目报告图3.9，展示前向推理及目标层解释计算；图中的逐位置特征×梯度后跨通道平均对应原项目实现。本图只作为计算流程参考，不是本项目手势实验结果。",
+    "context_before": [
+      "6.6.1 计算原理与解释路径",
+      "图10保留电缆项目原有的计算机制示意，用来认识前向预测与解释计算的关系：上方先由输入得到选定类别分数，下方再提取目标层特征及该分数对特征的梯度，生成位置响应图。原图采用特征与梯度逐位置相乘后跨通道求平均，这是对应电缆项目的计算方式；本项目采用图11所示的标准Grad-CAM。"
+    ],
+    "context_after": [
+      "图10 电缆项目的解释路径原图参考。原图来自本地电缆项目报告图3.9，展示前向推理及目标层解释计算；图中的逐位置特征×梯度后跨通道平均对应原项目实现。本图只作为计算流程参考，不是本项目手势实验结果。",
+      "本项目先用一张手图完成前向计算，取得目标类别的softmax前分数；再计算该分数对所选残差阶段特征的梯度。标准Grad-CAM先对每个通道的梯度在空间上求平均，得到一个通道权重，再对加权特征求和，经ReLU保留正响应，先上采样至输入尺寸，再逐图归一化并叠加到输入。这里计算梯度是为了解释已固定模型，不更新模型参数，也不重新训练。",
+      "",
+      "图11 本项目ResNet18的标准Grad-CAM计算机制示意。前向取得目标类别分数，解释路径先对梯度作空间平均，再用所得通道权重组合特征，经过ReLU后，先上采样至输入尺寸，再逐图归一化并叠加到输入。本图说明计算机制，不给出六类手势识别成绩。"
+    ],
+    "docpr": {
+      "id": "24",
+      "name": "图10",
+      "descr": "电缆项目Grad-CAM计算机制原图参考，逐位置特征乘梯度后跨通道平均。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\54c610b5f2dec2f2e9bc1cecabe068c66626d2ee16de1dee056f84a0fd8ec1d9.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v7_cable_study_figure_3_9.png",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_cable_study_figure_3_9.png"
+    ],
+    "generator_candidates": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v10_integrate.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v10_text_revision.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v10_integrate.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v10_text_revision.py"
+    ],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_cable_study_figure_3_9.png",
+      "exists": true,
+      "sha256": "54c610b5f2dec2f2e9bc1cecabe068c66626d2ee16de1dee056f84a0fd8ec1d9"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "英文原图",
+    "bilingual_route": "保留英文原图字节与来源；中文版作忠实翻译适配并显式标明依据原图翻译，不能冒称项目自制结果或替作者补造原生图。",
+    "external_original": true,
+    "regeneration_without_model": "可作翻译适配；原图无已核原生源",
+    "local_original": "originals/D1_I20_original.png",
+    "caption_en": "Figure 10. Original explanation-path diagram from the cable project, reproduced from Figure 3.9 of the local cable-project report. It shows forward inference and explanation computation at the target layer. Element-wise multiplication of features by gradients, followed by averaging across channels, corresponds to the original cable implementation. The Chinese version is a translation adaptation of that original. This figure is a computation-flow reference, not a gesture-experiment result from this project."
+  },
+  {
+    "id": "D1-I22",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 22,
+    "paragraph_index": 335,
+    "media": "word/media/v10_figure_12.png",
+    "relationship": "rIdV10Image12",
+    "sha256": "6a2ceb8de7bf5b7658b3fa50f4730bd703b6e5fffbc7534c651b6250e1a79672",
+    "size": [
+      3369,
+      4469
+    ],
+    "caption": "图12 电缆论文分类别分层总览原图参考。原图为本地电缆论文图4.14，七行对应七类测量状态，四列依次为原始STFT、block3、block1、block2。本图作为类别与模块两个维度的呈现参考，不是手势实验结果。",
+    "context_before": [
+      "6.6.2 类别总览与分层呈现",
+      "图12保留电缆论文按类别组织的总览原图：七行分别展示不同测量状态，每列固定为输入或某个模块。沿一行能看同一样本在各模块的响应，沿一列能比较不同类别的响应位置。本项目按同样的两个比较维度形成图13，将行改为手势来源标签0—5，列改为输入、layer4主解释、layer1、layer2、layer3。"
+    ],
+    "context_after": [
+      "图12 电缆论文分类别分层总览原图参考。原图为本地电缆论文图4.14，七行对应七类测量状态，四列依次为原始STFT、block3、block1、block2。本图作为类别与模块两个维度的呈现参考，不是手势实验结果。",
+      "",
+      "图13 训练前制作的六类手图分层布局示例。每行按来源标签0—5组织，列为输入、layer4主解释、layer1、layer2、layer3。热图由通用ImageNet ResNet18实际计算，每行标注其真实ImageNet目标；保留本图用于说明布局，不将它改称本项目六类识别结果。",
+      "正式总览沿用图13的六行五列：一行始终使用同一张实际分类输入，各列方向、裁剪范围和坐标一致。A与B分别加载本协议已经测试的固定ResNet18，以该行真实类别的softmax前分数为目标。按image_id与hand_index排序选择各真实类的首个测试手图，保留真实标签、预测及目标；预测与真值不同时另比较预测目标，不能为图好看而重选模型或划分。"
+    ],
+    "docpr": {
+      "id": "26",
+      "name": "图12",
+      "descr": "电缆论文七类分层矩阵原图参考，行是类别，列是输入和模块。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\6a2ceb8de7bf5b7658b3fa50f4730bd703b6e5fffbc7534c651b6250e1a79672.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v7_cable_study_v42_figure_4_9.png",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v7_cable_study_v53_figure_4_14.png",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_cable_study_v42_figure_4_9.png",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_cable_study_v53_figure_4_14.png"
+    ],
+    "generator_candidates": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v10_integrate.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v10_text_revision.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v7_text_revision.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v10_integrate.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v10_text_revision.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_text_revision.py"
+    ],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_cable_study_v42_figure_4_9.png",
+      "exists": true,
+      "sha256": "6a2ceb8de7bf5b7658b3fa50f4730bd703b6e5fffbc7534c651b6250e1a79672"
+    },
+    "native_sources": [],
+    "recommended_generators": [],
+    "evidence_sources": [],
+    "scientific_change_allowed": false,
+    "image_text_language": "英文原图",
+    "bilingual_route": "保留英文原图字节与来源；中文版作忠实翻译适配并显式标明依据原图翻译，不能冒称项目自制结果或替作者补造原生图。",
+    "external_original": true,
+    "regeneration_without_model": "可作翻译适配；原图无已核原生源",
+    "local_original": "originals/D1_I22_original.png",
+    "caption_en": "Figure 12. Original class-by-layer overview from Figure 4.14 of the local cable thesis. The seven rows correspond to seven measurement states; the four columns show the original STFT, block3, block1 and block2, in that order. The Chinese version is a translation adaptation of the original. This figure illustrates presentation across classes and modules; it is not a gesture-experiment result."
+  },
+  {
+    "id": "D1-I23",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 23,
+    "paragraph_index": 337,
+    "media": "word/media/image20.png",
+    "relationship": "rId39",
+    "sha256": "01ab7cd4f6f4b00b94e6eee2cace90c2bde4337d3622eae1ea2a4b2c839b6eeb",
+    "size": [
+      2550,
+      3000
+    ],
+    "caption": "图13 训练前制作的六类手图分层布局示例。每行按来源标签0—5组织，列为输入、layer4主解释、layer1、layer2、layer3。热图由通用ImageNet ResNet18实际计算，每行标注其真实ImageNet目标；保留本图用于说明布局，不将它改称本项目六类识别结果。",
+    "context_before": [
+      "",
+      "图12 电缆论文分类别分层总览原图参考。原图为本地电缆论文图4.14，七行对应七类测量状态，四列依次为原始STFT、block3、block1、block2。本图作为类别与模块两个维度的呈现参考，不是手势实验结果。"
+    ],
+    "context_after": [
+      "图13 训练前制作的六类手图分层布局示例。每行按来源标签0—5组织，列为输入、layer4主解释、layer1、layer2、layer3。热图由通用ImageNet ResNet18实际计算，每行标注其真实ImageNet目标；保留本图用于说明布局，不将它改称本项目六类识别结果。",
+      "正式总览沿用图13的六行五列：一行始终使用同一张实际分类输入，各列方向、裁剪范围和坐标一致。A与B分别加载本协议已经测试的固定ResNet18，以该行真实类别的softmax前分数为目标。按image_id与hand_index排序选择各真实类的首个测试手图，保留真实标签、预测及目标；预测与真值不同时另比较预测目标，不能为图好看而重选模型或划分。",
+      "0行使用其余手势或闲置手的真实手图。0类包含多种形态，一个示例不能代表全部0类；整图因无手或拒识而输出0的情况另记原因，不与这行手势样本混同。1类的两种V形姿态、2类的三种手掌姿态需要进一步比较时，可在相应类别下增补附行，仍属于原来的六类，不增加输出类别。这里保留原不合并图的类别范围；合并任务1类还包含两种two_up，图中示例不代表已覆盖所有raw姿态。",
+      "色尺0—1表示单张CAM中的相对正响应，不是正确率或类别概率；逐图归一化后，不能凭红色深浅比较不同样本或不同层的绝对支持强弱。layer4的7×7响应上采样后会变得平滑，但不会增加手指细节的定位证据。细指、指缝或指尖的具体形态，仍要回到原始照片和局部放大中确认。"
+    ],
+    "docpr": {
+      "id": "23",
+      "name": "图10 六类输入及分层Grad-CAM总览",
+      "descr": "六类手图五列分层布局教学示例，各行使用实际标出的ImageNet目标。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\01ab7cd4f6f4b00b94e6eee2cace90c2bde4337d3622eae1ea2a4b2c839b6eeb.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v9_cam_matrix.png",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_matrix.png"
+    ],
+    "generator_candidates": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v9_cam_matrix_visio.ps1",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v9_integrate.py",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_matrix_visio.ps1",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_integrate.py"
+    ],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_matrix.png",
+      "exists": true,
+      "sha256": "01ab7cd4f6f4b00b94e6eee2cace90c2bde4337d3622eae1ea2a4b2c839b6eeb"
+    },
+    "native_sources": [
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_matrix.vsdx",
+        "exists": true,
+        "sha256": "e8e780e91d559f852fc98b56442b3ad2a5f5ffeccf5e258d722bd00724fbce14",
+        "native_text_count": 0,
+        "native_chinese_count": 0,
+        "native_texts": []
+      }
+    ],
+    "recommended_generators": [
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_matrix.py",
+        "exists": true,
+        "sha256": "62e004ef3ec5a2779815f3eed55a23bab660c6d46b49bbb55333792c4f8996c2"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_matrix_visio.ps1",
+        "exists": true,
+        "sha256": "f12540ff7f6c3fc052fb16f0828c918576efa2696159a90d89c647f84c6368ab"
+      }
+    ],
+    "evidence_sources": [
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_matrix_metadata.json",
+        "exists": true,
+        "sha256": "f8952ff12ff3c1bb1be421f22bc899453073f94cce75353b00cbd8397cc2a646"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_row0_tensors.npz",
+        "exists": true,
+        "sha256": "0bdbdda5346860aa1d03f9a19a4d8ac65ca12c1e6e22ada54a4eeb6477b063c8"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_row1_tensors.npz",
+        "exists": true,
+        "sha256": "c870b81f4830a7533a1cb88070c5ed928e122e743449f5c8119abc1d21b1943b"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_row2_tensors.npz",
+        "exists": true,
+        "sha256": "1cf89f29bcb4c5c983f35ade872ea22af123fd05d6306dad093a1e605170de9d"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_row3_tensors.npz",
+        "exists": true,
+        "sha256": "99ca529f5a3406f7cf8bf99f5c7bd514d64a8a476ee2630fe195d8dd6d8a71dd"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_row4_tensors.npz",
+        "exists": true,
+        "sha256": "66c3e6713fe21ea2a2b264655106870aa26b8ca7ebf53b3d3b76aff9d37b2f44"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_cam_row5_tensors.npz",
+        "exists": true,
+        "sha256": "8dda626badd6f4b0cc89478f8ffa64cd984cf9cb5acdcc9e6bfb45b52a374291"
+      }
+    ],
+    "scientific_change_allowed": false,
+    "image_text_language": "中文主导，含模型名/公式/英文术语；无独立英文版",
+    "bilingual_route": "复制原生源为zh/en两版，逐文本替换并保持科学关系与原图内嵌照片/热图像素；导出后核同源对应及所有标签。",
+    "regeneration_without_model": true,
+    "native_export_identity": "同名/已读原生文字与历史脚本对应；本轮未执行Visio导出，不声称像素身份已核",
+    "local_original": "originals/D1_I23_original.png",
+    "caption_en": "Figure 13. Six-row layered layout example prepared before task training. Rows are organized by source labels 0–5; columns show the input, the main layer4 explanation, layer1, layer2 and layer3. Heatmaps were actually computed with a generic ImageNet ResNet18, and each row states its actual ImageNet target. The figure is retained to illustrate the layout and must not be presented as this project’s six-class recognition result. Both language versions reuse the saved original evidence pixels without model recomputation.",
+    "required_evidence": [
+      "v9_cam_matrix_metadata.json"
+    ]
+  },
+  {
+    "id": "D1-I24",
+    "document": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+    "sequence": 24,
+    "paragraph_index": 346,
+    "media": "word/media/image21.png",
+    "relationship": "rId41",
+    "sha256": "580b3f53a7464472587c830602f53c0bd209a545c0f21e435c8a997d93212fea",
+    "size": [
+      1634,
+      1018
+    ],
+    "caption": "图14 原图、响应与手指局部的对应观察示例。方框和放大内容来自本图同一输入的同一位置，可查看伸直手指的轮廓及两指间空隙。此独立样本以通用ImageNet模型的nail（钉子，索引677）为目标，不表示已正确识别V形手势；正式局部分析按实际需要补充。",
+    "context_before": [
+      "例如，若正确V形样本的layer4响应覆盖两根伸出的手指及其间区域，就继续查看原图：两根手指是否清楚分开，其他手指是否收拢，自动裁图是否保留了指尖。若原图和响应位置相符，可写为“该例的主要响应覆盖两指展开的区域，原图可见两指分离及其余手指收拢，这些形态与V形类别相符”。再结合浅层图说明哪些较细轮廓仍可见，而不是只写“模型关注手部，所以预测正确”。若响应只集中在手腕或背景，就据实指出该正确结果的图像依据仍不充分。",
+      "若拇指向上被误判为拇指向下，先确认自动框是否留下完整拇指、图像有无旋转及遮挡，再对照预测类和正确类的CAM。若预测类响应主要覆盖掌部，而能区分上下的拇指区域响应不明显，可将“拇指方向线索未被充分利用”作为该例的解释线索；若拇指已经被裁掉，应首先归因于裁图信息缺失。两种情况的处理重点不同，不能仅凭二者都在掌部发红就得出同一结论。V形两种掌背姿态同属1，三种手掌姿态同属2，这些合并组内的原始标签差异不算六分类错误。"
+    ],
+    "context_after": [
+      "图14 原图、响应与手指局部的对应观察示例。方框和放大内容来自本图同一输入的同一位置，可查看伸直手指的轮廓及两指间空隙。此独立样本以通用ImageNet模型的nail（钉子，索引677）为目标，不表示已正确识别V形手势；正式局部分析按实际需要补充。",
+      "解释整图错误时，先用原图、人工框与自动框、实际裁图和输出记录区分检测、裁图、分类、阈值拒绝或多手汇总问题。漏检或无手时没有相应分类输入，不补造CAM；单手分类正确但整图数字错误时，检查拒识或汇总规则。必要时可辅以区域遮挡与相近面积的背景遮挡对照，但不能用它替代输入、响应和实际形态的对应解释。",
+      "A、B均保存真实六类分层总览及样本记录，包含原图、实际手图、原始标签、真值、预测、解释目标、目标层、裁图和权重身份。旧ImageNet示例用于解释计算，正式任务图使用对应协议训练后的ResNet18；整体性能以全部测试预测为准。",
+      "6.6.4 已训练模型的六类分层解释"
+    ],
+    "docpr": {
+      "id": "22",
+      "name": "图12",
+      "descr": "同一原图、同一坐标局部放大的对应教学示例，使用ImageNet nail目标。"
+    },
+    "original_extract": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\embedded_originals\\580b3f53a7464472587c830602f53c0bd209a545c0f21e435c8a997d93212fea.png",
+    "exact_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\会议记录\\素材\\v7_fig12_local_evidence.png",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_fig12_local_evidence.png"
+    ],
+    "generator_candidates": [],
+    "paired_zh_en_in_current_body": false,
+    "preferred_exact_source": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_fig12_local_evidence.png",
+      "exists": true,
+      "sha256": "580b3f53a7464472587c830602f53c0bd209a545c0f21e435c8a997d93212fea"
+    },
+    "native_sources": [
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_fig12_local_evidence.vsdx",
+        "exists": true,
+        "sha256": "f28aaf77118700b6dfc1b1ed70f8e68e821feab117390727ab68bd3200a05b06",
+        "native_text_count": 11,
+        "native_chinese_count": 11,
+        "native_texts": [
+          "原始照片、分类输入与局部响应对应关系\n",
+          "ImageNet目标类：nail（钉子），非手势类别；此图展示对应观察方法\n",
+          "原始照片与人工手框\n",
+          "送入网络的手图\n",
+          "同一手图 + layer4响应\n",
+          "按手框裁图\n等比补边\n",
+          "叠加响应\n",
+          "红框是人工选定的\n形态观察区，非热区分割\n",
+          "同一区域：手指轮廓与指间空隙\n",
+          "同坐标响应：对照位置与扩散范围\n",
+          "本例为宽范围响应，覆盖手指根部、掌部及部分背景；不能据此声称模型已识别V手势。\n"
+        ]
+      }
+    ],
+    "recommended_generators": [
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_cam_figures_create.ps1",
+        "exists": true,
+        "sha256": "f97fef381293288393edcfe2b2e949e818a73eb61a93b559d3cbc793834486ff"
+      }
+    ],
+    "evidence_sources": [
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_cam_tensors.npz",
+        "exists": true,
+        "sha256": "019e8dfc34dded819734539dd49e6bf0503958cf814a4dc8aa8460df300aaede"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_cam_metadata.json",
+        "exists": true,
+        "sha256": "be1ac66c577e7b21f78d9eb4701d7659ceea14dc49de841c5406b14f4b4c8757"
+      }
+    ],
+    "scientific_change_allowed": false,
+    "image_text_language": "中文主导，含模型名/公式/英文术语；无独立英文版",
+    "bilingual_route": "复制原生源为zh/en两版，逐文本替换并保持科学关系与原图内嵌照片/热图像素；导出后核同源对应及所有标签。",
+    "regeneration_without_model": true,
+    "native_export_identity": "同名/已读原生文字与历史脚本对应；本轮未执行Visio导出，不声称像素身份已核",
+    "local_original": "originals/D1_I24_original.png",
+    "caption_en": "Figure 14. Example linking the original image, response and local finger details. The boxes and magnified views correspond to the same positions in the same input, allowing inspection of extended-finger contours and the gap between the fingers. This independent example targets nail (index 677) in a generic ImageNet model; it does not demonstrate correct recognition of a V-sign gesture. Formal local analysis will be added as needed. Both language versions reuse the saved original evidence pixels without model recomputation.",
+    "required_evidence": [
+      "v7_cam_metadata.json"
+    ]
+  }
+]

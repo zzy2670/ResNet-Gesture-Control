@@ -1,0 +1,38 @@
+[
+  {
+    "image_id": "1fc5f07b-610e-480c-acf1-db3cd276927c",
+    "hand_index": 0,
+    "truth": 0,
+    "oracle_prediction": 0,
+    "oracle_crop_rectangle": [
+      220,
+      140,
+      293,
+      214
+    ],
+    "network_rerun": false,
+    "automatic_prediction": 4,
+    "automatic_crop_rectangle": [
+      236,
+      147,
+      291,
+      201
+    ],
+    "comparison_scope": "highest_score_detected_hand_not_guaranteed_GT_matching"
+  },
+  {
+    "image_id": "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+    "hand_index": 0,
+    "truth": 3,
+    "oracle_prediction": 3,
+    "oracle_crop_rectangle": [
+      230,
+      181,
+      294,
+      244
+    ],
+    "network_rerun": false,
+    "automatic_prediction": null,
+    "automatic_crop_rectangle": null
+  }
+]

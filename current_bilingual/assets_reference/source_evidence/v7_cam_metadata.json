@@ -1,0 +1,79 @@
+{
+  "model": "torchvision ResNet18; original ImageNet1000 head",
+  "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "input": "v4_feature_input224.png",
+  "input_sha256": "0a053d018b7672d1c4682ae5ab98b497222df938f6a73491f83c91a6ded3a5af",
+  "target_index": 677,
+  "target_name": "nail",
+  "target_selection": "single forward argmax; no class hunting or model training",
+  "target_logit": 7.328716278076172,
+  "layer_hook": "layer1, layer2, layer3, layer4 module output, same as each group final BasicBlock output",
+  "method": "spatial mean of target-logit gradients; channel-weighted activation sum; ReLU; bilinear upsample align_corners=False; each map independently min-max normalized",
+  "overlay": "58% original RGB +42% turbo colormap",
+  "roi_xyxy_224": [
+    64,
+    6,
+    166,
+    110
+  ],
+  "roi_choice": "fixed visible finger-contour/gap region, not chosen to maximize response",
+  "records": {
+    "layer1": {
+      "shape": [
+        1,
+        64,
+        56,
+        56
+      ],
+      "raw_min": 0.0,
+      "raw_max": 0.0041952128522098064,
+      "display_min": 0.0,
+      "display_max": 0.004052871838212013
+    },
+    "layer2": {
+      "shape": [
+        1,
+        128,
+        28,
+        28
+      ],
+      "raw_min": 0.0,
+      "raw_max": 0.03177805244922638,
+      "display_min": 0.0,
+      "display_max": 0.03051261603832245
+    },
+    "layer3": {
+      "shape": [
+        1,
+        256,
+        14,
+        14
+      ],
+      "raw_min": 0.0,
+      "raw_max": 0.059591326862573624,
+      "display_min": 0.0,
+      "display_max": 0.05795783922076225
+    },
+    "layer4": {
+      "shape": [
+        1,
+        512,
+        7,
+        7
+      ],
+      "raw_min": 0.018033483996987343,
+      "raw_max": 0.2929012179374695,
+      "display_min": 0.018366845324635506,
+      "display_max": 0.2923225462436676
+    }
+  },
+  "limitations": [
+    "not a trained six-gesture model or gesture classification result",
+    "independent normalization forbids across-layer absolute magnitude comparisons",
+    "7x7 final CAM cannot locate fingertip precisely",
+    "CAM association does not establish causal evidence"
+  ],
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "device": "cpu; no training; four threads"
+}

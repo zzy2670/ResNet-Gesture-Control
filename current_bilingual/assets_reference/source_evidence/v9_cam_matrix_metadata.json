@@ -1,0 +1,291 @@
+{
+  "identity": "ImageNet-pretrained ResNet18 layout demonstration; not a six-gesture model/result",
+  "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "selection_rule": "for each predefined source label, annotation filenames then image IDs lexicographic first with local image; no model scores used; row0 first no_gesture in call.json",
+  "preprocess": "annotation bbox integer xyxy crop; ImageOps.pad224 bilinear preserving aspect; RGB124,116,104 padding; ImageNet normalization",
+  "target_rule": "each row independent unmodified ImageNet1000 argmax; four layers same target",
+  "method": "gradient spatial mean → activation-channel weighted sum → ReLU → bilinear224 align_cornersFalse → independently minmax per CAM",
+  "normalization": "each panel independently 0–1; not across-layer or across-row response magnitude",
+  "overlay": "0.58*RGB+0.42*turbo",
+  "device": "cpu; four threads; no training/GPU",
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "records": [
+    {
+      "number": 0,
+      "label": "no_gesture",
+      "chinese": "其他／闲置手",
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\hagrid_30k\\train_val_call\\00973fac-440e-4a56-b60c-2a06d5fb155d.jpg",
+      "source_sha256": "05c7cb2fc98b8235838d70ab80558483da61841a9740f545b808da988984bc36",
+      "image_id": "00973fac-440e-4a56-b60c-2a06d5fb155d",
+      "annotation": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\ann_train_val\\call.json",
+      "annotation_box_index": 1,
+      "bbox_xyxy": [
+        235,
+        347,
+        253,
+        386
+      ],
+      "user_id": "4bb3ee1748be58e05bd1193939735e57bb3c0ca59a7ee38901744d6b9e94632e",
+      "target_index": 842,
+      "target_name": "swimming trunks",
+      "target_logit": 9.696807861328125,
+      "feature_shapes": {
+        "layer1": [
+          1,
+          64,
+          56,
+          56
+        ],
+        "layer2": [
+          1,
+          128,
+          28,
+          28
+        ],
+        "layer3": [
+          1,
+          256,
+          14,
+          14
+        ],
+        "layer4": [
+          1,
+          512,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "number": 1,
+      "label": "peace",
+      "chinese": "V形",
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\hagrid_30k\\train_val_peace\\001764c7-7b4b-488b-bf60-a80655789729.jpg",
+      "source_sha256": "a0abc1b21e730b39e6aea15ff25b4f3748eb2eff3b52ba6005f70dc47adc8bba",
+      "image_id": "001764c7-7b4b-488b-bf60-a80655789729",
+      "annotation": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\ann_train_val\\peace.json",
+      "annotation_box_index": 0,
+      "bbox_xyxy": [
+        237,
+        37,
+        299,
+        157
+      ],
+      "user_id": "d1ed8e765bf15b07206070fb1795bd8a2163103ee24b8065765690827c139522",
+      "target_index": 542,
+      "target_name": "drumstick",
+      "target_logit": 9.345382690429688,
+      "feature_shapes": {
+        "layer1": [
+          1,
+          64,
+          56,
+          56
+        ],
+        "layer2": [
+          1,
+          128,
+          28,
+          28
+        ],
+        "layer3": [
+          1,
+          256,
+          14,
+          14
+        ],
+        "layer4": [
+          1,
+          512,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "number": 2,
+      "label": "palm",
+      "chinese": "张开手掌",
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\hagrid_30k\\train_val_palm\\00212dde-f65d-45cf-8398-20a7febc8a90.jpg",
+      "source_sha256": "20a1afb0bd8cdff5565b7eb3b2a1ecec1d0c438436766d212600c379b396abba",
+      "image_id": "00212dde-f65d-45cf-8398-20a7febc8a90",
+      "annotation": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\ann_train_val\\palm.json",
+      "annotation_box_index": 1,
+      "bbox_xyxy": [
+        231,
+        146,
+        270,
+        189
+      ],
+      "user_id": "b3224e36e80dcbc54b750cb6fff8ef089e58d9977d4a039991deeddddf625f11",
+      "target_index": 699,
+      "target_name": "panpipe",
+      "target_logit": 7.040968418121338,
+      "feature_shapes": {
+        "layer1": [
+          1,
+          64,
+          56,
+          56
+        ],
+        "layer2": [
+          1,
+          128,
+          28,
+          28
+        ],
+        "layer3": [
+          1,
+          256,
+          14,
+          14
+        ],
+        "layer4": [
+          1,
+          512,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "label": "fist",
+      "chinese": "握拳",
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\hagrid_30k\\train_val_fist\\0031a6a9-9d93-4e63-907b-7fabe08a9209.jpg",
+      "source_sha256": "fe8684b3e84c04225648d461839dd6d0040453223d9cc61df3c4d1b69a69a650",
+      "image_id": "0031a6a9-9d93-4e63-907b-7fabe08a9209",
+      "annotation": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\ann_train_val\\fist.json",
+      "annotation_box_index": 0,
+      "bbox_xyxy": [
+        199,
+        161,
+        244,
+        211
+      ],
+      "user_id": "bcafcf385345fad80494154255186b5e46ef511fc8c20f9caa32e6eefa23ec72",
+      "target_index": 906,
+      "target_name": "Windsor tie",
+      "target_logit": 8.990920066833496,
+      "feature_shapes": {
+        "layer1": [
+          1,
+          64,
+          56,
+          56
+        ],
+        "layer2": [
+          1,
+          128,
+          28,
+          28
+        ],
+        "layer3": [
+          1,
+          256,
+          14,
+          14
+        ],
+        "layer4": [
+          1,
+          512,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "label": "like",
+      "chinese": "拇指向上",
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\hagrid_30k\\train_val_like\\00209a6a-a779-4af7-9307-b2a598406f43.jpg",
+      "source_sha256": "e0da3415fee2fbddfcaf58ddc823c32a6c4c5167537da64b60763b38648c1509",
+      "image_id": "00209a6a-a779-4af7-9307-b2a598406f43",
+      "annotation": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\ann_train_val\\like.json",
+      "annotation_box_index": 0,
+      "bbox_xyxy": [
+        405,
+        176,
+        489,
+        300
+      ],
+      "user_id": "e8e0a9cf634b41a8b068c38f13da528c7730cdd5c561cad443fbc62e29ca51eb",
+      "target_index": 459,
+      "target_name": "brassiere",
+      "target_logit": 6.061865329742432,
+      "feature_shapes": {
+        "layer1": [
+          1,
+          64,
+          56,
+          56
+        ],
+        "layer2": [
+          1,
+          128,
+          28,
+          28
+        ],
+        "layer3": [
+          1,
+          256,
+          14,
+          14
+        ],
+        "layer4": [
+          1,
+          512,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "label": "dislike",
+      "chinese": "拇指向下",
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\hagrid_30k\\train_val_dislike\\001b7962-feb2-4e1b-a48d-fda578ab8681.jpg",
+      "source_sha256": "ce71deb90d114ba21148365dba9e5681d5a9cc0b80e755e0cbd4feab24a6f84d",
+      "image_id": "001b7962-feb2-4e1b-a48d-fda578ab8681",
+      "annotation": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p\\ann_train_val\\dislike.json",
+      "annotation_box_index": 0,
+      "bbox_xyxy": [
+        213,
+        324,
+        252,
+        374
+      ],
+      "user_id": "b13c1c31527b74470fa527e2027f986606dfe73fb96a3d6b59deafb4f3346974",
+      "target_index": 103,
+      "target_name": "platypus",
+      "target_logit": 8.973281860351562,
+      "feature_shapes": {
+        "layer1": [
+          1,
+          64,
+          56,
+          56
+        ],
+        "layer2": [
+          1,
+          128,
+          28,
+          28
+        ],
+        "layer3": [
+          1,
+          256,
+          14,
+          14
+        ],
+        "layer4": [
+          1,
+          512,
+          7,
+          7
+        ]
+      }
+    }
+  ]
+}

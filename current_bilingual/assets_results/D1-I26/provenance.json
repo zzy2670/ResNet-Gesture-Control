@@ -1,0 +1,76 @@
+{
+  "id": "D1-I26",
+  "original_sha256": "a5f86ed87f189c4b78a244541bf6a65bca38ae1b1671cb1d30c2df5f11572374",
+  "source_records": [
+    {
+      "name": "metadata.json",
+      "sha256": "20fd31c0f492685d656bb04cf77c0b9ca99aac86cb868d9851bdb49a2d4723ae"
+    },
+    {
+      "name": "row_0_tensors.npz",
+      "sha256": "81f4d5b5a76a2f62a4642e3b52cf1709e211633e51c917ee8dd43e322c92744b"
+    },
+    {
+      "name": "row_1_tensors.npz",
+      "sha256": "1e657423f1dc452df8d95d7abf92cecd942bc88f415aa50a9816ec1b350e58e2"
+    },
+    {
+      "name": "row_2_tensors.npz",
+      "sha256": "11681119fcd1eb107fc7f106118c4390b7527a82a270cae30c3818d05fbe373f"
+    },
+    {
+      "name": "row_3_tensors.npz",
+      "sha256": "62eded4d67c60059bafbc4f651fb7d738fcebf315251fe92e2834db49fb49f2e"
+    },
+    {
+      "name": "row_4_tensors.npz",
+      "sha256": "2515ab55821957e2fa6d0a442b072f15b753b6ab9aaf999e13e343e9a96f3247"
+    },
+    {
+      "name": "row_5_tensors.npz",
+      "sha256": "96533db872a00a4fa5a4e28e3226d56539fa866b28cc11045216c8cc80a9a7eb"
+    }
+  ],
+  "occurrences": {
+    "D1-I26": "图16 B协议已训练ResNet18六类分层Grad-CAM。解释真实类logit，各图独立归一化；颜色不等于概率，不能比较跨层绝对强弱。",
+    "D2-I09": "图9 B已训练ResNet18六类分层Grad-CAM"
+  },
+  "array_equality": {
+    "row_0_tensors.npz": {
+      "layer4_normalized_224_cam": "17097f1e30147e1c3af3c212ce657e2181efd30469d46b87a5e3046adf57c593",
+      "layer1_normalized_224_cam": "a23e49795218361f628c3f5cf6f8464930710f80223ff8f7f233af71b64c6620",
+      "layer2_normalized_224_cam": "d078d7fbb90038f5f0dacf3323f9442b71ac9d1952026fa8604f8cb72d46666a",
+      "layer3_normalized_224_cam": "952b50fc0ba5dc0c4f3ad8be8a8f747334278f7e2142d554c863623ae256378b"
+    },
+    "row_1_tensors.npz": {
+      "layer4_normalized_224_cam": "3e73f397090e08df0703baaced8947ce23142dc143d73e6f9755d9dff3a66632",
+      "layer1_normalized_224_cam": "9a0e336cfa57120d3df2a15561744971c14fb663bd9f90e961c431576f8a1e1e",
+      "layer2_normalized_224_cam": "d682e4df64ba0211d3b7485bbbb90c8b28be4eae80197301124b2c7b4da810ef",
+      "layer3_normalized_224_cam": "4eaa6b71f59db5fe3c0d253323451fd1ce395e4a1d981f1a44d23051e4f55b6a"
+    },
+    "row_2_tensors.npz": {
+      "layer4_normalized_224_cam": "e283ca9b15f6a0cbf43e8432b38b3fa3cde9d82fdfb28e997b8323f4f8879a30",
+      "layer1_normalized_224_cam": "86c6b5770a122a12b174f3af0e043dc7b82d0c4cc707366ee22271a0230e46e8",
+      "layer2_normalized_224_cam": "b4730465d2f55a6ddbe416950f7d1ee04b34cd2ad8fc2b7766bfb44e1e257a5e",
+      "layer3_normalized_224_cam": "7571045f97421372d23675a56779d95fdc4b53b1dd76203706b50d99c9512a2d"
+    },
+    "row_3_tensors.npz": {
+      "layer4_normalized_224_cam": "36214e854b9e42db4883a4d6e6db21e62672bf84e95d6530aa9876fac1104580",
+      "layer1_normalized_224_cam": "e2dcd1678bdd303f0a9649ec2c607c0d7e65f01ead976f10a5c5bfdfea6e6756",
+      "layer2_normalized_224_cam": "b295810e94d3cb9c85f6ed5c1ae58694407960e767c56fda6fe34cf194ba12be",
+      "layer3_normalized_224_cam": "151fab366abc4ca275bb57025a82df156c2f1a37f8fd29167e7bd3989f952c8d"
+    },
+    "row_4_tensors.npz": {
+      "layer4_normalized_224_cam": "0c3514d0dfcef69657a2e088f79fb96ba4a93f411c117faa74dcd3de1e874b25",
+      "layer1_normalized_224_cam": "9d66cd31a381b480921b8f7e88e25a8acc111c78669e2a109bdd769ef3f3dfd8",
+      "layer2_normalized_224_cam": "13ee486c7a2a132c5cd35c63019a5a2a82fab20983a9b1a060ea0327a3654c32",
+      "layer3_normalized_224_cam": "4f5995a0a06c1e5aabba54b8059d669295e520187395c512ffa54f2f34352dec"
+    },
+    "row_5_tensors.npz": {
+      "layer4_normalized_224_cam": "85b8084226a6f09b77d60f5fd01a37767ff1614ea9d2be3b30f5f458fc7c3186",
+      "layer1_normalized_224_cam": "1c09607f6e96448e633b0f1723d2ec8d8487f13f8345bc2961a6ec5980c571d8",
+      "layer2_normalized_224_cam": "0250b28db1fbc15b111e2fde937a6d5c79ec92b68e850f445e37f3fab0a5c48e",
+      "layer3_normalized_224_cam": "f794db8a64c9f584cd2ac578dfc9a411cccce98cd6a36f9a363888ab52cfd83d"
+    }
+  }
+}

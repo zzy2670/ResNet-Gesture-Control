@@ -1,0 +1,106 @@
+{
+  "status": "RECOMPUTED_FROM_FROZEN_PREDICTIONS",
+  "groups": [
+    {
+      "cohort": "newly_required_two_up",
+      "n": 336,
+      "old_correct": 336,
+      "new_correct": 307
+    },
+    {
+      "cohort": "unchanged_truth",
+      "n": 2766,
+      "old_correct": 2551,
+      "new_correct": 2542
+    },
+    {
+      "cohort": "all",
+      "n": 3102,
+      "old_correct": 2887,
+      "new_correct": 2849
+    }
+  ],
+  "newly_required_failed": 29,
+  "no_detected_boxes": 19,
+  "boxes_without_accepted_nonzero_command": 10,
+  "failed_image_ids": [
+    "135e91a8-4d16-4f92-875e-38a1b9e510f7",
+    "1ee0c6aa-efb2-461d-b3b4-8dfe34a8a4c6",
+    "2ae74ca9-d8ac-4516-9038-fccd7c365274",
+    "2ecb619b-5b91-4c8c-94c3-2f38f51e3795",
+    "367b4102-281d-405b-a0a4-61a0e2bc51bc",
+    "3ff1aa69-b88b-4489-8404-ba8a82390158",
+    "4f1c184c-d573-4eb9-830a-8aec1669d511",
+    "5ac16d33-2334-4022-b583-f3777d9d5925",
+    "b2ffab35-b4db-4139-b261-88e8e39a3c4d",
+    "bd22070f-4653-4fd7-92d2-a71a4245edf1",
+    "c5ceeffb-539e-4a22-89a2-d8033082c722",
+    "cce6d337-2f52-414a-918d-38218ec9c2cc",
+    "dba6d732-0383-4b3c-800b-bf8b8b9851cd",
+    "15466be2-3947-4c5b-8768-9627a1550235",
+    "1909bf24-1619-4edf-9b5b-e81c17cd6653",
+    "2f4482f7-6b66-4f00-80d3-855af428c948",
+    "33e7141a-b117-4f8d-8f78-1381ae5263b7",
+    "356d6849-26bc-4b4b-8aab-a3383b2b00f3",
+    "395f945a-196a-46c3-95dc-efddaeaea77b",
+    "51f7fe54-3d71-4f82-a4c9-22d77af24229",
+    "7dac8a3d-2c68-4517-9968-da24ba6b3dc7",
+    "85506f45-6c4f-4bd2-9056-1947e99b15b9",
+    "92be8686-5955-4d9e-a912-fa0c221aac1b",
+    "9d8b5e05-a72e-4a72-81c7-53439a2193cc",
+    "a33b0564-4835-44ab-8c27-0ed0ddd5823b",
+    "a6a640aa-bc0b-4df4-8016-4bded7a927a6",
+    "c785330f-4402-4ab1-91ab-f535e4857570",
+    "cd72ccb6-8443-4d70-9f83-1639346f0ce9",
+    "ef964cac-dadd-4bea-a6ed-d0dac51ce21a"
+  ],
+  "no_boxes_image_ids": [
+    "135e91a8-4d16-4f92-875e-38a1b9e510f7",
+    "367b4102-281d-405b-a0a4-61a0e2bc51bc",
+    "5ac16d33-2334-4022-b583-f3777d9d5925",
+    "bd22070f-4653-4fd7-92d2-a71a4245edf1",
+    "dba6d732-0383-4b3c-800b-bf8b8b9851cd",
+    "1909bf24-1619-4edf-9b5b-e81c17cd6653",
+    "2f4482f7-6b66-4f00-80d3-855af428c948",
+    "33e7141a-b117-4f8d-8f78-1381ae5263b7",
+    "356d6849-26bc-4b4b-8aab-a3383b2b00f3",
+    "395f945a-196a-46c3-95dc-efddaeaea77b",
+    "51f7fe54-3d71-4f82-a4c9-22d77af24229",
+    "7dac8a3d-2c68-4517-9968-da24ba6b3dc7",
+    "85506f45-6c4f-4bd2-9056-1947e99b15b9",
+    "92be8686-5955-4d9e-a912-fa0c221aac1b",
+    "9d8b5e05-a72e-4a72-81c7-53439a2193cc",
+    "a33b0564-4835-44ab-8c27-0ed0ddd5823b",
+    "c785330f-4402-4ab1-91ab-f535e4857570",
+    "cd72ccb6-8443-4d70-9f83-1639346f0ce9",
+    "ef964cac-dadd-4bea-a6ed-d0dac51ce21a"
+  ],
+  "unchanged_old_correct_new_wrong": 21,
+  "unchanged_old_wrong_new_correct": 12,
+  "same_negative_photos": 1359,
+  "false_motion_old_new": [
+    5,
+    16
+  ],
+  "thresholds_old_new": [
+    {
+      "detector": 0.3,
+      "classifier": 0.3
+    },
+    {
+      "detector": 0.3,
+      "classifier": 0.3
+    }
+  ],
+  "sources": [
+    {
+      "path": "inputs\\B18_unmerged_whole.json",
+      "sha256": "5706f049ad15ee3b76c38416bfa9597583305d9031963e86bebcb9b6f45d617b"
+    },
+    {
+      "path": "inputs\\B18_merged_whole.json",
+      "sha256": "0dbb8cd42876fd41b8fa4ef8456892d8b81e0678e692695e6efe152fbcd36d31"
+    }
+  ],
+  "training_inference_or_image_access": false
+}

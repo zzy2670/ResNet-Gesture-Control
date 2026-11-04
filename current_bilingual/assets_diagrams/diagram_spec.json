@@ -1,0 +1,134 @@
+[
+  {
+    "id": "D1-I10",
+    "original_vsdx": "originals/D1-I10/source.vsdx",
+    "original_png": "originals/D1-I10/source.png",
+    "caption_zh": "图2a 普通CNN与残差CNN的连接方式对照。残差块把主分支F(x)与旁路x逐位置相加；5＋1＝6是单个特征位置的教学算例。残差连接帮助深层网络训练，不代表本项目准确率已提高。",
+    "caption_en": "Figure 2a. Connections in plain and residual CNNs. A residual block adds the main branch F(x) and shortcut x elementwise; 5 + 1 = 6 is a teaching example at one feature position. Residual connections aid deep-network training; this does not mean that accuracy in this project has already improved.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_fig2a_residual_compare.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v7_fig2a_residual_compare.png",
+      "native_sha256": "49d181e5df70ccd5eafa4023a1665cde7320d2b2f3a5b125a862cac8ebabbf68"
+    }
+  },
+  {
+    "id": "D1-I11",
+    "original_vsdx": "originals/D1-I11/source.vsdx",
+    "original_png": "originals/D1-I11/source.png",
+    "caption_zh": "图1 项目总体流程。完整照片→SSDLite320自动找手→按框裁图并预处理为224×224→ResNet18六类手势分类→可靠性与多手汇总规则→整图0—5整数。",
+    "caption_en": "Figure 1. Overall project pipeline. Full photograph → automatic hand detection with SSDLite320 → crop and preprocess hand images to 224 × 224 → compute six class scores with ResNet18 → apply confidence checks and multi-hand aggregation rules → return one integer from 0 to 5 for the photograph.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v8_overall_pipeline_final.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v8_overall_pipeline_final.png",
+      "native_sha256": "4f02d9c1e3d30b81d37f5ea8728d4303bdef32ee856684862e79bf812ca695f9"
+    }
+  },
+  {
+    "id": "D1-I12",
+    "original_vsdx": "originals/D1-I12/source.vsdx",
+    "original_png": "originals/D1-I12/source.png",
+    "caption_zh": "图2 ResNet18内部结构。初始卷积和池化后依次通过四组残差块，再经平均池化得到512维特征；本项目采用新的512→6分类层。下部展开残差块中的计算分支、旁路和相加位置。",
+    "caption_en": "Figure 2. Internal ResNet18 architecture. Initial convolution and pooling feed residual blocks at four channel widths; average pooling yields a 512-dimensional feature vector, followed by a new project-specific 512→6 classification layer. The lower panel expands the computational branch, shortcut, and addition within a residual block.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\resnet_plan_v2_resnet18_model.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\resnet_plan_v2_resnet18_model.png",
+      "native_sha256": "06077a52d6aeab1e90715fdc4844b1e5fff099383e0b8436c28fa1d66a9c8298"
+    }
+  },
+  {
+    "id": "D1-I13",
+    "original_vsdx": "originals/D1-I13/source.vsdx",
+    "original_png": "originals/D1-I13/source.png",
+    "caption_zh": "图3 ResNet18网络结构与特征计算示例。上部为完整网络结构，下部对应展开四阶段特征响应、局部卷积、残差相加及全局平均池化。",
+    "caption_en": "Figure 3. ResNet18 architecture and an example of feature computations. The upper panel shows the complete network; the lower panels expand the corresponding feature responses at four stages, local convolution, residual addition, and global average pooling.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_architecture_r4.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_architecture.png",
+      "native_sha256": "95454a2c1bec23240bdeca8514809c331c08830c34ff98165b3a47b5258abf4a"
+    }
+  },
+  {
+    "id": "D1-I14",
+    "original_vsdx": "originals/D1-I14/source.vsdx",
+    "original_png": "originals/D1-I14/source.png",
+    "caption_zh": "图4 PyTorch在本项目中的训练与预测过程。训练误差用于调整可学习参数；训练完成后保存参数，预测阶段加载参数并计算输出。",
+    "caption_en": "Figure 4. Training and prediction with PyTorch in this project. The training error is used to adjust the learnable parameters. Parameters are saved after training; at prediction time, they are loaded and used to compute the output.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_4_pytorch_r2.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_4_pytorch.png",
+      "native_sha256": "5a068560da212072f18c2e76cd590e685add49e241bd253c47ef924f43a8b21d"
+    }
+  },
+  {
+    "id": "D1-I15",
+    "original_vsdx": "originals/D1-I15/source.vsdx",
+    "original_png": "originals/D1-I15/source.png",
+    "caption_zh": "图5 TorchVision网络代码、ImageNet预训练参数与六分类改造。网络结构与参数分别提供计算路径和训练起点，新分类层通过本项目手势数据学习。",
+    "caption_en": "Figure 5. TorchVision network implementations, ImageNet-pretrained parameters, and adaptation to six classes. The network architecture provides the computational path, while the parameters provide the training initialization; the new classification layer learns from this project’s gesture data.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_5_torchvision_r2.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_5_torchvision.png",
+      "native_sha256": "48f82baf04d7d76357fed0b1b6699bb6cdd0e9b4622441820287d3baed03e9da"
+    }
+  },
+  {
+    "id": "D1-I16",
+    "original_vsdx": "originals/D1-I16/source.vsdx",
+    "original_png": "originals/D1-I16/source.png",
+    "caption_zh": "图6 HaGRID数据来源及标注用途。照片、手框、手势标签与人员编号分别支持完整图像输入、手定位、手势分类和人员分组。",
+    "caption_en": "Figure 6. HaGRID data sources and annotation uses. Photographs, hand boxes, gesture labels, and person IDs respectively support image input, hand localization, gesture classification, and grouping by person.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_6_hagrid_r2.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_6_hagrid.png",
+      "native_sha256": "a9bc5e4d6882d7d9c6341426767b0723cafa25c3a584ffabec65c999bc8e1a8f"
+    }
+  },
+  {
+    "id": "D1-I17",
+    "original_vsdx": "originals/D1-I17/source.vsdx",
+    "original_png": "originals/D1-I17/source.png",
+    "caption_zh": "图7 早期Vision_CA数据准备示意。图中“仅有summary统计”的状态属于当时的旧输出；本次实际使用的新A、B三组清单均已生成并核验，数量与位置见第1.2节。",
+    "caption_en": "Figure 7. Early Vision_CA data preparation. The “summary statistics only” state in the figure refers to the old outputs available at that time. All three new A and B split lists used in this study have now been generated and verified; their counts and locations are given in Section 1.2.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_7_visionca_final_r2.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_7_visionca.png",
+      "native_sha256": "913b054168b1251b5442a3c78d3fda52658dcf3f60de7168b0618a86cc220482"
+    }
+  },
+  {
+    "id": "D1-I18",
+    "original_vsdx": "originals/D1-I18/source.vsdx",
+    "original_png": "originals/D1-I18/source.png",
+    "caption_zh": "图8 自动手定位与手势分类的衔接。SSDLite320使用完整照片学习手框，ResNet18使用裁手图学习手势，整图结果经规则汇总为0—5。",
+    "caption_en": "Figure 8. Linking automatic hand localization and gesture classification. SSDLite320 learns hand boxes from full photographs; ResNet18 learns gestures from cropped hand images. Full-image results are then aggregated into 0–5.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_8_ssdlite_r2.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_8_ssdlite.png",
+      "native_sha256": "2770b1f5f650ab68dc0938d629bf4c5170bbd0fc646210839104820ba793f8b2"
+    }
+  },
+  {
+    "id": "D1-I19",
+    "original_vsdx": "originals/D1-I19/source.vsdx",
+    "original_png": "originals/D1-I19/source.png",
+    "caption_zh": "图9 开源资源与本项目实现的总体关系。数据、整理代码、网络结构及通用权重共同支持本项目训练，训练后的定位与分类模型构成完整预测程序。",
+    "caption_en": "Figure 9. How open-source resources support the project implementation. Data, preparation code, network architectures, and general pretrained weights jointly support project training. The trained localization and classification models form the final prediction pipeline.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_9_summary_r2.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v5_fig_9_summary.png",
+      "native_sha256": "45249271e1a2ddc70deee2726586e063953cf359bd5d1364d72135c2143fe931"
+    }
+  },
+  {
+    "id": "D1-I21",
+    "original_vsdx": "originals/D1-I21/source.vsdx",
+    "original_png": "originals/D1-I21/source.png",
+    "caption_zh": "图11 本项目ResNet18的标准Grad-CAM计算机制示意。前向取得目标类别分数，解释路径先对梯度作空间平均，再用所得通道权重组合特征，经过ReLU后，先上采样至输入尺寸，再逐图归一化并叠加到输入。本图说明计算机制，不给出六类手势识别成绩。",
+    "caption_en": "Figure 11. Standard Grad-CAM computation for the project’s ResNet18. The forward pass obtains the target class score. The explanation path spatially averages the gradients and uses the resulting channel weights to combine features. After ReLU, the map is first upsampled to the input size, then normalized separately and overlaid on the input. This figure explains the computation and does not report six-class gesture-recognition performance.",
+    "provenance": {
+      "native": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v10_our_gradcam_mechanism.vsdx",
+      "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v10_our_gradcam_mechanism.png",
+      "native_sha256": "284cbd0d62f545db53c5a548a721899c5015d25489be696ee6f4c6f8b75ae5d5"
+    }
+  }
+]
