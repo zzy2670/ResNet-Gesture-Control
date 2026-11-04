@@ -1,3 +1,12 @@
+# 完整项目：直接浏览 / Browse the complete project
+
+- [完整项目文件 / Complete project](complete_project/)：源码、数据、实验记录、模型权重和十二个已展开的程序。
+- [当前正式文档与中英文图源 / Current documents and bilingual figures](current_bilingual/)：三份正式 Word 及其图源。
+- 各程序见 complete_project/程序/；完整项目的原压缩包中另有12份相同程序的 ZIP，此处使用已展开的程序目录。历史清单和说明保留原文，可能仍引用原 ZIP 文件名。
+- 仓库较大，可浏览文件或按需下载；完整克隆需下载全部内容。
+
+---
+
 # ResNet手势识别：MA6216项目交接
 
 输入一张RGB照片，先用SSDLite找手，再逐手用ResNet分类，最后汇总为一个0—5整数。包含合并/不合并两种标签方案、A随机照片/B人员互斥两种评价及ResNet18/34/50，共十二个已训练程序。
