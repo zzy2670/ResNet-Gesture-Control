@@ -1,0 +1,313 @@
+{
+  "reviewer": "bilingual_results_figures",
+  "independent_of_diagram_author": true,
+  "status": "PASS",
+  "manifest_sha256": "fd11b6c3be667cf3b9f76063630bf447a0ce1e58a61ec9f6794b313695934cf0",
+  "items": [
+    {
+      "id": "D1-I10",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I10_zh.png",
+          "sha256": "2be246b8667421cbcdad69df95b813c8ae070966d3932230992b9944568fd916"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I10_en.png",
+          "sha256": "88c9c46af96b194eb8a76d97fe62267c45f82ef909f055df7ea7c5559aa6210c"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I10_zh.vsdx",
+          "sha256": "49d181e5df70ccd5eafa4023a1665cde7320d2b2f3a5b125a862cac8ebabbf68"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I10_en.vsdx",
+          "sha256": "86182ba63b393d949651a9f849023ac139ab3683235a34801d3d8b6aad7591f2"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I10/source.vsdx",
+          "sha256": "49d181e5df70ccd5eafa4023a1665cde7320d2b2f3a5b125a862cac8ebabbf68"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I11",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I11_zh.png",
+          "sha256": "8b92f5f1305e7ade907034c2d78c7bc158a44e0a2e3a62261bb5f00bc914454b"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I11_en.png",
+          "sha256": "a6e1dac09cfbf93fee9fa25eb53fd6503c56923e1e996b22de8ad6b3f55ed97e"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I11_zh.vsdx",
+          "sha256": "4f02d9c1e3d30b81d37f5ea8728d4303bdef32ee856684862e79bf812ca695f9"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I11_en.vsdx",
+          "sha256": "49e2ef804a42e4b09ed39037163066ea646fa5a7c279a80d5632bdd85754e5e1"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I11/source.vsdx",
+          "sha256": "4f02d9c1e3d30b81d37f5ea8728d4303bdef32ee856684862e79bf812ca695f9"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I12",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I12_zh.png",
+          "sha256": "bdf0ae3b309a3f1f3291d680beeff2fe1bd497a3591c15e7beddcba5c0b98d1a"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I12_en.png",
+          "sha256": "f11b8056a5fcd49c45d4aaf8fc68b6fff91dfdc0d5b5d9eb7121130627a3cff5"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I12_zh.vsdx",
+          "sha256": "06077a52d6aeab1e90715fdc4844b1e5fff099383e0b8436c28fa1d66a9c8298"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I12_en.vsdx",
+          "sha256": "bf36531e05b8276b7e03b1d258219615d14f4ccb0d8d26fb210f21cde5bbd59c"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I12/source.vsdx",
+          "sha256": "06077a52d6aeab1e90715fdc4844b1e5fff099383e0b8436c28fa1d66a9c8298"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I13",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I13_zh.png",
+          "sha256": "3045b7d30d08e60bd9aba6f9d3b40e10f4f30df31a88739a106bada06d6df8df"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I13_en.png",
+          "sha256": "36cb78bc516a6f2a3c908ad75eb44fc26081470009ff123db0d6fa4d76b9e3f1"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I13_zh.vsdx",
+          "sha256": "95454a2c1bec23240bdeca8514809c331c08830c34ff98165b3a47b5258abf4a"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I13_en.vsdx",
+          "sha256": "0abc8796978b0e4e5d3d42203865498181b180a7dbed31ac7196e7460462af36"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I13/source.vsdx",
+          "sha256": "95454a2c1bec23240bdeca8514809c331c08830c34ff98165b3a47b5258abf4a"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I14",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I14_zh.png",
+          "sha256": "eec8eec26de1a878d0eb84873c1b32102677dc1c7943c8d808384425fb4d1427"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I14_en.png",
+          "sha256": "5cfe72d4a39bf422b6c94fd71edb0347167acd52492698ce3eff7664f33c5145"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I14_zh.vsdx",
+          "sha256": "5a068560da212072f18c2e76cd590e685add49e241bd253c47ef924f43a8b21d"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I14_en.vsdx",
+          "sha256": "d42a7ab8576a73021eba79044a48496822050544ba9f0720f2ca3016d31df0a4"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I14/source.vsdx",
+          "sha256": "5a068560da212072f18c2e76cd590e685add49e241bd253c47ef924f43a8b21d"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I15",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I15_zh.png",
+          "sha256": "9faa4b257823079e58b5485403d8dabecf66e3212c446d03e3c753f8c026d3ab"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I15_en.png",
+          "sha256": "5aeeff5ce1dd270a8e247db275fe82ffe5a5d4b609b57fcf4ada6444deeb66f8"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I15_zh.vsdx",
+          "sha256": "48f82baf04d7d76357fed0b1b6699bb6cdd0e9b4622441820287d3baed03e9da"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I15_en.vsdx",
+          "sha256": "56472ccc622261464044113dc13f4928b64b8196e48029cdfd22522027ce8a7e"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I15/source.vsdx",
+          "sha256": "48f82baf04d7d76357fed0b1b6699bb6cdd0e9b4622441820287d3baed03e9da"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I16",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I16_zh.png",
+          "sha256": "22b35fb2b022bf7203938bfaa17482230b3da66c57265c42f070f469e035626d"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I16_en.png",
+          "sha256": "57a13ce6cd9830dfc49fc18634dbe9dd243b11252a13146bc66a2cd2d9819fb3"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I16_zh.vsdx",
+          "sha256": "a9bc5e4d6882d7d9c6341426767b0723cafa25c3a584ffabec65c999bc8e1a8f"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I16_en.vsdx",
+          "sha256": "dd75795ba06698332c633bd47bc7e581ca930d7e3957f93ca0c30fe0805a3666"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I16/source.vsdx",
+          "sha256": "a9bc5e4d6882d7d9c6341426767b0723cafa25c3a584ffabec65c999bc8e1a8f"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I17",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I17_zh.png",
+          "sha256": "e41784cdb14b519bf6d700556a9d475f5ab21fd1b7054d002ac0c194b25b2e56"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I17_en.png",
+          "sha256": "8c77e6b7925d764ab71381019d8b084ebbd10c6d0fa424a6639ef070e0fdd917"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I17_zh.vsdx",
+          "sha256": "913b054168b1251b5442a3c78d3fda52658dcf3f60de7168b0618a86cc220482"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I17_en.vsdx",
+          "sha256": "86391885d6ca2723d3bd9ae1a124ae7a8cacb15d26e2ef26313a534590ab3306"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I17/source.vsdx",
+          "sha256": "913b054168b1251b5442a3c78d3fda52658dcf3f60de7168b0618a86cc220482"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I18",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I18_zh.png",
+          "sha256": "9bf993ac3add4841e48b0d34a58ac7d29331f7ebac03c238116014188eb7e973"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I18_en.png",
+          "sha256": "51c359380073e5ac21aecf4bbadf9cb1a8937669c2dbc5cb30b3b8470b044311"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I18_zh.vsdx",
+          "sha256": "2770b1f5f650ab68dc0938d629bf4c5170bbd0fc646210839104820ba793f8b2"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I18_en.vsdx",
+          "sha256": "0b3fb49d8d9a21b60e0ec720361554cfcba7e31a49c641c6a124a255e7508770"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I18/source.vsdx",
+          "sha256": "2770b1f5f650ab68dc0938d629bf4c5170bbd0fc646210839104820ba793f8b2"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I19",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I19_zh.png",
+          "sha256": "5f82b777d307c8f9e86b3ec35c062700a8563759fb92caefbd24554c5db029a1"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I19_en.png",
+          "sha256": "3628285c8dd0183110427270192e9583b4460da963caa43fa527779a2585e079"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I19_zh.vsdx",
+          "sha256": "45249271e1a2ddc70deee2726586e063953cf359bd5d1364d72135c2143fe931"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I19_en.vsdx",
+          "sha256": "0d5264da77cd96e4d7f2ec1451c49cbe059a1e7674ebda749dc27ff5f85248ee"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I19/source.vsdx",
+          "sha256": "45249271e1a2ddc70deee2726586e063953cf359bd5d1364d72135c2143fe931"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    },
+    {
+      "id": "D1-I21",
+      "files": [
+        {
+          "path": "assets_diagrams/zh/D1-I21_zh.png",
+          "sha256": "c75de6134f51ef2ab74e38539b9fb3f8d3bec4786601b33d81341c99a2bdf8ca"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I21_en.png",
+          "sha256": "22737aff0da2a904908e86aeade8060174245260f449ec9bf2ef6c02bca126af"
+        },
+        {
+          "path": "assets_diagrams/zh/D1-I21_zh.vsdx",
+          "sha256": "284cbd0d62f545db53c5a548a721899c5015d25489be696ee6f4c6f8b75ae5d5"
+        },
+        {
+          "path": "assets_diagrams/en/D1-I21_en.vsdx",
+          "sha256": "a71a0540a0b336b2c0d46760a4ccb7db668ef628684f302feb9c31bd4d265c66"
+        },
+        {
+          "path": "assets_diagrams/originals/D1-I21/source.vsdx",
+          "sha256": "284cbd0d62f545db53c5a548a721899c5015d25489be696ee6f4c6f8b75ae5d5"
+        }
+      ],
+      "status": "PASS",
+      "findings": []
+    }
+  ],
+  "actual_review_scope": "All 11 Chinese/English pairs visually read in 3 contact sheets; dense D1-I13 and D1-I21 additionally opened individually at larger resolution. Checked translated labels, numerical examples, topology, arrows, feature dimensions, and distinction between ImageNet teaching examples and trained gesture results. Source files and manifest are hash-bound; this review does not claim native-app editing inspection.",
+  "visual_evidence": [
+    "docx_qa/diagrams_review_0.png",
+    "docx_qa/diagrams_review_4.png",
+    "docx_qa/diagrams_review_8.png"
+  ],
+  "training_or_inference_executed": false,
+  "formal_word_review": "not yet performed; final Word authoring is a separate stage"
+}

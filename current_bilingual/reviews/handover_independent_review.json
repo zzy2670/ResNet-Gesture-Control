@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/finish_reference_figures",
+  "independent_of_word_author": true,
+  "scope": "Local handover DOCX: every rendered page, reading order, current document hyperlinks, historical/full-project dependency and current source ZIP entry. No Word edits made.",
+  "document": "documents/交接说明_v2_中英文配图.docx",
+  "document_sha256": "5dd590ce9be8d576ddc55edde39e8c828090cb88c9e8ebebe012f2520d554618",
+  "render_source_sha256_matches_document": true,
+  "page_count": 9,
+  "page_checks": [
+    {"page": 1, "path": "docx_qa/D3_v2/page-1.png", "sha256": "4f0b0b0ae6bc90785188b8e38b066f678789a4fc62a9563a9917792059482c07", "visual": "PASS", "evidence": "Title/introduction and interfaces readable; class mapping table starts cleanly; no clipping or overlap."},
+    {"page": 2, "path": "docx_qa/D3_v2/page-2.png", "sha256": "6b3cf41e3f323892dd99237e143e75accef04a76c8ae783ac9b8fc19b6af99db", "visual": "PASS", "evidence": "Mapping table continues with repeated header; label semantics and A/B counts fully readable."},
+    {"page": 3, "path": "docx_qa/D3_v2/page-3.png", "sha256": "ab9a7d0d412e325e2c3e435786c97ee1d621820e2b12a7cd6b394b2a647e8a42", "visual": "PASS", "evidence": "Training table, completed-work table and performance-table first row readable; headers and page footer clear."},
+    {"page": 4, "path": "docx_qa/D3_v2/page-4.png", "sha256": "e5045b4cf7cd46730662f28efe0edfc0e057b4b7e3c859643232f98f309f3034", "visual": "PASS", "evidence": "Performance continuation and timing scope readable; changed task denominators explained; shared-negative table starts cleanly."},
+    {"page": 5, "path": "docx_qa/D3_v2/page-5.png", "sha256": "26780f4ca2735984104b53d731580c727e0bf83278336d3e9e26b315cbddcae1", "visual": "PASS", "evidence": "Shared-negative and stop-safety tables complete, readable and within margins."},
+    {"page": 6, "path": "docx_qa/D3_v2/page-6.png", "sha256": "77ab3cd9237df3e1f8f94b5d304a07bb98b598120144612cce1bd14dd6051ed7", "visual": "PASS", "evidence": "Recovery/CAM scope and current v13/v4 reading order clear; full reading-order table readable."},
+    {"page": 7, "path": "docx_qa/D3_v2/page-7.png", "sha256": "243e985922c5ede123678176e12ed18028c93888ac821fe61ff47a6a484799fd", "visual": "PASS", "evidence": "Historical-document status, CLI and Python examples legible; original full-project tree starts cleanly."},
+    {"page": 8, "path": "docx_qa/D3_v2/page-8.png", "sha256": "bc6142d8c5d48df052ec74da14a9977f6dd68e9cc2a1a76a93bd4d6d66375ed7", "visual": "PASS", "evidence": "Original full-project versus current bilingual source ZIP clearly distinguished; execution/retraining boundaries and remaining course work readable."},
+    {"page": 9, "path": "docx_qa/D3_v2/page-9.png", "sha256": "31e3092f5d340648b0e6b3c6eddc21684691fe52c891f540f59a37db5867de6f", "visual": "PASS", "evidence": "Complete role/input/action/recipient table readable with no clipped rows; follow-up ownership remains with responsible group members."}
+  ],
+  "hyperlinks": [
+    {"relationship": "rId10", "text": "综合实验报告v4 中英文配图版", "decoded_relative_target": "A与B协议ResNet训练与对比实验报告_v4_中英文配图.docx", "relative": true, "target_exists": true},
+    {"relationship": "rId11", "text": "项目方案v13 中英文配图版", "decoded_relative_target": "基于ResNet18的手势识别项目方案_v13_中英文配图.docx", "relative": true, "target_exists": true}
+  ],
+  "content_checks": {
+    "current_reading_order": "Handover v2, report v4, plan v13; earlier versions retained as historical records.",
+    "dependency_scope": "Historical auxiliary documents, twelve programs, data and training evidence explicitly belong to the original full-project package.",
+    "current_source_zip": "E:/ResNet_当前正式文档与双语图源_20261103.zip is named as the current three-Word and bilingual-source update; original large ZIP retains its data/model/training-evidence identity.",
+    "scientific_limits": "Classifier versus detector/rule aggregation, changed label-task denominators, stop versus idle, ImageNet/pretrained evidence and unfinished external camera/ROS integration remain qualified."
+  },
+  "limitations": ["This is a local document/readability review, not a new experiment, model run or remote Release verification.", "Rendering used the author's existing Windows LibreOffice output; the renderer's platform constraint is recorded in render_summary.json."]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "D2-I02",
+  "original_sha256": "a7a3dd4681d871a3cfc5ac03425afa80e58681b30d78943a9ef641c8f9b8fe93",
+  "source_records": [
+    {
+      "name": "test_whole_photo.json",
+      "sha256": "e56a1ad4113e6f8e5ca23058909f7d91774f6647cdc3b48b118a6c71986b81d2"
+    }
+  ],
+  "occurrences": {
+    "D2-I02": "图2 ResNet18完整照片测试混淆矩阵"
+  }
+}

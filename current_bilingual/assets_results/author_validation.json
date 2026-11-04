@@ -1,0 +1,24 @@
+{
+  "status": "AUTHOR_CHECK_PASS_PENDING_INDEPENDENT_REVIEW",
+  "unique_figures": 15,
+  "body_occurrences": 20,
+  "png_count": 30,
+  "svg_count": 30,
+  "model_execution": false,
+  "raw_dataset_traversal": false,
+  "targeted_raw_photos_read": 4,
+  "frozen_array_hash_checks": 120,
+  "all_required_assets_exist": true,
+  "all_svg_have_editable_text": true,
+  "cam_scientific_panels_pixel_identical": true,
+  "other_photo_plates_unchanged_outside_text_masks": true,
+  "four_photo_source_hashes_identical": true,
+  "visual_checks": "All 15 bilingual pairs inspected in three contact sheets; final four-photo plate inspected separately after moving no-box text into margin.",
+  "python_packages": {
+    "numpy": "2.4.2",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "portable_redraw_entry": "render_bilingual_results.py",
+  "font_requirement": "Microsoft YaHei or configured CJK-capable system font; delivered PNGs are self-contained."
+}

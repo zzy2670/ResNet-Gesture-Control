@@ -1,0 +1,40 @@
+{
+  "status": "PASS_STRUCTURAL_AND_RENDER_IDENTITY",
+  "reviewer": "/root/complete_document_review",
+  "plan": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\documents\\基于ResNet18的手势识别项目方案_v13_中英文配图.docx",
+  "current_plan_sha256": "a7a422463cbad7805a9b3cacf23d6a316fffda21fec88c5ed3cd0a5b75760a5a",
+  "changed_zip_parts": [
+    "word/document.xml"
+  ],
+  "approved_text_replacements": [
+    {
+      "before": "按同一(image_id,hand_index)连接人工框预测，四种raw各报告被预测为1的数目／支持数；整图按原照片文件夹归属报告最终1，保留完整照片上的检测和规则。这两种比率不能互换。下表箭头左为不合并、右为合并；完整逐模型细节同时保留在报告v3。",
+      "after": "按同一(image_id,hand_index)连接人工框预测，四种raw各报告被预测为1的数目／支持数；整图按原照片文件夹归属报告最终1，保留完整照片上的检测和规则。这两种比率不能互换。下表箭头左为不合并、右为合并；完整逐模型细节同时保留在报告v4。"
+    },
+    {
+      "before": "先读最新报告v3与本方案v12；v11和报告v2保留不合并完整记录，更早Word仅追溯。完整源码与数据保留原图、固定清单、两任务运行证据、科学图和四份官方预训练；不包含个人媒体学习笔记及可重建裁图／特征缓存。移机训练须新目录及本机路径索引，不直接重跑旧固定controller或改冻结事实文件。",
+      "after": "先读最新报告v4与本方案v13；v11和报告v2保留不合并完整记录，更早Word仅追溯。完整源码与数据保留原图、固定清单、两任务运行证据、科学图和四份官方预训练；不包含个人媒体学习笔记及可重建裁图／特征缓存。移机训练须新目录及本机路径索引，不直接重跑旧固定controller或改冻结事实文件。"
+    }
+  ],
+  "changed_pages": [
+    41,
+    49
+  ],
+  "unchanged_plan_pages": 48,
+  "report_and_handover_unchanged": true,
+  "actual_visual_review_of_changed_pages": "PASS",
+  "actual_visual_page_evidence": [
+    {
+      "page": 41,
+      "sha256": "9b3734ad741b7ce7cbc2593a384d333bea9f38f4facc00106ecbab56af2b39ad",
+      "status": "PASS",
+      "note": "Current report v4 / plan v13 pointer visible, full surrounding paragraphs and tables readable; no clipping/overlap/pagination shift."
+    },
+    {
+      "page": 49,
+      "sha256": "b78f4c4257d750a3d6f60558db4a95b151b06d37232c181168f02dd89e3bd687",
+      "status": "PASS",
+      "note": "Current report v4 / plan v13 pointer visible, full surrounding paragraphs and tables readable; no clipping/overlap/pagination shift."
+    }
+  ]
+}

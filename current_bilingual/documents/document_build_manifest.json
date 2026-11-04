@@ -1,0 +1,864 @@
+[
+  {
+    "output": "基于ResNet18的手势识别项目方案_v13_中英文配图.docx",
+    "source": "基于ResNet18的手势识别项目方案_v12.docx",
+    "source_sha256": "f9f136d40aac91325732a31bd3586409be9a5c9de989805fc30a706c0443d5bb",
+    "output_sha256": "a7a422463cbad7805a9b3cacf23d6a316fffda21fec88c5ed3cd0a5b75760a5a",
+    "image_occurrences": 58,
+    "image_bindings": [
+      {
+        "id": "D1-I01",
+        "language": "en",
+        "relationship": "rId54",
+        "source_png": "assets_reference/D1_I01_en.png",
+        "sha256": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6",
+        "width_emu": 302189,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I02",
+        "language": "en",
+        "relationship": "rId55",
+        "source_png": "assets_reference/D1_I02_en.png",
+        "sha256": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d",
+        "width_emu": 314068,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I01",
+        "language": "zh",
+        "relationship": "rId56",
+        "source_png": "assets_reference/D1_I01_zh.png",
+        "sha256": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6",
+        "width_emu": 302189,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I02",
+        "language": "zh",
+        "relationship": "rId57",
+        "source_png": "assets_reference/D1_I02_zh.png",
+        "sha256": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d",
+        "width_emu": 314068,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I03",
+        "language": "en",
+        "relationship": "rId58",
+        "source_png": "assets_reference/D1_I03_en.png",
+        "sha256": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716",
+        "width_emu": 311327,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I04",
+        "language": "en",
+        "relationship": "rId59",
+        "source_png": "assets_reference/D1_I04_en.png",
+        "sha256": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824",
+        "width_emu": 217813,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I05",
+        "language": "en",
+        "relationship": "rId60",
+        "source_png": "assets_reference/D1_I05_en.png",
+        "sha256": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7",
+        "width_emu": 376533,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I03",
+        "language": "zh",
+        "relationship": "rId61",
+        "source_png": "assets_reference/D1_I03_zh.png",
+        "sha256": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716",
+        "width_emu": 311327,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I04",
+        "language": "zh",
+        "relationship": "rId62",
+        "source_png": "assets_reference/D1_I04_zh.png",
+        "sha256": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824",
+        "width_emu": 217813,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I05",
+        "language": "zh",
+        "relationship": "rId63",
+        "source_png": "assets_reference/D1_I05_zh.png",
+        "sha256": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7",
+        "width_emu": 376533,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I06",
+        "language": "en",
+        "relationship": "rId64",
+        "source_png": "assets_reference/D1_I06_en.png",
+        "sha256": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae",
+        "width_emu": 374164,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I06",
+        "language": "zh",
+        "relationship": "rId65",
+        "source_png": "assets_reference/D1_I06_zh.png",
+        "sha256": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae",
+        "width_emu": 374164,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I07",
+        "language": "en",
+        "relationship": "rId66",
+        "source_png": "assets_reference/D1_I07_en.png",
+        "sha256": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b",
+        "width_emu": 306880,
+        "height_emu": 413998
+      },
+      {
+        "id": "D1-I07",
+        "language": "zh",
+        "relationship": "rId67",
+        "source_png": "assets_reference/D1_I07_zh.png",
+        "sha256": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b",
+        "width_emu": 306880,
+        "height_emu": 413998
+      },
+      {
+        "id": "D1-I08",
+        "language": "en",
+        "relationship": "rId68",
+        "source_png": "assets_reference/D1_I08_en.png",
+        "sha256": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab",
+        "width_emu": 271337,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I08",
+        "language": "zh",
+        "relationship": "rId69",
+        "source_png": "assets_reference/D1_I08_zh.png",
+        "sha256": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab",
+        "width_emu": 271337,
+        "height_emu": 413999
+      },
+      {
+        "id": "D1-I09",
+        "language": "en",
+        "relationship": "rId70",
+        "source_png": "assets_reference/D1_I09_en.png",
+        "sha256": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d",
+        "width_emu": 242849,
+        "height_emu": 414000
+      },
+      {
+        "id": "D1-I09",
+        "language": "zh",
+        "relationship": "rId71",
+        "source_png": "assets_reference/D1_I09_zh.png",
+        "sha256": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d",
+        "width_emu": 242849,
+        "height_emu": 414000
+      },
+      {
+        "id": "D1-I10",
+        "language": "zh",
+        "relationship": "rId72",
+        "source_png": "assets_diagrams/zh/D1-I10_zh.png",
+        "sha256": "2be246b8667421cbcdad69df95b813c8ae070966d3932230992b9944568fd916",
+        "width_emu": 6192000,
+        "height_emu": 3391579
+      },
+      {
+        "id": "D1-I10",
+        "language": "en",
+        "relationship": "rId73",
+        "source_png": "assets_diagrams/en/D1-I10_en.png",
+        "sha256": "88c9c46af96b194eb8a76d97fe62267c45f82ef909f055df7ea7c5559aa6210c",
+        "width_emu": 6192000,
+        "height_emu": 3391579
+      },
+      {
+        "id": "D1-I11",
+        "language": "zh",
+        "relationship": "rId74",
+        "source_png": "assets_diagrams/zh/D1-I11_zh.png",
+        "sha256": "8b92f5f1305e7ade907034c2d78c7bc158a44e0a2e3a62261bb5f00bc914454b",
+        "width_emu": 6192000,
+        "height_emu": 2481553
+      },
+      {
+        "id": "D1-I11",
+        "language": "en",
+        "relationship": "rId75",
+        "source_png": "assets_diagrams/en/D1-I11_en.png",
+        "sha256": "a6e1dac09cfbf93fee9fa25eb53fd6503c56923e1e996b22de8ad6b3f55ed97e",
+        "width_emu": 6192000,
+        "height_emu": 2454395
+      },
+      {
+        "id": "D1-I12",
+        "language": "zh",
+        "relationship": "rId76",
+        "source_png": "assets_diagrams/zh/D1-I12_zh.png",
+        "sha256": "bdf0ae3b309a3f1f3291d680beeff2fe1bd497a3591c15e7beddcba5c0b98d1a",
+        "width_emu": 6192000,
+        "height_emu": 3538286
+      },
+      {
+        "id": "D1-I12",
+        "language": "en",
+        "relationship": "rId77",
+        "source_png": "assets_diagrams/en/D1-I12_en.png",
+        "sha256": "f11b8056a5fcd49c45d4aaf8fc68b6fff91dfdc0d5b5d9eb7121130627a3cff5",
+        "width_emu": 6192000,
+        "height_emu": 3538286
+      },
+      {
+        "id": "D1-I13",
+        "language": "zh",
+        "relationship": "rId78",
+        "source_png": "assets_diagrams/zh/D1-I13_zh.png",
+        "sha256": "3045b7d30d08e60bd9aba6f9d3b40e10f4f30df31a88739a106bada06d6df8df",
+        "width_emu": 6192000,
+        "height_emu": 6991579
+      },
+      {
+        "id": "D1-I13",
+        "language": "en",
+        "relationship": "rId79",
+        "source_png": "assets_diagrams/en/D1-I13_en.png",
+        "sha256": "36cb78bc516a6f2a3c908ad75eb44fc26081470009ff123db0d6fa4d76b9e3f1",
+        "width_emu": 6192000,
+        "height_emu": 6991579
+      },
+      {
+        "id": "D1-I14",
+        "language": "zh",
+        "relationship": "rId80",
+        "source_png": "assets_diagrams/zh/D1-I14_zh.png",
+        "sha256": "eec8eec26de1a878d0eb84873c1b32102677dc1c7943c8d808384425fb4d1427",
+        "width_emu": 6192000,
+        "height_emu": 2315368
+      },
+      {
+        "id": "D1-I14",
+        "language": "en",
+        "relationship": "rId81",
+        "source_png": "assets_diagrams/en/D1-I14_en.png",
+        "sha256": "5cfe72d4a39bf422b6c94fd71edb0347167acd52492698ce3eff7664f33c5145",
+        "width_emu": 6192000,
+        "height_emu": 2315368
+      },
+      {
+        "id": "D1-I15",
+        "language": "zh",
+        "relationship": "rId82",
+        "source_png": "assets_diagrams/zh/D1-I15_zh.png",
+        "sha256": "9faa4b257823079e58b5485403d8dabecf66e3212c446d03e3c753f8c026d3ab",
+        "width_emu": 6192000,
+        "height_emu": 2262316
+      },
+      {
+        "id": "D1-I15",
+        "language": "en",
+        "relationship": "rId83",
+        "source_png": "assets_diagrams/en/D1-I15_en.png",
+        "sha256": "5aeeff5ce1dd270a8e247db275fe82ffe5a5d4b609b57fcf4ada6444deeb66f8",
+        "width_emu": 6192000,
+        "height_emu": 2262316
+      },
+      {
+        "id": "D1-I16",
+        "language": "zh",
+        "relationship": "rId84",
+        "source_png": "assets_diagrams/zh/D1-I16_zh.png",
+        "sha256": "22b35fb2b022bf7203938bfaa17482230b3da66c57265c42f070f469e035626d",
+        "width_emu": 6192000,
+        "height_emu": 2664000
+      },
+      {
+        "id": "D1-I16",
+        "language": "en",
+        "relationship": "rId85",
+        "source_png": "assets_diagrams/en/D1-I16_en.png",
+        "sha256": "57a13ce6cd9830dfc49fc18634dbe9dd243b11252a13146bc66a2cd2d9819fb3",
+        "width_emu": 6192000,
+        "height_emu": 2664000
+      },
+      {
+        "id": "D1-I17",
+        "language": "zh",
+        "relationship": "rId86",
+        "source_png": "assets_diagrams/zh/D1-I17_zh.png",
+        "sha256": "e41784cdb14b519bf6d700556a9d475f5ab21fd1b7054d002ac0c194b25b2e56",
+        "width_emu": 6192000,
+        "height_emu": 2664000
+      },
+      {
+        "id": "D1-I17",
+        "language": "en",
+        "relationship": "rId87",
+        "source_png": "assets_diagrams/en/D1-I17_en.png",
+        "sha256": "8c77e6b7925d764ab71381019d8b084ebbd10c6d0fa424a6639ef070e0fdd917",
+        "width_emu": 6192000,
+        "height_emu": 2664000
+      },
+      {
+        "id": "D1-I18",
+        "language": "zh",
+        "relationship": "rId88",
+        "source_png": "assets_diagrams/zh/D1-I18_zh.png",
+        "sha256": "9bf993ac3add4841e48b0d34a58ac7d29331f7ebac03c238116014188eb7e973",
+        "width_emu": 6192000,
+        "height_emu": 2300211
+      },
+      {
+        "id": "D1-I18",
+        "language": "en",
+        "relationship": "rId89",
+        "source_png": "assets_diagrams/en/D1-I18_en.png",
+        "sha256": "51c359380073e5ac21aecf4bbadf9cb1a8937669c2dbc5cb30b3b8470b044311",
+        "width_emu": 6192000,
+        "height_emu": 2300211
+      },
+      {
+        "id": "D1-I19",
+        "language": "zh",
+        "relationship": "rId90",
+        "source_png": "assets_diagrams/zh/D1-I19_zh.png",
+        "sha256": "5f82b777d307c8f9e86b3ec35c062700a8563759fb92caefbd24554c5db029a1",
+        "width_emu": 6192000,
+        "height_emu": 2482105
+      },
+      {
+        "id": "D1-I19",
+        "language": "en",
+        "relationship": "rId91",
+        "source_png": "assets_diagrams/en/D1-I19_en.png",
+        "sha256": "3628285c8dd0183110427270192e9583b4460da963caa43fa527779a2585e079",
+        "width_emu": 6192000,
+        "height_emu": 2482105
+      },
+      {
+        "id": "D1-I20",
+        "language": "zh",
+        "relationship": "rId92",
+        "source_png": "assets_reference/D1_I20_zh.png",
+        "sha256": "aff2d6183ecc334d7cc65e6bac7e68790d54d8b000253f3b2829ebda23463730",
+        "width_emu": 6192000,
+        "height_emu": 2312608
+      },
+      {
+        "id": "D1-I20",
+        "language": "en",
+        "relationship": "rId93",
+        "source_png": "assets_reference/D1_I20_en.png",
+        "sha256": "54c610b5f2dec2f2e9bc1cecabe068c66626d2ee16de1dee056f84a0fd8ec1d9",
+        "width_emu": 6192000,
+        "height_emu": 2312608
+      },
+      {
+        "id": "D1-I21",
+        "language": "zh",
+        "relationship": "rId94",
+        "source_png": "assets_diagrams/zh/D1-I21_zh.png",
+        "sha256": "c75de6134f51ef2ab74e38539b9fb3f8d3bec4786601b33d81341c99a2bdf8ca",
+        "width_emu": 6192000,
+        "height_emu": 4373053
+      },
+      {
+        "id": "D1-I21",
+        "language": "en",
+        "relationship": "rId95",
+        "source_png": "assets_diagrams/en/D1-I21_en.png",
+        "sha256": "22737aff0da2a904908e86aeade8060174245260f449ec9bf2ef6c02bca126af",
+        "width_emu": 6192000,
+        "height_emu": 4373053
+      },
+      {
+        "id": "D1-I22",
+        "language": "zh",
+        "relationship": "rId96",
+        "source_png": "assets_reference/D1_I22_zh.png",
+        "sha256": "66ca4796b4c498e8298c8c7ca11ae858a0ca8b432c36eb607f48bb0751148e38",
+        "width_emu": 5223092,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I22",
+        "language": "en",
+        "relationship": "rId97",
+        "source_png": "assets_reference/D1_I22_en.png",
+        "sha256": "6a2ceb8de7bf5b7658b3fa50f4730bd703b6e5fffbc7534c651b6250e1a79672",
+        "width_emu": 5342303,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I23",
+        "language": "zh",
+        "relationship": "rId98",
+        "source_png": "assets_reference/D1_I23_zh.png",
+        "sha256": "c726d3649445d1ced7f172f5b778b45583f07cc6d472e8b9e5411b2050a41b73",
+        "width_emu": 6023610,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I23",
+        "language": "en",
+        "relationship": "rId99",
+        "source_png": "assets_reference/D1_I23_en.png",
+        "sha256": "c5c0be4cff6ca1a8a5ddfb059c03a049be8be95f9527afda52a6f03186d91f6a",
+        "width_emu": 6023610,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I24",
+        "language": "zh",
+        "relationship": "rId100",
+        "source_png": "assets_reference/D1_I24_zh.png",
+        "sha256": "bf6fca5a6cfaca4e0e63845f040b85ee79c3bcc374bc2d40c0249d2ddf31d299",
+        "width_emu": 6192000,
+        "height_emu": 3857684
+      },
+      {
+        "id": "D1-I24",
+        "language": "en",
+        "relationship": "rId101",
+        "source_png": "assets_reference/D1_I24_en.png",
+        "sha256": "5f23b64545778f2b76b8ce9b7c8dbbadaf3c8b588287d4c6b633d51284bf72f3",
+        "width_emu": 6192000,
+        "height_emu": 3857684
+      },
+      {
+        "id": "D1-I25",
+        "language": "zh",
+        "relationship": "rId102",
+        "source_png": "assets_results/D1-I25/zh.png",
+        "sha256": "9d79940e40bb0687dd634a09e793d518d5cc56f5c1686dd841d066eb314311e4",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I25",
+        "language": "en",
+        "relationship": "rId103",
+        "source_png": "assets_results/D1-I25/en.png",
+        "sha256": "c6020e9188ceee2f1a29112b9763e6ea8e6ce58fa41e511677fa43c63ddbf2f5",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I26",
+        "language": "zh",
+        "relationship": "rId104",
+        "source_png": "assets_results/D1-I26/zh.png",
+        "sha256": "c50388e68614c55730b72e8ddc6202b067b99e72d0b2b4f413ce681a76f5ffa9",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I26",
+        "language": "en",
+        "relationship": "rId105",
+        "source_png": "assets_results/D1-I26/en.png",
+        "sha256": "63525d4550e92a5607f2460cc931d09cdc1bd376a24e195db1adc122171c655c",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I27",
+        "language": "zh",
+        "relationship": "rId106",
+        "source_png": "assets_results/D1-I27/zh.png",
+        "sha256": "66674236e07c1089d7e11ca2479ffcf5a14cb8406dcd542020a9eca2f727dd74",
+        "width_emu": 5943600,
+        "height_emu": 5943600
+      },
+      {
+        "id": "D1-I27",
+        "language": "en",
+        "relationship": "rId107",
+        "source_png": "assets_results/D1-I27/en.png",
+        "sha256": "89b33f6ddae08f9a431d76f4fc10eb079207a79f6ccd4956b18f5b2db96ff03d",
+        "width_emu": 5943600,
+        "height_emu": 5943600
+      },
+      {
+        "id": "D1-I28",
+        "language": "zh",
+        "relationship": "rId108",
+        "source_png": "assets_results/D1-I28/zh.png",
+        "sha256": "917050b9edb24c425133a2860a4c111b67aa3f3d51e9e5a1c5151b9aa72b19dd",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I28",
+        "language": "en",
+        "relationship": "rId109",
+        "source_png": "assets_results/D1-I28/en.png",
+        "sha256": "a4bef0e53031d3b88fd37b549b3b505a80f64c547ab7a67b2504d9efee3b8d49",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I29",
+        "language": "zh",
+        "relationship": "rId110",
+        "source_png": "assets_results/D1-I29/zh.png",
+        "sha256": "0ca4b1faede429485c2583b68b8fb43cb7c0fbf5beb1bf5143bc02df2e0219b8",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D1-I29",
+        "language": "en",
+        "relationship": "rId111",
+        "source_png": "assets_results/D1-I29/en.png",
+        "sha256": "9e589b5ca2f2612d0e6eb1bb7170afa6965a3e07a6be955260948537e65729d7",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      }
+    ],
+    "original_body_and_tables_preserved": true,
+    "handover_targeted_version_changes": [],
+    "plan_targeted_version_changes": [
+      {
+        "source_paragraph_index": 556,
+        "before": "按同一(image_id,hand_index)连接人工框预测，四种raw各报告被预测为1的数目／支持数；整图按原照片文件夹归属报告最终1，保留完整照片上的检测和规则。这两种比率不能互换。下表箭头左为不合并、右为合并；完整逐模型细节同时保留在报告v3。",
+        "after": "按同一(image_id,hand_index)连接人工框预测，四种raw各报告被预测为1的数目／支持数；整图按原照片文件夹归属报告最终1，保留完整照片上的检测和规则。这两种比率不能互换。下表箭头左为不合并、右为合并；完整逐模型细节同时保留在报告v4。"
+      },
+      {
+        "source_paragraph_index": 798,
+        "before": "先读最新报告v3与本方案v12；v11和报告v2保留不合并完整记录，更早Word仅追溯。完整源码与数据保留原图、固定清单、两任务运行证据、科学图和四份官方预训练；不包含个人媒体学习笔记及可重建裁图／特征缓存。移机训练须新目录及本机路径索引，不直接重跑旧固定controller或改冻结事实文件。",
+        "after": "先读最新报告v4与本方案v13；v11和报告v2保留不合并完整记录，更早Word仅追溯。完整源码与数据保留原图、固定清单、两任务运行证据、科学图和四份官方预训练；不包含个人媒体学习笔记及可重建裁图／特征缓存。移机训练须新目录及本机路径索引，不直接重跑旧固定controller或改冻结事实文件。"
+      }
+    ],
+    "page_counts": 50,
+    "report_new_explanation": []
+  },
+  {
+    "output": "A与B协议ResNet训练与对比实验报告_v4_中英文配图.docx",
+    "source": "A与B协议ResNet训练与对比实验报告_v3.docx",
+    "source_sha256": "f8071465cb0742ee86dd4e2f9c8c05481d491f00ccc53b319710001b79ae8b28",
+    "output_sha256": "ea50190ab22a56d98446427d48aabc79e778b5f263c6980d2f57d9e5fde8a923",
+    "image_occurrences": 30,
+    "image_bindings": [
+      {
+        "id": "D2-I01",
+        "language": "zh",
+        "relationship": "rId27",
+        "source_png": "assets_results/D2-I01/zh.png",
+        "sha256": "c286fcfc2be5c5a4ecd822d494336903c9bbe31015894cec700528b6bc807b1d",
+        "width_emu": 6336792,
+        "height_emu": 5336246
+      },
+      {
+        "id": "D2-I01",
+        "language": "en",
+        "relationship": "rId28",
+        "source_png": "assets_results/D2-I01/en.png",
+        "sha256": "a1a4ea79a246b79398f8fdd07f656d31266b6863886d2a5f3ed200a2ab492694",
+        "width_emu": 6336792,
+        "height_emu": 5336246
+      },
+      {
+        "id": "D2-I02",
+        "language": "zh",
+        "relationship": "rId29",
+        "source_png": "assets_results/D2-I02/zh.png",
+        "sha256": "19ac826a184e3af47386f28d63b69439f34d1ae24acbf49a1470a607a2abf4a0",
+        "width_emu": 6336792,
+        "height_emu": 5336246
+      },
+      {
+        "id": "D2-I02",
+        "language": "en",
+        "relationship": "rId30",
+        "source_png": "assets_results/D2-I02/en.png",
+        "sha256": "65dc8721467dd81d986e285083bf51d775dd1aa1ecd93610645d7c4c72d31b9e",
+        "width_emu": 6336792,
+        "height_emu": 5336246
+      },
+      {
+        "id": "D2-I03",
+        "language": "zh",
+        "relationship": "rId31",
+        "source_png": "assets_results/D2-I03/zh.png",
+        "sha256": "4925342a3236ca944ef46cca8c4fbb033d86efc70b1f92426252ca788bb52846",
+        "width_emu": 6336792,
+        "height_emu": 4954219
+      },
+      {
+        "id": "D2-I03",
+        "language": "en",
+        "relationship": "rId32",
+        "source_png": "assets_results/D2-I03/en.png",
+        "sha256": "567c6967e498b2ffaad33a6fe90a3b48ccb3b2b567222f288ef59f70fa6ac327",
+        "width_emu": 6336792,
+        "height_emu": 4954219
+      },
+      {
+        "id": "D2-I04",
+        "language": "zh",
+        "relationship": "rId33",
+        "source_png": "assets_results/D2-I04/zh.png",
+        "sha256": "e005dd163226a876d085d9cd909ccd734a67a1131747d950179d4e681bca0002",
+        "width_emu": 6336792,
+        "height_emu": 6187691
+      },
+      {
+        "id": "D2-I04",
+        "language": "en",
+        "relationship": "rId34",
+        "source_png": "assets_results/D2-I04/en.png",
+        "sha256": "3457922d5e27de6b273dfed6a4c0a4caa8cefac8b7a5e825874996b3e0cd33f7",
+        "width_emu": 6336792,
+        "height_emu": 6187691
+      },
+      {
+        "id": "D2-I05",
+        "language": "zh",
+        "relationship": "rId35",
+        "source_png": "assets_results/D1-I25/zh.png",
+        "sha256": "9d79940e40bb0687dd634a09e793d518d5cc56f5c1686dd841d066eb314311e4",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I05",
+        "language": "en",
+        "relationship": "rId36",
+        "source_png": "assets_results/D1-I25/en.png",
+        "sha256": "c6020e9188ceee2f1a29112b9763e6ea8e6ce58fa41e511677fa43c63ddbf2f5",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I06",
+        "language": "zh",
+        "relationship": "rId37",
+        "source_png": "assets_results/D2-I06/zh.png",
+        "sha256": "a38ee3d31bc509791967a28fb39352bcda91fc85d3d2f0e141ede8de404779be",
+        "width_emu": 6336792,
+        "height_emu": 3645826
+      },
+      {
+        "id": "D2-I06",
+        "language": "en",
+        "relationship": "rId38",
+        "source_png": "assets_results/D2-I06/en.png",
+        "sha256": "505b20030a83402ad94db463929ace4055e1b5d24df06b59a11de76d3a36031c",
+        "width_emu": 6336792,
+        "height_emu": 3645826
+      },
+      {
+        "id": "D2-I07",
+        "language": "zh",
+        "relationship": "rId39",
+        "source_png": "assets_results/D2-I07/zh.png",
+        "sha256": "f7e407d2f0b331222057c943aaca0c24c5acd35b856f155c3bc56e494b991213",
+        "width_emu": 6336792,
+        "height_emu": 5336246
+      },
+      {
+        "id": "D2-I07",
+        "language": "en",
+        "relationship": "rId40",
+        "source_png": "assets_results/D2-I07/en.png",
+        "sha256": "81ac6d66697126d0ce94299d3bcf9a9d821c965699c519b146b5bb4c7135655b",
+        "width_emu": 6336792,
+        "height_emu": 5336246
+      },
+      {
+        "id": "D2-I08",
+        "language": "zh",
+        "relationship": "rId41",
+        "source_png": "assets_results/D2-I08/zh.png",
+        "sha256": "a5998a6733af77c5a70b588fdd2542918cc3805c96977b34ec2be5e739746431",
+        "width_emu": 6336792,
+        "height_emu": 5336246
+      },
+      {
+        "id": "D2-I08",
+        "language": "en",
+        "relationship": "rId42",
+        "source_png": "assets_results/D2-I08/en.png",
+        "sha256": "107fd0a8a674e4d960cf6706cdd06a34283c460f7250fdc8a441a73c24356a5c",
+        "width_emu": 6336792,
+        "height_emu": 5336246
+      },
+      {
+        "id": "D2-I09",
+        "language": "zh",
+        "relationship": "rId43",
+        "source_png": "assets_results/D1-I26/zh.png",
+        "sha256": "c50388e68614c55730b72e8ddc6202b067b99e72d0b2b4f413ce681a76f5ffa9",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I09",
+        "language": "en",
+        "relationship": "rId44",
+        "source_png": "assets_results/D1-I26/en.png",
+        "sha256": "63525d4550e92a5607f2460cc931d09cdc1bd376a24e195db1adc122171c655c",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I10",
+        "language": "zh",
+        "relationship": "rId45",
+        "source_png": "assets_results/D2-I10/zh.png",
+        "sha256": "54d0cf4dbcd69d96a233613be0bac8497c6c7ca26a9e05673df1b5d5d435a21d",
+        "width_emu": 6336792,
+        "height_emu": 5184648
+      },
+      {
+        "id": "D2-I10",
+        "language": "en",
+        "relationship": "rId46",
+        "source_png": "assets_results/D2-I10/en.png",
+        "sha256": "1ed3b770638acbbfae38091fbf49da371afbbad2faf4d38c657f78f8cd79f7a1",
+        "width_emu": 6336792,
+        "height_emu": 5184648
+      },
+      {
+        "id": "D2-I11",
+        "language": "zh",
+        "relationship": "rId47",
+        "source_png": "assets_results/D1-I27/zh.png",
+        "sha256": "66674236e07c1089d7e11ca2479ffcf5a14cb8406dcd542020a9eca2f727dd74",
+        "width_emu": 6336792,
+        "height_emu": 6336792
+      },
+      {
+        "id": "D2-I11",
+        "language": "en",
+        "relationship": "rId48",
+        "source_png": "assets_results/D1-I27/en.png",
+        "sha256": "89b33f6ddae08f9a431d76f4fc10eb079207a79f6ccd4956b18f5b2db96ff03d",
+        "width_emu": 6336792,
+        "height_emu": 6336792
+      },
+      {
+        "id": "D2-I12",
+        "language": "zh",
+        "relationship": "rId49",
+        "source_png": "assets_results/D2-I12/zh.png",
+        "sha256": "4636cd320cf53a673b8221d8e02432e325dacff6aac29967ed93c7e6e6335302",
+        "width_emu": 6336792,
+        "height_emu": 2376297
+      },
+      {
+        "id": "D2-I12",
+        "language": "en",
+        "relationship": "rId50",
+        "source_png": "assets_results/D2-I12/en.png",
+        "sha256": "e34e131ac9a2a905e57b51396b677869eeb2abf59eaab4742ac05da3c0330a31",
+        "width_emu": 6336792,
+        "height_emu": 2376297
+      },
+      {
+        "id": "D2-I13",
+        "language": "zh",
+        "relationship": "rId51",
+        "source_png": "assets_results/D1-I28/zh.png",
+        "sha256": "917050b9edb24c425133a2860a4c111b67aa3f3d51e9e5a1c5151b9aa72b19dd",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I13",
+        "language": "en",
+        "relationship": "rId52",
+        "source_png": "assets_results/D1-I28/en.png",
+        "sha256": "a4bef0e53031d3b88fd37b549b3b505a80f64c547ab7a67b2504d9efee3b8d49",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I14",
+        "language": "zh",
+        "relationship": "rId53",
+        "source_png": "assets_results/D1-I29/zh.png",
+        "sha256": "0ca4b1faede429485c2583b68b8fb43cb7c0fbf5beb1bf5143bc02df2e0219b8",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I14",
+        "language": "en",
+        "relationship": "rId54",
+        "source_png": "assets_results/D1-I29/en.png",
+        "sha256": "9e589b5ca2f2612d0e6eb1bb7170afa6965a3e07a6be955260948537e65729d7",
+        "width_emu": 5905500,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I15",
+        "language": "zh",
+        "relationship": "rId55",
+        "source_png": "assets_results/D2-I15/zh.png",
+        "sha256": "992b76f4be0989b3a4e742c26993609ae0da8b3a9fa9788ec0cbc4876927ceb8",
+        "width_emu": 3871704,
+        "height_emu": 7086600
+      },
+      {
+        "id": "D2-I15",
+        "language": "en",
+        "relationship": "rId56",
+        "source_png": "assets_results/D2-I15/en.png",
+        "sha256": "3a1591d1e533142506f974975c8b673347d3bd1764df64e229fbb8995c7b2925",
+        "width_emu": 3871704,
+        "height_emu": 7086600
+      }
+    ],
+    "original_body_and_tables_preserved": true,
+    "handover_targeted_version_changes": [],
+    "page_counts": 71,
+    "report_new_explanation": [
+      "这里的整图准确率，是让程序读入一张完整照片，经过找手、裁图、分类、置信度筛选和多手汇总后，检查最后那个0—5数字是否符合该任务的整图正确答案。B测试集有3,102张完整照片，每张只计一次。人工框手图准确率约99%，则是提前给定正确手框后评价单手分类，不能直接当作完整照片识别成功率；整图数字正确也不表示照片中的每只手都已找到。",
+      "以B ResNet18为例，不合并版在3,102张照片中正确2,887张，整图准确率93.07%；合并版正确2,849张，为91.84%，少38张。可把这38张分开看：336张two_up与two_up_inverted照片的正确数字由0改为1；旧版在这336张均输出0，按旧任务全部算对，新版有307张正确输出1，其余29张仍输出0。其中19张没有检测框，另10张虽有框，但没有被接收的有效非0指令；这10张并非多手指令冲突。",
+      "另外2,766张照片的新旧正确数字不变，正确数仍由2,551降为2,542，净少9张，其中21张由原来正确变成错误，12张由原来错误变成正确。相同的1,359张共同负类照片中，误发运动指令也由5张增加到16张，因此不能把全部变化都解释为计分口径改变。两版使用相同的检测器权重，检测阈值与分类阈值也都为0.3；这些配对结果描述了最终数字的变化，但不足以把变化唯一归因于定位、分类或汇总中的某一个环节，也不能据此笼统断言模型整体变差。"
+    ]
+  },
+  {
+    "output": "交接说明_v2_中英文配图.docx",
+    "source": "交接说明.docx",
+    "source_sha256": "87d35dac652b5d0bafc460818c3dadc36e637479e2ac23d75633d701efabbb23",
+    "output_sha256": "5dd590ce9be8d576ddc55edde39e8c828090cb88c9e8ebebe012f2520d554618",
+    "image_occurrences": 0,
+    "image_bindings": [],
+    "original_body_and_tables_preserved": false,
+    "handover_targeted_version_changes": [
+      1,
+      132,
+      295,
+      300,
+      303,
+      306,
+      310,
+      309,
+      312,
+      315,
+      317,
+      332,
+      335,
+      343,
+      363
+    ],
+    "page_counts": 9,
+    "report_new_explanation": []
+  }
+]

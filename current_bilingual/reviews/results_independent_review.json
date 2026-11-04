@@ -1,0 +1,769 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/bilingual_figure_inventory (not the author of assets_results)",
+  "scope": {
+    "unique_figures": 15,
+    "pngs_inspected": 30,
+    "full_english_caption_occurrences": 20,
+    "source_boundary": "Only inventory-listed evidence files and packaged four fixed photos; no raw dataset traversal, no model execution."
+  },
+  "checks": [
+    {
+      "id": "D1-I25",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 26,
+          "chinese_texts": 17,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 26,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "science_panel_pixel_equality": {
+        "zh": true,
+        "en": true
+      },
+      "frozen_array_identity_count": 24,
+      "metadata_equal_to_source": true,
+      "caption_occurrences": [
+        "D1-I25",
+        "D2-I05"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D1-I26",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 26,
+          "chinese_texts": 17,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 26,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "science_panel_pixel_equality": {
+        "zh": true,
+        "en": true
+      },
+      "frozen_array_identity_count": 24,
+      "metadata_equal_to_source": true,
+      "caption_occurrences": [
+        "D1-I26",
+        "D2-I09"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D1-I27",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 7,
+          "chinese_texts": 7,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 7,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "all_pixels_outside_text_bands_equal": {
+        "zh": true,
+        "en": true
+      },
+      "sample_record_equal_to_source": true,
+      "caption_occurrences": [
+        "D1-I27",
+        "D2-I11"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D1-I28",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 26,
+          "chinese_texts": 17,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 26,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "science_panel_pixel_equality": {
+        "zh": true,
+        "en": true
+      },
+      "frozen_array_identity_count": 36,
+      "metadata_equal_to_source": true,
+      "caption_occurrences": [
+        "D1-I28",
+        "D2-I13"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D1-I29",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 26,
+          "chinese_texts": 17,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 26,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "science_panel_pixel_equality": {
+        "zh": true,
+        "en": true
+      },
+      "frozen_array_identity_count": 36,
+      "metadata_equal_to_source": true,
+      "caption_occurrences": [
+        "D1-I29",
+        "D2-I14"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I01",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 58,
+          "chinese_texts": 16,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 58,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "confusion_metrics_equal_to_original_json": true,
+      "all_36_matrix_counts_in_both_svgs": {
+        "zh": true,
+        "en": true
+      },
+      "caption_occurrences": [
+        "D2-I01"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I02",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 58,
+          "chinese_texts": 16,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 58,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "confusion_metrics_equal_to_original_json": true,
+      "all_36_matrix_counts_in_both_svgs": {
+        "zh": true,
+        "en": true
+      },
+      "caption_occurrences": [
+        "D2-I02"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I03",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 9,
+          "chinese_texts": 5,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 9,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "all_pixels_outside_text_bands_equal": {
+        "zh": true,
+        "en": true
+      },
+      "sample_record_equal_to_source": true,
+      "caption_occurrences": [
+        "D2-I03"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I04",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 9,
+          "chinese_texts": 9,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 9,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "all_pixels_outside_text_bands_equal": {
+        "zh": true,
+        "en": true
+      },
+      "sample_record_equal_to_source": true,
+      "caption_occurrences": [
+        "D2-I04"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I06",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 18,
+          "chinese_texts": 3,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 18,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "curve_groups": [
+        {
+          "protocol": "A",
+          "model": "ResNet18",
+          "count": 18,
+          "all_epoch_f1_values_equal": true
+        },
+        {
+          "protocol": "A",
+          "model": "ResNet34",
+          "count": 18,
+          "all_epoch_f1_values_equal": true
+        },
+        {
+          "protocol": "A",
+          "model": "ResNet50",
+          "count": 18,
+          "all_epoch_f1_values_equal": true
+        }
+      ],
+      "caption_occurrences": [
+        "D2-I06"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I07",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 58,
+          "chinese_texts": 16,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 58,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "confusion_metrics_equal_to_original_json": true,
+      "all_36_matrix_counts_in_both_svgs": {
+        "zh": true,
+        "en": true
+      },
+      "caption_occurrences": [
+        "D2-I07"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I08",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 58,
+          "chinese_texts": 16,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 58,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "confusion_metrics_equal_to_original_json": true,
+      "all_36_matrix_counts_in_both_svgs": {
+        "zh": true,
+        "en": true
+      },
+      "caption_occurrences": [
+        "D2-I08"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I10",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 9,
+          "chinese_texts": 5,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 9,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "all_pixels_outside_text_bands_equal": {
+        "zh": true,
+        "en": true
+      },
+      "sample_record_equal_to_source": true,
+      "caption_occurrences": [
+        "D2-I10"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I12",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 30,
+          "chinese_texts": 5,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 30,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "curve_groups": [
+        {
+          "protocol": "A",
+          "model": "ResNet18",
+          "count": 18,
+          "all_epoch_f1_values_equal": true
+        },
+        {
+          "protocol": "A",
+          "model": "ResNet34",
+          "count": 18,
+          "all_epoch_f1_values_equal": true
+        },
+        {
+          "protocol": "A",
+          "model": "ResNet50",
+          "count": 18,
+          "all_epoch_f1_values_equal": true
+        },
+        {
+          "protocol": "B",
+          "model": "ResNet18",
+          "count": 18,
+          "all_epoch_f1_values_equal": true
+        },
+        {
+          "protocol": "B",
+          "model": "ResNet34",
+          "count": 18,
+          "all_epoch_f1_values_equal": true
+        },
+        {
+          "protocol": "B",
+          "model": "ResNet50",
+          "count": 11,
+          "all_epoch_f1_values_equal": true
+        }
+      ],
+      "caption_occurrences": [
+        "D2-I12"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    },
+    {
+      "id": "D2-I15",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "languages": {
+        "zh": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 7,
+          "chinese_texts": 7,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        },
+        "en": {
+          "png_sha_matches_manifest": true,
+          "editable_svg_texts": 7,
+          "chinese_texts": 0,
+          "visual_review": "PASS: actual zh/en pair inspected in contact sheet; larger English view checked for representative dense and tall plates"
+        }
+      },
+      "four_frozen_photos": [
+        {
+          "image_id": "01aa0cd7-798e-4e2b-b595-39cc2376a259",
+          "raw_photo_hash_matches_frozen": true
+        },
+        {
+          "image_id": "0d72367c-e360-43b1-9c08-5ddea11c3b8c",
+          "raw_photo_hash_matches_frozen": true
+        },
+        {
+          "image_id": "163e7b4f-00ef-436e-9cfc-e693bedce0a0",
+          "raw_photo_hash_matches_frozen": true
+        },
+        {
+          "image_id": "0fd29f45-cad4-4c0f-8ea0-0f98e81fb17c",
+          "raw_photo_hash_matches_frozen": true
+        }
+      ],
+      "all_boxes_scores_thresholds_equal": true,
+      "frozen_photo_interior_pixels": {
+        "zh": {
+          "equal": true,
+          "pixel_count": 992155
+        },
+        "en": {
+          "equal": true,
+          "pixel_count": 992155
+        }
+      },
+      "caption_occurrences": [
+        "D2-I15"
+      ],
+      "caption_review": "PASS: each full English caption checked against inventory Chinese caption; 20 occurrence-specific captions covered across 15 groups."
+    }
+  ],
+  "issues": [],
+  "output_bindings": [
+    {
+      "path": "assets_results\\D1-I25\\zh.png",
+      "sha256": "9d79940e40bb0687dd634a09e793d518d5cc56f5c1686dd841d066eb314311e4"
+    },
+    {
+      "path": "assets_results\\D1-I25\\zh.svg",
+      "sha256": "5d7b8008a4a87f215a78b74385083fd9bec93d0d8c71fa91462e0724d2c128f6"
+    },
+    {
+      "path": "assets_results\\D1-I25\\en.png",
+      "sha256": "c6020e9188ceee2f1a29112b9763e6ea8e6ce58fa41e511677fa43c63ddbf2f5"
+    },
+    {
+      "path": "assets_results\\D1-I25\\en.svg",
+      "sha256": "d42177c482265ccef53c328ac5708793db59917fa6025ac43c0348529c55bf2f"
+    },
+    {
+      "path": "assets_results\\D1-I26\\zh.png",
+      "sha256": "c50388e68614c55730b72e8ddc6202b067b99e72d0b2b4f413ce681a76f5ffa9"
+    },
+    {
+      "path": "assets_results\\D1-I26\\zh.svg",
+      "sha256": "587865dec135a40d0574d68285b312ec42e5f82a6cf55aea82a1254719e7220a"
+    },
+    {
+      "path": "assets_results\\D1-I26\\en.png",
+      "sha256": "63525d4550e92a5607f2460cc931d09cdc1bd376a24e195db1adc122171c655c"
+    },
+    {
+      "path": "assets_results\\D1-I26\\en.svg",
+      "sha256": "f783639470bb6db96a2c5ec7ec4be61bb77b1c83ff3a2de9ce3fcc1e03e986b1"
+    },
+    {
+      "path": "assets_results\\D1-I27\\zh.png",
+      "sha256": "66674236e07c1089d7e11ca2479ffcf5a14cb8406dcd542020a9eca2f727dd74"
+    },
+    {
+      "path": "assets_results\\D1-I27\\zh.svg",
+      "sha256": "8a167fcb300cd88b92d67d24abebd1a68cf0e5c701091cfaff4464877441f859"
+    },
+    {
+      "path": "assets_results\\D1-I27\\en.png",
+      "sha256": "89b33f6ddae08f9a431d76f4fc10eb079207a79f6ccd4956b18f5b2db96ff03d"
+    },
+    {
+      "path": "assets_results\\D1-I27\\en.svg",
+      "sha256": "48646d3476d90e5cab24d68473a41a7721976f69e97f436635000a4e16172526"
+    },
+    {
+      "path": "assets_results\\D1-I28\\zh.png",
+      "sha256": "917050b9edb24c425133a2860a4c111b67aa3f3d51e9e5a1c5151b9aa72b19dd"
+    },
+    {
+      "path": "assets_results\\D1-I28\\zh.svg",
+      "sha256": "e7b7b268fce43d0ff3b1b126499f714ca44612759ea3d88d594d991b1fd669f0"
+    },
+    {
+      "path": "assets_results\\D1-I28\\en.png",
+      "sha256": "a4bef0e53031d3b88fd37b549b3b505a80f64c547ab7a67b2504d9efee3b8d49"
+    },
+    {
+      "path": "assets_results\\D1-I28\\en.svg",
+      "sha256": "cccfa77e7fb55a2f4d3b40a9774cb07ca46d27eee4348960706579946a873d86"
+    },
+    {
+      "path": "assets_results\\D1-I29\\zh.png",
+      "sha256": "0ca4b1faede429485c2583b68b8fb43cb7c0fbf5beb1bf5143bc02df2e0219b8"
+    },
+    {
+      "path": "assets_results\\D1-I29\\zh.svg",
+      "sha256": "3b34949cdcc676c9bee09eb73572def382dc3f4626bde5fd59faf7ac4f45dea9"
+    },
+    {
+      "path": "assets_results\\D1-I29\\en.png",
+      "sha256": "9e589b5ca2f2612d0e6eb1bb7170afa6965a3e07a6be955260948537e65729d7"
+    },
+    {
+      "path": "assets_results\\D1-I29\\en.svg",
+      "sha256": "11c980bca184f77db9000ef22a7e7e4a43aa2df4686b1a5872a21a5cb1e28f80"
+    },
+    {
+      "path": "assets_results\\D2-I01\\zh.png",
+      "sha256": "c286fcfc2be5c5a4ecd822d494336903c9bbe31015894cec700528b6bc807b1d"
+    },
+    {
+      "path": "assets_results\\D2-I01\\zh.svg",
+      "sha256": "d1e8b2ac6a04036040a8d8e9348d2794112b6878fb18028d2cb681aff16809b4"
+    },
+    {
+      "path": "assets_results\\D2-I01\\en.png",
+      "sha256": "a1a4ea79a246b79398f8fdd07f656d31266b6863886d2a5f3ed200a2ab492694"
+    },
+    {
+      "path": "assets_results\\D2-I01\\en.svg",
+      "sha256": "2eaedbb116db566283ff9d42b67529a182cdaf7c572f1cfd8d121a79713f5ed0"
+    },
+    {
+      "path": "assets_results\\D2-I02\\zh.png",
+      "sha256": "19ac826a184e3af47386f28d63b69439f34d1ae24acbf49a1470a607a2abf4a0"
+    },
+    {
+      "path": "assets_results\\D2-I02\\zh.svg",
+      "sha256": "2dcf585830aceb234164a36a09ba65bc5a541ab0813f5b4a0512745d248225f0"
+    },
+    {
+      "path": "assets_results\\D2-I02\\en.png",
+      "sha256": "65dc8721467dd81d986e285083bf51d775dd1aa1ecd93610645d7c4c72d31b9e"
+    },
+    {
+      "path": "assets_results\\D2-I02\\en.svg",
+      "sha256": "efc83244e818f1eb81fb03375b4bacafba3272e4ea6f3e9781de88af47d23eb8"
+    },
+    {
+      "path": "assets_results\\D2-I03\\zh.png",
+      "sha256": "4925342a3236ca944ef46cca8c4fbb033d86efc70b1f92426252ca788bb52846"
+    },
+    {
+      "path": "assets_results\\D2-I03\\zh.svg",
+      "sha256": "5258b44008c84d0989283a117ea38bf42ceb10eaa0aea3b87fa115beb2abd4d7"
+    },
+    {
+      "path": "assets_results\\D2-I03\\en.png",
+      "sha256": "567c6967e498b2ffaad33a6fe90a3b48ccb3b2b567222f288ef59f70fa6ac327"
+    },
+    {
+      "path": "assets_results\\D2-I03\\en.svg",
+      "sha256": "ea64485a0834a7ad887ed8fd8d690bdb0f26d0ac1b90a000d5ae0da98a1e5565"
+    },
+    {
+      "path": "assets_results\\D2-I04\\zh.png",
+      "sha256": "e005dd163226a876d085d9cd909ccd734a67a1131747d950179d4e681bca0002"
+    },
+    {
+      "path": "assets_results\\D2-I04\\zh.svg",
+      "sha256": "4ce6da044bae63ce3590d1b114a9e370940c22da290116d06ec8038894e1a008"
+    },
+    {
+      "path": "assets_results\\D2-I04\\en.png",
+      "sha256": "3457922d5e27de6b273dfed6a4c0a4caa8cefac8b7a5e825874996b3e0cd33f7"
+    },
+    {
+      "path": "assets_results\\D2-I04\\en.svg",
+      "sha256": "1b6be9d113d171e7c6873653256d156a723edfd37dfe5b164e7f31589914988b"
+    },
+    {
+      "path": "assets_results\\D2-I06\\zh.png",
+      "sha256": "a38ee3d31bc509791967a28fb39352bcda91fc85d3d2f0e141ede8de404779be"
+    },
+    {
+      "path": "assets_results\\D2-I06\\zh.svg",
+      "sha256": "c64f5b38f29d6289fa1f12b15b5c6bd136af33c5cf27a24444d20203503c8e24"
+    },
+    {
+      "path": "assets_results\\D2-I06\\en.png",
+      "sha256": "505b20030a83402ad94db463929ace4055e1b5d24df06b59a11de76d3a36031c"
+    },
+    {
+      "path": "assets_results\\D2-I06\\en.svg",
+      "sha256": "28e07b91b4221eba6a90dd06f477506fa9c36715113bc079fd5cd1d9daa92a5b"
+    },
+    {
+      "path": "assets_results\\D2-I07\\zh.png",
+      "sha256": "f7e407d2f0b331222057c943aaca0c24c5acd35b856f155c3bc56e494b991213"
+    },
+    {
+      "path": "assets_results\\D2-I07\\zh.svg",
+      "sha256": "3a06c2463b23d4d590e310175794a5f14b69e0deb1cb678af084a44bc6611c2a"
+    },
+    {
+      "path": "assets_results\\D2-I07\\en.png",
+      "sha256": "81ac6d66697126d0ce94299d3bcf9a9d821c965699c519b146b5bb4c7135655b"
+    },
+    {
+      "path": "assets_results\\D2-I07\\en.svg",
+      "sha256": "9d4599db78a21fefec78519d0004b8f34a97db0ab0f8309f6be9d4eeabf2ac07"
+    },
+    {
+      "path": "assets_results\\D2-I08\\zh.png",
+      "sha256": "a5998a6733af77c5a70b588fdd2542918cc3805c96977b34ec2be5e739746431"
+    },
+    {
+      "path": "assets_results\\D2-I08\\zh.svg",
+      "sha256": "2d28c41b11d434e5b0561f8e7aa1555df9a53ec19ddfa5625796971383e40aea"
+    },
+    {
+      "path": "assets_results\\D2-I08\\en.png",
+      "sha256": "107fd0a8a674e4d960cf6706cdd06a34283c460f7250fdc8a441a73c24356a5c"
+    },
+    {
+      "path": "assets_results\\D2-I08\\en.svg",
+      "sha256": "9d713d8e00a4040b0f6ee8a0c772fd97ccb97dec1c0f21722d751f59da90f3ec"
+    },
+    {
+      "path": "assets_results\\D2-I10\\zh.png",
+      "sha256": "54d0cf4dbcd69d96a233613be0bac8497c6c7ca26a9e05673df1b5d5d435a21d"
+    },
+    {
+      "path": "assets_results\\D2-I10\\zh.svg",
+      "sha256": "3aa6491f0040cad820d177fb831c66ba7ce5696d4ee63ea7d471517dd9d376d1"
+    },
+    {
+      "path": "assets_results\\D2-I10\\en.png",
+      "sha256": "1ed3b770638acbbfae38091fbf49da371afbbad2faf4d38c657f78f8cd79f7a1"
+    },
+    {
+      "path": "assets_results\\D2-I10\\en.svg",
+      "sha256": "4300a05874b5dedaef6ac770fdccd69f9091ea381283350d1777a10ce3990f5d"
+    },
+    {
+      "path": "assets_results\\D2-I12\\zh.png",
+      "sha256": "4636cd320cf53a673b8221d8e02432e325dacff6aac29967ed93c7e6e6335302"
+    },
+    {
+      "path": "assets_results\\D2-I12\\zh.svg",
+      "sha256": "a200549292aa5a6c469352a2567ea48b6e562764406eeddc7b84f7d9990db1ec"
+    },
+    {
+      "path": "assets_results\\D2-I12\\en.png",
+      "sha256": "e34e131ac9a2a905e57b51396b677869eeb2abf59eaab4742ac05da3c0330a31"
+    },
+    {
+      "path": "assets_results\\D2-I12\\en.svg",
+      "sha256": "15ce787ff5c75587fc453317f77474a84003733f6e7469f3b99df4240bfe93b6"
+    },
+    {
+      "path": "assets_results\\D2-I15\\zh.png",
+      "sha256": "992b76f4be0989b3a4e742c26993609ae0da8b3a9fa9788ec0cbc4876927ceb8"
+    },
+    {
+      "path": "assets_results\\D2-I15\\zh.svg",
+      "sha256": "9d198bb5bc574096f9d256a4cb8d4651b7dc53f7a0b005f74b33b2b1e9762f39"
+    },
+    {
+      "path": "assets_results\\D2-I15\\en.png",
+      "sha256": "3a1591d1e533142506f974975c8b673347d3bd1764df64e229fbb8995c7b2925"
+    },
+    {
+      "path": "assets_results\\D2-I15\\en.svg",
+      "sha256": "9a702833a435ff9df3026ef0e230226a1a5cb9ffa963d7886215a0ca3d8b1a30"
+    }
+  ],
+  "limitations": [
+    "Actual final Word embedded-page readability and ZIP membership belong to root integration review.",
+    "PNG visual review used all 15 bilingual pairs in three contact sheets plus full-size representative confusion/CAM/tall detection plates.",
+    "SVG photo/heatmap layers are frozen raster evidence; their labels remain editable text."
+  ],
+  "scientific_claims": "No new numerical results or model claims introduced; 4 CAM families retain original input/heatmap panel pixels; confusion values and all curve points match original frozen JSON/logs.",
+  "manifest_sha256": "9769370eaeaff3c37006093db8cb2bf84a410d1c08a5f3e7a7e29c1865f8d005",
+  "supplementary_identity_review": {
+    "reviewer": "/root/bilingual_independent_review",
+    "date": "2026-11-03T11:01:37.660119+08:00",
+    "scope": "Recomputed all 60 existing output-binding SHA256 values; verified exact coverage of all 15 manifest PNG/SVG pairs and manifest PNG hashes; checked all required data/generator paths exist. Original scientific/visual reviewer and findings retained.",
+    "status": "PASS"
+  }
+}

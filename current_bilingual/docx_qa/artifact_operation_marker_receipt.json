@@ -1,0 +1,9 @@
+{
+  "operation_kind": "edit",
+  "first_builder_attempt": "failed before saving any Word due to detached XML clone ancestry; fixed without repeating marker",
+  "marker_invocations_this_batch": 1,
+  "marker_exit_code": 0,
+  "completed_utc": "2026-11-03T03:10:35.4532589Z",
+  "output_format": "docx",
+  "expected_output_count": 3
+}

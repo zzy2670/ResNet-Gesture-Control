@@ -1,0 +1,17 @@
+{
+  "id": "D2-I15",
+  "original_sha256": "bf97ef2a87313c2822554316e5889301c11754f3f2e96afe299dcffff742a29e",
+  "source_records": [
+    {
+      "name": "spotcheck.json",
+      "sha256": "a34abaf0bde28fcc5eb72a63c3ddcb990fddcb5d826d43c07fc3a5fa600407ef"
+    },
+    {
+      "name": "spotcheck_independent_review.json",
+      "sha256": "684253c4503e5cae83f4169ca6a8d7e6245fbce4c9051a138998e70f3ad9709e"
+    }
+  ],
+  "occurrences": {
+    "D2-I15": "图15 不合并B18四张双手照片的人工标注与冻结检测对照"
+  }
+}

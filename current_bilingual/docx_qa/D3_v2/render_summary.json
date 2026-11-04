@@ -1,0 +1,66 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\documents\\交接说明_v2_中英文配图.docx",
+  "source_sha256": "5dd590ce9be8d576ddc55edde39e8c828090cb88c9e8ebebe012f2520d554618",
+  "renderer": "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1026.10807\\skills\\documents\\render_docx.py",
+  "renderer_sha256": "8b48b8f05f30cc6c7b5a7bd8e18e7ea93a61aec1ea601026a3358b2105f0903a",
+  "native_soffice": "C:\\Program Files\\LibreOffice\\program\\soffice.exe",
+  "platform_constraint": "Windows runtime has no bundled LibreOffice. Official renderer Windows native-executable branch uses a separate temporary UserInstallation profile with headless flags.",
+  "desktop_Word_or_input_used": false,
+  "pdf": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\交接说明_v2_中英文配图.pdf",
+  "pdf_sha256": "e5ac0b98919fee2d1dfe23f222f61c3882133140a4b37010b01241e18328a0ba",
+  "pages": 9,
+  "page_images": [
+    {
+      "page": 1,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-1.png",
+      "sha256": "4f0b0b0ae6bc90785188b8e38b066f678789a4fc62a9563a9917792059482c07"
+    },
+    {
+      "page": 2,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-2.png",
+      "sha256": "6b3cf41e3f323892dd99237e143e75accef04a76c8ae783ac9b8fc19b6af99db"
+    },
+    {
+      "page": 3,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-3.png",
+      "sha256": "ab9a7d0d412e325e2c3e435786c97ee1d621820e2b12a7cd6b394b2a647e8a42"
+    },
+    {
+      "page": 4,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-4.png",
+      "sha256": "e5045b4cf7cd46730662f28efe0edfc0e057b4b7e3c859643232f98f309f3034"
+    },
+    {
+      "page": 5,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-5.png",
+      "sha256": "26780f4ca2735984104b53d731580c727e0bf83278336d3e9e26b315cbddcae1"
+    },
+    {
+      "page": 6,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-6.png",
+      "sha256": "77ab3cd9237df3e1f8f94b5d304a07bb98b598120144612cce1bd14dd6051ed7"
+    },
+    {
+      "page": 7,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-7.png",
+      "sha256": "243e985922c5ede123678176e12ed18028c93888ac821fe61ff47a6a484799fd"
+    },
+    {
+      "page": 8,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-8.png",
+      "sha256": "bc6142d8c5d48df052ec74da14a9977f6dd68e9cc2a1a76a93bd4d6d66375ed7"
+    },
+    {
+      "page": 9,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D3_v2\\page-9.png",
+      "sha256": "31e3092f5d340648b0e6b3c6eddc21684691fe52c891f540f59a37db5867de6f"
+    }
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "review": "reviews/documents_independent_review.json",
+    "review_sha256": "5cf3a196b70fd77cb4298d6ec20c066acaf3787a3930fb5363ca6f000bb4ffc4",
+    "scope": "Independent complete-page review bound to final document SHA; plan revision rechecked on pages 41 and 49 and 48 other page PNGs unchanged."
+  },
+  "historical_baseline_note": "reviews/complete_document_review_baseline_* retains the previous plan SHA a3102cac38e25ed7b0f1bb255991b0dc5fb8b3e05be11db3137ec3fae72ed46b and page hashes as historical comparison evidence; current identity is source_sha256 here."
+}

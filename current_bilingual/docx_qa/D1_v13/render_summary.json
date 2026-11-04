@@ -1,0 +1,271 @@
+{
+  "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\documents\\基于ResNet18的手势识别项目方案_v13_中英文配图.docx",
+  "source_sha256": "a7a422463cbad7805a9b3cacf23d6a316fffda21fec88c5ed3cd0a5b75760a5a",
+  "renderer": "C:\\Users\\Administrator\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1026.10807\\skills\\documents\\render_docx.py",
+  "renderer_sha256": "8b48b8f05f30cc6c7b5a7bd8e18e7ea93a61aec1ea601026a3358b2105f0903a",
+  "native_soffice": "C:\\Program Files\\LibreOffice\\program\\soffice.exe",
+  "platform_constraint": "Windows runtime has no bundled LibreOffice. Official renderer Windows native-executable branch uses a separate temporary UserInstallation profile with headless flags.",
+  "desktop_Word_or_input_used": false,
+  "pdf": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\基于ResNet18的手势识别项目方案_v13_中英文配图.pdf",
+  "pdf_sha256": "8048e2e983ddf0e85218f5c5760b6fe5ac155dcc80886d97ce75933b3edce370",
+  "pages": 50,
+  "page_images": [
+    {
+      "page": 1,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-1.png",
+      "sha256": "5c35a6969a73b7a42cb9106d0c96a2f63e94e947ee18aee90ab721f5ace98165"
+    },
+    {
+      "page": 2,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-2.png",
+      "sha256": "72b1df85cb2c0b0534bb9fc916009c99d329e0bc6af8a21ab94e942944480cb8"
+    },
+    {
+      "page": 3,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-3.png",
+      "sha256": "3ef3b906724cc3f5375604e0c81c9d5d476ea36f690525abdfe3accdd804012f"
+    },
+    {
+      "page": 4,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-4.png",
+      "sha256": "03a5492870b3a03f5e3ec31b1e71d3ccce62656f8a94df5eda9dc0be17393fe0"
+    },
+    {
+      "page": 5,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-5.png",
+      "sha256": "c75c70c67f18ee2baaaf81e98743d53726371b4fb3bcf55a62bcf4e4d6fb040b"
+    },
+    {
+      "page": 6,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-6.png",
+      "sha256": "b6936aff2d03cac94b18ea15d84d7442591aa3a91d114e5a44ddee742a0c027c"
+    },
+    {
+      "page": 7,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-7.png",
+      "sha256": "8dfa74c95d277ed972861afe5f873b2d4de0fcbff68542b512e7473b66245eff"
+    },
+    {
+      "page": 8,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-8.png",
+      "sha256": "cdadd1d4510a750c8b757221f7c1087d0bad0e883cad35aec32cefb4cca45d18"
+    },
+    {
+      "page": 9,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-9.png",
+      "sha256": "0d42a33bbf4aff00ef4889bdd49a1659417d409634661c4d2844c598634692e0"
+    },
+    {
+      "page": 10,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-10.png",
+      "sha256": "f54954d930d391c60a5488bb20e373289187e05b9ef9b9046482ed1c2183b2bb"
+    },
+    {
+      "page": 11,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-11.png",
+      "sha256": "b002923bcc2d99903b072ae233409914c309d88303b29376bed7a95380f4dbcb"
+    },
+    {
+      "page": 12,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-12.png",
+      "sha256": "44901cf9c26ae6c324a9b486d118a1714e9ee2be1a368a6827e7a22ef4faf721"
+    },
+    {
+      "page": 13,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-13.png",
+      "sha256": "6659ee7195395c25d2bbad934aac8d85179453267e41eeb5d093d2b0edf07973"
+    },
+    {
+      "page": 14,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-14.png",
+      "sha256": "705118c078929d6304d4275999b642ab0a3f08daaa8ff9127d7efd4d6c529aa5"
+    },
+    {
+      "page": 15,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-15.png",
+      "sha256": "b8a1fc76dd8220ac8dca77630ccb262dff4426bb8f0a3c62e6dc837849470f72"
+    },
+    {
+      "page": 16,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-16.png",
+      "sha256": "cd54b77847c4c6313637b083a412896cf4279cbe0bb5d6df6e55d41d1e00a769"
+    },
+    {
+      "page": 17,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-17.png",
+      "sha256": "8aff5d55c674927e702be42b52b84cc6ec809c0b42085f8c38cfe17f0b8329b9"
+    },
+    {
+      "page": 18,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-18.png",
+      "sha256": "88032af341f1d23430eba7dfc932f676a31b5a4d4e5e145504cd8b8b673064e1"
+    },
+    {
+      "page": 19,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-19.png",
+      "sha256": "d8278e1f4d3b62431af00568e39cdf6282f8f0188226968de4c4d5a57586b84d"
+    },
+    {
+      "page": 20,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-20.png",
+      "sha256": "958dcc1d36d481ccb69f3bda13b50bc499f27a90539bc45335243d7b0cdfbf42"
+    },
+    {
+      "page": 21,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-21.png",
+      "sha256": "95ce78591dd6e124e203217a8f12ff627a6edb1375259e7d9ce6a7540bfd44f3"
+    },
+    {
+      "page": 22,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-22.png",
+      "sha256": "e44d07799f17b9b6d9a1ef2ba6fb13b9c075b5486c36e3863dfbfad9f583fb24"
+    },
+    {
+      "page": 23,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-23.png",
+      "sha256": "c9b4cb5851b22cf618b0c48b0dafda638008430a5011032172cfd4725bb7afc4"
+    },
+    {
+      "page": 24,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-24.png",
+      "sha256": "bb72ba7ae90be485fdf5d7ecaea2587c99e61730dae4f7ecbcf8e04adcd7643d"
+    },
+    {
+      "page": 25,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-25.png",
+      "sha256": "0041c66aabeef31c544e47012c55783fd64f9b26a3ceb1b7e34ce92d9efc6fc9"
+    },
+    {
+      "page": 26,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-26.png",
+      "sha256": "3c1a6970d6c40f1da376e2690ca524bbb0e2529aa1387997d12c6e551b484731"
+    },
+    {
+      "page": 27,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-27.png",
+      "sha256": "a68528fa1fc093ae1a35c7d7793dde50502bcc99d699a27643acbbdea0977c43"
+    },
+    {
+      "page": 28,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-28.png",
+      "sha256": "8ac8f398f41700ae2e89739506b9bc2ac0c3c7e9348526cb025c52811d813638"
+    },
+    {
+      "page": 29,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-29.png",
+      "sha256": "c75697905582c1e01f9feee27f73bf9b0536be05103c9be7d527578c937fe972"
+    },
+    {
+      "page": 30,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-30.png",
+      "sha256": "af28f33c177e2fa67e78f3aacccf60ec6998734ac1b4c9ed48d65fe46a27c3db"
+    },
+    {
+      "page": 31,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-31.png",
+      "sha256": "68f4b5ed83a5e2f94013c6c604777c417536c179d6ba2fc37473354d31a05b01"
+    },
+    {
+      "page": 32,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-32.png",
+      "sha256": "5f384f2160c1c5deeb399525e4df138d6aebb7192dc221e7c8af357f66111a70"
+    },
+    {
+      "page": 33,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-33.png",
+      "sha256": "bd9b691c08c038843890ee484db48890d877899b425c0f46c397ef10078d5016"
+    },
+    {
+      "page": 34,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-34.png",
+      "sha256": "bad9d2314511192d416ae08ef27ae541985d2f85b3e02fc7989b4acc16f28d19"
+    },
+    {
+      "page": 35,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-35.png",
+      "sha256": "e225889d154ea20cda7c987bd528013ca2e455b7fc9e07f9253825dd59f9e8fd"
+    },
+    {
+      "page": 36,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-36.png",
+      "sha256": "3fa37770c6196f368f083790a6a2f954bb8cec5205eccbb193851440aa874ce8"
+    },
+    {
+      "page": 37,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-37.png",
+      "sha256": "5a467d5c43ec8502459e95efd7b16d479354d189b4df1aa750361feb389248dd"
+    },
+    {
+      "page": 38,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-38.png",
+      "sha256": "dd7cee3ae0648dd818848141a7bc38911829cc8aeb2b10e651cafcb51e75e639"
+    },
+    {
+      "page": 39,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-39.png",
+      "sha256": "368f18b93f984d4b0d7ffdb29a457f96f1a59beabed52104a93afe93a6ecdf35"
+    },
+    {
+      "page": 40,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-40.png",
+      "sha256": "1331b6c028c242e3daee5610f59e4ffae23c5bf4d7e5c47fcb84c007ff2b7a29"
+    },
+    {
+      "page": 41,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-41.png",
+      "sha256": "9b3734ad741b7ce7cbc2593a384d333bea9f38f4facc00106ecbab56af2b39ad"
+    },
+    {
+      "page": 42,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-42.png",
+      "sha256": "ba03b9664bb2242d24d84682a4f5e4c043445b111ef58773c51dee25632eac36"
+    },
+    {
+      "page": 43,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-43.png",
+      "sha256": "ee2367314a4bff1ce94d298d75ea9a2c9c2b33649a89a6f8a8f60275cbe02ec7"
+    },
+    {
+      "page": 44,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-44.png",
+      "sha256": "46159fa50be30d0122044caaa233adbd0ae9f4d20045b8d99328984dc97a5bcb"
+    },
+    {
+      "page": 45,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-45.png",
+      "sha256": "0636d0076b976797df27940b0c0f55e20dec64728472b2298b22f4fc9945f211"
+    },
+    {
+      "page": 46,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-46.png",
+      "sha256": "5670ca13a7cede503d62ea01071aa4d0ecd588ac96220f9f76c77c3391f04f82"
+    },
+    {
+      "page": 47,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-47.png",
+      "sha256": "26845962f79d65988ce69ff6fcd05c8fb2d06b73c7ef1d50e7ec9f7ee48bdbe0"
+    },
+    {
+      "page": 48,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-48.png",
+      "sha256": "813118fcf0e3add18e7e3b216c6ce3b5b2ba62b1c3297f0c90fcedc943a09a55"
+    },
+    {
+      "page": 49,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-49.png",
+      "sha256": "b78f4c4257d750a3d6f60558db4a95b151b06d37232c181168f02dd89e3bd687"
+    },
+    {
+      "page": 50,
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\docx_qa\\D1_v13\\page-50.png",
+      "sha256": "dc6026a7654b9c5ef7db786c42b2c2f47f90892def838c657a2f34b4c8412d8b"
+    }
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "review": "reviews/documents_independent_review.json",
+    "review_sha256": "5cf3a196b70fd77cb4298d6ec20c066acaf3787a3930fb5363ca6f000bb4ffc4",
+    "scope": "Independent complete-page review bound to final document SHA; plan revision rechecked on pages 41 and 49 and 48 other page PNGs unchanged."
+  },
+  "historical_baseline_note": "reviews/complete_document_review_baseline_* retains the previous plan SHA a3102cac38e25ed7b0f1bb255991b0dc5fb8b3e05be11db3137ec3fae72ed46b and page hashes as historical comparison evidence; current identity is source_sha256 here."
+}

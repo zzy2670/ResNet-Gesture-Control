@@ -1,0 +1,1359 @@
+[
+  {
+    "id": "D1-I25",
+    "original_sha256": "f04bd5480d738ac0589478fdbe791a9fda55dc7a6c7e350f79e84dffe9fa263f",
+    "zh_png": "D1-I25/zh.png",
+    "en_png": "D1-I25/en.png",
+    "editable_sources": [
+      "D1-I25/zh.svg",
+      "D1-I25/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D1-I25/metadata.json",
+      "D1-I25/original_reference.png",
+      "D1-I25/provenance.json",
+      "D1-I25/row_0_tensors.npz",
+      "D1-I25/row_1_tensors.npz",
+      "D1-I25/row_2_tensors.npz",
+      "D1-I25/row_3_tensors.npz",
+      "D1-I25/row_4_tensors.npz",
+      "D1-I25/row_5_tensors.npz"
+    ],
+    "caption_en": "Figure 15. Six-class, layer-wise Grad-CAM for the trained ResNet18 under protocol A. Real test hand images and fixed task weights are used; each map is normalized independently. The figure does not show absolute response strength across layers or overall performance.",
+    "caption_translations": {
+      "D1-I25": {
+        "zh": "图15 A协议已训练ResNet18六类分层Grad-CAM。真实测试手图与固定任务权重，各图独立归一化；该图不表示跨层响应强弱或总体性能。",
+        "en": "Figure 15. Six-class, layer-wise Grad-CAM for the trained ResNet18 under protocol A. Real test hand images and fixed task weights are used; each map is normalized independently. The figure does not show absolute response strength across layers or overall performance."
+      },
+      "D2-I05": {
+        "zh": "图5 已训练ResNet18六类手图分层Grad-CAM",
+        "en": "Figure 5. Six-class, layer-wise Grad-CAM on hand images for the trained ResNet18."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 1803580,
+        "original_reference_sha256": "f04bd5480d738ac0589478fdbe791a9fda55dc7a6c7e350f79e84dffe9fa263f",
+        "scientific_panel_pixels_identical": true
+      },
+      "en": {
+        "masked_pixels": 1803580,
+        "original_reference_sha256": "f04bd5480d738ac0589478fdbe791a9fda55dc7a6c7e350f79e84dffe9fa263f",
+        "scientific_panel_pixels_identical": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "9d79940e40bb0687dd634a09e793d518d5cc56f5c1686dd841d066eb314311e4",
+      "en": "c6020e9188ceee2f1a29112b9763e6ea8e6ce58fa41e511677fa43c63ddbf2f5"
+    }
+  },
+  {
+    "id": "D1-I26",
+    "original_sha256": "a5f86ed87f189c4b78a244541bf6a65bca38ae1b1671cb1d30c2df5f11572374",
+    "zh_png": "D1-I26/zh.png",
+    "en_png": "D1-I26/en.png",
+    "editable_sources": [
+      "D1-I26/zh.svg",
+      "D1-I26/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D1-I26/metadata.json",
+      "D1-I26/original_reference.png",
+      "D1-I26/provenance.json",
+      "D1-I26/row_0_tensors.npz",
+      "D1-I26/row_1_tensors.npz",
+      "D1-I26/row_2_tensors.npz",
+      "D1-I26/row_3_tensors.npz",
+      "D1-I26/row_4_tensors.npz",
+      "D1-I26/row_5_tensors.npz"
+    ],
+    "caption_en": "Figure 16. Six-class, layer-wise Grad-CAM for the trained ResNet18 under protocol B. The target is the true-class logit; each map is normalized independently. Colors are not probabilities and cannot be used to compare absolute strength across layers.",
+    "caption_translations": {
+      "D1-I26": {
+        "zh": "图16 B协议已训练ResNet18六类分层Grad-CAM。解释真实类logit，各图独立归一化；颜色不等于概率，不能比较跨层绝对强弱。",
+        "en": "Figure 16. Six-class, layer-wise Grad-CAM for the trained ResNet18 under protocol B. The target is the true-class logit; each map is normalized independently. Colors are not probabilities and cannot be used to compare absolute strength across layers."
+      },
+      "D2-I09": {
+        "zh": "图9 B已训练ResNet18六类分层Grad-CAM",
+        "en": "Figure 9. Six-class, layer-wise Grad-CAM for the trained ResNet18 under protocol B."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 1803580,
+        "original_reference_sha256": "a5f86ed87f189c4b78a244541bf6a65bca38ae1b1671cb1d30c2df5f11572374",
+        "scientific_panel_pixels_identical": true
+      },
+      "en": {
+        "masked_pixels": 1803580,
+        "original_reference_sha256": "a5f86ed87f189c4b78a244541bf6a65bca38ae1b1671cb1d30c2df5f11572374",
+        "scientific_panel_pixels_identical": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "c50388e68614c55730b72e8ddc6202b067b99e72d0b2b4f413ce681a76f5ffa9",
+      "en": "63525d4550e92a5607f2460cc931d09cdc1bd376a24e195db1adc122171c655c"
+    }
+  },
+  {
+    "id": "D1-I27",
+    "original_sha256": "bbcf4e3c4614a64734ac778f93075fb66ba5986347eaed143c768b8e9ccd0742",
+    "zh_png": "D1-I27/zh.png",
+    "en_png": "D1-I27/en.png",
+    "editable_sources": [
+      "D1-I27/zh.svg",
+      "D1-I27/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D1-I27/actual_crop_comparison.json",
+      "D1-I27/original_reference.png",
+      "D1-I27/provenance.json"
+    ],
+    "caption_en": "Figure 17. Comparison of manual-box classification inputs and automatic localization inputs for B test photos. The upper-right image uses only the box with the highest detection score; a match to the manual box on the left is not claimed. In the lower example, no automatic box passes the threshold.",
+    "caption_translations": {
+      "D1-I27": {
+        "zh": "图17 B测试照片的人工框分类与自动定位输入对照。上例右图仅为最高检测分数框，未声称一定与左侧真框匹配；下例没有通过阈值的自动框。",
+        "en": "Figure 17. Comparison of manual-box classification inputs and automatic localization inputs for B test photos. The upper-right image uses only the box with the highest detection score; a match to the manual box on the left is not claimed. In the lower example, no automatic box passes the threshold."
+      },
+      "D2-I11": {
+        "zh": "图11 B同一照片人工框与自动定位实际输入对照",
+        "en": "Figure 11. Actual manual-box and automatic-localization inputs from the same B photos."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 935805,
+        "original_reference_sha256": "bbcf4e3c4614a64734ac778f93075fb66ba5986347eaed143c768b8e9ccd0742",
+        "fixed_sample_ids": [
+          "1fc5f07b-610e-480c-acf1-db3cd276927c",
+          "00a21d28-a152-49d1-bf5a-c22a81df75b7"
+        ],
+        "frozen_crop_rectangles": [
+          {
+            "oracle_crop_rectangle": [
+              220,
+              140,
+              293,
+              214
+            ],
+            "automatic_crop_rectangle": [
+              236,
+              147,
+              291,
+              201
+            ]
+          },
+          {
+            "oracle_crop_rectangle": [
+              230,
+              181,
+              294,
+              244
+            ],
+            "automatic_crop_rectangle": null
+          }
+        ],
+        "photo_pixels_unchanged_outside_text_bands": true
+      },
+      "en": {
+        "masked_pixels": 935805,
+        "original_reference_sha256": "bbcf4e3c4614a64734ac778f93075fb66ba5986347eaed143c768b8e9ccd0742",
+        "fixed_sample_ids": [
+          "1fc5f07b-610e-480c-acf1-db3cd276927c",
+          "00a21d28-a152-49d1-bf5a-c22a81df75b7"
+        ],
+        "frozen_crop_rectangles": [
+          {
+            "oracle_crop_rectangle": [
+              220,
+              140,
+              293,
+              214
+            ],
+            "automatic_crop_rectangle": [
+              236,
+              147,
+              291,
+              201
+            ]
+          },
+          {
+            "oracle_crop_rectangle": [
+              230,
+              181,
+              294,
+              244
+            ],
+            "automatic_crop_rectangle": null
+          }
+        ],
+        "photo_pixels_unchanged_outside_text_bands": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "66674236e07c1089d7e11ca2479ffcf5a14cb8406dcd542020a9eca2f727dd74",
+      "en": "89b33f6ddae08f9a431d76f4fc10eb079207a79f6ccd4956b18f5b2db96ff03d"
+    }
+  },
+  {
+    "id": "D1-I28",
+    "original_sha256": "dcc7ef19dc26bababffb768020e0a83d1cc1ab19df31a0e94bcf8e58a289a6db",
+    "zh_png": "D1-I28/zh.png",
+    "en_png": "D1-I28/en.png",
+    "editable_sources": [
+      "D1-I28/zh.svg",
+      "D1-I28/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D1-I28/metadata.json",
+      "D1-I28/original_reference.png",
+      "D1-I28/provenance.json",
+      "D1-I28/row_0_tensors.npz",
+      "D1-I28/row_1_tensors.npz",
+      "D1-I28/row_2_tensors.npz",
+      "D1-I28/row_3_tensors.npz",
+      "D1-I28/row_4_tensors.npz",
+      "D1-I28/row_5_tensors.npz"
+    ],
+    "caption_en": "Figure 18. Six-class, layer-wise Grad-CAM for merged-label A ResNet18. Manual ground-truth boxes and true-class logits are used; each map is normalized independently. Color intensity cannot be used to compare absolute contributions across layers.",
+    "caption_translations": {
+      "D1-I28": {
+        "zh": "图18 合并A ResNet18六类分层Grad-CAM。人工GT框、真实类logit，各图独立归一化；不能据颜色深浅跨层比较绝对贡献。",
+        "en": "Figure 18. Six-class, layer-wise Grad-CAM for merged-label A ResNet18. Manual ground-truth boxes and true-class logits are used; each map is normalized independently. Color intensity cannot be used to compare absolute contributions across layers."
+      },
+      "D2-I13": {
+        "zh": "图13 合并A已训练ResNet18六类人工框手图分层Grad-CAM",
+        "en": "Figure 13. Six-class, layer-wise Grad-CAM on manual-box hand images for the trained merged-label A ResNet18."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 1803580,
+        "original_reference_sha256": "dcc7ef19dc26bababffb768020e0a83d1cc1ab19df31a0e94bcf8e58a289a6db",
+        "scientific_panel_pixels_identical": true
+      },
+      "en": {
+        "masked_pixels": 1803580,
+        "original_reference_sha256": "dcc7ef19dc26bababffb768020e0a83d1cc1ab19df31a0e94bcf8e58a289a6db",
+        "scientific_panel_pixels_identical": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "917050b9edb24c425133a2860a4c111b67aa3f3d51e9e5a1c5151b9aa72b19dd",
+      "en": "a4bef0e53031d3b88fd37b549b3b505a80f64c547ab7a67b2504d9efee3b8d49"
+    }
+  },
+  {
+    "id": "D1-I29",
+    "original_sha256": "a63948398d79a7fb9abd8121854fe836136fdcd1ee646801ee344ac5038b39ba",
+    "zh_png": "D1-I29/zh.png",
+    "en_png": "D1-I29/en.png",
+    "editable_sources": [
+      "D1-I29/zh.svg",
+      "D1-I29/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D1-I29/metadata.json",
+      "D1-I29/original_reference.png",
+      "D1-I29/provenance.json",
+      "D1-I29/row_0_tensors.npz",
+      "D1-I29/row_1_tensors.npz",
+      "D1-I29/row_2_tensors.npz",
+      "D1-I29/row_3_tensors.npz",
+      "D1-I29/row_4_tensors.npz",
+      "D1-I29/row_5_tensors.npz"
+    ],
+    "caption_en": "Figure 19. Six-class, layer-wise Grad-CAM for merged-label B ResNet18. Manual ground-truth boxes and true-class logits are used; each map is normalized independently. Color intensity cannot be used to compare absolute contributions across layers.",
+    "caption_translations": {
+      "D1-I29": {
+        "zh": "图19 合并B ResNet18六类分层Grad-CAM。人工GT框、真实类logit，各图独立归一化；不能据颜色深浅跨层比较绝对贡献。",
+        "en": "Figure 19. Six-class, layer-wise Grad-CAM for merged-label B ResNet18. Manual ground-truth boxes and true-class logits are used; each map is normalized independently. Color intensity cannot be used to compare absolute contributions across layers."
+      },
+      "D2-I14": {
+        "zh": "图14 合并B已训练ResNet18六类人工框手图分层Grad-CAM",
+        "en": "Figure 14. Six-class, layer-wise Grad-CAM on manual-box hand images for the trained merged-label B ResNet18."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 1803580,
+        "original_reference_sha256": "a63948398d79a7fb9abd8121854fe836136fdcd1ee646801ee344ac5038b39ba",
+        "scientific_panel_pixels_identical": true
+      },
+      "en": {
+        "masked_pixels": 1803580,
+        "original_reference_sha256": "a63948398d79a7fb9abd8121854fe836136fdcd1ee646801ee344ac5038b39ba",
+        "scientific_panel_pixels_identical": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "0ca4b1faede429485c2583b68b8fb43cb7c0fbf5beb1bf5143bc02df2e0219b8",
+      "en": "9e589b5ca2f2612d0e6eb1bb7170afa6965a3e07a6be955260948537e65729d7"
+    }
+  },
+  {
+    "id": "D2-I01",
+    "original_sha256": "1c7c0679cace1cd3a46fbe6eb2088e6899285acfe27f9d34e33c770c9674d12a",
+    "zh_png": "D2-I01/zh.png",
+    "en_png": "D2-I01/en.png",
+    "editable_sources": [
+      "D2-I01/zh.svg",
+      "D2-I01/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I01/original_reference.png",
+      "D2-I01/provenance.json",
+      "D2-I01/test_oracle_crop.json"
+    ],
+    "caption_en": "Figure 1. Test confusion matrix for ResNet18 on manual-box hand images.",
+    "caption_translations": {
+      "D2-I01": {
+        "zh": "图1 ResNet18人工框手图测试混淆矩阵",
+        "en": "Figure 1. Test confusion matrix for ResNet18 on manual-box hand images."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "frozen_matrix": [
+          [
+            2498,
+            3,
+            3,
+            0,
+            5,
+            1
+          ],
+          [
+            7,
+            344,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            529,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            172,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            170,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            178
+          ]
+        ],
+        "n": 3917,
+        "same_data_source_for_both_languages": true,
+        "color_scale": [
+          0,
+          1
+        ],
+        "color_normalization": "within_true_class"
+      },
+      "en": {
+        "frozen_matrix": [
+          [
+            2498,
+            3,
+            3,
+            0,
+            5,
+            1
+          ],
+          [
+            7,
+            344,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            529,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            172,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            170,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            178
+          ]
+        ],
+        "n": 3917,
+        "same_data_source_for_both_languages": true,
+        "color_scale": [
+          0,
+          1
+        ],
+        "color_normalization": "within_true_class"
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "c286fcfc2be5c5a4ecd822d494336903c9bbe31015894cec700528b6bc807b1d",
+      "en": "a1a4ea79a246b79398f8fdd07f656d31266b6863886d2a5f3ed200a2ab492694"
+    }
+  },
+  {
+    "id": "D2-I02",
+    "original_sha256": "a7a3dd4681d871a3cfc5ac03425afa80e58681b30d78943a9ef641c8f9b8fe93",
+    "zh_png": "D2-I02/zh.png",
+    "en_png": "D2-I02/en.png",
+    "editable_sources": [
+      "D2-I02/zh.svg",
+      "D2-I02/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I02/original_reference.png",
+      "D2-I02/provenance.json",
+      "D2-I02/test_whole_photo.json"
+    ],
+    "caption_en": "Figure 2. Test confusion matrix for ResNet18 on whole photos.",
+    "caption_translations": {
+      "D2-I02": {
+        "zh": "图2 ResNet18完整照片测试混淆矩阵",
+        "en": "Figure 2. Test confusion matrix for ResNet18 on whole photos."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "frozen_matrix": [
+          [
+            1756,
+            7,
+            3,
+            1,
+            6,
+            0
+          ],
+          [
+            25,
+            326,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            496,
+            0,
+            0,
+            0
+          ],
+          [
+            35,
+            0,
+            0,
+            137,
+            1,
+            0
+          ],
+          [
+            44,
+            0,
+            0,
+            1,
+            127,
+            1
+          ],
+          [
+            43,
+            0,
+            0,
+            0,
+            0,
+            135
+          ]
+        ],
+        "n": 3180,
+        "same_data_source_for_both_languages": true,
+        "color_scale": [
+          0,
+          1
+        ],
+        "color_normalization": "within_true_class"
+      },
+      "en": {
+        "frozen_matrix": [
+          [
+            1756,
+            7,
+            3,
+            1,
+            6,
+            0
+          ],
+          [
+            25,
+            326,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            36,
+            0,
+            496,
+            0,
+            0,
+            0
+          ],
+          [
+            35,
+            0,
+            0,
+            137,
+            1,
+            0
+          ],
+          [
+            44,
+            0,
+            0,
+            1,
+            127,
+            1
+          ],
+          [
+            43,
+            0,
+            0,
+            0,
+            0,
+            135
+          ]
+        ],
+        "n": 3180,
+        "same_data_source_for_both_languages": true,
+        "color_scale": [
+          0,
+          1
+        ],
+        "color_normalization": "within_true_class"
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "19ac826a184e3af47386f28d63b69439f34d1ae24acbf49a1470a607a2abf4a0",
+      "en": "65dc8721467dd81d986e285083bf51d775dd1aa1ecd93610645d7c4c72d31b9e"
+    }
+  },
+  {
+    "id": "D2-I03",
+    "original_sha256": "9e1b619e1d578a5375d30dc4af7e9f32eff85a8cffc290c0ec2dbe2c0ac0e9c7",
+    "zh_png": "D2-I03/zh.png",
+    "en_png": "D2-I03/en.png",
+    "editable_sources": [
+      "D2-I03/zh.svg",
+      "D2-I03/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I03/error_examples.json",
+      "D2-I03/original_reference.png",
+      "D2-I03/provenance.json"
+    ],
+    "caption_en": "Figure 3. Fixed whole-photo error examples from four classes for ResNet18.",
+    "caption_translations": {
+      "D2-I03": {
+        "zh": "图3 ResNet18四类固定整图错误案例",
+        "en": "Figure 3. Fixed whole-photo error examples from four classes for ResNet18."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 807400,
+        "original_reference_sha256": "9e1b619e1d578a5375d30dc4af7e9f32eff85a8cffc290c0ec2dbe2c0ac0e9c7",
+        "fixed_sample_ids": [
+          "12788c4c-767a-4e22-b0d3-3b9200615406",
+          "02a809c0-8c0a-4ded-8ac8-f72ed2b107a8",
+          "06f0544f-9bf2-4134-ba83-398b3c9ac725",
+          "07803e3f-65a7-4880-ac0d-5afeb875669d"
+        ],
+        "frozen_truth_prediction": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "photo_and_box_pixels_unchanged_outside_text_bands": true
+      },
+      "en": {
+        "masked_pixels": 807400,
+        "original_reference_sha256": "9e1b619e1d578a5375d30dc4af7e9f32eff85a8cffc290c0ec2dbe2c0ac0e9c7",
+        "fixed_sample_ids": [
+          "12788c4c-767a-4e22-b0d3-3b9200615406",
+          "02a809c0-8c0a-4ded-8ac8-f72ed2b107a8",
+          "06f0544f-9bf2-4134-ba83-398b3c9ac725",
+          "07803e3f-65a7-4880-ac0d-5afeb875669d"
+        ],
+        "frozen_truth_prediction": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "photo_and_box_pixels_unchanged_outside_text_bands": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "4925342a3236ca944ef46cca8c4fbb033d86efc70b1f92426252ca788bb52846",
+      "en": "567c6967e498b2ffaad33a6fe90a3b48ccb3b2b567222f288ef59f70fa6ac327"
+    }
+  },
+  {
+    "id": "D2-I04",
+    "original_sha256": "f65630033a7f15b00edb7382e6dd90f77496b9c12b7d1aa9246cfb598e8af040",
+    "zh_png": "D2-I04/zh.png",
+    "en_png": "D2-I04/en.png",
+    "editable_sources": [
+      "D2-I04/zh.svg",
+      "D2-I04/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I04/actual_crop_comparison.json",
+      "D2-I04/original_reference.png",
+      "D2-I04/provenance.json"
+    ],
+    "caption_en": "Figure 4. Actual manual-box and automatic-box crops from the same photos.",
+    "caption_translations": {
+      "D2-I04": {
+        "zh": "图4 同一照片人工框与自动框实际裁图对照",
+        "en": "Figure 4. Actual manual-box and automatic-box crops from the same photos."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 654500,
+        "original_reference_sha256": "f65630033a7f15b00edb7382e6dd90f77496b9c12b7d1aa9246cfb598e8af040",
+        "fixed_sample_ids": [
+          "12788c4c-767a-4e22-b0d3-3b9200615406",
+          "02a809c0-8c0a-4ded-8ac8-f72ed2b107a8"
+        ],
+        "frozen_crop_rectangles": [
+          {
+            "automatic_crop_rectangle": [
+              111,
+              233,
+              213,
+              335
+            ],
+            "oracle_crop_rectangle": [
+              121,
+              231,
+              231,
+              341
+            ]
+          },
+          {
+            "automatic_crop_rectangle": [
+              233,
+              186,
+              277,
+              231
+            ],
+            "oracle_crop_rectangle": [
+              239,
+              197,
+              270,
+              229
+            ]
+          }
+        ],
+        "photo_pixels_unchanged_outside_text_bands": true
+      },
+      "en": {
+        "masked_pixels": 654500,
+        "original_reference_sha256": "f65630033a7f15b00edb7382e6dd90f77496b9c12b7d1aa9246cfb598e8af040",
+        "fixed_sample_ids": [
+          "12788c4c-767a-4e22-b0d3-3b9200615406",
+          "02a809c0-8c0a-4ded-8ac8-f72ed2b107a8"
+        ],
+        "frozen_crop_rectangles": [
+          {
+            "automatic_crop_rectangle": [
+              111,
+              233,
+              213,
+              335
+            ],
+            "oracle_crop_rectangle": [
+              121,
+              231,
+              231,
+              341
+            ]
+          },
+          {
+            "automatic_crop_rectangle": [
+              233,
+              186,
+              277,
+              231
+            ],
+            "oracle_crop_rectangle": [
+              239,
+              197,
+              270,
+              229
+            ]
+          }
+        ],
+        "photo_pixels_unchanged_outside_text_bands": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "e005dd163226a876d085d9cd909ccd734a67a1131747d950179d4e681bca0002",
+      "en": "3457922d5e27de6b273dfed6a4c0a4caa8cefac8b7a5e825874996b3e0cd33f7"
+    }
+  },
+  {
+    "id": "D2-I06",
+    "original_sha256": "b3f58635cf259f5620adee6491d004e01112e11eb48cbcb628f15d6728271700",
+    "zh_png": "D2-I06/zh.png",
+    "en_png": "D2-I06/en.png",
+    "editable_sources": [
+      "D2-I06/zh.svg",
+      "D2-I06/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I06/frozen_curves.json",
+      "D2-I06/original_reference.png",
+      "D2-I06/provenance.json"
+    ],
+    "caption_en": "Figure 6. Classifier learning curves of validation macro-F1 at each epoch.",
+    "caption_translations": {
+      "D2-I06": {
+        "zh": "图6 分类网络逐轮验证宏平均F1学习曲线",
+        "en": "Figure 6. Classifier learning curves of validation macro-F1 at each epoch."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "same_frozen_curve_source": true,
+        "curve_point_counts": {
+          "A": {
+            "ResNet18": 18,
+            "ResNet34": 18,
+            "ResNet50": 18
+          }
+        },
+        "data_sha256": "ce4b2abb84655d010bfff8d49fb0ea2cc9828a05f33af06b0d491a3f6d731a6b"
+      },
+      "en": {
+        "same_frozen_curve_source": true,
+        "curve_point_counts": {
+          "A": {
+            "ResNet18": 18,
+            "ResNet34": 18,
+            "ResNet50": 18
+          }
+        },
+        "data_sha256": "ce4b2abb84655d010bfff8d49fb0ea2cc9828a05f33af06b0d491a3f6d731a6b"
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "a38ee3d31bc509791967a28fb39352bcda91fc85d3d2f0e141ede8de404779be",
+      "en": "505b20030a83402ad94db463929ace4055e1b5d24df06b59a11de76d3a36031c"
+    }
+  },
+  {
+    "id": "D2-I07",
+    "original_sha256": "cae955a7dbd5da53c265d70aea0e6b7044079cabb0ddfaeeb48e6c1ae08658be",
+    "zh_png": "D2-I07/zh.png",
+    "en_png": "D2-I07/en.png",
+    "editable_sources": [
+      "D2-I07/zh.svg",
+      "D2-I07/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I07/original_reference.png",
+      "D2-I07/provenance.json",
+      "D2-I07/test_oracle_crop.json"
+    ],
+    "caption_en": "Figure 7. Test confusion matrix for B ResNet18 on manual-box hand images.",
+    "caption_translations": {
+      "D2-I07": {
+        "zh": "图7 B ResNet18人工框测试混淆矩阵",
+        "en": "Figure 7. Test confusion matrix for B ResNet18 on manual-box hand images."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "frozen_matrix": [
+          [
+            2348,
+            2,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            13,
+            341,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            540,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            171,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            155,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            172
+          ]
+        ],
+        "n": 3759,
+        "same_data_source_for_both_languages": true,
+        "color_scale": [
+          0,
+          1
+        ],
+        "color_normalization": "within_true_class"
+      },
+      "en": {
+        "frozen_matrix": [
+          [
+            2348,
+            2,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            13,
+            341,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            540,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            171,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            155,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            172
+          ]
+        ],
+        "n": 3759,
+        "same_data_source_for_both_languages": true,
+        "color_scale": [
+          0,
+          1
+        ],
+        "color_normalization": "within_true_class"
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "f7e407d2f0b331222057c943aaca0c24c5acd35b856f155c3bc56e494b991213",
+      "en": "81ac6d66697126d0ce94299d3bcf9a9d821c965699c519b146b5bb4c7135655b"
+    }
+  },
+  {
+    "id": "D2-I08",
+    "original_sha256": "96a59551a443694f997285311874e53f54bc5f9cb1a3cf22a0bee26602096429",
+    "zh_png": "D2-I08/zh.png",
+    "en_png": "D2-I08/en.png",
+    "editable_sources": [
+      "D2-I08/zh.svg",
+      "D2-I08/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I08/original_reference.png",
+      "D2-I08/provenance.json",
+      "D2-I08/test_whole_photo.json"
+    ],
+    "caption_en": "Figure 8. Test confusion matrix for B ResNet18 on whole photos.",
+    "caption_translations": {
+      "D2-I08": {
+        "zh": "图8 B ResNet18整图测试混淆矩阵",
+        "en": "Figure 8. Test confusion matrix for B ResNet18 on whole photos."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "frozen_matrix": [
+          [
+            1687,
+            1,
+            1,
+            3,
+            3,
+            0
+          ],
+          [
+            42,
+            312,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            38,
+            0,
+            509,
+            0,
+            0,
+            0
+          ],
+          [
+            41,
+            0,
+            0,
+            132,
+            0,
+            0
+          ],
+          [
+            43,
+            0,
+            0,
+            0,
+            116,
+            0
+          ],
+          [
+            43,
+            0,
+            0,
+            0,
+            0,
+            131
+          ]
+        ],
+        "n": 3102,
+        "same_data_source_for_both_languages": true,
+        "color_scale": [
+          0,
+          1
+        ],
+        "color_normalization": "within_true_class"
+      },
+      "en": {
+        "frozen_matrix": [
+          [
+            1687,
+            1,
+            1,
+            3,
+            3,
+            0
+          ],
+          [
+            42,
+            312,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            38,
+            0,
+            509,
+            0,
+            0,
+            0
+          ],
+          [
+            41,
+            0,
+            0,
+            132,
+            0,
+            0
+          ],
+          [
+            43,
+            0,
+            0,
+            0,
+            116,
+            0
+          ],
+          [
+            43,
+            0,
+            0,
+            0,
+            0,
+            131
+          ]
+        ],
+        "n": 3102,
+        "same_data_source_for_both_languages": true,
+        "color_scale": [
+          0,
+          1
+        ],
+        "color_normalization": "within_true_class"
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "a5998a6733af77c5a70b588fdd2542918cc3805c96977b34ec2be5e739746431",
+      "en": "107fd0a8a674e4d960cf6706cdd06a34283c460f7250fdc8a441a73c24356a5c"
+    }
+  },
+  {
+    "id": "D2-I10",
+    "original_sha256": "f6f559b9180b28e08a24b53007688230567d304cce2c37a1c2aeb5cd0e503da8",
+    "zh_png": "D2-I10/zh.png",
+    "en_png": "D2-I10/en.png",
+    "editable_sources": [
+      "D2-I10/zh.svg",
+      "D2-I10/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I10/error_examples.json",
+      "D2-I10/original_reference.png",
+      "D2-I10/provenance.json"
+    ],
+    "caption_en": "Figure 10. Fixed whole-photo error examples from four classes for B ResNet18.",
+    "caption_translations": {
+      "D2-I10": {
+        "zh": "图10 B ResNet18四类固定整图错误案例",
+        "en": "Figure 10. Fixed whole-photo error examples from four classes for B ResNet18."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 698940,
+        "original_reference_sha256": "f6f559b9180b28e08a24b53007688230567d304cce2c37a1c2aeb5cd0e503da8",
+        "fixed_sample_ids": [
+          "1fc5f07b-610e-480c-acf1-db3cd276927c",
+          "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+          "074f0d83-6822-4d2c-8056-c0131738a0f6",
+          "080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba"
+        ],
+        "frozen_truth_prediction": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "photo_and_box_pixels_unchanged_outside_text_bands": true
+      },
+      "en": {
+        "masked_pixels": 698940,
+        "original_reference_sha256": "f6f559b9180b28e08a24b53007688230567d304cce2c37a1c2aeb5cd0e503da8",
+        "fixed_sample_ids": [
+          "1fc5f07b-610e-480c-acf1-db3cd276927c",
+          "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+          "074f0d83-6822-4d2c-8056-c0131738a0f6",
+          "080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba"
+        ],
+        "frozen_truth_prediction": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "photo_and_box_pixels_unchanged_outside_text_bands": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "54d0cf4dbcd69d96a233613be0bac8497c6c7ca26a9e05673df1b5d5d435a21d",
+      "en": "1ed3b770638acbbfae38091fbf49da371afbbad2faf4d38c657f78f8cd79f7a1"
+    }
+  },
+  {
+    "id": "D2-I12",
+    "original_sha256": "4636cd320cf53a673b8221d8e02432e325dacff6aac29967ed93c7e6e6335302",
+    "zh_png": "D2-I12/zh.png",
+    "en_png": "D2-I12/en.png",
+    "editable_sources": [
+      "D2-I12/zh.svg",
+      "D2-I12/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I12/frozen_curves.json",
+      "D2-I12/original_reference.png",
+      "D2-I12/provenance.json"
+    ],
+    "caption_en": "Figure 12. Full fine-tuning validation curves for three architectures under protocols A and B.",
+    "caption_translations": {
+      "D2-I12": {
+        "zh": "图12 A/B三架构完整微调验证曲线",
+        "en": "Figure 12. Full fine-tuning validation curves for three architectures under protocols A and B."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "same_frozen_curve_source": true,
+        "curve_point_counts": {
+          "A": {
+            "ResNet18": 18,
+            "ResNet34": 18,
+            "ResNet50": 18
+          },
+          "B": {
+            "ResNet18": 18,
+            "ResNet34": 18,
+            "ResNet50": 11
+          }
+        },
+        "data_sha256": "b6d50f0827d2e8307ed17219238b72f0514f46942b0ef3742865212a3608584c"
+      },
+      "en": {
+        "same_frozen_curve_source": true,
+        "curve_point_counts": {
+          "A": {
+            "ResNet18": 18,
+            "ResNet34": 18,
+            "ResNet50": 18
+          },
+          "B": {
+            "ResNet18": 18,
+            "ResNet34": 18,
+            "ResNet50": 11
+          }
+        },
+        "data_sha256": "b6d50f0827d2e8307ed17219238b72f0514f46942b0ef3742865212a3608584c"
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "4636cd320cf53a673b8221d8e02432e325dacff6aac29967ed93c7e6e6335302",
+      "en": "e34e131ac9a2a905e57b51396b677869eeb2abf59eaab4742ac05da3c0330a31"
+    }
+  },
+  {
+    "id": "D2-I15",
+    "original_sha256": "bf97ef2a87313c2822554316e5889301c11754f3f2e96afe299dcffff742a29e",
+    "zh_png": "D2-I15/zh.png",
+    "en_png": "D2-I15/en.png",
+    "editable_sources": [
+      "D2-I15/zh.svg",
+      "D2-I15/en.svg"
+    ],
+    "generator": "render_bilingual_results.py",
+    "required_data": [
+      "D2-I15/fixed_photo_1.jpg",
+      "D2-I15/fixed_photo_2.jpg",
+      "D2-I15/fixed_photo_3.jpg",
+      "D2-I15/fixed_photo_4.jpg",
+      "D2-I15/original_reference.png",
+      "D2-I15/provenance.json",
+      "D2-I15/spotcheck.json",
+      "D2-I15/spotcheck_independent_review.json"
+    ],
+    "caption_en": "Figure 15. Manual annotations and frozen detections on four two-hand photos for unmerged-label B18.",
+    "caption_translations": {
+      "D2-I15": {
+        "zh": "图15 不合并B18四张双手照片的人工标注与冻结检测对照",
+        "en": "Figure 15. Manual annotations and frozen detections on four two-hand photos for unmerged-label B18."
+      }
+    },
+    "translation_checks": {
+      "zh": {
+        "masked_pixels": 0,
+        "original_reference_sha256": "bf97ef2a87313c2822554316e5889301c11754f3f2e96afe299dcffff742a29e",
+        "fixed_sample_ids": [
+          "01aa0cd7-798e-4e2b-b595-39cc2376a259",
+          "0d72367c-e360-43b1-9c08-5ddea11c3b8c",
+          "163e7b4f-00ef-436e-9cfc-e693bedce0a0",
+          "0fd29f45-cad4-4c0f-8ea0-0f98e81fb17c"
+        ],
+        "detector_threshold": 0.3,
+        "classifier_threshold": 0.3,
+        "detector_score_is_not_classifier_probability": true,
+        "all_photos_match_frozen_source_hashes": true,
+        "boxes_and_scores_reused_without_recalculation": true
+      },
+      "en": {
+        "masked_pixels": 0,
+        "original_reference_sha256": "bf97ef2a87313c2822554316e5889301c11754f3f2e96afe299dcffff742a29e",
+        "fixed_sample_ids": [
+          "01aa0cd7-798e-4e2b-b595-39cc2376a259",
+          "0d72367c-e360-43b1-9c08-5ddea11c3b8c",
+          "163e7b4f-00ef-436e-9cfc-e693bedce0a0",
+          "0fd29f45-cad4-4c0f-8ea0-0f98e81fb17c"
+        ],
+        "detector_threshold": 0.3,
+        "classifier_threshold": 0.3,
+        "detector_score_is_not_classifier_probability": true,
+        "all_photos_match_frozen_source_hashes": true,
+        "boxes_and_scores_reused_without_recalculation": true
+      }
+    },
+    "preservation": "Display-only translation; no model execution, new samples, or new experimental results.",
+    "sha256": {
+      "zh": "992b76f4be0989b3a4e742c26993609ae0da8b3a9fa9788ec0cbc4876927ceb8",
+      "en": "3a1591d1e533142506f974975c8b673347d3bd1764df64e229fbb8995c7b2925"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "id": "D2-I12",
+  "original_sha256": "4636cd320cf53a673b8221d8e02432e325dacff6aac29967ed93c7e6e6335302",
+  "source_records": [
+    {
+      "name": "events.jsonl",
+      "sha256": "1e5a4de77b75ac3a67f726586c130ce58857b6eeaf714c1066b4bc7a186f21d4"
+    },
+    {
+      "name": "A/ResNet18/events.jsonl",
+      "sha256": "f53cc545e93af45a9304844eee9e54857d7cdfe114f8bfd813449e6b3eda12a9"
+    },
+    {
+      "name": "A/ResNet34/events.jsonl",
+      "sha256": "458226a0ecef349ffb500e585fda856301b6936d277b3119f2f7a259c71ec4d2"
+    },
+    {
+      "name": "A/ResNet50/events.jsonl",
+      "sha256": "51fcdeba6287ae231913f4426633a79e50c84c01b82c04c83ee936592c409aa5"
+    },
+    {
+      "name": "B/ResNet18/events.jsonl",
+      "sha256": "1e5a4de77b75ac3a67f726586c130ce58857b6eeaf714c1066b4bc7a186f21d4"
+    },
+    {
+      "name": "B/ResNet34/events.jsonl",
+      "sha256": "d9003b7e512b8723f6ee6d7bd70ebc1a21fa9df18b841edb68256bf139216992"
+    },
+    {
+      "name": "B/ResNet50/events.jsonl",
+      "sha256": "1f3aff157e88a5e52d260e5e184350169e46f73d5816fd5f248511cdb78b438e"
+    }
+  ],
+  "occurrences": {
+    "D2-I12": "图12 A/B三架构完整微调验证曲线"
+  }
+}

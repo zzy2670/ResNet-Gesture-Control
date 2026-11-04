@@ -1,0 +1,382 @@
+{
+  "scope": "四张固定B-test照片的定向错误抽查，非随机样本，不估计总体发生率；未重新推理。",
+  "model": "unmerged_B_resnet18",
+  "detector_threshold": 0.3,
+  "classifier_threshold": 0.3,
+  "detector_metrics_original": {
+    "tp": 3044,
+    "fp": 259,
+    "fn": 715,
+    "precision": 0.9215864365728126,
+    "recall": 0.8097898377227987,
+    "score_threshold": 0.3,
+    "iou_threshold": 0.5
+  },
+  "source_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\test_detector.json": "5e77b5388485a6498437ea33a0a90348e844f9d48e51c7cdd9c69ad6ec518034",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\test_whole_photo.json": "5706f049ad15ee3b76c38416bfa9597583305d9031963e86bebcb9b6f45d617b",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\spotcheck_hand_detection.py": "38cb102b8a86bcba27c2569c2a196e2c00ae7816ac42344ab2cf3ca387886fb6"
+  },
+  "records": [
+    {
+      "image_id": "01aa0cd7-798e-4e2b-b595-39cc2376a259",
+      "description": "两只手均正确定位",
+      "source_image": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\call\\01aa0cd7-798e-4e2b-b595-39cc2376a259.jpg",
+      "source_image_sha256": "64c6a29218ab5c3a51f15872e999ee26ddd745083d19b4585f2d3aec7781da84",
+      "raw_GT_labels": [
+        "call",
+        "no_gesture"
+      ],
+      "GT_boxes": [
+        [
+          202.03089904785156,
+          158.72325134277344,
+          269.36273193359375,
+          212.50137329101562
+        ],
+        [
+          435.5373840332031,
+          241.49098205566406,
+          507.1097106933594,
+          330.501953125
+        ]
+      ],
+      "predicted_boxes": [
+        [
+          437.4400939941406,
+          243.64492797851562,
+          508.4576721191406,
+          325.2588195800781
+        ],
+        [
+          199.1702423095703,
+          162.25656127929688,
+          263.1128234863281,
+          214.6856231689453
+        ]
+      ],
+      "detector_scores": [
+        0.9904558062553406,
+        0.5277683138847351
+      ],
+      "IoU_matrix_GT_by_detection": [
+        [
+          0.0,
+          0.7860532008293191
+        ],
+        [
+          0.8773709818420166,
+          0.0
+        ]
+      ],
+      "one_to_one_matches_IoU05": [
+        {
+          "GT_index": 1,
+          "detection_index": 0,
+          "IoU": 0.8773709818420166
+        },
+        {
+          "GT_index": 0,
+          "detection_index": 1,
+          "IoU": 0.7860532008293191
+        }
+      ],
+      "missed_GT_indices_at_IoU05": [],
+      "whole_prediction_record": {
+        "image_id": "01aa0cd7-798e-4e2b-b595-39cc2376a259",
+        "truth": 0,
+        "prediction": 0,
+        "hands": [
+          {
+            "bbox": [
+              437.4400939941406,
+              243.64492797851562,
+              508.4576721191406,
+              325.2588195800781
+            ],
+            "detector_score": 0.9904558062553406,
+            "label": 0,
+            "confidence": 0.8775460124015808,
+            "accepted": true,
+            "probabilities": [
+              0.8775460124015808,
+              0.023567378520965576,
+              0.025688761845231056,
+              0.03209748491644859,
+              0.02314550057053566,
+              0.01795485056936741
+            ]
+          },
+          {
+            "bbox": [
+              199.1702423095703,
+              162.25656127929688,
+              263.1128234863281,
+              214.6856231689453
+            ],
+            "detector_score": 0.5277683138847351,
+            "label": 0,
+            "confidence": 0.9157149195671082,
+            "accepted": true,
+            "probabilities": [
+              0.9157149195671082,
+              0.016219526529312134,
+              0.013859240338206291,
+              0.01413609366863966,
+              0.01146322675049305,
+              0.028607038781046867
+            ]
+          }
+        ],
+        "image_size": [
+          512,
+          384
+        ]
+      }
+    },
+    {
+      "image_id": "0d72367c-e360-43b1-9c08-5ddea11c3b8c",
+      "description": "两只手均未检出",
+      "source_image": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\call\\0d72367c-e360-43b1-9c08-5ddea11c3b8c.jpg",
+      "source_image_sha256": "32754a0f7b12ee22be48f819cb51a40c2f1410608844b0d2354e2fbdee6b3e3d",
+      "raw_GT_labels": [
+        "call",
+        "no_gesture"
+      ],
+      "GT_boxes": [
+        [
+          141.59613037109375,
+          238.68104553222656,
+          182.69015502929688,
+          282.5555725097656
+        ],
+        [
+          219.83456420898438,
+          427.82281494140625,
+          251.23048400878906,
+          466.9342346191406
+        ]
+      ],
+      "predicted_boxes": [],
+      "detector_scores": [],
+      "IoU_matrix_GT_by_detection": [
+        [],
+        []
+      ],
+      "one_to_one_matches_IoU05": [],
+      "missed_GT_indices_at_IoU05": [
+        0,
+        1
+      ],
+      "whole_prediction_record": {
+        "image_id": "0d72367c-e360-43b1-9c08-5ddea11c3b8c",
+        "truth": 0,
+        "prediction": 0,
+        "hands": [],
+        "image_size": [
+          384,
+          514
+        ]
+      }
+    },
+    {
+      "image_id": "163e7b4f-00ef-436e-9cfc-e693bedce0a0",
+      "description": "漏掉举起的拳头，只检出垂下的手",
+      "source_image": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\fist\\163e7b4f-00ef-436e-9cfc-e693bedce0a0.jpg",
+      "source_image_sha256": "556e0552c3a65923bbcc842bf5e1ab55e67695735d6ade469596b82efc9fd233",
+      "raw_GT_labels": [
+        "fist",
+        "no_gesture"
+      ],
+      "GT_boxes": [
+        [
+          125.68194580078125,
+          185.5233917236328,
+          159.46127319335938,
+          228.2467498779297
+        ],
+        [
+          341.6602478027344,
+          443.0442810058594,
+          380.19091796875,
+          511.76361083984375
+        ]
+      ],
+      "predicted_boxes": [
+        [
+          343.2626953125,
+          441.2189025878906,
+          375.5640563964844,
+          509.52886962890625
+        ]
+      ],
+      "detector_scores": [
+        0.35545614361763
+      ],
+      "IoU_matrix_GT_by_detection": [
+        [
+          0.0
+        ],
+        [
+          0.7933985646650608
+        ]
+      ],
+      "one_to_one_matches_IoU05": [
+        {
+          "GT_index": 1,
+          "detection_index": 0,
+          "IoU": 0.7933985646650608
+        }
+      ],
+      "missed_GT_indices_at_IoU05": [
+        0
+      ],
+      "whole_prediction_record": {
+        "image_id": "163e7b4f-00ef-436e-9cfc-e693bedce0a0",
+        "truth": 3,
+        "prediction": 0,
+        "hands": [
+          {
+            "bbox": [
+              343.2626953125,
+              441.2189025878906,
+              375.5640563964844,
+              509.52886962890625
+            ],
+            "detector_score": 0.35545614361763,
+            "label": 0,
+            "confidence": 0.9000977873802185,
+            "accepted": true,
+            "probabilities": [
+              0.9000977873802185,
+              0.01734154112637043,
+              0.021878676488995552,
+              0.01880425214767456,
+              0.022029584273695946,
+              0.01984814554452896
+            ]
+          }
+        ],
+        "image_size": [
+          384,
+          512
+        ]
+      }
+    },
+    {
+      "image_id": "0fd29f45-cad4-4c0f-8ea0-0f98e81fb17c",
+      "description": "检测框偏移，手势也分错",
+      "source_image": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\peace\\0fd29f45-cad4-4c0f-8ea0-0f98e81fb17c.jpg",
+      "source_image_sha256": "e09cebe81ad7d1e4d399feda034638a33ced2576930126ad0f0724e03e869868",
+      "raw_GT_labels": [
+        "peace",
+        "no_gesture"
+      ],
+      "GT_boxes": [
+        [
+          115.3308334350586,
+          183.30673217773438,
+          136.09408569335938,
+          226.73828125
+        ],
+        [
+          167.57518005371094,
+          191.81234741210938,
+          195.68016052246094,
+          234.39694213867188
+        ]
+      ],
+      "predicted_boxes": [
+        [
+          177.5963592529297,
+          211.2336883544922,
+          202.1365966796875,
+          244.24087524414062
+        ],
+        [
+          113.64842224121094,
+          195.06834411621094,
+          135.85067749023438,
+          227.2286834716797
+        ]
+      ],
+      "detector_scores": [
+        0.7856624722480774,
+        0.6598717570304871
+      ],
+      "IoU_matrix_GT_by_detection": [
+        [
+          0.0,
+          0.6727699187373976
+        ],
+        [
+          0.2637841600666021,
+          0.0
+        ]
+      ],
+      "one_to_one_matches_IoU05": [
+        {
+          "GT_index": 0,
+          "detection_index": 1,
+          "IoU": 0.6727699187373976
+        }
+      ],
+      "missed_GT_indices_at_IoU05": [
+        1
+      ],
+      "whole_prediction_record": {
+        "image_id": "0fd29f45-cad4-4c0f-8ea0-0f98e81fb17c",
+        "truth": 1,
+        "prediction": 0,
+        "hands": [
+          {
+            "bbox": [
+              177.5963592529297,
+              211.2336883544922,
+              202.1365966796875,
+              244.24087524414062
+            ],
+            "detector_score": 0.7856624722480774,
+            "label": 0,
+            "confidence": 0.8877391815185547,
+            "accepted": true,
+            "probabilities": [
+              0.8877391815185547,
+              0.02168780378997326,
+              0.026564059779047966,
+              0.026589760556817055,
+              0.014200041070580482,
+              0.023219117894768715
+            ]
+          },
+          {
+            "bbox": [
+              113.64842224121094,
+              195.06834411621094,
+              135.85067749023438,
+              227.2286834716797
+            ],
+            "detector_score": 0.6598717570304871,
+            "label": 0,
+            "confidence": 0.46014609932899475,
+            "accepted": true,
+            "probabilities": [
+              0.46014609932899475,
+              0.4020947813987732,
+              0.03072984330356121,
+              0.06090530753135681,
+              0.017682872712612152,
+              0.028441105037927628
+            ]
+          }
+        ],
+        "image_size": [
+          384,
+          512
+        ]
+      }
+    }
+  ],
+  "figure": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\detection_spotcheck_20261103\\四张双手照片_人工标注与检测对照.png",
+  "figure_sha256": "bf97ef2a87313c2822554316e5889301c11754f3f2e96afe299dcffff742a29e"
+}

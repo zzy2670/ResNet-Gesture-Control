@@ -1,0 +1,13 @@
+{
+  "id": "D2-I08",
+  "original_sha256": "96a59551a443694f997285311874e53f54bc5f9cb1a3cf22a0bee26602096429",
+  "source_records": [
+    {
+      "name": "test_whole_photo.json",
+      "sha256": "5706f049ad15ee3b76c38416bfa9597583305d9031963e86bebcb9b6f45d617b"
+    }
+  ],
+  "occurrences": {
+    "D2-I08": "图8 B ResNet18整图测试混淆矩阵"
+  }
+}

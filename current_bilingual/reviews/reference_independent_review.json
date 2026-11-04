@@ -1,0 +1,1323 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/bilingual_independent_review",
+  "manifest_sha256": "65d584f2ccdd9250361f13102e2bdee77938de2349fdde27acd64d804172a293",
+  "checks": [
+    {
+      "id": "D1-I01",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: peace, a palm-facing V sign; code 1, Forward.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I02",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: peace_inverted, a back-facing V sign; code 1, Forward.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I03",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: stop, one of the three open-hand postures; code 2, Backward.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I04",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: stop_inverted, one of the three open-hand postures; code 2, Backward.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I05",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: palm, one of the three open-hand postures; code 2, Backward.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I06",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: fist; code 3, STOP.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I07",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: like, thumb up; code 4, Left turn.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I08",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: dislike, thumb down; code 5, Right turn.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I09",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Gesture-code photograph: no_gesture, an idle-hand example; code 0, No command.",
+      "english_caption_present": true,
+      "both_photo_bytes_equal_original": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I20",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Figure 10. Original explanation-path diagram from the cable project, reproduced from Figure 3.9 of the local cable-project report. It shows forward inference and explanation computation at the target layer. Element-wise multiplication of features by gradients, followed by averaging across channels, corresponds to the original cable implementation. The Chinese version is a translation adaptation of that original. This figure is a computation-flow reference, not a gesture-experiment result from this project.",
+      "english_caption_present": true,
+      "english_original_byte_preserved": true,
+      "independently_rechecked_evidence_regions": {
+        "zh": [
+          {
+            "box": [
+              166,
+              54,
+              322,
+              158
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              376,
+              70,
+              484,
+              164
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              548,
+              70,
+              660,
+              164
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              730,
+              70,
+              839,
+              164
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              594,
+              289,
+              836,
+              383
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              908,
+              277,
+              966,
+              353
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              985,
+              277,
+              1044,
+              353
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1063,
+              277,
+              1121,
+              353
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1115,
+              270,
+              1122,
+              361
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              125,
+              425,
+              325,
+              586
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              561,
+              455,
+              656,
+              548
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              661,
+              455,
+              667,
+              548
+            ],
+            "same_pixels": true
+          }
+        ]
+      },
+      "zh_visible_overlay_texts": [
+        "前向推理",
+        "模块1",
+        "模块2",
+        "目标层",
+        "对数功率STFT · 128 × 128",
+        "最大池化",
+        "全局平均\n池化",
+        "分类器",
+        "七类得分",
+        "背景",
+        "电晕",
+        "高压背景",
+        "局部放电",
+        "局放＋高压干扰",
+        "局放＋电晕",
+        "局放＋电晕＋高压干扰",
+        "选定类别",
+        "局放得分 y_pd",
+        "模块3目标激活 A_k",
+        "按 mean |A_k ⊙ G_k| 排序通道",
+        "目标层对局放得分的敏感性",
+        "每通道一张32 × 32梯度图",
+        "逐位置特征与梯度相乘",
+        "模块3的Grad-CAM",
+        "双线性\n上采样",
+        "32 × 32类别图",
+        "跨通道平均",
+        "频率（MHz）",
+        "时间（ms）",
+        "特征图行",
+        "特征图行",
+        "特征图行",
+        "特征图列",
+        "特征图列",
+        "特征图列",
+        "特征与梯度乘积",
+        "上采样前的32 × 32类别图",
+        "特征图行",
+        "特征图列",
+        "依据电缆项目原图3.9的中文翻译适配；仅作计算流程参考",
+        "原实现：逐位置 A_k ⊙ G_k 后跨通道平均；与本项目标准Grad-CAM区分。",
+        "亮区表示对局放得分的响应证据，不表示物理因果关系。"
+      ],
+      "en_visible_overlay_texts": [],
+      "svg_evidence_size_position_equal_original": {
+        "zh": true,
+        "en": true
+      },
+      "chinese_translation_adaptation_marked": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I22",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Figure 12. Original class-by-layer overview from Figure 4.14 of the local cable thesis. The seven rows correspond to seven measurement states; the four columns show the original STFT, block3, block1 and block2, in that order. The Chinese version is a translation adaptation of the original. This figure illustrates presentation across classes and modules; it is not a gesture-experiment result.",
+      "english_caption_present": true,
+      "english_original_byte_preserved": true,
+      "independently_rechecked_evidence_regions": {
+        "zh": [
+          {
+            "box": [
+              173,
+              63,
+              908,
+              651
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              979,
+              63,
+              1714,
+              651
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1781,
+              63,
+              2516,
+              651
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              2588,
+              63,
+              3323,
+              651
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              173,
+              682,
+              908,
+              1270
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              979,
+              682,
+              1714,
+              1270
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1781,
+              682,
+              2516,
+              1270
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              2588,
+              682,
+              3323,
+              1270
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              173,
+              1301,
+              908,
+              1889
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              979,
+              1301,
+              1714,
+              1889
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1781,
+              1301,
+              2516,
+              1889
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              2588,
+              1301,
+              3323,
+              1889
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              173,
+              1920,
+              908,
+              2508
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              979,
+              1920,
+              1714,
+              2508
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1781,
+              1920,
+              2516,
+              2508
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              2588,
+              1920,
+              3323,
+              2508
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              173,
+              2539,
+              908,
+              3127
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              979,
+              2539,
+              1714,
+              3127
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1781,
+              2539,
+              2516,
+              3127
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              2588,
+              2539,
+              3323,
+              3127
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              173,
+              3158,
+              908,
+              3746
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              979,
+              3158,
+              1714,
+              3746
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1781,
+              3158,
+              2516,
+              3746
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              2588,
+              3158,
+              3323,
+              3746
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              173,
+              3777,
+              908,
+              4365
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              979,
+              3777,
+              1714,
+              4365
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1781,
+              3777,
+              2516,
+              4365
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              2588,
+              3777,
+              3323,
+              4365
+            ],
+            "same_pixels": true
+          }
+        ]
+      },
+      "zh_visible_overlay_texts": [
+        "原始对数功率STFT",
+        "block3 Grad-CAM",
+        "block1 Grad-CAM",
+        "block2 Grad-CAM",
+        "背景 · C1_backgroundv2_43",
+        "近似频率（MHz）",
+        "电晕 · C1_corona_101",
+        "近似频率（MHz）",
+        "高压背景 · C1_hv_bg_95",
+        "近似频率（MHz）",
+        "局部放电 · C2_pd_100",
+        "近似频率（MHz）",
+        "局放＋高压干扰 · C1_pd_HI_105",
+        "近似频率（MHz）",
+        "局放＋电晕 · C1_pd_corona_103",
+        "近似频率（MHz）",
+        "局放＋电晕＋高压干扰 · C2_pd_corona_HI_92",
+        "近似频率（MHz）",
+        "近似时间（ms）",
+        "近似时间（ms）",
+        "近似时间（ms）",
+        "近似时间（ms）",
+        "依据电缆论文图4.14翻译适配；七类测量状态原图，非手势实验结果"
+      ],
+      "en_visible_overlay_texts": [],
+      "svg_evidence_size_position_equal_original": {
+        "zh": true,
+        "en": true
+      },
+      "chinese_translation_adaptation_marked": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I23",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Figure 13. Six-row layered layout example prepared before task training. Rows are organized by source labels 0–5; columns show the input, the main layer4 explanation, layer1, layer2 and layer3. Heatmaps were actually computed with a generic ImageNet ResNet18, and each row states its actual ImageNet target. The figure is retained to illustrate the layout and must not be presented as this project’s six-class recognition result. Both language versions reuse the saved original evidence pixels without model recomputation.",
+      "english_caption_present": true,
+      "independently_rechecked_evidence_regions": {
+        "zh": [
+          {
+            "box": [
+              573,
+              334,
+              2506,
+              2598
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              750,
+              2748,
+              2110,
+              2836
+            ],
+            "same_pixels": true
+          }
+        ],
+        "en": [
+          {
+            "box": [
+              573,
+              334,
+              2506,
+              2598
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              750,
+              2748,
+              2110,
+              2836
+            ],
+            "same_pixels": true
+          }
+        ]
+      },
+      "zh_visible_overlay_texts": [
+        "六类来源手图的分层Grad-CAM呈现",
+        "通用ImageNet预训练模型布局示例，非六类手势实测结果",
+        "输入手图\n224 × 224",
+        "layer4 · 主解释\n7 × 7",
+        "layer1\n56 × 56",
+        "layer2\n28 × 28",
+        "layer3\n14 × 14",
+        "来源类别0：其他／闲置手\nno_gesture\nImageNet目标：\nswimming trunks\n索引 842",
+        "来源类别1：V形\npeace\nImageNet目标：\ndrumstick\n索引 542",
+        "来源类别2：张开手掌\npalm\nImageNet目标：\npanpipe\n索引 699",
+        "来源类别3：握拳\nfist\nImageNet目标：\nWindsor tie\n索引 906",
+        "来源类别4：拇指向上\nlike\nImageNet目标：\nbrassiere\n索引 459",
+        "来源类别5：拇指向下\ndislike\nImageNet目标：\nplatypus\n索引 103",
+        "各图独立归一化的相对响应",
+        "按HaGRID来源标签组织；各行解释所标ImageNet目标。上采样不增加空间分辨率。"
+      ],
+      "en_visible_overlay_texts": [
+        "Layer-wise Grad-CAM layout for six source labels",
+        "Generic ImageNet layout example; not six-gesture experiment results",
+        "Input hand crop\n224 × 224",
+        "layer4 · main view\n7 × 7",
+        "layer1\n56 × 56",
+        "layer2\n28 × 28",
+        "layer3\n14 × 14",
+        "Source label 0:\nother / idle hand\nno_gesture\nImageNet target:\nswimming trunks\nindex 842",
+        "Source label 1:\nV sign\npeace\nImageNet target:\ndrumstick\nindex 542",
+        "Source label 2:\nopen palm\npalm\nImageNet target:\npanpipe\nindex 699",
+        "Source label 3:\nfist\nfist\nImageNet target:\nWindsor tie\nindex 906",
+        "Source label 4:\nthumb up\nlike\nImageNet target:\nbrassiere\nindex 459",
+        "Source label 5:\nthumb down\ndislike\nImageNet target:\nplatypus\nindex 103",
+        "Relative response, normalized separately within each panel",
+        "Rows follow HaGRID source labels. CAMs explain the stated ImageNet targets.",
+        "Upsampling does not add spatial resolution."
+      ],
+      "svg_evidence_size_position_equal_original": {
+        "zh": true,
+        "en": true
+      },
+      "all_six_original_targets_labeled": true,
+      "generic_imagenet_identity_marked": true,
+      "metadata_source_bytes_identical": true,
+      "original_native_source_preserved": true,
+      "visual_review": "PASS"
+    },
+    {
+      "id": "D1-I24",
+      "original_sha_matches_inventory": true,
+      "required_files_present": true,
+      "caption_en": "Figure 14. Example linking the original image, response and local finger details. The boxes and magnified views correspond to the same positions in the same input, allowing inspection of extended-finger contours and the gap between the fingers. This independent example targets nail (index 677) in a generic ImageNet model; it does not demonstrate correct recognition of a V-sign gesture. Formal local analysis will be added as needed. Both language versions reuse the saved original evidence pixels without model recomputation.",
+      "english_caption_present": true,
+      "independently_rechecked_evidence_regions": {
+        "zh": [
+          {
+            "box": [
+              122,
+              225,
+              399,
+              595
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              614,
+              225,
+              982,
+              595
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1151,
+              225,
+              1518,
+              595
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              538,
+              615,
+              762,
+              844
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1065,
+              615,
+              1289,
+              844
+            ],
+            "same_pixels": true
+          }
+        ],
+        "en": [
+          {
+            "box": [
+              122,
+              225,
+              399,
+              595
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              614,
+              225,
+              982,
+              595
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1151,
+              225,
+              1518,
+              595
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              538,
+              615,
+              762,
+              844
+            ],
+            "same_pixels": true
+          },
+          {
+            "box": [
+              1065,
+              615,
+              1289,
+              844
+            ],
+            "same_pixels": true
+          }
+        ]
+      },
+      "zh_visible_overlay_texts": [
+        "原始照片、分类输入与局部响应对应关系",
+        "ImageNet目标：nail（钉子，索引677）；通用模型观察示例，非手势识别结果",
+        "原始照片与人工手框",
+        "送入网络的手图",
+        "同一手图＋layer4响应",
+        "按手框裁图\n等比补边",
+        "叠加响应",
+        "红框为人工选定的\n形态观察区，非热区分割",
+        "同一区域：手指轮廓与指间空隙",
+        "同坐标响应：位置与扩散范围",
+        "宽范围响应覆盖指根、掌部及部分背景；不能据此声称模型已识别V形手势。"
+      ],
+      "en_visible_overlay_texts": [
+        "Original image, network input and local response",
+        "ImageNet target: nail (index 677); generic-model example, not a gesture result",
+        "Original and manual hand box",
+        "Hand crop fed to network",
+        "Same crop + layer4 response",
+        "Crop to box\npad to square",
+        "Overlay\nresponse",
+        "Red boxes: manually chosen\nshape inspection regions;\nnot heatmap segmentation",
+        "Same region: finger contour and gap",
+        "Same coordinates: response spread",
+        "Broad response includes finger bases, palm and background; it does not establish V-sign recognition."
+      ],
+      "svg_evidence_size_position_equal_original": {
+        "zh": true,
+        "en": true
+      },
+      "nail_677_identity_and_non_gesture_disclaimer": true,
+      "saved_demo_metadata": {
+        "model": "torchvision ResNet18; original ImageNet1000 head",
+        "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+        "input": "v4_feature_input224.png",
+        "input_sha256": "0a053d018b7672d1c4682ae5ab98b497222df938f6a73491f83c91a6ded3a5af",
+        "target_index": 677,
+        "target_name": "nail",
+        "target_selection": "single forward argmax; no class hunting or model training",
+        "target_logit": 7.328716278076172,
+        "layer_hook": "layer1, layer2, layer3, layer4 module output, same as each group final BasicBlock output",
+        "method": "spatial mean of target-logit gradients; channel-weighted activation sum; ReLU; bilinear upsample align_corners=False; each map independently min-max normalized",
+        "overlay": "58% original RGB +42% turbo colormap",
+        "roi_xyxy_224": [
+          64,
+          6,
+          166,
+          110
+        ],
+        "roi_choice": "fixed visible finger-contour/gap region, not chosen to maximize response",
+        "records": {
+          "layer1": {
+            "shape": [
+              1,
+              64,
+              56,
+              56
+            ],
+            "raw_min": 0.0,
+            "raw_max": 0.0041952128522098064,
+            "display_min": 0.0,
+            "display_max": 0.004052871838212013
+          },
+          "layer2": {
+            "shape": [
+              1,
+              128,
+              28,
+              28
+            ],
+            "raw_min": 0.0,
+            "raw_max": 0.03177805244922638,
+            "display_min": 0.0,
+            "display_max": 0.03051261603832245
+          },
+          "layer3": {
+            "shape": [
+              1,
+              256,
+              14,
+              14
+            ],
+            "raw_min": 0.0,
+            "raw_max": 0.059591326862573624,
+            "display_min": 0.0,
+            "display_max": 0.05795783922076225
+          },
+          "layer4": {
+            "shape": [
+              1,
+              512,
+              7,
+              7
+            ],
+            "raw_min": 0.018033483996987343,
+            "raw_max": 0.2929012179374695,
+            "display_min": 0.018366845324635506,
+            "display_max": 0.2923225462436676
+          }
+        },
+        "limitations": [
+          "not a trained six-gesture model or gesture classification result",
+          "independent normalization forbids across-layer absolute magnitude comparisons",
+          "7x7 final CAM cannot locate fingertip precisely",
+          "CAM association does not establish causal evidence"
+        ],
+        "torch": "2.11.0+cu128",
+        "torchvision": "0.26.0+cu128",
+        "device": "cpu; no training; four threads"
+      },
+      "metadata_source_bytes_identical": true,
+      "original_native_source_preserved": true,
+      "visual_review": "PASS"
+    }
+  ],
+  "issues": [],
+  "output_bindings": [
+    {
+      "path": "assets_reference/D1_I01_en.png",
+      "sha256": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6"
+    },
+    {
+      "path": "assets_reference/D1_I01_en.svg",
+      "sha256": "535f60e894f5af999de8aea7ccfdb0633702d5a0abdaaabeee56b0c391c5f015"
+    },
+    {
+      "path": "assets_reference/D1_I01_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I01_zh.png",
+      "sha256": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6"
+    },
+    {
+      "path": "assets_reference/D1_I01_zh.svg",
+      "sha256": "535f60e894f5af999de8aea7ccfdb0633702d5a0abdaaabeee56b0c391c5f015"
+    },
+    {
+      "path": "assets_reference/D1_I01_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I02_en.png",
+      "sha256": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d"
+    },
+    {
+      "path": "assets_reference/D1_I02_en.svg",
+      "sha256": "58e702799f6231ddc0b8fd62a212f16f590dc9c628189d0e2b60542816dc3a6b"
+    },
+    {
+      "path": "assets_reference/D1_I02_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I02_zh.png",
+      "sha256": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d"
+    },
+    {
+      "path": "assets_reference/D1_I02_zh.svg",
+      "sha256": "58e702799f6231ddc0b8fd62a212f16f590dc9c628189d0e2b60542816dc3a6b"
+    },
+    {
+      "path": "assets_reference/D1_I02_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I03_en.png",
+      "sha256": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716"
+    },
+    {
+      "path": "assets_reference/D1_I03_en.svg",
+      "sha256": "19106c53ca65a9b95ba8e53e4808cfb13c022d6dbeff7df6d99dc4da37600b39"
+    },
+    {
+      "path": "assets_reference/D1_I03_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I03_zh.png",
+      "sha256": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716"
+    },
+    {
+      "path": "assets_reference/D1_I03_zh.svg",
+      "sha256": "19106c53ca65a9b95ba8e53e4808cfb13c022d6dbeff7df6d99dc4da37600b39"
+    },
+    {
+      "path": "assets_reference/D1_I03_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I04_en.png",
+      "sha256": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824"
+    },
+    {
+      "path": "assets_reference/D1_I04_en.svg",
+      "sha256": "be2fc8ade55ce64ae65f8fab7147830d7d7c7bad8e6e4e647eab446b5caa93cb"
+    },
+    {
+      "path": "assets_reference/D1_I04_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I04_zh.png",
+      "sha256": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824"
+    },
+    {
+      "path": "assets_reference/D1_I04_zh.svg",
+      "sha256": "be2fc8ade55ce64ae65f8fab7147830d7d7c7bad8e6e4e647eab446b5caa93cb"
+    },
+    {
+      "path": "assets_reference/D1_I04_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I05_en.png",
+      "sha256": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7"
+    },
+    {
+      "path": "assets_reference/D1_I05_en.svg",
+      "sha256": "eb5648c67adeeb4b328de1c6a08ba7390d59d53bd70c5d65ac22e8f0d204c495"
+    },
+    {
+      "path": "assets_reference/D1_I05_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I05_zh.png",
+      "sha256": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7"
+    },
+    {
+      "path": "assets_reference/D1_I05_zh.svg",
+      "sha256": "eb5648c67adeeb4b328de1c6a08ba7390d59d53bd70c5d65ac22e8f0d204c495"
+    },
+    {
+      "path": "assets_reference/D1_I05_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I06_en.png",
+      "sha256": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae"
+    },
+    {
+      "path": "assets_reference/D1_I06_en.svg",
+      "sha256": "3a5539167da475290002b9145a2934e7ff7a6bca6ef333b232be68abdbe687ac"
+    },
+    {
+      "path": "assets_reference/D1_I06_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I06_zh.png",
+      "sha256": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae"
+    },
+    {
+      "path": "assets_reference/D1_I06_zh.svg",
+      "sha256": "3a5539167da475290002b9145a2934e7ff7a6bca6ef333b232be68abdbe687ac"
+    },
+    {
+      "path": "assets_reference/D1_I06_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I07_en.png",
+      "sha256": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b"
+    },
+    {
+      "path": "assets_reference/D1_I07_en.svg",
+      "sha256": "738ab6d725595a227f366436d36905e38f54d219460b9d59bad9b90c0b5ad9f8"
+    },
+    {
+      "path": "assets_reference/D1_I07_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I07_zh.png",
+      "sha256": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b"
+    },
+    {
+      "path": "assets_reference/D1_I07_zh.svg",
+      "sha256": "738ab6d725595a227f366436d36905e38f54d219460b9d59bad9b90c0b5ad9f8"
+    },
+    {
+      "path": "assets_reference/D1_I07_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I08_en.png",
+      "sha256": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab"
+    },
+    {
+      "path": "assets_reference/D1_I08_en.svg",
+      "sha256": "1df5aa7165c713eb5d3ebde7186b22111946d3255f7116280289078f366319bc"
+    },
+    {
+      "path": "assets_reference/D1_I08_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I08_zh.png",
+      "sha256": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab"
+    },
+    {
+      "path": "assets_reference/D1_I08_zh.svg",
+      "sha256": "1df5aa7165c713eb5d3ebde7186b22111946d3255f7116280289078f366319bc"
+    },
+    {
+      "path": "assets_reference/D1_I08_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I09_en.png",
+      "sha256": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d"
+    },
+    {
+      "path": "assets_reference/D1_I09_en.svg",
+      "sha256": "a25825d9c3e971302a2fcc68e07591374369a208d0a723d4fbd9de5c87fd509d"
+    },
+    {
+      "path": "assets_reference/D1_I09_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I09_zh.png",
+      "sha256": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d"
+    },
+    {
+      "path": "assets_reference/D1_I09_zh.svg",
+      "sha256": "a25825d9c3e971302a2fcc68e07591374369a208d0a723d4fbd9de5c87fd509d"
+    },
+    {
+      "path": "assets_reference/D1_I09_zh_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I20_en.png",
+      "sha256": "54c610b5f2dec2f2e9bc1cecabe068c66626d2ee16de1dee056f84a0fd8ec1d9"
+    },
+    {
+      "path": "assets_reference/D1_I20_en.svg",
+      "sha256": "b47229ac773850ea05f26051414bda59f801046fa5f3593c01adf729a240b573"
+    },
+    {
+      "path": "assets_reference/D1_I20_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I20_zh.png",
+      "sha256": "aff2d6183ecc334d7cc65e6bac7e68790d54d8b000253f3b2829ebda23463730"
+    },
+    {
+      "path": "assets_reference/D1_I20_zh.svg",
+      "sha256": "1e642a658d8ec3d7b23df8ed052f7ba45433371b47ec4f132cc154114e4e3e7f"
+    },
+    {
+      "path": "assets_reference/D1_I20_zh_text_layers.json",
+      "sha256": "30ae000692a513036ba4463e8e4b73295bf6fb52d0457182a65feeeadb7d8810"
+    },
+    {
+      "path": "assets_reference/D1_I22_en.png",
+      "sha256": "6a2ceb8de7bf5b7658b3fa50f4730bd703b6e5fffbc7534c651b6250e1a79672"
+    },
+    {
+      "path": "assets_reference/D1_I22_en.svg",
+      "sha256": "c32bacc570c6303994ef966684eacee496691d2d099fa2210c26f4a388b0f610"
+    },
+    {
+      "path": "assets_reference/D1_I22_en_text_layers.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "assets_reference/D1_I22_zh.png",
+      "sha256": "66ca4796b4c498e8298c8c7ca11ae858a0ca8b432c36eb607f48bb0751148e38"
+    },
+    {
+      "path": "assets_reference/D1_I22_zh.svg",
+      "sha256": "5d02c913ed28d66eafbb5c35438db6d40c6b3a0220e2c08c96bc93e9c1ef718e"
+    },
+    {
+      "path": "assets_reference/D1_I22_zh_text_layers.json",
+      "sha256": "5819e426fb2017ae0462e004ae24d2cb20e58b653e9ab65f52714132c779766f"
+    },
+    {
+      "path": "assets_reference/D1_I23_en.png",
+      "sha256": "c5c0be4cff6ca1a8a5ddfb059c03a049be8be95f9527afda52a6f03186d91f6a"
+    },
+    {
+      "path": "assets_reference/D1_I23_en.svg",
+      "sha256": "02752fa9e12b3db82ddec05a04c24cb582aef3c4eb40e89a2510fd0b43dfb964"
+    },
+    {
+      "path": "assets_reference/D1_I23_en_text_layers.json",
+      "sha256": "24b5e820e429cb4b6049c141b82a0f8c054fbe482eae1d18af0d8f6ad1c8a1df"
+    },
+    {
+      "path": "assets_reference/D1_I23_zh.png",
+      "sha256": "c726d3649445d1ced7f172f5b778b45583f07cc6d472e8b9e5411b2050a41b73"
+    },
+    {
+      "path": "assets_reference/D1_I23_zh.svg",
+      "sha256": "d95b7ddb306ae6abc21b65d469c56ce72c9bf542552ed554fea16b5a5d13c004"
+    },
+    {
+      "path": "assets_reference/D1_I23_zh_text_layers.json",
+      "sha256": "ab250878873d92ff762feecc5c0583d37412652385b116bf7e01d7f9f0fb84e6"
+    },
+    {
+      "path": "assets_reference/D1_I24_en.png",
+      "sha256": "5f23b64545778f2b76b8ce9b7c8dbbadaf3c8b588287d4c6b633d51284bf72f3"
+    },
+    {
+      "path": "assets_reference/D1_I24_en.svg",
+      "sha256": "6df47f6bc5b019e7ea81e925135361c2755911e4b78ba72d6e1e19ef562bc435"
+    },
+    {
+      "path": "assets_reference/D1_I24_en_text_layers.json",
+      "sha256": "523155751c8540a617b2a378c83c0fa6ad27ed7cf964b4963983e50e9f2a24be"
+    },
+    {
+      "path": "assets_reference/D1_I24_zh.png",
+      "sha256": "bf6fca5a6cfaca4e0e63845f040b85ee79c3bcc374bc2d40c0249d2ddf31d299"
+    },
+    {
+      "path": "assets_reference/D1_I24_zh.svg",
+      "sha256": "9ba40cd7366581516c9080d538ea1b4eff36956a6fa713ee055dfde2e977e2d1"
+    },
+    {
+      "path": "assets_reference/D1_I24_zh_text_layers.json",
+      "sha256": "e9c5ce207796be1d856858cba5a079facb61c8f023a394bf76369018f6aa0503"
+    },
+    {
+      "path": "assets_reference/generate_reference_bilingual.py",
+      "sha256": "060c20bc797b79c9ea1800e4da85ea54910c2098a7e04adc96247b1a8abfb46c"
+    },
+    {
+      "path": "assets_reference/originals/D1_I01_original.png",
+      "sha256": "c89376ef348c3a23280efaef323a0ca6377e60a561e39877544ddd0eabd615b6"
+    },
+    {
+      "path": "assets_reference/originals/D1_I02_original.png",
+      "sha256": "3aaf1b0903500e70fc8f0cc4a5c298ab7cb0226be5e195a5b1134254177aa11d"
+    },
+    {
+      "path": "assets_reference/originals/D1_I03_original.png",
+      "sha256": "ce2a1e6041258e981aca75608ff8275f3ad296f6cf3a13bb3a677e20ba7f7716"
+    },
+    {
+      "path": "assets_reference/originals/D1_I04_original.png",
+      "sha256": "89ef5e8b306b9044e73680eab177b7abc06295733c3975f5a9b331b6f744e824"
+    },
+    {
+      "path": "assets_reference/originals/D1_I05_original.png",
+      "sha256": "ab9d6d149e99b4f53c8c9433bf714d4e19cf238a44de5195e28c039bdcbbe7e7"
+    },
+    {
+      "path": "assets_reference/originals/D1_I06_original.png",
+      "sha256": "908bbb23469c3dc155199cbb877fe5231e3fb8619ae0404e50e31e53f5fa9bae"
+    },
+    {
+      "path": "assets_reference/originals/D1_I07_original.png",
+      "sha256": "19fb1fabd773e1d477c9a79b13570d79a0430ed99d93360d0bdd39ee7842c91b"
+    },
+    {
+      "path": "assets_reference/originals/D1_I08_original.png",
+      "sha256": "5e5e3f62040f9724610c90143764c6706aa1f3b96454beaf55619878fe59d9ab"
+    },
+    {
+      "path": "assets_reference/originals/D1_I09_original.png",
+      "sha256": "a8f99dc0d264f34ead0010031d54967178df1491594be29feef90a40d51b702d"
+    },
+    {
+      "path": "assets_reference/originals/D1_I20_original.png",
+      "sha256": "54c610b5f2dec2f2e9bc1cecabe068c66626d2ee16de1dee056f84a0fd8ec1d9"
+    },
+    {
+      "path": "assets_reference/originals/D1_I22_original.png",
+      "sha256": "6a2ceb8de7bf5b7658b3fa50f4730bd703b6e5fffbc7534c651b6250e1a79672"
+    },
+    {
+      "path": "assets_reference/originals/D1_I23_original.png",
+      "sha256": "01ab7cd4f6f4b00b94e6eee2cace90c2bde4337d3622eae1ea2a4b2c839b6eeb"
+    },
+    {
+      "path": "assets_reference/originals/D1_I24_original.png",
+      "sha256": "580b3f53a7464472587c830602f53c0bd209a545c0f21e435c8a997d93212fea"
+    },
+    {
+      "path": "assets_reference/README.md",
+      "sha256": "9fcab09136b0d64d62f4360a045cae048466e7f3dcf34984f7031e623a86e550"
+    },
+    {
+      "path": "assets_reference/reference_inputs.json",
+      "sha256": "cdd21634b6b447c1b151809f40a4bb6fd36bbfe3cda772f2d7e110a497787aaa"
+    },
+    {
+      "path": "assets_reference/source_evidence/v7_cam_metadata.json",
+      "sha256": "be1ac66c577e7b21f78d9eb4701d7659ceea14dc49de841c5406b14f4b4c8757"
+    },
+    {
+      "path": "assets_reference/source_evidence/v7_fig12_local_evidence.vsdx",
+      "sha256": "f28aaf77118700b6dfc1b1ed70f8e68e821feab117390727ab68bd3200a05b06"
+    },
+    {
+      "path": "assets_reference/source_evidence/v9_cam_matrix.vsdx",
+      "sha256": "e8e780e91d559f852fc98b56442b3ad2a5f5ffeccf5e258d722bd00724fbce14"
+    },
+    {
+      "path": "assets_reference/source_evidence/v9_cam_matrix_metadata.json",
+      "sha256": "f8952ff12ff3c1bb1be421f22bc899453073f94cce75353b00cbd8397cc2a646"
+    }
+  ],
+  "scope": "13 bilingual groups; 9 unaltered photographs, 2 cable originals plus translation adaptations, 2 earlier ImageNet demonstrations. No model computation or document edits.",
+  "limitations": [
+    "Final Word embedding/page readability and final ZIP membership require separate integration review."
+  ],
+  "historical_pre_reviewer": "/root/bilingual_figure_inventory, not the author of assets_reference",
+  "independent_of_reference_author": true,
+  "reviewed_at": "2026-11-03T11:10:01.719615+08:00",
+  "author_final_manifest_seen": true,
+  "actual_review_scope": {
+    "groups": 13,
+    "pngs": 26,
+    "photographs": "All nine photographs visually read in reference_photos_independent.png; both language file bytes independently equal the original.",
+    "technical_pngs": "All eight Chinese/English PNGs for I20/I22/I23/I24 directly opened and read.",
+    "svg_review": "Every SVG parsed for original image size/position; I22 Chinese, I23 Chinese and English, and I24 English additionally rasterized with bundled sharp and visually read. Corrected final I22 white footer re-rendered and read.",
+    "captions": "All 13 full bilingual manifest caption pairs read; targets, provenance, adaptation status and scientific limitations retained.",
+    "evidence": "All 54 declared scientific rectangles independently compared pixel-for-pixel against original; saved metadata and historical native source files independently SHA-matched.",
+    "native_app_editing": "Not claimed; SVG text/overlay structure checked, not native Visio round-trip editing."
+  },
+  "resolved_findings": [
+    {
+      "id": "D1-I23",
+      "issue": "Multiline SVG row metadata shifted downward",
+      "resolution": "Actual rendered English/Chinese row labels align with their intended image rows."
+    },
+    {
+      "id": "D1-I22",
+      "issue": "Expanded SVG viewport shifted evidence raster",
+      "resolution": "Original raster keeps original width/height at 0,0; rendered panels align; new footer has explicit white background."
+    },
+    {
+      "id": "D1-I24",
+      "issue": "English crop instruction intruded on photograph",
+      "resolution": "Actual English crop text stays within inter-panel whitespace."
+    },
+    {
+      "id": "D1-I24",
+      "issue": "Old label remnants above photographs",
+      "resolution": "Actual zh/en header bands clear through y224; photograph evidence starts at y225 and passes exact pixel equality."
+    },
+    {
+      "id": "D1-I20",
+      "issue": "Chinese adaptation retained English natural-language plot labels",
+      "resolution": "Actual axis-outside labels translated; heatmap and numeric ticks unchanged."
+    },
+    {
+      "id": "D1-I23",
+      "issue": "Colorbar 0/1 ticks clipped by footer clear",
+      "resolution": "Actual zh/en complete 0/1 ticks visually readable and color-scale rectangle passes pixel equality."
+    },
+    {
+      "id": "all",
+      "issue": "Non-portable absolute paths and absent redraw instructions",
+      "resolution": "Final manifest paths all relative and resolve; README documents inputs, Windows font prerequisite, rendering limits and command."
+    }
+  ],
+  "visual_evidence": [
+    "reviews/reference_photos_independent.png",
+    "reviews/D1_I22_zh_svg_review.png",
+    "reviews/D1_I23_en_svg_review.png",
+    "reviews/D1_I23_zh_svg_review.png",
+    "reviews/D1_I24_en_svg_review.png",
+    "reviews/D1_I22_svg_footer_final.png"
+  ],
+  "audit_tool_note": "The inherited read-only script was evaluated in memory with I24 metadata selected by _metadata.json rather than wrongly assuming the first evidence record was JSON. No author asset was modified by reviewer."
+}

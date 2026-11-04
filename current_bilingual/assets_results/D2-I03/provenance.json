@@ -1,0 +1,13 @@
+{
+  "id": "D2-I03",
+  "original_sha256": "9e1b619e1d578a5375d30dc4af7e9f32eff85a8cffc290c0ec2dbe2c0ac0e9c7",
+  "source_records": [
+    {
+      "name": "error_examples.json",
+      "sha256": "e3e0a630b9c7b6899e95510deed6578f1dfe79481869dd133d1a32914b9b710c"
+    }
+  ],
+  "occurrences": {
+    "D2-I03": "图3 ResNet18四类固定整图错误案例"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "D2-I04",
+  "original_sha256": "f65630033a7f15b00edb7382e6dd90f77496b9c12b7d1aa9246cfb598e8af040",
+  "source_records": [
+    {
+      "name": "actual_crop_comparison.json",
+      "sha256": "5c9bb74fdfc345407917497e91670e24c0037f9b8a739bebe4bde78db518085e"
+    }
+  ],
+  "occurrences": {
+    "D2-I04": "图4 同一照片人工框与自动框实际裁图对照"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "reviewer": "/root/complete_document_review",
+  "author_assets_modified": false,
+  "actual_page_coverage": {
+    "D1": [
+      1,
+      50
+    ],
+    "D2": [
+      1,
+      71
+    ]
+  },
+  "coverage_method": "Every page was actually visually read in labelled, legible two-page contact sheets. Dense diagram/CAM/photo-error pages were also opened individually. Existing sheet files were not treated as proof of an interrupted reviewer's completion.",
+  "D1_group_notes": [
+    {
+      "pages": [
+        1,
+        5
+      ],
+      "note": "Data population, protocol splits and six-class mapping readable. In-table hand photographs occur in the corresponding bilingual rows; 0/no command, open palm/2 and fist/3 remain explicit."
+    },
+    {
+      "pages": [
+        6,
+        12
+      ],
+      "note": "Plain/residual explanation, project pipeline, ResNet18 blocks and feature-computation example complete and paired. Transfer from ImageNet is distinguished from the six-class trained result."
+    },
+    {
+      "pages": [
+        13,
+        18
+      ],
+      "note": "PyTorch, TorchVision, HaGRID, historical preparation and SSDLite roles complete and paired; original/historical preparation state is qualified by its caption."
+    },
+    {
+      "pages": [
+        19,
+        22
+      ],
+      "note": "Training/evaluation rules and original A/B results readable; hand/image denominators and timing batches remain distinct."
+    },
+    {
+      "pages": [
+        23,
+        31
+      ],
+      "note": "Cable-project reference diagrams and STFT overview remain explicitly reference material. ImageNet nail/677 and six-row layout examples do not claim six-class gesture recognition. Chinese and English panels match; standard Grad-CAM is distinguished from the cable implementation."
+    },
+    {
+      "pages": [
+        32,
+        38
+      ],
+      "note": "Trained A/B six-row CAMs and real manual/automatic inputs complete and paired. B row 0 retains old two_up_inverted class 0 identity; absent automatic fist input is explicitly blank, with no fabricated CAM."
+    },
+    {
+      "pages": [
+        39,
+        44
+      ],
+      "note": "Merged/unmerged task populations, twelve results, speed and shared-negative paired tables complete. Changed denominators and stop-to-0 failures remain qualified. A stale current report pointer on page 41 was reported for correction."
+    },
+    {
+      "pages": [
+        45,
+        48
+      ],
+      "note": "Merged A/B trained CAMs complete and paired; B no_gesture replacement and old/new sample identities are described. Independent normalization is explicit and no causal or layer-strength claim is made."
+    },
+    {
+      "pages": [
+        49,
+        50
+      ],
+      "note": "Program delivery, implementation appendix and source links readable. A stale current reading-order sentence on page 49 was reported for correction; historical version references are to remain historical."
+    }
+  ],
+  "D2_group_notes": [
+    {
+      "pages": [
+        1,
+        7
+      ],
+      "note": "Overview, mapping, fixed A split, training/search and validation thresholds complete. Table continuations preserve headers; training/test and hand/photo populations remain distinct."
+    },
+    {
+      "pages": [
+        8,
+        11
+      ],
+      "note": "Chinese/English A hand and whole-photo confusion matrices match, including 3917 and 3180 denominators and counts; row-normalized color scale is complete."
+    },
+    {
+      "pages": [
+        12,
+        16
+      ],
+      "note": "A fixed error-photo and actual-crop pairs match across languages; original versus detected boxes and classifier confidence are distinguished, and examples are not presented as population cause rates."
+    },
+    {
+      "pages": [
+        17,
+        24
+      ],
+      "note": "A CPU scope, CAM and learning curves complete. Six rows/five columns match; 7x7 layer4, independent normalization and ImageNet-versus-task distinction are explicit. Tables and conclusions remain within margins."
+    },
+    {
+      "pages": [
+        25,
+        29
+      ],
+      "note": "B user-disjoint split, classifier/threshold selection and recovered test records readable. Interruption, probability drift and formal restored result identity are retained without an invented causal explanation."
+    },
+    {
+      "pages": [
+        30,
+        35
+      ],
+      "note": "B bilingual hand/whole confusion matrices match their surrounding tables and error descriptions; ResNet34/50 tables and stop failures are readable."
+    },
+    {
+      "pages": [
+        36,
+        42
+      ],
+      "note": "B trained CAM and error/input pairs match across languages. No detected fist crop remains explicitly absent; manual-classifier success is not presented as whole-photo stop success."
+    },
+    {
+      "pages": [
+        43,
+        48
+      ],
+      "note": "A/B curves, common-input CPU protocol and merged-task label/support/training tables complete. Fixed-budget model comparison and changed task are qualified."
+    },
+    {
+      "pages": [
+        49,
+        58
+      ],
+      "note": "Twelve results, all merged error directions, raw-pose paired rates and shared-negative tables readable with continued headers. Shared negative populations remain distinct from each full class-0 population."
+    },
+    {
+      "pages": [
+        59,
+        66
+      ],
+      "note": "Common-input CPU continuation and merged A/B CAM pairs complete; B class-0 sample is no_gesture while original two_up_inverted identity remains historical. Classifier/manual-box scope and interpolation/normalization limits explicit."
+    },
+    {
+      "pages": [
+        67,
+        71
+      ],
+      "note": "Four two-hand examples and bilingual box overlays match. Detector score differs from classifier probability; missing stop hand remains a failure. Final task tradeoff, CPU 50.55 ms and historical timing appendix are readable and consistently qualified."
+    }
+  ],
+  "individual_page_views": {
+    "D1": [
+      23,
+      24,
+      26,
+      41,
+      49
+    ],
+    "D2": [
+      18,
+      36,
+      61,
+      64,
+      67,
+      69
+    ]
+  },
+  "handover": "Independent review by /root/finish_reference_figures in handover_independent_review.json covers all 9 actual page images and two current relative hyperlinks; its document SHA is to be rechecked before final PASS.",
+  "status": "PASS",
+  "resolved_current_reference_fix": "Current D1 pages 41 and 49 actually re-read after update to v4/v13; other 48 PNG SHA unchanged.",
+  "current_plan_sha256": "a7a422463cbad7805a9b3cacf23d6a316fffda21fec88c5ed3cd0a5b75760a5a"
+}

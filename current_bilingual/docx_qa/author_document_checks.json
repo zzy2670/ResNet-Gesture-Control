@@ -1,0 +1,105 @@
+{
+  "status": "AUTHOR_STRUCTURAL_PASS_AND_FOCUSED_VISUAL_PASS",
+  "scope": "Exact authored documents with focused author visual review; complete-page independent review is separately PASS at the linked review. Focused author coverage is not full-page coverage.",
+  "documents": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\documents\\基于ResNet18的手势识别项目方案_v13_中英文配图.docx",
+      "sha256": "a7a422463cbad7805a9b3cacf23d6a316fffda21fec88c5ed3cd0a5b75760a5a",
+      "pages": 50,
+      "tables": 15,
+      "images": 58,
+      "all_original_noncontent_parts_and_media_preserved": true,
+      "all_image_bindings_match_frozen_png": true,
+      "unique_drawing_ids": true,
+      "current_local_hyperlinks_exist": [],
+      "author_actual_page_images_viewed": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        12,
+        23,
+        25,
+        26,
+        27,
+        29,
+        31,
+        34,
+        36
+      ],
+      "full_page_independent_review": {
+        "status": "PASS",
+        "review": "reviews/documents_independent_review.json",
+        "review_sha256": "5cf3a196b70fd77cb4298d6ec20c066acaf3787a3930fb5363ca6f000bb4ffc4",
+        "scope": "Independent complete-page review bound to final document SHA; plan revision rechecked on pages 41 and 49 and 48 other page PNGs unchanged."
+      },
+      "historical_pre_revision_sha256": "a3102cac38e25ed7b0f1bb255991b0dc5fb8b3e05be11db3137ec3fae72ed46b",
+      "targeted_revision_actual_page_images_viewed": [
+        41,
+        49
+      ],
+      "targeted_revision": "Two current version pointers only: report v3 to v4 and this plan v12 to v13; historical v11/report v2 preserved."
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\documents\\A与B协议ResNet训练与对比实验报告_v4_中英文配图.docx",
+      "sha256": "ea50190ab22a56d98446427d48aabc79e778b5f263c6980d2f57d9e5fde8a923",
+      "pages": 71,
+      "tables": 52,
+      "images": 30,
+      "all_original_noncontent_parts_and_media_preserved": true,
+      "all_image_bindings_match_frozen_png": true,
+      "unique_drawing_ids": true,
+      "current_local_hyperlinks_exist": [],
+      "author_actual_page_images_viewed": [
+        49,
+        50,
+        67,
+        68
+      ],
+      "full_page_independent_review": {
+        "status": "PASS",
+        "review": "reviews/documents_independent_review.json",
+        "review_sha256": "5cf3a196b70fd77cb4298d6ec20c066acaf3787a3930fb5363ca6f000bb4ffc4",
+        "scope": "Independent complete-page review bound to final document SHA; plan revision rechecked on pages 41 and 49 and 48 other page PNGs unchanged."
+      }
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\documents\\交接说明_v2_中英文配图.docx",
+      "sha256": "5dd590ce9be8d576ddc55edde39e8c828090cb88c9e8ebebe012f2520d554618",
+      "pages": 9,
+      "tables": 9,
+      "images": 0,
+      "all_original_noncontent_parts_and_media_preserved": true,
+      "all_image_bindings_match_frozen_png": true,
+      "unique_drawing_ids": true,
+      "current_local_hyperlinks_exist": [
+        "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\documents\\A与B协议ResNet训练与对比实验报告_v4_中英文配图.docx",
+        "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\双语图与图源交付_20261103\\documents\\基于ResNet18的手势识别项目方案_v13_中英文配图.docx"
+      ],
+      "author_actual_page_images_viewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "full_page_independent_review": {
+        "status": "PASS",
+        "review": "reviews/documents_independent_review.json",
+        "review_sha256": "5cf3a196b70fd77cb4298d6ec20c066acaf3787a3930fb5363ca6f000bb4ffc4",
+        "scope": "Independent complete-page review bound to final document SHA; plan revision rechecked on pages 41 and 49 and 48 other page PNGs unchanged."
+      }
+    }
+  ],
+  "independent_review": {
+    "status": "PASS",
+    "review": "reviews/documents_independent_review.json",
+    "review_sha256": "5cf3a196b70fd77cb4298d6ec20c066acaf3787a3930fb5363ca6f000bb4ffc4",
+    "scope": "Independent complete-page review bound to final document SHA; plan revision rechecked on pages 41 and 49 and 48 other page PNGs unchanged."
+  }
+}

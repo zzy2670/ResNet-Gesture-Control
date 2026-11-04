@@ -1,0 +1,25 @@
+{
+  "id": "D2-I06",
+  "original_sha256": "b3f58635cf259f5620adee6491d004e01112e11eb48cbcb628f15d6728271700",
+  "source_records": [
+    {
+      "name": "events.jsonl",
+      "sha256": "f53cc545e93af45a9304844eee9e54857d7cdfe114f8bfd813449e6b3eda12a9"
+    },
+    {
+      "name": "A/ResNet18/events.jsonl",
+      "sha256": "f53cc545e93af45a9304844eee9e54857d7cdfe114f8bfd813449e6b3eda12a9"
+    },
+    {
+      "name": "A/ResNet34/events.jsonl",
+      "sha256": "458226a0ecef349ffb500e585fda856301b6936d277b3119f2f7a259c71ec4d2"
+    },
+    {
+      "name": "A/ResNet50/events.jsonl",
+      "sha256": "51fcdeba6287ae231913f4426633a79e50c84c01b82c04c83ee936592c409aa5"
+    }
+  ],
+  "occurrences": {
+    "D2-I06": "图6 分类网络逐轮验证宏平均F1学习曲线"
+  }
+}

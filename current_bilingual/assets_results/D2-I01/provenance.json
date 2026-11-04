@@ -1,0 +1,13 @@
+{
+  "id": "D2-I01",
+  "original_sha256": "1c7c0679cace1cd3a46fbe6eb2088e6899285acfe27f9d34e33c770c9674d12a",
+  "source_records": [
+    {
+      "name": "test_oracle_crop.json",
+      "sha256": "090b0f3af5c980a28a1f4ffd514b402599d866082747889a3e2c90edb8de2d4b"
+    }
+  ],
+  "occurrences": {
+    "D2-I01": "图1 ResNet18人工框手图测试混淆矩阵"
+  }
+}

@@ -1,0 +1,7 @@
+[render_docx] $ C:\Program Files\LibreOffice\program\soffice.exe -env:UserInstallation=file:///C:/Users/Administrator/AppData/Local/Temp/soffice_profile_ai7yktcp --invisible --headless --norestore --convert-to pdf --outdir C:\Users\Administrator\AppData\Local\Temp\soffice_convert_vtkt4lu5 C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\双语图与图源交付_20261103\documents\基于ResNet18的手势识别项目方案_v13_中英文配图.docx
+convert C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\双语图与图源交付_20261103\documents\基于ResNet18的手势识别项目方案_v13_中英文配图.docx as a Writer document -> C:\Users\Administrator\AppData\Local\Temp\soffice_convert_vtkt4lu5\基于ResNet18的手势识别项目方案_v13_中英文配图.pdf using filter : writer_pdf_Export
+
+Could not find platform independent libraries <prefix>
+
+Pages rendered to C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\双语图与图源交付_20261103\docx_qa\D1_v13
+

@@ -1,0 +1,42 @@
+[
+  {
+    "image_id": "12788c4c-767a-4e22-b0d3-3b9200615406",
+    "hand_index": 0,
+    "truth": 0,
+    "oracle_prediction": 0,
+    "automatic_prediction": 4,
+    "automatic_crop_rectangle": [
+      111,
+      233,
+      213,
+      335
+    ],
+    "oracle_crop_rectangle": [
+      121,
+      231,
+      231,
+      341
+    ],
+    "network_rerun": false
+  },
+  {
+    "image_id": "02a809c0-8c0a-4ded-8ac8-f72ed2b107a8",
+    "hand_index": 1,
+    "truth": 3,
+    "oracle_prediction": 3,
+    "automatic_prediction": 0,
+    "automatic_crop_rectangle": [
+      233,
+      186,
+      277,
+      231
+    ],
+    "oracle_crop_rectangle": [
+      239,
+      197,
+      270,
+      229
+    ],
+    "network_rerun": false
+  }
+]
