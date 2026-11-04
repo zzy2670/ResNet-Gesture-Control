@@ -1,0 +1,157 @@
+{
+  "status": "pass",
+  "reviewed_at": "2026-11-02T16:21:31.635052+08:00",
+  "scope": "Final complete 8 chapters, all three architectures, all raw result metrics and unified CPU timings; final DOCX XML and all19 rendered pages reviewed.",
+  "markdown": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\实验报告正文.md",
+  "sha256": "097438753971018d03157f2229b95bfa8e90452fefe6a36bdd98a24052c673d6",
+  "tables_checked": {
+    "total_tables": 9,
+    "data_counts_equal_original_audit": true,
+    "TPE_selected_hyperparameters_equal_summary": true,
+    "all_best_val_perclass_percentages_equal_recorded_metrics_rounded2decimals": true,
+    "all12_calibration_candidates_equal_frozen_json_rounded2decimals": true,
+    "all_oracle_and_whole_perclass_percentages_equal_final_metrics_rounded2decimals": true,
+    "all_nonzero_error_directions_and_total_errors_match_confusion_matrices": true
+  },
+  "runtime_and_method": {
+    "epochs_and_selection_identity_correct": true,
+    "finetune_complete_epoch_seconds": 703.52,
+    "detector_complete_epoch_seconds": 2490.7,
+    "CPU_host_name_verified": "Intel(R) Core(TM) Ultra9 285H",
+    "crop_and_augmentation_descriptions_match_actual_code": true,
+    "frozenhead_TPE_separate_from_layer4_finetune_and_whole_test": true,
+    "test_preprocessing_access_and_selection_isolation_described_accurately": true,
+    "inference_factory_failure_and_no_retraining_explained_accurately": true,
+    "whole_photo_and_oracle_metrics_separate": true,
+    "no_hand_test_coverage_not_overclaimed": true,
+    "single_A_protocol_not_B_claimed": true
+  },
+  "validation_smallbox_analysis": {
+    "status": "pass",
+    "score_threshold": 0.3,
+    "IoU_threshold": 0.5,
+    "coordinate_system": "original_photo_pixels",
+    "bin_rule": "minimum(width,height)",
+    "bins": [
+      {
+        "short_side": "<32",
+        "gt": 856,
+        "matched": 506,
+        "recall_percent": 59.11214953271028
+      },
+      {
+        "short_side": "32_to_<64",
+        "gt": 2004,
+        "matched": 1700,
+        "recall_percent": 84.83033932135729
+      },
+      {
+        "short_side": ">=64",
+        "gt": 1012,
+        "matched": 1002,
+        "recall_percent": 99.01185770750988
+      }
+    ],
+    "not_to_confuse_with_320_transformed_shortside_below16": true,
+    "validation_only_no_test_retuning": true
+  },
+  "figures_and_cases": {
+    "all3_actual_figures_visually_seen": true,
+    "all4_error_cases_equal_first_wrong_image_key_in_declared_trueclass": true,
+    "all_GT_hand_records_equal_immutable_test_crop_records": true,
+    "all_saved_automatic_hands_equal_full_final_test_records": true,
+    "both_crop_comparison_oracle_predictions_and_auto_predictions_verified": true,
+    "both_auto_crop_rectangles_recomputed": true,
+    "call_right_boundary_shift_and_fist_crop_heights_correct": true,
+    "no_overclaim_of_unique_causal_factor": true,
+    "no_detection_vs_classification_CAM_scope_confusion": true,
+    "CAM_full_numeric_and_pixel_review_reference": "final_independent_review.json/trained_gradcam_review"
+  },
+  "nonblocking_editorial_suggestions": [],
+  "pending": [],
+  "blocking_issues": [],
+  "chapter7_18_34_review": {
+    "all_reported_table8_outcomes_and_stage_times_equal_actual_artifacts": true,
+    "all_original_34_errors_match_saved_confusion_matrices": true,
+    "model_specific_TPE_and_threshold_selection_described": true,
+    "shared_weight_not_identical_predicted_box_cache_boundary_present": true,
+    "three_near_threshold_detection_count_differences_not_overclaimed_as_proven_root_cause": true,
+    "single_seed_and_A_scope_limits_present": true,
+    "both_previous_editorial_suggestions_resolved": true
+  },
+  "chapter7_final_three_model_review": {
+    "status": "pass",
+    "all_three_TPE_best_trial_params_values_match_actual_summaries": true,
+    "complete_epoch_counts_and_best_epochs_match_saved_events": true,
+    "all_model_test_accuracy_macroF1_error_totals_and_safety_match_previously_independently_replayed_raw_predictions": true,
+    "all_nonzero_error_directions_equal_18_34_50_confusion_matrices": true,
+    "all_6_feature_search_stage_times_recomputed_from_event_timestamps": true,
+    "all_unified_CPU_means_and_P95_reference": "final_independent_review.json/unified_CPU_speed_review",
+    "all_comparison_csv_fields_equal_json": true,
+    "scope": "Single fixed A split and seed; model-specific TPE/thresholds, shared detector weights with independent prediction passes; no B/empty/camera/robot test claims. ResNet50 current accuracy advantage and cost tradeoff accurately described."
+  },
+  "final_Word": {
+    "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\A协议ResNet训练与对比实验报告_v1.docx",
+    "sha256": "b6c42741203161bea665072055c0e744fde88e3b138a104ab12979fc6140da9f",
+    "tables": 9,
+    "table_rows_including_headers": [
+      7,
+      4,
+      7,
+      7,
+      13,
+      7,
+      7,
+      34,
+      8
+    ],
+    "headings_level1": 8,
+    "drawings": 6,
+    "all9_tables_cellwise_equal_final_MD": true,
+    "all6_embedded_images_byte_identical_to_MD_source_PNG": true,
+    "all_MD_nontable_body_paragraphs_preserved": true,
+    "checked_body_paragraphs": 76,
+    "render_pdf": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\最终报告渲染_修字体\\A协议ResNet训练与对比实验报告_v1.pdf",
+    "render_pdf_sha256": "8b9774c97805b888c929afb8f90b444c3a1f3b5d592c5e119534a4ced977694d",
+    "pages": 19,
+    "all19_final_PNG_actually_visually_reviewed": true,
+    "page_sha256": {
+      "page-1.png": "391f735e864833a8a6fee3acd9516465809de08d22274dcbc965dda0275210f5",
+      "page-2.png": "4d1b918bbfa9b730f100fa89496b647730e5ae35ee1292f1cdf7813958c0cbdc",
+      "page-3.png": "6ceeec4eb09056cfc5bb2389e1587a3331d29ad2485ff2c31d1631b959b089a9",
+      "page-4.png": "a8e8d4920d50942d137fb77cf56a21de104eaf2885f92245ee9e810cde705784",
+      "page-5.png": "9dc4c65fdbaee7929e32d47b9e97430e9164bbfd1b4bc5d3fd3c247967955fcb",
+      "page-6.png": "17e86e5ec67b1a420ecc1d6dcde9741433f09f2cf8ec74356c88da4bf3fc4901",
+      "page-7.png": "d2a14ae1c412ad70eb64a9db8564477bebfcce392280381551966046edb70b23",
+      "page-8.png": "f23aafcd84473fe9744c5ccd88c1d93e15fc57366e19cafb4e58a6d420c1087e",
+      "page-9.png": "04868c5c088dcc66efc7c936e454beb6cfa76b8f0f2a48fbc95a709d6c2db41f",
+      "page-10.png": "ae1eaf7fb8f4deb4a7a367b0fbfc0191527e1aa876a16c63abf618189508ab80",
+      "page-11.png": "873838c945ad6293c922a5ddf7bd0b42e8e2c2b8c3006f33b10cb8ff477b1f29",
+      "page-12.png": "e389e4b55be5b144c9cadd2538d034052de1877d704887d723ac8744c2393307",
+      "page-13.png": "7d10e73162fd6263f7b686c533abeb047953bc36028fd5b317cc0fb20584c141",
+      "page-14.png": "c3cfbd3a5efbfc35ab1db41b6815a08c810c56624c1af199d7cfe9eedb6e82d5",
+      "page-15.png": "3c070164c84260038440b34ae45acb8b036c4ba4c52acf04c36cd5fffbabd8d5",
+      "page-16.png": "dba06d7ab1fef9acdf3acf418e81ec92914f63d41a1002767dee02177e3299bc",
+      "page-17.png": "e81cba5a27bacd912eac29ada65968157d7c6bb9b4de330e48aa47ed526ce097",
+      "page-18.png": "0c773006a8eb450c5cb104e92c4b6c5319023ae079495a72b31ebc48b090b4c9",
+      "page-19.png": "70dac90cf360ecc57e00f6516b09f944c2c1ea908c2c71533dac7c8bf87f2317"
+    },
+    "layout_checks": {
+      "titles_no_longer_overlap_after_theme_font_fix": true,
+      "no_blank_pages_or_orphan_headings": true,
+      "no_clipped_table_cells_or_empty_continuation_rows": true,
+      "12row_candidate_table_complete_on_page6": true,
+      "comparison_table_continues_cleanly_page16_to17": true,
+      "all6_figures_and_captions_complete_and_readable": true,
+      "CAM_all6_rows_and_input_plus4_layers_visible_page14": true
+    },
+    "resolved_issue_history": [
+      {
+        "candidate_sha256": "52001a2c12c7e7955ade573cfec53da9ff8dec2b192dc699507ba2033bac853b",
+        "issue": "Overlapping Chinese title and heading glyphs in rendered pages.",
+        "resolution": "Root removed theme-font overrides, explicit Chinese fonts and matching complex-script size; entire final19page render visually rechecked."
+      }
+    ],
+    "remaining_material_layout_issues": []
+  }
+}

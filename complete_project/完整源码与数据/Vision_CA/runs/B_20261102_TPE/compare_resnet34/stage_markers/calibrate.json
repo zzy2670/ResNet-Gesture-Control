@@ -1,0 +1,16 @@
+{
+  "architecture": "resnet34",
+  "stage": "calibrate",
+  "status": "exit0",
+  "source_sha256": {
+    "run_B_pipeline.py": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+    "run_B_training.py": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+    "train_A.py": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f"
+  },
+  "outputs": {
+    "calibration.json": "fa950983561e8e51e3ca8f02d47069c6ce93d7c6cb95331986cfeb7a9778b14e",
+    "val_whole_raw.json": "12fe0e770b7897b25b6970fcb93994bf159bd0a631557e55cbd54d3d74b715bd"
+  },
+  "completed_at": "2026-11-02T22:23:01.089151+08:00"
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "image_id": "12788c4c-767a-4e22-b0d3-3b9200615406",
+    "truth": 0,
+    "prediction": 4,
+    "gt_hands": [
+      {
+        "image_id": "12788c4c-767a-4e22-b0d3-3b9200615406",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\12788c4c-767a-4e22-b0d3-3b9200615406__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\call\\12788c4c-767a-4e22-b0d3-3b9200615406.jpg",
+        "raw_label": "call",
+        "label": 0,
+        "user_id": "f6dc2f2a02c87e59973789685b84c9eef1f1bd65857e5ab658fd5be050a99181",
+        "bbox_xyxy": [
+          130.63591295999998,
+          240.43049472,
+          220.69483008,
+          331.2688384
+        ],
+        "crop_rectangle": [
+          121,
+          231,
+          231,
+          341
+        ]
+      }
+    ],
+    "predicted_hands": [
+      {
+        "bbox": [
+          124.3642807006836,
+          242.2966766357422,
+          199.46083068847656,
+          325.9714050292969
+        ],
+        "detector_score": 0.9718108177185059,
+        "label": 4,
+        "confidence": 0.8042044639587402,
+        "accepted": true,
+        "probabilities": [
+          0.09801448881626129,
+          0.025240281596779823,
+          0.01770380698144436,
+          0.03022133931517601,
+          0.8042044639587402,
+          0.024615680798888206
+        ]
+      }
+    ],
+    "selection": "first_wrong_image_key_in_preselected_truth_classes_0_3_4_5"
+  },
+  {
+    "image_id": "02a809c0-8c0a-4ded-8ac8-f72ed2b107a8",
+    "truth": 3,
+    "prediction": 0,
+    "gt_hands": [
+      {
+        "image_id": "02a809c0-8c0a-4ded-8ac8-f72ed2b107a8",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\02a809c0-8c0a-4ded-8ac8-f72ed2b107a8__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\fist\\02a809c0-8c0a-4ded-8ac8-f72ed2b107a8.jpg",
+        "raw_label": "no_gesture",
+        "label": 0,
+        "user_id": "4d2166a7c1a78f33bb2924e34c38ee06569f1aea28a035b97a0c51e312bfb450",
+        "bbox_xyxy": [
+          100.8904128,
+          315.31506816,
+          130.27894655999998,
+          354.45545472
+        ],
+        "crop_rectangle": [
+          92,
+          311,
+          140,
+          359
+        ]
+      },
+      {
+        "image_id": "02a809c0-8c0a-4ded-8ac8-f72ed2b107a8",
+        "hand_index": 1,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\02a809c0-8c0a-4ded-8ac8-f72ed2b107a8__hand1.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\fist\\02a809c0-8c0a-4ded-8ac8-f72ed2b107a8.jpg",
+        "raw_label": "fist",
+        "label": 3,
+        "user_id": "4d2166a7c1a78f33bb2924e34c38ee06569f1aea28a035b97a0c51e312bfb450",
+        "bbox_xyxy": [
+          241.62724224,
+          200.86443648,
+          266.85750143999996,
+          224.92242816
+        ],
+        "crop_rectangle": [
+          239,
+          197,
+          270,
+          229
+        ]
+      }
+    ],
+    "predicted_hands": [
+      {
+        "bbox": [
+          241.8175506591797,
+          190.57073974609375,
+          268.1908264160156,
+          227.09841918945312
+        ],
+        "detector_score": 0.4354710280895233,
+        "label": 0,
+        "confidence": 0.5942773818969727,
+        "accepted": true,
+        "probabilities": [
+          0.5942773818969727,
+          0.012655542232096195,
+          0.021781085059046745,
+          0.2485196739435196,
+          0.06297823786735535,
+          0.059788111597299576
+        ]
+      }
+    ],
+    "selection": "first_wrong_image_key_in_preselected_truth_classes_0_3_4_5"
+  },
+  {
+    "image_id": "06f0544f-9bf2-4134-ba83-398b3c9ac725",
+    "truth": 4,
+    "prediction": 0,
+    "gt_hands": [
+      {
+        "image_id": "06f0544f-9bf2-4134-ba83-398b3c9ac725",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\06f0544f-9bf2-4134-ba83-398b3c9ac725__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\like\\06f0544f-9bf2-4134-ba83-398b3c9ac725.jpg",
+        "raw_label": "like",
+        "label": 4,
+        "user_id": "17d38f59fa67bf0314efcfb5a1da1b85c5a6554e87f32212d76de9a5de659eb0",
+        "bbox_xyxy": [
+          260.83353088,
+          105.99194112,
+          296.85677056000003,
+          162.29473536
+        ],
+        "crop_rectangle": [
+          245,
+          100,
+          313,
+          168
+        ]
+      }
+    ],
+    "predicted_hands": [],
+    "selection": "first_wrong_image_key_in_preselected_truth_classes_0_3_4_5"
+  },
+  {
+    "image_id": "07803e3f-65a7-4880-ac0d-5afeb875669d",
+    "truth": 5,
+    "prediction": 0,
+    "gt_hands": [
+      {
+        "image_id": "07803e3f-65a7-4880-ac0d-5afeb875669d",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\07803e3f-65a7-4880-ac0d-5afeb875669d__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\dislike\\07803e3f-65a7-4880-ac0d-5afeb875669d.jpg",
+        "raw_label": "dislike",
+        "label": 5,
+        "user_id": "496cd616c94ec0f4afade21b04b73531cd224a6e21f92ab0d006e1a581e802db",
+        "bbox_xyxy": [
+          196.5823104,
+          105.06454528,
+          227.08156416000003,
+          148.96115712
+        ],
+        "crop_rectangle": [
+          185,
+          100,
+          239,
+          154
+        ]
+      }
+    ],
+    "predicted_hands": [],
+    "selection": "first_wrong_image_key_in_preselected_truth_classes_0_3_4_5"
+  }
+]

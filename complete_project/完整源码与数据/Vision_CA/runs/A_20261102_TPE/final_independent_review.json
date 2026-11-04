@@ -1,0 +1,522 @@
+{
+  "status": "pass",
+  "scope": "Independent saved-prediction replay; no model execution or test-guided tuning",
+  "reviewed_at": "2026-11-02T15:27:02.810896+08:00",
+  "weights": {
+    "classifier_best.pt": "611023f0954d8e756b4e6b4620ea288d9ae933903958f4c0e86887750942ec94",
+    "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+  },
+  "original_manifests_still_equal_frozen_audit": true,
+  "oracle": {
+    "n": 3917,
+    "all_keys_unique_equal_immutable_crops": true,
+    "all_truth_raw_labels_and_hand_indexes_equal_source_annotations": true,
+    "all_probabilities_and_metrics_recomputed": true,
+    "metrics": {
+      "n": 3917,
+      "accuracy": 0.9933622670411029,
+      "macro_f1": 0.9910281429233736,
+      "confusion_matrix": [
+        [
+          2498,
+          3,
+          3,
+          0,
+          5,
+          1
+        ],
+        [
+          7,
+          344,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          529,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          172,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          170,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          178
+        ]
+      ],
+      "precision": [
+        0.9944267515923567,
+        0.9913544668587896,
+        0.9943609022556391,
+        1.0,
+        0.9714285714285714,
+        0.994413407821229
+      ],
+      "recall": [
+        0.9952191235059761,
+        0.98005698005698,
+        0.9943609022556391,
+        0.9942196531791907,
+        0.9826589595375722,
+        1.0
+      ],
+      "f1": [
+        0.9948227797690163,
+        0.9856733524355301,
+        0.9943609022556391,
+        0.9971014492753623,
+        0.9770114942528735,
+        0.9971988795518207
+      ],
+      "support": [
+        2510,
+        351,
+        532,
+        173,
+        173,
+        178
+      ]
+    }
+  },
+  "whole": {
+    "n": 3180,
+    "all_image_ids_equal_fixed_manifest_in_order": true,
+    "all_truth_recomputed_from_source_annotations": true,
+    "hand_argmax_confidence_acceptance_and_aggregation_replayed": true,
+    "frozen_validation_thresholds": [
+      0.3,
+      0.3
+    ],
+    "metrics": {
+      "n": 3180,
+      "accuracy": 0.9361635220125786,
+      "macro_f1": 0.9044915025044727,
+      "confusion_matrix": [
+        [
+          1756,
+          7,
+          3,
+          1,
+          6,
+          0
+        ],
+        [
+          25,
+          326,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          496,
+          0,
+          0,
+          0
+        ],
+        [
+          35,
+          0,
+          0,
+          137,
+          1,
+          0
+        ],
+        [
+          44,
+          0,
+          0,
+          1,
+          127,
+          1
+        ],
+        [
+          43,
+          0,
+          0,
+          0,
+          0,
+          135
+        ]
+      ],
+      "precision": [
+        0.9056214543579164,
+        0.978978978978979,
+        0.9939879759519038,
+        0.9856115107913669,
+        0.9477611940298507,
+        0.9926470588235294
+      ],
+      "recall": [
+        0.9904117315284828,
+        0.9287749287749287,
+        0.9323308270676691,
+        0.791907514450867,
+        0.7341040462427746,
+        0.7584269662921348
+      ],
+      "f1": [
+        0.9461206896551725,
+        0.9532163742690059,
+        0.9621726479146461,
+        0.8782051282051281,
+        0.8273615635179153,
+        0.8598726114649681
+      ],
+      "support": [
+        1773,
+        351,
+        532,
+        173,
+        173,
+        178
+      ]
+    },
+    "safety": {
+      "zero_samples": 1773,
+      "zero_to_motion": 16,
+      "stop_samples": 173,
+      "stop_to_motion": 1,
+      "zero_to_motion_rate": 0.009024252679075015,
+      "stop_to_motion_rate": 0.005780346820809248
+    }
+  },
+  "detector": {
+    "all_3180_image_dimensions_and_GT_boxes_verified_from_source": true,
+    "GT_compared_after_recorded_float32_conversion": true,
+    "boxes_and_scores_equal_whole_prediction_records": true,
+    "independent_IoU_matching_recomputed": true,
+    "metrics": {
+      "tp": 3240,
+      "fp": 431,
+      "fn": 677,
+      "precision": 0.882593298828657,
+      "recall": 0.8271636456471789,
+      "score_threshold": 0.3,
+      "iou_threshold": 0.5
+    }
+  },
+  "validation": {
+    "all_3185_ids_and_truths_verified": true,
+    "all12_candidates_metrics_and_safety_recomputed": true,
+    "selected_equals_predeclared_selection_tuple": true,
+    "freeze_time_precedes_test_start": true,
+    "detection_score_and_small_box_analysis": [
+      {
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5,
+        "tp": 3208,
+        "fp": 418,
+        "fn": 664,
+        "precision": 0.8847214561500276,
+        "recall": 0.8285123966942148,
+        "original_pixel_short_side_buckets": {
+          "below32": {
+            "gt": 856,
+            "matched": 506,
+            "recall": 0.5911214953271028
+          },
+          "32to64": {
+            "gt": 2004,
+            "matched": 1700,
+            "recall": 0.8483033932135728
+          },
+          "atleast64": {
+            "gt": 1012,
+            "matched": 1002,
+            "recall": 0.9901185770750988
+          }
+        },
+        "detector320_short_side_buckets": {
+          "below16": {
+            "gt": 274,
+            "matched": 97,
+            "recall": 0.354014598540146
+          },
+          "16to32": {
+            "gt": 1375,
+            "matched": 991,
+            "recall": 0.7207272727272728
+          },
+          "atleast32": {
+            "gt": 2223,
+            "matched": 2120,
+            "recall": 0.9536662168241116
+          }
+        }
+      },
+      {
+        "score_threshold": 0.5,
+        "iou_threshold": 0.5,
+        "tp": 2584,
+        "fp": 85,
+        "fn": 1288,
+        "precision": 0.9681528662420382,
+        "recall": 0.6673553719008265,
+        "original_pixel_short_side_buckets": {
+          "below32": {
+            "gt": 856,
+            "matched": 276,
+            "recall": 0.32242990654205606
+          },
+          "32to64": {
+            "gt": 2004,
+            "matched": 1313,
+            "recall": 0.6551896207584831
+          },
+          "atleast64": {
+            "gt": 1012,
+            "matched": 995,
+            "recall": 0.983201581027668
+          }
+        },
+        "detector320_short_side_buckets": {
+          "below16": {
+            "gt": 274,
+            "matched": 40,
+            "recall": 0.145985401459854
+          },
+          "16to32": {
+            "gt": 1375,
+            "matched": 589,
+            "recall": 0.4283636363636364
+          },
+          "atleast32": {
+            "gt": 2223,
+            "matched": 1955,
+            "recall": 0.8794421952316689
+          }
+        }
+      },
+      {
+        "score_threshold": 0.7,
+        "iou_threshold": 0.5,
+        "tp": 2050,
+        "fp": 21,
+        "fn": 1822,
+        "precision": 0.9898599710284887,
+        "recall": 0.5294421487603306,
+        "original_pixel_short_side_buckets": {
+          "below32": {
+            "gt": 856,
+            "matched": 118,
+            "recall": 0.1378504672897196
+          },
+          "32to64": {
+            "gt": 2004,
+            "matched": 944,
+            "recall": 0.47105788423153694
+          },
+          "atleast64": {
+            "gt": 1012,
+            "matched": 988,
+            "recall": 0.9762845849802372
+          }
+        },
+        "detector320_short_side_buckets": {
+          "below16": {
+            "gt": 274,
+            "matched": 17,
+            "recall": 0.06204379562043796
+          },
+          "16to32": {
+            "gt": 1375,
+            "matched": 269,
+            "recall": 0.19563636363636364
+          },
+          "atleast32": {
+            "gt": 2223,
+            "matched": 1764,
+            "recall": 0.7935222672064778
+          }
+        }
+      }
+    ],
+    "validation_only": true
+  },
+  "cpu_latency": {
+    "status": "pass",
+    "same_fixed_first100_test_images": true,
+    "all100_timings_recomputed": true,
+    "mean_ms": 32.25365500002226,
+    "p95_ms": 41.801184998803365,
+    "warmup": 10,
+    "threads": 8,
+    "scope": "whole_photo_decode_detection_crop_classification_rules"
+  },
+  "artifact_sha256": {
+    "calibration.json": "714150bb3cc6f8175a37f2ee0d13d05f6f2dfd571b78cf1dff7d101f8e1eb5bd",
+    "val_whole_raw.json": "a3976ce7ef22ad421c15ba0c23f10e94d4cf12794a6ae1547750b1f3dcafa3bc",
+    "test_oracle_crop.json": "090b0f3af5c980a28a1f4ffd514b402599d866082747889a3e2c90edb8de2d4b",
+    "test_whole_photo.json": "e56a1ad4113e6f8e5ca23058909f7d91774f6647cdc3b48b118a6c71986b81d2",
+    "test_detector.json": "37d56b5420a4ed15bdd59889873359db6f8544439afabecd703cceaa985cd08c",
+    "cpu_latency.json": "0a2812cf97623a5f06aaa9072ce118da5e9e3c3c1008ff13cedd8db0db922b50"
+  },
+  "issues": [],
+  "limitations": [
+    "Oracle hand-box-assisted accuracy99.336% and whole-photo accuracy93.616% are different evaluation scopes.",
+    "A permits personnel overlap; external or B subject-independent generalization remains untested.",
+    "No label-shuffle or near-duplicate fingerprint experiments were run in this read-only review; verified ID boundaries do not rule out all shortcut mechanisms.",
+    "Validation score/size analysis is descriptive and does not authorize test-guided retraining or retuning.",
+    "All3180 test photos have annotated hands. A zero-command class metric does not by itself measure empty/no-hand input performance."
+  ],
+  "trained_gradcam_review": {
+    "status": "pass",
+    "checkpoint_sha256": "611023f0954d8e756b4e6b4620ea288d9ae933903958f4c0e86887750942ec94",
+    "all6_rows_are_immutable_first_sample_key_per_true_class": true,
+    "all6_metadata_source_records_equal_frozen_test_crop_records": true,
+    "same_ground_truth_hand_crop_input_across_layers": true,
+    "all6_targets_equal_truth_0to5_not_ImageNet": true,
+    "all6_predictions_correct_without_success_based_selection": true,
+    "layer4_gradient_matches_checkpoint_target_linear_weights_divided49": true,
+    "max_layer4_gradient_error": 0.0,
+    "head_probabilities_recomputed_from_saved_layer4_activations_and_checkpoint": true,
+    "max_probability_difference": 1.1920928955078125e-07,
+    "all24_standard_CAM_formulas_recomputed": true,
+    "max_normalized_CAM_formula_error": 7.152557373046875e-07,
+    "whole_matrix_all_input_and_overlay_pixels_exactly_reconstructed": true,
+    "matrix_sha256": "f04bd5480d738ac0589478fdbe791a9fda55dc7a6c7e350f79e84dffe9fa263f",
+    "metadata_sha256": "3d2367694ef50927f4291b9a17119b23fdbf93abc240abdb73c29d10719ed95c",
+    "actual_matrix_visually_reviewed": true,
+    "normalization_disclaimer_present": true,
+    "scope": "A final-test ground-truth hand-box classifier explanations, not detector explanations or complete-photo success",
+    "qualitative_limits": [
+      "Layer4 maps are coarse7x7 responses spanning palm/finger-root or knuckle areas and sometimes surrounding image regions; they do not isolate only fingertips.",
+      "Shallower maps visibly include background and clothing edges; no claim of background independence or complete object understanding is supported.",
+      "Response-location correspondence is not causal proof, and six fixed examples do not replace the full test performance report."
+    ],
+    "reviewer_did_not_execute_model_or_use_GPU": true
+  },
+  "test_coverage": {
+    "photos": 3180,
+    "zero_annotated_hand_photos": 0,
+    "one_annotated_hand_photos": 2443,
+    "multiple_annotated_hand_photos": 737
+  },
+  "comparison_reviews": {
+    "resnet34": {
+      "status": "pass",
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\compare_resnet34\\independent_review.json",
+      "weights": {
+        "classifier_best.pt": "e3ad53c1b04ea89a01ec31f5c342ff2b9cadde935995a330a245944b803f463d",
+        "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+      },
+      "oracle_accuracy": 0.9918304825121266,
+      "oracle_macro_f1": 0.9883678448556243,
+      "whole_accuracy": 0.9314465408805032,
+      "whole_macro_f1": 0.8976078999611522,
+      "thresholds": [
+        0.3,
+        0.5
+      ],
+      "complete_epochs": 18,
+      "selected_epoch": 15,
+      "parameters": 21287750
+    },
+    "resnet50": {
+      "status": "pass",
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\compare_resnet50\\independent_review.json",
+      "weights": {
+        "classifier_best.pt": "cb35e65b71d0ca10254c371e5f9fe7aac94a4171825d821339c8c9396fe87dfc",
+        "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+      },
+      "oracle_accuracy": 0.9943834567270871,
+      "oracle_macro_f1": 0.9914399438251578,
+      "whole_accuracy": 0.9433962264150944,
+      "whole_macro_f1": 0.9136600660073267,
+      "thresholds": [
+        0.3,
+        0.3
+      ],
+      "complete_epochs": 18,
+      "selected_epoch": 16,
+      "parameters": 23520326
+    }
+  },
+  "unified_CPU_speed_review": {
+    "status": "pass",
+    "reviewed_at": "2026-11-02T16:10:56.320631+08:00",
+    "all_3_model_weight_identities_and_all300_timing_arrays_recomputed": true,
+    "same100_preprocessed_hand_keys": true,
+    "float32_batch1_threads8_warmup20_repeats3": true,
+    "classifier_only": {
+      "resnet18": {
+        "parameters": 11179590,
+        "mean_ms": 10.973756666498957,
+        "p50_ms": 10.735549998571514,
+        "p95_ms": 12.839135001013346,
+        "all300_statistics_recomputed": true,
+        "same100_keys": true,
+        "weights_match": true,
+        "artifact_sha256": "b5a164eec8f94f2605bca3062a776fa6e454898ed9aba9fcdec9ccf98ba01492"
+      },
+      "resnet34": {
+        "parameters": 21287750,
+        "mean_ms": 21.741291333576857,
+        "p50_ms": 21.768450002127793,
+        "p95_ms": 24.17031500281155,
+        "all300_statistics_recomputed": true,
+        "same100_keys": true,
+        "weights_match": true,
+        "artifact_sha256": "67f17a4e1d9f30b7b44f9fa3ce03e03c06b69bf6cfd5b7a91b7a4e44ecf1907d"
+      },
+      "resnet50": {
+        "parameters": 23520326,
+        "mean_ms": 29.765705333387206,
+        "p50_ms": 29.685900000913534,
+        "p95_ms": 33.163499997863255,
+        "all300_statistics_recomputed": true,
+        "same100_keys": true,
+        "weights_match": true,
+        "artifact_sha256": "2d1b66fc48bcb4f335b6b9d1b085dc1a70becf18a357e6a4df828261fe2a165d"
+      }
+    },
+    "whole_photo": {
+      "resnet18": {
+        "mean_ms": 32.25365500002226,
+        "p95_ms": 41.801184998803365,
+        "same_first100_photos_and_all100_statistics_verified": true,
+        "artifact_sha256": "0a2812cf97623a5f06aaa9072ce118da5e9e3c3c1008ff13cedd8db0db922b50"
+      },
+      "resnet34": {
+        "mean_ms": 45.88313999989623,
+        "p95_ms": 65.96611499844583,
+        "same_first100_photos_and_all100_statistics_verified": true,
+        "artifact_sha256": "9ccdfb5cffb121eadfd000646a66c47ff2f6f84dd2fdca5cada3859d713db6a1"
+      },
+      "resnet50": {
+        "mean_ms": 54.75643999976455,
+        "p95_ms": 78.33661999939066,
+        "same_first100_photos_and_all100_statistics_verified": true,
+        "artifact_sha256": "c213d79f0c8336371b3daa6a4d658688e1c74754184e7090be6779823571fb44"
+      }
+    },
+    "whole_photo_scope_separate_from_classifier_only": true,
+    "comparison_results_json_complete3rows_equals_frozen_artifacts": true,
+    "aggregate_speed_artifact_sha256": "6279666b6a06774924ce33bc818174674c3ab15304595a193ae5c601a7bb73ee"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-11-02T15:06:15.078641+08:00",
+  "python": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+  "verified_cpu_name": "Intel Core Ultra 9 285H",
+  "logical_processors": 16,
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU, 580.97, 8151 MiB",
+  "package_versions": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "optuna": "4.9.0",
+    "numpy": "2.4.2",
+    "pillow": "12.1.1",
+    "scikit-learn": "1.8.0"
+  },
+  "code_sha256": {
+    "train_A.py": "93e03db74bf5218db2fc3bdf2553c605c2dded2d2b459cca46e8c42c904c6303",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+    "run_A_budget.py": "a774a56b39c27dff3f9a336dd58bbf23767d5e4335aa9d268cec72b1ed77fc54",
+    "run_A_comparisons.py": "33d6b2184054265c0e9b48a94f91a32aa28ae56429967ac932f2cc0c89a91e1c",
+    "benchmark_A_classifiers.py": "926fccbb8ac43ff512da153ef0bbab698549a7c08127f8b94768975d735ccae8",
+    "postprocess_A_results.py": "1cd6206b6c6c0ffc8ef792ee4ba1f2f1aa27149bcaddd64021696490d5e73d78",
+    "make_A_trained_gradcam.py": "0073c0157740899a4e73df6e3500cac24920621031e0a402e7018b90f8e36194"
+  },
+  "scope": "observed_current_run_environment_and_snapshot_not_a_claim_about_earlier_installations"
+}

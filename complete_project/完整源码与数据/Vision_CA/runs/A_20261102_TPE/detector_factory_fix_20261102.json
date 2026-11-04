@@ -1,0 +1,27 @@
+{
+  "time": "2026-11-02T15:15:57.403870+08:00",
+  "status": "pass",
+  "failure": "TorchVision0.26 selects reduced_tail=(weights_backbone is None); old inference None built 480/80 tail while training ImageNet V1 built 960/160 tail",
+  "fix": "Construct training and inference with cached MobileNetV3 ImageNet1K_V1 full-tail, then strict-load full trained hand detector state",
+  "old_source_sha256": "93e03db74bf5218db2fc3bdf2553c605c2dded2d2b459cca46e8c42c904c6303",
+  "new_source_sha256": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+  "torchvision": "0.26.0+cu128",
+  "factory_source": "def detector_model(backbone=True):\n    # 类别0为背景、1为手；通用COCO权重不会作为现成手检测器。\n    # TorchVision0.26会根据weights_backbone是否为空改变尾部宽度；推理也必须构建训练时的full-tail。\n    # 因此保留兼容参数backbone，但两条路径均用已缓存ImageNet V1构造，之后严格加载完整手检测权重。\n    weights = models.MobileNet_V3_Large_Weights.IMAGENET1K_V1\n    return models.detection.ssdlite320_mobilenet_v3_large(weights=None,\n             weights_backbone=weights, num_classes=2, trainable_backbone_layers=3)\n",
+  "checkpoint_sha256_before": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e",
+  "checkpoint_sha256_after": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e",
+  "strict_missing_keys": [],
+  "strict_unexpected_keys": [],
+  "CPU_forward_image_id": "00005c9c-3548-4a8f-9d0b-2dd4aff37fc9",
+  "CPU_forward_keys": [
+    "boxes",
+    "scores",
+    "labels"
+  ],
+  "CPU_forward_box_shape": [
+    101,
+    4
+  ],
+  "GPU_started": false,
+  "training_repeated": false,
+  "failed_log_preserved": "calibrate_console.log"
+}

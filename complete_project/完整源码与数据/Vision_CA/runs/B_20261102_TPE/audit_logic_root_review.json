@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "root_read_only_review_of_independent_audit_logic_changes",
+  "script_sha256": "5c2ae0eb4faa03e3970fc91049555307baa99b489e9801e9f2c848dbb8c8b348",
+  "checked": [
+    "原val12候选与真实test全覆盖/概率/分母/IoU/安全重算未放宽",
+    "只按明确B18/B50中断历史允许第二attempt，且只有最后attempt自然exit0，冻结在首attempt之前",
+    "恢复归档与最终oracle相同完整样本键/真实标签/分类器SHA，保留所有概率和argmax差异，不要求结果相同或择优",
+    "源pinned四文件、全部stage成功marker及CPU文件SHA、数据manifests、提交前身份再次核对",
+    "替换旧独审之前按SHA归档；未改原训练/权重/测试/阈值"
+  ],
+  "independent_reviewer_wrote_scientific_artifacts": false
+}

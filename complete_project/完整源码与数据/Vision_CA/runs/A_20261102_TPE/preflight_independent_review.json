@@ -1,0 +1,187 @@
+{
+  "status": "pass",
+  "scope": "Independent read-only preflight of the currently running A-only budgeted training; final test results remain pending",
+  "reviewed_at": "2026-11-02T14:28:19.522207+08:00",
+  "train_A_sha256": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+  "runner_sha256": "74e154bc8d6ba812b7bcc04f8eb9962fac0d92bfc0892176ca4ac9e6165a7bd6",
+  "training_entry_hash_matches_runner_guard": true,
+  "static_compile_pass": true,
+  "active_execution": {
+    "runner_pid_observed": 37004,
+    "finetune_pid_observed": 31552,
+    "parent_child_relation_verified": true,
+    "gpu_job_not_restarted_or_modified_by_reviewer": true,
+    "latest_complete_finetune_epoch_seen": 13,
+    "latest_complete_epoch_time": "2026-11-02T14:27:51.837004+08:00",
+    "latest_complete_epoch_train_samples": 31095,
+    "latest_validation_macro_f1": 0.988077990488332,
+    "latest_validation_is_not_final_test": true
+  },
+  "data_integrity": {
+    "split_root": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image",
+    "manifests_equal_frozen_v9_audit": true,
+    "source_image_full_hash_audit_reused": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\视频笔记_QQ20261101-180117\\素材\\v9_A_run_independent.json",
+    "new_full_image_hashing_not_repeated": true,
+    "photos_train_val_test": [
+      25468,
+      3185,
+      3180
+    ],
+    "hand_crops_train_val_test": [
+      31095,
+      3872,
+      3917
+    ],
+    "all_38884_crop_index_rows_checked_against_original_annotation_hand_label_user_and_image": true,
+    "all_crop_files_exist": true,
+    "each_original_image_remains_in_one_split": true,
+    "A_users_may_cross_splits": true,
+    "B_untouched": true,
+    "B_old_summary_sha256": "4966baa529784f25d41e0feb911188f557cebb404011370709bf9c46d701c54e",
+    "new_B_output_absent": true
+  },
+  "tpe_review": {
+    "sampler": "Optuna TPESampler(seed42,n_startup_trials4)",
+    "scope": "frozen_ImageNet_features_classifier_head",
+    "completed_trials": 24,
+    "sqlite_readonly_records_equal_summary": true,
+    "every_trial_objective_equals_max_logged_full_validation_epoch": true,
+    "best_trial": 23,
+    "best_validation_macro_f1": 0.7852070609787477,
+    "not_final_test_or_whole_photo_score": true,
+    "searched_hyperparameters": [
+      "optimizer",
+      "lr",
+      "weight_decay",
+      "dropout",
+      "label_smoothing",
+      "class_weight"
+    ],
+    "finetune_optimizer_separately_fixed_to_AdamW": true
+  },
+  "isolation_and_selection": {
+    "train_features_and_gradient_updates_only_train": true,
+    "all_model_and_threshold_selection_only_val": true,
+    "test_prepared_with_deterministic_crops_before_training_but_not_used_for_selection": true,
+    "no_test_feature_cache_or_test_search_input": true,
+    "fine_tune_only_layer4_and_head_other_BN_eval": true,
+    "partial_epochs_not_selected": true,
+    "partial_validation_raises_before_selection": true,
+    "classifier_best_saved_only_after_complete_val_improvement": true,
+    "detector_best_saved_after_complete_val_fixed_threshold_F1": true,
+    "detector_metric_is_precision_recall_at_IoU0_5_not_COCO_AP": true,
+    "threshold_calibration_uses_full_val_one_network_pass_and_12_postprocessing_candidates": true,
+    "calibration_refuses_existing_frozen_record_overwrite": true,
+    "test_entry_verifies_val_calibration_and_both_checkpoint_hashes_before_reading_test_dataset": true,
+    "test_prediction_loops_retain_every_input_without_selective_acceptance_denominator": true,
+    "oracle_hand_crop_and_whole_photo_metrics_separate": true,
+    "CPU_latency_fixed_first100_test_after10warmup_includes_decode_and_whole_pipeline": true,
+    "test_evaluation_not_started_in_observed_logs": true
+  },
+  "budget_review": {
+    "timezone": "+08:00",
+    "finetune_cutoff": "2026-11-02T15:05:00+08:00",
+    "detector_training_cutoff": "2026-11-02T16:25:00+08:00",
+    "calibration_cutoff": "2026-11-02T16:35:00+08:00",
+    "test_cutoff": "2026-11-02T16:43:00+08:00",
+    "cpu_latency_cutoff": "2026-11-02T16:48:00+08:00",
+    "user_training_deadline": "2026-11-02T16:50:00+08:00",
+    "watchdog_poll_seconds": 2,
+    "hard_stop_targets_only_child_process_tree": true,
+    "nonzero_exit_or_deadline_termination_stops_downstream_schedule": true,
+    "incomplete_stage_not_claimed_complete": true,
+    "final_completion_not_guaranteed_by_preflight": true
+  },
+  "remaining_functional_bugs_requiring_interruption": [],
+  "nonblocking_scope_notes": [
+    "Current threshold grid calibrates detector score and maximum class probability only; the earlier plan’s top-two score margin is not implemented, so the current reliability strategy should be reported at this scope.",
+    "The module introductory statement that test is read only by evaluate is overbroad: deterministic preparation and final CPU timing also read test. The verified scientific boundary is that test does not train or select the model or thresholds.",
+    "The watchdog polls every two seconds; nominal cutoff times are termination triggers, not a subsecond real-time guarantee.",
+    "A permits repeated personnel across random-photo subsets and cannot establish subject-independent B performance."
+  ],
+  "next_review": "Recompute final metrics from saved per-sample predictions after validation thresholds and weights are frozen; do not tune from test outcomes.",
+  "comparison_addendum": {
+    "status": "pass",
+    "reviewed_at": "2026-11-02T14:47:09.870299+08:00",
+    "comparison_entry_sha256": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+    "comparison_runner_sha256": "33d6b2184054265c0e9b48a94f91a32aa28ae56429967ac932f2cc0c89a91e1c",
+    "base_entry_sha256_unchanged": "93e03db74bf5218db2fc3bdf2553c605c2dded2d2b459cca46e8c42c904c6303",
+    "separate_per_architecture_process_and_out": true,
+    "base_monkeypatch_is_process_local_not_source_mutation": true,
+    "correct_resnet34_512_and_resnet50_2048_head_input_dimensions": true,
+    "official_ImageNet1K_V1_weights_metadata_and_CPU_smoke_passes_seen": true,
+    "all_four_copied_crop_index_and_audit_files_equal_shared_source_bytes": true,
+    "same_TPE_six_hyperparameter_ranges_24_trials_18_epochs_batch512": true,
+    "same_finetune_layer4_and_head_max18_epochs_patience4_AdamW_lr_setup": true,
+    "same_fixed_A_manifests_crops_label_mapping_and_validation_selection": true,
+    "same_shared_detector_weight_identity_checked_at_calibrate_evaluate_latency": true,
+    "test_freeze_guard_and_complete_sample_denominators_reused_from_base": true,
+    "optional_GPU_waits_for_main_all_stages_exit0": true,
+    "optional_not_started_during_main_training_at_review": true,
+    "resnet34_training_cutoff": "2026-11-02T16:00:00+08:00",
+    "resnet50_training_cutoff": "2026-11-02T16:33:00+08:00",
+    "all_extra_CPU_cutoff": "2026-11-02T16:48:00+08:00",
+    "remaining_blocking_bugs": [],
+    "fairness_limits": [
+      "Same search spaces and maximum epochs/trials do not establish identical compute or actual completed budgets; report actual stage durations, epochs and any pruned/incomplete trials separately.",
+      "Different model-specific TPE trajectories are expected; the final comparison evaluates separately selected models under A, not a controlled pure-depth ablation with identical fitted hyperparameters.",
+      "Models share detector weights, but independent GPU passes are not a shared immutable box cache; recorded34 output differs in3 near-threshold count cases. Preserve separate metrics and avoid strict classifier-only causality for whole-photo differences.",
+      "Compare all three whole-photo CPU times with identical first100 test photos, 10 warmups, batch1 and 8 threads. The additional classifier-only metric currently exists for34/50 only; do not substitute the18 whole-photo time in that column."
+    ],
+    "detector_val_interpretation": "Existing epoch1-4 val recall0.503→0.597 at score0.5/IoU0.5 with high precision is not evidence of a code error. Counts and bbox mapping were inspected. It is not AP, and low recall cannot be attributed solely to confidence without per-prediction evidence; future saved val outputs can be analyzed without new GPU inference."
+  },
+  "classifier_after_complete_finetune_before_final_test": {
+    "sha256": "611023f0954d8e756b4e6b4620ea288d9ae933903958f4c0e86887750942ec94",
+    "complete_epochs": 18,
+    "selected_epoch": 15,
+    "selected_val_macro_f1": 0.9892619592644359,
+    "val_hand_crops": 3872,
+    "checkpoint_matches_best_complete_logged_validation_epoch": true,
+    "stage_exit0_confirmed": true
+  },
+  "val_box_geometry_check": {
+    "boxes": 3872,
+    "nonpositive_wh": 0,
+    "shorter_side_pixels_p10_p50_p90": [
+      24.547987200000005,
+      47.34026304,
+      86.20422271999999
+    ],
+    "shorter_side_below16": 57,
+    "shorter_side_below32": 856,
+    "no_gesture_boxes": 688,
+    "interpretation": "Smaller hands are present; these statistics alone do not identify why a prediction was missed."
+  },
+  "runtime_discovery": {
+    "stage": "calibrate",
+    "observed_exit_code": 1,
+    "time": "2026-11-02T15:12:47+08:00",
+    "cause": "TorchVision SSDLite infers reduced_tail from weights_backbone=None; this differs from the ImageNet backbone training architecture.",
+    "source": "E:/python/Lib/site-packages/torchvision/models/detection/ssdlite.py:281-288",
+    "test_not_started": true,
+    "training_weights_need_not_change": true,
+    "status": "resolved_by_factory_reconstruction_only",
+    "failure_log_preserved": "calibrate_first_failure_full_tail.log"
+  },
+  "initial_training_entry_sha256": "93e03db74bf5218db2fc3bdf2553c605c2dded2d2b459cca46e8c42c904c6303",
+  "runtime_factory_fix_review": {
+    "reviewed_at": "2026-11-02T15:19:59.030793+08:00",
+    "changed_functions_ast": [
+      "detector_model"
+    ],
+    "old_training_source_snapshot": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\code_snapshot\\train_A.py",
+    "new_source_snapshot": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\code_snapshot\\train_A_after_inference_factory_fix.py",
+    "training_and_model_selection_functions_ast_unchanged": true,
+    "actual_new_detector_model_false_cpu_strict_load": "all keys matched",
+    "forward_not_repeated_by_reviewer": true,
+    "both_checkpoint_hashes_unchanged": true,
+    "classifier_sha256": "611023f0954d8e756b4e6b4620ea288d9ae933903958f4c0e86887750942ec94",
+    "detector_sha256": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e",
+    "main_runner_pin_matches_new_hash": true,
+    "comparison_runner_pin_matches_new_hash": true,
+    "new_main_runner_sha256": "74e154bc8d6ba812b7bcc04f8eb9962fac0d92bfc0892176ca4ac9e6165a7bd6",
+    "new_comparison_runner_sha256": "eab7c1d53efe3ed75b69b3a38ded8dfdd1a410706348420a362eb9b2b39fb791",
+    "calibration_retry_exit0_seen": true,
+    "no_training_rerun_or_test_based_tuning": true
+  }
+}

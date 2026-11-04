@@ -1,0 +1,220 @@
+{
+  "checkpoint_sha256": "611023f0954d8e756b4e6b4620ea288d9ae933903958f4c0e86887750942ec94",
+  "device": "cpu",
+  "trained_project_model": true,
+  "used_for_selection": false,
+  "rows": [
+    {
+      "source": {
+        "image_id": "0051ed49-9c2c-4a60-ba33-0990ff531e9b",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\0051ed49-9c2c-4a60-ba33-0990ff531e9b__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\three\\0051ed49-9c2c-4a60-ba33-0990ff531e9b.jpg",
+        "raw_label": "three",
+        "label": 0,
+        "user_id": "643a9e40127b25af28538c5c820aaeb5e2b679c8dd63124d269f0e6f84646d9d",
+        "bbox_xyxy": [
+          145.72982783999998,
+          170.6502656,
+          192.50457600000001,
+          263.67154176
+        ],
+        "crop_rectangle": [
+          113,
+          161,
+          225,
+          273
+        ]
+      },
+      "truth": 0,
+      "prediction": 0,
+      "target": 0,
+      "probabilities": [
+        0.868341326713562,
+        0.024421807378530502,
+        0.007229889743030071,
+        0.03517426550388336,
+        0.023273520171642303,
+        0.04155910387635231
+      ],
+      "selection": "first_sample_key_within_each_ground_truth_class"
+    },
+    {
+      "source": {
+        "image_id": "00366db8-9f6e-46fc-8e96-c3945136f81e",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\00366db8-9f6e-46fc-8e96-c3945136f81e__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\peace\\00366db8-9f6e-46fc-8e96-c3945136f81e.jpg",
+        "raw_label": "peace",
+        "label": 1,
+        "user_id": "71981f827bd6ac4ef18e3bdbb46d9dee9d6b9209079da58584c7c807cdbcf968",
+        "bbox_xyxy": [
+          226.42153344,
+          168.04374528,
+          266.41354751999995,
+          239.94343424
+        ],
+        "crop_rectangle": [
+          203,
+          160,
+          290,
+          248
+        ]
+      },
+      "truth": 1,
+      "prediction": 1,
+      "target": 1,
+      "probabilities": [
+        0.027250435203313828,
+        0.8861011862754822,
+        0.015308388508856297,
+        0.01958978921175003,
+        0.023392295464873314,
+        0.02835792675614357
+      ],
+      "selection": "first_sample_key_within_each_ground_truth_class"
+    },
+    {
+      "source": {
+        "image_id": "00a2f936-93f3-46ca-b448-987c8f6f76b7",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\00a2f936-93f3-46ca-b448-987c8f6f76b7__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\stop\\00a2f936-93f3-46ca-b448-987c8f6f76b7.jpg",
+        "raw_label": "stop",
+        "label": 2,
+        "user_id": "52fb955e6d8f2f292edfab505ca9622d3c80e591fcfafd2644af603301f5a3d1",
+        "bbox_xyxy": [
+          37.41426816,
+          135.55807232,
+          103.8804864,
+          254.84506624
+        ],
+        "crop_rectangle": [
+          -1,
+          123,
+          143,
+          267
+        ]
+      },
+      "truth": 2,
+      "prediction": 2,
+      "target": 2,
+      "probabilities": [
+        0.0005440941313281655,
+        0.012314083985984325,
+        0.9375372529029846,
+        0.017113998532295227,
+        0.014799479395151138,
+        0.017691250890493393
+      ],
+      "selection": "first_sample_key_within_each_ground_truth_class"
+    },
+    {
+      "source": {
+        "image_id": "0076df79-2901-40c8-8db6-57bec455ba90",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\0076df79-2901-40c8-8db6-57bec455ba90__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\fist\\0076df79-2901-40c8-8db6-57bec455ba90.jpg",
+        "raw_label": "fist",
+        "label": 3,
+        "user_id": "28485a0b409c80b5e12539c3bfb1472fac7b1e193a260737d999f628507d4efa",
+        "bbox_xyxy": [
+          263.410656,
+          275.06302976,
+          323.95006464,
+          338.54626816
+        ],
+        "crop_rectangle": [
+          255,
+          268,
+          332,
+          345
+        ]
+      },
+      "truth": 3,
+      "prediction": 3,
+      "target": 3,
+      "probabilities": [
+        0.009303183294832706,
+        0.00467316759750247,
+        0.005710979457944632,
+        0.9606447219848633,
+        0.009671838022768497,
+        0.009996186010539532
+      ],
+      "selection": "first_sample_key_within_each_ground_truth_class"
+    },
+    {
+      "source": {
+        "image_id": "013c87fa-c02a-4710-9744-4f0a304ba265",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\013c87fa-c02a-4710-9744-4f0a304ba265__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\like\\013c87fa-c02a-4710-9744-4f0a304ba265.jpg",
+        "raw_label": "like",
+        "label": 4,
+        "user_id": "3a1e346ddce0c0d34b1388634aa37946c4465229a318d66c651f7db06d171388",
+        "bbox_xyxy": [
+          241.06263524,
+          204.6403584,
+          288.11614887999997,
+          279.37444608
+        ],
+        "crop_rectangle": [
+          219,
+          197,
+          310,
+          287
+        ]
+      },
+      "truth": 4,
+      "prediction": 4,
+      "target": 4,
+      "probabilities": [
+        0.0003159584302920848,
+        0.003248944878578186,
+        0.002002892317250371,
+        0.005254338029772043,
+        0.9850152134895325,
+        0.004162600729614496
+      ],
+      "selection": "first_sample_key_within_each_ground_truth_class"
+    },
+    {
+      "source": {
+        "image_id": "05179bab-c39f-464c-8485-c66567219040",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops\\test\\05179bab-c39f-464c-8485-c66567219040__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\images\\dislike\\05179bab-c39f-464c-8485-c66567219040.jpg",
+        "raw_label": "dislike",
+        "label": 5,
+        "user_id": "5eb72c77d870c16d695fb840cd96e5d2c7a8bd6baa8dabfcabed1ee64ab20de9",
+        "bbox_xyxy": [
+          219.64367231999998,
+          131.79739648,
+          287.27915135999996,
+          242.99083264
+        ],
+        "crop_rectangle": [
+          186,
+          120,
+          321,
+          255
+        ]
+      },
+      "truth": 5,
+      "prediction": 5,
+      "target": 5,
+      "probabilities": [
+        0.014175599440932274,
+        0.008628888055682182,
+        0.009752442128956318,
+        0.014785568229854107,
+        0.016933182254433632,
+        0.9357243776321411
+      ],
+      "selection": "first_sample_key_within_each_ground_truth_class"
+    }
+  ],
+  "formula": "ReLU(sum_k(mean_spatial(gradient_k)*activation_k)); bilinear224; per_map_minmax",
+  "overlay": "0.58*RGB + 0.42*turbo"
+}

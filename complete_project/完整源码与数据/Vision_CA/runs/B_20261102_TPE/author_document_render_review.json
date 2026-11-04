@@ -1,0 +1,188 @@
+{
+  "status": "AUTHOR_RENDER_REVIEW_PASS_AWAITING_INDEPENDENT_REVIEW",
+  "reviewed_at": "2026-11-02T23:25:57.845422+08:00",
+  "method": "官方render_docx.py Windows分支，独立headless LibreOffice profile；实际view_image逐页查看全部PNG。",
+  "documents": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v11.docx",
+      "sha256": "e05c3935d302d895ffc2b87535caaf2e1f88a5bf708b4292d546453c85022c1b",
+      "render_directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2",
+      "pages": 28,
+      "pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "tables": 8,
+      "images": 27,
+      "original_24_images_and_multiplicities_preserved": true
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.docx",
+      "sha256": "798eed955b0b92565382c67aec909e829f96a640aa63c07d17444a65524d0464",
+      "render_directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3",
+      "pages": 7,
+      "pages_visually_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "complete_chapters": 8
+    }
+  ],
+  "findings": [],
+  "formal_files": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v11.docx",
+      "sha256": "e05c3935d302d895ffc2b87535caaf2e1f88a5bf708b4292d546453c85022c1b",
+      "bytes": 18593699,
+      "tables": 8,
+      "images": 27,
+      "headings": [
+        "1 数据集介绍与统计",
+        "1.1 合并后的六类样本分布",
+        "1.2 现有数据划分及完成情况",
+        "1.3 训练前的数据核对",
+        "2 项目目标与总体方案",
+        "3 手势合并与数字编码",
+        "4 系统与ResNet18模型架构",
+        "4.1 残差连接的作用与模型选择依据",
+        "4.2 项目总体流程",
+        "4.3 ResNet18结构与预训练适配",
+        "5 开源资源与项目实现分工",
+        "6 研究实施与评价步骤",
+        "6.1 数据划分与核对",
+        "6.2 图像预处理与样本组织",
+        "6.3 模型构建与训练",
+        "6.4 验证选型与数字输出规则",
+        "6.5 完整程序测试与误差分析",
+        "6.5.1 A协议已完成结果",
+        "6.5.2 B协议已完成结果",
+        "6.6 可解释性分析与典型样本解释",
+        "6.6.1 计算原理与解释路径",
+        "6.6.2 类别总览与分层呈现",
+        "6.6.3 响应区域与原图结构对应",
+        "6.6.4 已训练模型的六类分层解释",
+        "6.6.5 B协议已训练模型解释",
+        "6.7 整理程序并与控制端连接检查",
+        "附录A 数据与程序实现细则",
+        "A.1 数据清单与输入核查",
+        "A.2 模型构建与训练记录",
+        "A.3 预测接口与输出记录",
+        "开源入口"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.docx",
+      "sha256": "798eed955b0b92565382c67aec909e829f96a640aa63c07d17444a65524d0464",
+      "bytes": 48685,
+      "tables": 6,
+      "images": 0,
+      "headings": [
+        "1 项目在做什么",
+        "2 数据与训练怎样理解",
+        "3 已完成什么与结果怎样看",
+        "4 先读哪些文件",
+        "5 怎样运行与对接",
+        "6 总包里有什么",
+        "7 小组还需完成什么",
+        "8 我和组员怎样接着合作"
+      ]
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.md",
+      "sha256": "d2d2a876b61f1e0b4a2f96dad912a9d1541176253dd48363d883ec693ff2c31f",
+      "bytes": 17424
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\README.md",
+      "sha256": "e0acd2be7f38f9d5e2040d8f7b04ed06cbfc38f6ae3ecf7a3e50833d0b083c8d",
+      "bytes": 2417
+    }
+  ],
+  "limits": [
+    "作者自查不代替非作者独审。",
+    "相对链接按最终ZIP成员集合检查，不能按仅暂存根三文件的本地目录判缺失。",
+    "本轮未使用Microsoft Word UI或OpenXML SDK验证；XML全解析、ZIP CRC及python-docx回读通过。"
+  ],
+  "post_review_corrections": [
+    "去掉15个指向最终包排除的个人媒体file:点击关系，保留图形与全部可见文字；剩7个公开网页链接。",
+    "图15图注由逐行归一化改为各图独立归一化，和方法、图脚一致。",
+    "交接总包内容与真实filter_cache对齐：保留手图索引及重建代码，派生裁图与冻结特征缓存按原图重建。"
+  ],
+  "render_regression": {
+    "plan": {
+      "pages": 28,
+      "PNG_bytes_identical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28
+      ],
+      "changed_page_24_visually_rechecked": true
+    },
+    "handover": {
+      "pages": 7,
+      "unchanged_PNG_bytes_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "changed_pages_5_to_7_visually_rechecked": true
+    }
+  },
+  "layout_notes": "继承原图阅读节奏和部分原分页；原结构、来源图与科学矩阵分别完整呈现。跨页表有重复表头、整行不拆分，未发现裁切、重叠、孤立标题。"
+}

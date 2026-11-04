@@ -1,0 +1,10 @@
+{
+  "architecture": "resnet50",
+  "weights_enum": "ResNet50_Weights.IMAGENET1K_V1",
+  "url": "https://download.pytorch.org/models/resnet50-0676ba61.pth",
+  "path": "C:\\Users\\Administrator\\.cache\\torch\\hub\\checkpoints\\resnet50-0676ba61.pth",
+  "sha256": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a",
+  "bytes": 102530333,
+  "strict_architecture_load": true,
+  "GPU_training_started": false
+}

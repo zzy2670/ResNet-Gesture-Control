@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "protocol": "B_subject_independent",
+  "architecture": "resnet34",
+  "initialization": "official_ImageNet_only",
+  "GPU_training_started": false,
+  "strict_detector_factory_reload": false
+}

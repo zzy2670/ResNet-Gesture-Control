@@ -1,0 +1,121 @@
+{
+  "status": "author_complete_all_three_models_pending_root_final_review_and_Word",
+  "author_file": "实验报告正文.md",
+  "final_delivery_ready": false,
+  "completed_content": [
+    "task_and_six_class_mapping",
+    "fixed_A_split_and_two_denominators",
+    "preprocessing_and_training_only_augmentation",
+    "TPE_scope_search_space_and_selected_parameters",
+    "classification_training_loop_and_parameter_meaning",
+    "18_completed_finetune_epochs_and_best_epoch15_validation",
+    "all_nonzero_validation_crop_error_directions",
+    "detector_training_and_selection_method",
+    "validation_threshold_and_test_freeze_protocol",
+    "timing_definitions"
+  ],
+  "added_completed_content": [
+    "16_complete_detector_epochs_and_best_epoch10_validation",
+    "loading_factory_tail_width_fix_without_retraining_or_weight_change",
+    "all12_validation_threshold_candidates",
+    "selected_thresholds0.3_and0.3_frozen151825",
+    "validation_threshold_tradeoff_and_detector_bottleneck"
+  ],
+  "ResNet18_completed_test_content": [
+    "3917_crop_predictions_3891_correct_26_errors",
+    "3180_whole_predictions_2977_correct_203_errors",
+    "all_nonzero_offdiagonals_for_both_test_scopes",
+    "each_class_precision_recall_F1_and_support",
+    "zero_to_motion16of1773_stop_to_motion1of173_stop_to_zero35",
+    "detection_TP3240_FP431_FN677_at_score0.3_IoU0.5",
+    "whole_CPU_mean32.254_P95_41.801_ms",
+    "error_priority_without_claiming_all_errors_due_to_detection"
+  ],
+  "posthoc_completed_content": [
+    "validation_small_box_recall_diagnostic_from_saved_outputs",
+    "all_test_photos_annotated_hands_2443single_737multi_no_empty_scene",
+    "four_fixed_error_photo_examples",
+    "same_photo_GT_vs_auto_crop_comparisons_without_network_rerun",
+    "six_fixed_firstkey_qualitative_GradCAM_rows_and_visible_hand_shape_explanation",
+    "static_photo_scope_no_robot_simulation_claim"
+  ],
+  "pre_review_revisions": [
+    "HaGRID_Sample30K_source_links_31833_photos_18gestures_plus_no_gesture",
+    "original_class_stratified_photo_split_near8to1to1_seed42",
+    "verified_hardware_and_runtime_versions_from_environment_json",
+    "reader_facing_percentages_rounded2decimals_raw_JSON_unchanged"
+  ],
+  "ResNet34_completed_content": [
+    "18_complete_finetune_epochs845.448seconds_best_epoch15",
+    "crop_3917errors32_whole3180errors218",
+    "all_nonzero_crop_and_whole_error_directions",
+    "selected_thresholds0.3and0.5",
+    "single_seed_scope_no_general_depth_claim"
+  ],
+  "ResNet50_completed_content": [
+    "24_complete_TPE_trials_best12",
+    "18_complete_finetune_epochs1323.660seconds_best_epoch16",
+    "crop3917errors22_whole3180errors180",
+    "all_nonzero_crop_and_whole_error_directions",
+    "selected_thresholds0.3and0.3",
+    "zero_to_motion5of1773_stop_to_motion0of173_stop_to_zero32of173",
+    "training_exit160342_test_process_exit160539"
+  ],
+  "final_comparison": [
+    "four_column_metric_18_34_50_table",
+    "total_parameters_all_models",
+    "same100_inputs_float32_8threads_batch1_20warmups_3repeats300forwards",
+    "classifier_and_whole_mean_P95_separate",
+    "actual_stage_and_finetune_times",
+    "three_model_TPE_selected_settings",
+    "accuracy_speed_tradeoff_conditional_choice",
+    "all_training_finished_before1650",
+    "test_was_not_used_to_retrain_or_retune"
+  ],
+  "fairness_revision": "Shared detector checkpoint, independent GPU inference rather than identical cached boxes; primary classifier comparison uses fixed GT crops and unified CPU pure-classifier benchmark. Whole-photo metrics describe independently executed pipelines and tiny differences are not assigned solely to depth.",
+  "embedded_plot_coverage": [
+    "ResNet18_crop_confusion_3917_hands_row_normalized_color_count_labels",
+    "ResNet18_whole_confusion_3180_photos_row_normalized_color_count_labels",
+    "actual_validation_macro_F1_learning_curves_no_invented_val_loss_or_train_accuracy",
+    "four_fixed_error_examples",
+    "actual_GT_and_automatic_crop_comparison",
+    "six_row_trained_GradCAM"
+  ],
+  "awaiting_actual_results": [],
+  "pending_delivery_steps_owned_by_root": [
+    "final_independent_content_review",
+    "Word_generation_and_rendered_page_review"
+  ],
+  "author_md_sha256": "097438753971018d03157f2229b95bfa8e90452fefe6a36bdd98a24052c673d6",
+  "embedded_figures": 6,
+  "major_sections": 8,
+  "write_ownership": {
+    "experiment_report_body": "a_report_author",
+    "docx_and_figures": "root",
+    "training_and_GPU": "root"
+  },
+  "evidence": [
+    "train_A.py",
+    "compare_resnets_A.py",
+    "run_A_budget.py",
+    "run_A_comparisons.py",
+    "benchmark_A_classifiers.py",
+    "runs/A_20261102_TPE/EXPERIMENT_PROTOCOL.md",
+    "runs/A_20261102_TPE/data_audit.json",
+    "runs/A_20261102_TPE/events.jsonl",
+    "runs/A_20261102_TPE/tpe_summary.json",
+    "runs/A_20261102_TPE/environment.json",
+    "runs/A_20261102_TPE/test_oracle_crop.json",
+    "runs/A_20261102_TPE/test_whole_photo.json",
+    "runs/A_20261102_TPE/test_detector.json",
+    "runs/A_20261102_TPE/cpu_latency.json",
+    "runs/A_20261102_TPE/compare_resnet34",
+    "runs/A_20261102_TPE/compare_resnet50",
+    "runs/A_20261102_TPE/comparison_results.json",
+    "runs/A_20261102_TPE/classifier_speed_comparison.json",
+    "runs/A_20261102_TPE/final_independent_review.json",
+    "runs/A_20261102_TPE/trained_gradcam/metadata.json",
+    "runs/A_20261102_TPE/error_examples.json",
+    "runs/A_20261102_TPE/actual_crop_comparison.json"
+  ]
+}

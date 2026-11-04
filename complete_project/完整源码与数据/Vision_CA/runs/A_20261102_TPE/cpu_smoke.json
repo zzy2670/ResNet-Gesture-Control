@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "train_photos": 25468,
+  "first_image_shape": [
+    3,
+    512,
+    384
+  ],
+  "first_boxes": [
+    [
+      91.87267303466797,
+      146.40794372558594,
+      188.0844268798828,
+      252.78939819335938
+    ]
+  ],
+  "classifier_output_shape": [
+    2,
+    6
+  ],
+  "GPU_training_started": false
+}
