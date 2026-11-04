@@ -1,0 +1,84 @@
+{
+  "selection_rule": "B validation first image_id per single class, then first multi-hand; no prediction filtering",
+  "purpose": "接口示例与原程序CPU一致性检查，不是新增benchmark",
+  "samples": [
+    {
+      "file": "examples/0.jpg",
+      "image_id": "001c5ee9-43f0-46b5-9854-36a6faf7c51b",
+      "truth": 0,
+      "kind": "single",
+      "raw_labels": [
+        "four"
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/1.jpg",
+      "image_id": "01d92021-c56f-40c0-a26f-de21061bb283",
+      "truth": 1,
+      "kind": "single",
+      "raw_labels": [
+        "peace_inverted"
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/2.jpg",
+      "image_id": "0019238e-b3dc-400b-a1e4-7bc0aea44208",
+      "truth": 2,
+      "kind": "single",
+      "raw_labels": [
+        "stop"
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/3.jpg",
+      "image_id": "03a8d42a-ccc6-41aa-abba-9c9957aebdcd",
+      "truth": 3,
+      "kind": "single",
+      "raw_labels": [
+        "fist"
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/4.jpg",
+      "image_id": "05b9dfb3-4c43-4592-8391-d410799e0ccb",
+      "truth": 4,
+      "kind": "single",
+      "raw_labels": [
+        "like"
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/5.jpg",
+      "image_id": "046379fc-dc52-4314-aa7d-5d9679721b69",
+      "truth": 5,
+      "kind": "single",
+      "raw_labels": [
+        "dislike"
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/multi.jpg",
+      "image_id": "002b2e3b-9d21-4921-a418-8435bc65fa59",
+      "truth": 0,
+      "kind": "multi",
+      "raw_labels": [
+        "mute",
+        "no_gesture"
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/empty.png",
+      "image_id": "synthetic_blank_interface_check",
+      "truth": 0,
+      "kind": "empty",
+      "split": "synthetic"
+    }
+  ]
+}
