@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **当前仓库入口**：[仓库首页](../../../README.md)、[交接说明 v3](../../../current_bilingual/documents/交接说明_v3_中英文配图.docx)、[综合实验报告 v4](../../../current_bilingual/documents/A与B协议ResNet训练与对比实验报告_v4_中英文配图.docx)、[项目方案 v13](../../../current_bilingual/documents/基于ResNet18的手势识别项目方案_v13_中英文配图.docx)。下文保留原包源码说明，报告 v3、方案 v12 及原交接 Word 为历史入口。
+>
+> 十二个可运行程序已在[../../程序/](../../程序/)展开；下文相对程序路径仍适用。下文提到的 `独立程序ZIP/` 只存在于原 ZIP 布局，当前仓库省去重复压缩包；如需原程序 ZIP 或四分卷，可选[原 Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)。本目录保留源码、原图、固定分组、权重与实验记录。
+>
+> 包根 `SHA256SUMS.json` 校验原 ZIP 成员，不能直接校验当前展开仓库树；原机绝对路径和历史校验记录继续保留供追溯。
+
+---
+
 # ResNet手势识别：合并与不合并两种标签方案
 
 本说明位于解压包的`完整源码与数据/Vision_CA/README.md`。需要识别照片时，使用包根目录`程序/`中的独立推理小包；这里保留原图、固定A/B分组、完整训练源码和冻结实验记录，供理解、复核和另开实验。

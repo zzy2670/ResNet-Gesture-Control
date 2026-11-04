@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **当前 GitHub 仓库导读**：首次接手请先读[仓库首页](../README.md)及[交接说明 v3](../current_bilingual/documents/交接说明_v3_中英文配图.docx)，再读[综合实验报告 v4](../current_bilingual/documents/A与B协议ResNet训练与对比实验报告_v4_中英文配图.docx)和[项目方案 v13](../current_bilingual/documents/基于ResNet18的手势识别项目方案_v13_中英文配图.docx)。下文保留原完整 ZIP 的历史说明，v3 报告、v12 方案及原交接 Word 用于追溯。
+>
+> 本仓库已展开[十二个程序](程序/)及[完整源码与数据](完整源码与数据/Vision_CA/)；直接使用所选程序目录中的 README。下文的 `独立程序ZIP/` 仅属于原 ZIP 布局，当前目录没有该文件夹；需要独立压缩包或原四分卷时，可选[原 Release](https://github.com/zzy2670/MA6216-ResNet-Gesture-Control/releases/tag/v2026.11.03)。文中的 `E:/` 路径是原机归档位置。
+>
+> `SHA256SUMS.json` 和原封包清单记录原 ZIP 成员，不能直接作为当前展开仓库树的完整校验清单；当前树已省去重复程序 ZIP，且入口文档另有更新。
+
+---
+
 # ResNet合并与不合并完整交接
 
 先读[交接说明](交接说明.md)或[Word版](交接说明.docx)，再读[综合报告v3](历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx)和[方案v12](历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx)。v11／v2保留不合并已完成记录，更早版本用于追溯。
