@@ -1,0 +1,13 @@
+{
+  "status": "AUTHOR_TEXT_READY_AWAITING_RENDER_AND_INDEPENDENT_REVIEW",
+  "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v11.docx",
+  "source_sha256": "e05c3935d302d895ffc2b87535caaf2e1f88a5bf708b4292d546453c85022c1b",
+  "output": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+  "output_sha256": "f9f136d40aac91325732a31bd3586409be9a5c9de989805fc30a706c0443d5bb",
+  "facts_sha256": "4b41152c8b40a912c772ba027d67ad9ed56b3828f5f535329b2986b536617931",
+  "original_images_preserved": 27,
+  "images": 29,
+  "original_tables_preserved": 8,
+  "tables": 15,
+  "old_formal_files_overwritten": false
+}

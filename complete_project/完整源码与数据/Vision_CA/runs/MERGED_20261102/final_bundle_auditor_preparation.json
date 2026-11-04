@@ -1,0 +1,39 @@
+{
+  "status": "PREPARATION_CHECKS_COMPLETE_NOT_FINAL_ARCHIVE_AUDIT",
+  "recorded_at": "2026-11-03T01:31:58.272264+08:00",
+  "author": "merged_independent_preflight",
+  "source_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\audit_final_label_bundle.py": "a5cdb4d1a310b454290af6ffb89f22adc9f1936b3ed46743f9337b5ec385702e",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\FINAL_LABEL_BUNDLE_AUDIT_PROTOCOL.md": "82fe33fa68e649e778856416613c31ad69dac70f0a9dbcfb686a222748349344",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\audit_final_ab_bundle.py": "d66acef4cef769db8b636740fe3d59cb740d9eb0ae6ce9755b32492cf118c195",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\check_final_label_auditor_source.py": "f83c7469e30661d319feb7caf7fcd7428ba4b06aa556e3b240858cd8578d25f8"
+  },
+  "AST_pass": true,
+  "default_and_help_executed": true,
+  "small_in_memory_MD_and_OOXML_link_structure_checks": true,
+  "OPC_package_rooted_existing_target_passes": true,
+  "OPC_missing_and_escape_targets_reported": [
+    {
+      "target": "/word/missing.xml",
+      "issue_kind": "OPC_internal"
+    },
+    {
+      "target": "../../outside.xml",
+      "issue_kind": "escaping_OPC_internal"
+    }
+  ],
+  "external_C_drive_remains_absolute_host_link": true,
+  "relative_escape_rejected": true,
+  "historical_absolute_paths_classified_without_mutation": true,
+  "actual_final_archive_read": false,
+  "large_hash_executed": false,
+  "model_loaded_or_inference": false,
+  "final_result_not_created": true,
+  "required_future_schema": {
+    "CPU_review": "status PASS; data_sha256 actual12CPU result",
+    "CAM_review": "status PASS; nonempty bound_file_sha256 anchors both new protocols 6NPZ+PNG+metadata",
+    "program_review": "status PASS; 12 unique archives with actual offline interface and member CRC/SHA plus actual ZIP sha256",
+    "formal_docs": "status PASS; documents source/status/sha256 exact new3Word"
+  },
+  "root_independent_source_review_still_required": true
+}

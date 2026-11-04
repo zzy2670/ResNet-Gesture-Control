@@ -1,0 +1,21 @@
+{
+  "status": "AUTHOR_TEXT_READY_AWAITING_RENDER_AND_INDEPENDENT_REVIEW",
+  "bundle_root": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103",
+  "facts_sha256": "4b41152c8b40a912c772ba027d67ad9ed56b3828f5f535329b2986b536617931",
+  "outputs": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103\\README.md",
+      "sha256": "ad7a81b1a22963e06a28979ecf3dc9f06cd069a08b2d026fcc3403bd5c422aa4"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103\\交接说明.md",
+      "sha256": "8b5a6b8bba50544f4a89853ce9e64f447c06b2001ad0d7aa80571ec510b2b950"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103\\交接说明.docx",
+      "sha256": "87d35dac652b5d0bafc460818c3dadc36e637479e2ac23d75633d701efabbb23"
+    }
+  ],
+  "old_formal_files_overwritten": false,
+  "links_require_final_ZIP_member_validation": true
+}

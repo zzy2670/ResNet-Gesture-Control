@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-11-03T02:13:23.961905+08:00",
+  "scope": "全部科学/程序/正式文档已审，冻结前最后状态；总ZIP尚未生成验收。",
+  "gates": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\ab_final_independent_review.json",
+      "status": "PASS_AB_RESULT_AUDIT_WITH_LIMITATIONS",
+      "sha256": "05c3cc3b49da161a1b46bc931ceaf11f96e92c9e75c867e8b84fd7e06e50d1c9"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\aggregate_review.json",
+      "status": "PASS_MERGED_SIX_MODEL_AUDIT_WITH_LIMITATIONS",
+      "sha256": "e433fbfd18ac3cd28a6c3e22f7f7e7f5b728347976267a3c5e8789b5571da5af"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\label_variants_cpu_independent_review.json",
+      "status": "PASS",
+      "sha256": "e6d6ed0bfbc39b2939a0ff956e72ef2c71815657f128493cf9a47f3885cf9f75"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_gradcam_independent_review.json",
+      "status": "PASS",
+      "sha256": "46ab163eae61bd98a2b1cbbf866d5595ed2ae9dbaf7ce977343b3af84bd1a975"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\twelve_packages_independent_review.json",
+      "status": "PASS",
+      "sha256": "b2e94faa37d15a0ae40f2db9fa84cd831c098d52acb9e03b9119f30adb3add08"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\formal_documents_independent_review.json",
+      "status": "PASS",
+      "sha256": "192279a597db85500ae7b172a55d73d4304faa2da28b1b9e709fca1de1d5844d"
+    }
+  ],
+  "archive_target": "E:/ResNet_合并与不合并完整交接_20261103.zip",
+  "bundle_root": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103",
+  "old_sources_preserved": true,
+  "personal_learning_media_excluded_by_whitelist": true
+}

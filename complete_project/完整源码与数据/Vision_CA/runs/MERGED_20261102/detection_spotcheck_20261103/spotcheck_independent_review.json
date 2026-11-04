@@ -1,0 +1,109 @@
+{
+  "status": "PASS_FOUR_SPECIFIED_RECORDS_WITH_WORDING_LIMITATIONS",
+  "reviewed_at": "2026-11-03T00:23:44.535806+08:00",
+  "reviewer": "merged_independent_preflight",
+  "scope": "只核四个指定B-test ID、源标注/冻结输出/独立IoU及已实际查看的对照图；未遍历照片、未推理、未调参数。",
+  "records": [
+    {
+      "image_id": "01aa0cd7-798e-4e2b-b595-39cc2376a259",
+      "matched_GT_hands_at_IoU05": 2,
+      "GT_hands": 2,
+      "missed_GT_indices": [],
+      "recomputed_IoU": [
+        [
+          0.0,
+          0.7860532008293191
+        ],
+        [
+          0.8773709818420166,
+          0.0
+        ]
+      ],
+      "truth": 0,
+      "prediction": 0
+    },
+    {
+      "image_id": "0d72367c-e360-43b1-9c08-5ddea11c3b8c",
+      "matched_GT_hands_at_IoU05": 0,
+      "GT_hands": 2,
+      "missed_GT_indices": [
+        0,
+        1
+      ],
+      "recomputed_IoU": [
+        [],
+        []
+      ],
+      "truth": 0,
+      "prediction": 0
+    },
+    {
+      "image_id": "163e7b4f-00ef-436e-9cfc-e693bedce0a0",
+      "matched_GT_hands_at_IoU05": 1,
+      "GT_hands": 2,
+      "missed_GT_indices": [
+        0
+      ],
+      "recomputed_IoU": [
+        [
+          0.0
+        ],
+        [
+          0.7933985646650608
+        ]
+      ],
+      "truth": 3,
+      "prediction": 0
+    },
+    {
+      "image_id": "0fd29f45-cad4-4c0f-8ea0-0f98e81fb17c",
+      "matched_GT_hands_at_IoU05": 1,
+      "GT_hands": 2,
+      "missed_GT_indices": [
+        1
+      ],
+      "recomputed_IoU": [
+        [
+          0.0,
+          0.6727699187373976
+        ],
+        [
+          0.2637841600666021,
+          0.0
+        ]
+      ],
+      "truth": 1,
+      "prediction": 0
+    }
+  ],
+  "issues": [],
+  "visual_review": {
+    "figure_actually_viewed": true,
+    "left_GT_and_right_detection_consistent": true,
+    "hand_boxes_and_missed_hands_visible": true,
+    "no_material_label_occlusion_or_misplaced_annotations_observed": true
+  },
+  "wording": [
+    "不能说双手全部找出：指定例2两手均无框，例3漏fist，例4另一手框IoU约0.264未达0.5。",
+    "例2真值0输出0只说明最终指令碰巧一致，不说明检测成功。",
+    "例4peace手有IoU约0.673的合格匹配框，但这个检测裁图被分类为0且接受；不能说peace手完全漏检，也不能说是低置信拒识。",
+    "例4可称定位不充分与裁图分类错误并存；未做对照推理，不能证明框偏移是分类错误的唯一原因。",
+    "图中D1/D2的p是检测分数，不是ResNet手势概率；建议在说明中明确。",
+    "四张为定向抽查，不能给出或外推总体漏检比例。"
+  ],
+  "bound_file_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\detection_spotcheck_20261103\\spotcheck.json": "a34abaf0bde28fcc5eb72a63c3ddcb990fddcb5d826d43c07fc3a5fa600407ef",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\audit_hand_detection_spotcheck.py": "f32e579947c85ec21e10027cb61c60731b986bfcf325481e5aa6700dac02f12f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\test_detector.json": "5e77b5388485a6498437ea33a0a90348e844f9d48e51c7cdd9c69ad6ec518034",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\test_whole_photo.json": "5706f049ad15ee3b76c38416bfa9597583305d9031963e86bebcb9b6f45d617b",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\spotcheck_hand_detection.py": "38cb102b8a86bcba27c2569c2a196e2c00ae7816ac42344ab2cf3ca387886fb6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\call\\01aa0cd7-798e-4e2b-b595-39cc2376a259.jpg": "64c6a29218ab5c3a51f15872e999ee26ddd745083d19b4585f2d3aec7781da84",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\call.json": "cbe25d9a66140a8027a6160269e702f11d55a1fe37a33e0593a59a6acc2a536d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\call\\0d72367c-e360-43b1-9c08-5ddea11c3b8c.jpg": "32754a0f7b12ee22be48f819cb51a40c2f1410608844b0d2354e2fbdee6b3e3d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\fist\\163e7b4f-00ef-436e-9cfc-e693bedce0a0.jpg": "556e0552c3a65923bbcc842bf5e1ab55e67695735d6ade469596b82efc9fd233",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\fist.json": "8babf82764fa9e2eaae7e24a8634449d64077cb8ce971fa24b3593209200888a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\peace\\0fd29f45-cad4-4c0f-8ea0-0f98e81fb17c.jpg": "e09cebe81ad7d1e4d399feda034638a33ced2576930126ad0f0724e03e869868",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\peace.json": "b108780932b979bab58a941de7080644c50a9be67c66c91d3dbf8d2822b9a821",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\detection_spotcheck_20261103\\四张双手照片_人工标注与检测对照.png": "bf97ef2a87313c2822554316e5889301c11754f3f2e96afe299dcffff742a29e"
+  }
+}

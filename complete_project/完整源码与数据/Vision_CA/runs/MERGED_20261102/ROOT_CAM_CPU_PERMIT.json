@@ -1,0 +1,16 @@
+{
+  "purpose": "merged_gradcam_cpu",
+  "confirmed_by": "root",
+  "cpu_window_confirmed": true,
+  "expires_at": "2026-11-03T02:41:19.208670+08:00",
+  "speed_review_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\label_variants_cpu_independent_review.json",
+  "speed_review_status": "PASS",
+  "bound_file_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\label_variants_cpu_benchmark.json": "f78457295f9be97f5a4bb2452c312232f5c773db4cfa95c8c25cf4cf9c820813",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\label_variants_cpu_independent_review.json": "e6d6ed0bfbc39b2939a0ff956e72ef2c71815657f128493cf9a47f3885cf9f75",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\aggregate_review.json": "e433fbfd18ac3cd28a6c3e22f7f7e7f5b728347976267a3c5e8789b5571da5af",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\make_merged_trained_gradcam.py": "134fa605c4ed59b6fe61b0179e5630a5718ed1a1b0607e43f2d8185c33f72f07",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\MERGED_GRADCAM_PROTOCOL.md": "b64149af6fee7f374ff26b4c26c6939e6da7bd0efd2ed1a40116ffae8f6fbe1c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_gradcam_preflight_review.json": "95273a0123930b4ec9f9dd411d8dc7f8448e58530a420e1cd4aa33ad280d220b"
+  }
+}

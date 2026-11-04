@@ -1,0 +1,27 @@
+{
+  "status": "PREPARATION_CHECKS_COMPLETE_NOT_FINAL_ARCHIVE_AUDIT",
+  "recorded_at": "2026-11-03T01:27:40.898356+08:00",
+  "author": "merged_independent_preflight",
+  "source_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\audit_final_label_bundle.py": "4773bed205ecc087e5d3c514d792e726c60305ae551907f07d858cfc6caafafc",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\FINAL_LABEL_BUNDLE_AUDIT_PROTOCOL.md": "fb96a14030ae85d94b9c51c81be28e07e7daa46150376d33d4b70710367ec234",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\audit_final_ab_bundle.py": "d66acef4cef769db8b636740fe3d59cb740d9eb0ae6ce9755b32492cf118c195",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\check_final_label_auditor_source.py": "4019dc9560514e9fc4dc010300a78bf9d29646b973ff5d1f7c229498cdaff837"
+  },
+  "AST_pass": true,
+  "default_and_help_executed": true,
+  "small_in_memory_MD_and_OOXML_link_structure_checks": true,
+  "relative_escape_rejected": true,
+  "historical_absolute_paths_classified_without_mutation": true,
+  "actual_final_archive_read": false,
+  "large_hash_executed": false,
+  "model_loaded_or_inference": false,
+  "final_result_not_created": true,
+  "required_future_schema": {
+    "CPU_review": "status PASS; data_sha256 actual12CPU result",
+    "CAM_review": "status PASS; nonempty bound_file_sha256 anchors both new protocols 6NPZ+PNG+metadata",
+    "program_review": "status PASS; 12 unique archives with actual offline interface and member CRC/SHA plus actual ZIP sha256",
+    "formal_docs": "status PASS; documents source/status/sha256 exact new3Word"
+  },
+  "root_independent_source_review_still_required": true
+}

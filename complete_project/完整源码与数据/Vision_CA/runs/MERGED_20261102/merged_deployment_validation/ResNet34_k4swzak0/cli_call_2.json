@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\run_offline.py",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\中文 空格路径\\ResNet34\\predict.py",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\另一个 中文工作目录\\不存在的图片.jpg",
+    "--device",
+    "cpu"
+  ],
+  "cwd": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\另一个 中文工作目录",
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "识别失败：[Errno 2] No such file or directory: 'C:\\\\Users\\\\Administrator\\\\Desktop\\\\6216_VISION\\\\MA6216_CA3_final_project\\\\Vision_CA\\\\runs\\\\MERGED_20261102\\\\merged_deployment_validation\\\\ResNet34_k4swzak0\\\\另一个 中文工作目录\\\\不存在的图片.jpg'\n"
+}

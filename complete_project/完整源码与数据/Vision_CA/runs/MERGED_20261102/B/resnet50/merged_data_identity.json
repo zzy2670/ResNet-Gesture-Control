@@ -1,0 +1,709 @@
+{
+  "protocol": "B",
+  "architecture": "resnet50",
+  "source_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50",
+  "source_split_root": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102",
+  "target_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50",
+  "old_mapping": {
+    "peace": 1,
+    "peace_inverted": 1,
+    "stop": 2,
+    "stop_inverted": 2,
+    "palm": 2,
+    "fist": 3,
+    "like": 4,
+    "dislike": 5
+  },
+  "mapping": {
+    "peace": 1,
+    "peace_inverted": 1,
+    "stop": 2,
+    "stop_inverted": 2,
+    "palm": 2,
+    "fist": 3,
+    "like": 4,
+    "dislike": 5,
+    "two_up": 1,
+    "two_up_inverted": 1
+  },
+  "default_other": 0,
+  "only_changed_raw_labels": [
+    "two_up",
+    "two_up_inverted"
+  ],
+  "crop_pixels": "same read-only original crop paths; no pixel copying or re-encoding",
+  "preprocessing": "original bbox; margin0.10 gives1.2square;224;ImageNet normalization",
+  "split_reassignment": false,
+  "new_feature_extraction": false,
+  "test_predictions_computed": false,
+  "splits": {
+    "train": {
+      "source_index": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\crops_train.json",
+      "source_index_sha256": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+      "new_index_sha256": "5afd729b838ce1824ac4deaa70cd678ea4aa2b75ac3fd69d1a8d2234e4d8b53a",
+      "manifest_sha256": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+      "all_nonlabel_fields_equal": true,
+      "every_original_raw_label_verified": true,
+      "photos": 25274,
+      "hands": 30799,
+      "users": 6379,
+      "changed_hands": 2918,
+      "changed_photo_commands": 2918,
+      "raw": {
+        "call": {
+          "hands": 1398,
+          "photos": 1398,
+          "users": 908
+        },
+        "dislike": {
+          "hands": 1409,
+          "photos": 1409,
+          "users": 974
+        },
+        "fist": {
+          "hands": 1366,
+          "photos": 1366,
+          "users": 998
+        },
+        "four": {
+          "hands": 1438,
+          "photos": 1438,
+          "users": 932
+        },
+        "like": {
+          "hands": 1388,
+          "photos": 1388,
+          "users": 987
+        },
+        "mute": {
+          "hands": 1411,
+          "photos": 1411,
+          "users": 1007
+        },
+        "no_gesture": {
+          "hands": 5526,
+          "photos": 5526,
+          "users": 1787
+        },
+        "ok": {
+          "hands": 1354,
+          "photos": 1354,
+          "users": 948
+        },
+        "one": {
+          "hands": 1423,
+          "photos": 1423,
+          "users": 947
+        },
+        "palm": {
+          "hands": 1412,
+          "photos": 1412,
+          "users": 978
+        },
+        "peace": {
+          "hands": 1405,
+          "photos": 1405,
+          "users": 1030
+        },
+        "peace_inverted": {
+          "hands": 1401,
+          "photos": 1401,
+          "users": 868
+        },
+        "rock": {
+          "hands": 1385,
+          "photos": 1385,
+          "users": 914
+        },
+        "stop": {
+          "hands": 1359,
+          "photos": 1359,
+          "users": 957
+        },
+        "stop_inverted": {
+          "hands": 1409,
+          "photos": 1409,
+          "users": 929
+        },
+        "three": {
+          "hands": 1383,
+          "photos": 1383,
+          "users": 911
+        },
+        "three2": {
+          "hands": 1414,
+          "photos": 1414,
+          "users": 863
+        },
+        "two_up": {
+          "hands": 1488,
+          "photos": 1488,
+          "users": 1036
+        },
+        "two_up_inverted": {
+          "hands": 1430,
+          "photos": 1430,
+          "users": 963
+        }
+      },
+      "old_six_class": {
+        "0": {
+          "hands": 19650,
+          "photos": 16538,
+          "users": 4761
+        },
+        "1": {
+          "hands": 2806,
+          "photos": 2806,
+          "users": 1691
+        },
+        "2": {
+          "hands": 4180,
+          "photos": 4180,
+          "users": 2099
+        },
+        "3": {
+          "hands": 1366,
+          "photos": 1366,
+          "users": 998
+        },
+        "4": {
+          "hands": 1388,
+          "photos": 1388,
+          "users": 987
+        },
+        "5": {
+          "hands": 1409,
+          "photos": 1409,
+          "users": 974
+        }
+      },
+      "new_six_class": {
+        "0": {
+          "hands": 16732,
+          "photos": 14242,
+          "users": 4290
+        },
+        "1": {
+          "hands": 5724,
+          "photos": 5724,
+          "users": 2589
+        },
+        "2": {
+          "hands": 4180,
+          "photos": 4180,
+          "users": 2099
+        },
+        "3": {
+          "hands": 1366,
+          "photos": 1366,
+          "users": 998
+        },
+        "4": {
+          "hands": 1388,
+          "photos": 1388,
+          "users": 987
+        },
+        "5": {
+          "hands": 1409,
+          "photos": 1409,
+          "users": 974
+        }
+      },
+      "old_photo_commands": {
+        "0": 14125,
+        "5": 1409,
+        "3": 1366,
+        "4": 1388,
+        "2": 4180,
+        "1": 2806
+      },
+      "new_photo_commands": {
+        "0": 11207,
+        "5": 1409,
+        "3": 1366,
+        "4": 1388,
+        "2": 4180,
+        "1": 5724
+      },
+      "raw_photo_folder_classes": {
+        "call": 1398,
+        "dislike": 1409,
+        "fist": 1367,
+        "four": 1438,
+        "like": 1388,
+        "mute": 1411,
+        "ok": 1354,
+        "one": 1423,
+        "palm": 1412,
+        "peace": 1405,
+        "peace_inverted": 1401,
+        "rock": 1385,
+        "stop": 1359,
+        "stop_inverted": 1409,
+        "three": 1383,
+        "three2": 1414,
+        "two_up": 1488,
+        "two_up_inverted": 1430
+      }
+    },
+    "val": {
+      "source_index": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\crops_val.json",
+      "source_index_sha256": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+      "new_index_sha256": "971d54607d39568428f8cf363a9bde26b29e8361597743afabcdf648c3417735",
+      "manifest_sha256": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+      "all_nonlabel_fields_equal": true,
+      "every_original_raw_label_verified": true,
+      "photos": 3457,
+      "hands": 4326,
+      "users": 797,
+      "changed_hands": 366,
+      "changed_photo_commands": 366,
+      "raw": {
+        "call": {
+          "hands": 184,
+          "photos": 184,
+          "users": 111
+        },
+        "dislike": {
+          "hands": 200,
+          "photos": 200,
+          "users": 128
+        },
+        "fist": {
+          "hands": 195,
+          "photos": 195,
+          "users": 135
+        },
+        "four": {
+          "hands": 194,
+          "photos": 194,
+          "users": 120
+        },
+        "like": {
+          "hands": 185,
+          "photos": 185,
+          "users": 123
+        },
+        "mute": {
+          "hands": 205,
+          "photos": 205,
+          "users": 147
+        },
+        "no_gesture": {
+          "hands": 869,
+          "photos": 869,
+          "users": 245
+        },
+        "ok": {
+          "hands": 217,
+          "photos": 217,
+          "users": 139
+        },
+        "one": {
+          "hands": 204,
+          "photos": 204,
+          "users": 123
+        },
+        "palm": {
+          "hands": 178,
+          "photos": 178,
+          "users": 114
+        },
+        "peace": {
+          "hands": 180,
+          "photos": 180,
+          "users": 124
+        },
+        "peace_inverted": {
+          "hands": 171,
+          "photos": 171,
+          "users": 103
+        },
+        "rock": {
+          "hands": 196,
+          "photos": 196,
+          "users": 111
+        },
+        "stop": {
+          "hands": 217,
+          "photos": 217,
+          "users": 151
+        },
+        "stop_inverted": {
+          "hands": 199,
+          "photos": 199,
+          "users": 135
+        },
+        "three": {
+          "hands": 207,
+          "photos": 207,
+          "users": 125
+        },
+        "three2": {
+          "hands": 159,
+          "photos": 159,
+          "users": 108
+        },
+        "two_up": {
+          "hands": 192,
+          "photos": 192,
+          "users": 129
+        },
+        "two_up_inverted": {
+          "hands": 174,
+          "photos": 174,
+          "users": 116
+        }
+      },
+      "old_six_class": {
+        "0": {
+          "hands": 2801,
+          "photos": 2321,
+          "users": 607
+        },
+        "1": {
+          "hands": 351,
+          "photos": 351,
+          "users": 203
+        },
+        "2": {
+          "hands": 594,
+          "photos": 594,
+          "users": 282
+        },
+        "3": {
+          "hands": 195,
+          "photos": 195,
+          "users": 135
+        },
+        "4": {
+          "hands": 185,
+          "photos": 185,
+          "users": 123
+        },
+        "5": {
+          "hands": 200,
+          "photos": 200,
+          "users": 128
+        }
+      },
+      "new_six_class": {
+        "0": {
+          "hands": 2435,
+          "photos": 2038,
+          "users": 550
+        },
+        "1": {
+          "hands": 717,
+          "photos": 717,
+          "users": 319
+        },
+        "2": {
+          "hands": 594,
+          "photos": 594,
+          "users": 282
+        },
+        "3": {
+          "hands": 195,
+          "photos": 195,
+          "users": 135
+        },
+        "4": {
+          "hands": 185,
+          "photos": 185,
+          "users": 123
+        },
+        "5": {
+          "hands": 200,
+          "photos": 200,
+          "users": 128
+        }
+      },
+      "old_photo_commands": {
+        "0": 1932,
+        "5": 200,
+        "3": 195,
+        "4": 185,
+        "2": 594,
+        "1": 351
+      },
+      "new_photo_commands": {
+        "0": 1566,
+        "5": 200,
+        "3": 195,
+        "4": 185,
+        "2": 594,
+        "1": 717
+      },
+      "raw_photo_folder_classes": {
+        "call": 184,
+        "dislike": 200,
+        "fist": 195,
+        "four": 194,
+        "like": 185,
+        "mute": 205,
+        "ok": 217,
+        "one": 204,
+        "palm": 178,
+        "peace": 180,
+        "peace_inverted": 171,
+        "rock": 196,
+        "stop": 217,
+        "stop_inverted": 199,
+        "three": 207,
+        "three2": 159,
+        "two_up": 192,
+        "two_up_inverted": 174
+      }
+    },
+    "test": {
+      "source_index": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\crops_test.json",
+      "source_index_sha256": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+      "new_index_sha256": "351dea095057e072c8e606b3c983be895d1fa2859be679abd3361339c23f57a0",
+      "manifest_sha256": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+      "all_nonlabel_fields_equal": true,
+      "every_original_raw_label_verified": true,
+      "photos": 3102,
+      "hands": 3759,
+      "users": 797,
+      "changed_hands": 336,
+      "changed_photo_commands": 336,
+      "raw": {
+        "call": {
+          "hands": 181,
+          "photos": 181,
+          "users": 117
+        },
+        "dislike": {
+          "hands": 174,
+          "photos": 174,
+          "users": 127
+        },
+        "fist": {
+          "hands": 173,
+          "photos": 173,
+          "users": 116
+        },
+        "four": {
+          "hands": 173,
+          "photos": 173,
+          "users": 107
+        },
+        "like": {
+          "hands": 159,
+          "photos": 159,
+          "users": 111
+        },
+        "mute": {
+          "hands": 195,
+          "photos": 195,
+          "users": 132
+        },
+        "no_gesture": {
+          "hands": 657,
+          "photos": 657,
+          "users": 213
+        },
+        "ok": {
+          "hands": 179,
+          "photos": 179,
+          "users": 123
+        },
+        "one": {
+          "hands": 151,
+          "photos": 151,
+          "users": 104
+        },
+        "palm": {
+          "hands": 180,
+          "photos": 180,
+          "users": 124
+        },
+        "peace": {
+          "hands": 184,
+          "photos": 184,
+          "users": 130
+        },
+        "peace_inverted": {
+          "hands": 170,
+          "photos": 170,
+          "users": 105
+        },
+        "rock": {
+          "hands": 155,
+          "photos": 155,
+          "users": 102
+        },
+        "stop": {
+          "hands": 172,
+          "photos": 172,
+          "users": 129
+        },
+        "stop_inverted": {
+          "hands": 195,
+          "photos": 195,
+          "users": 134
+        },
+        "three": {
+          "hands": 161,
+          "photos": 161,
+          "users": 109
+        },
+        "three2": {
+          "hands": 164,
+          "photos": 164,
+          "users": 103
+        },
+        "two_up": {
+          "hands": 175,
+          "photos": 175,
+          "users": 113
+        },
+        "two_up_inverted": {
+          "hands": 161,
+          "photos": 161,
+          "users": 110
+        }
+      },
+      "old_six_class": {
+        "0": {
+          "hands": 2352,
+          "photos": 1996,
+          "users": 581
+        },
+        "1": {
+          "hands": 354,
+          "photos": 354,
+          "users": 209
+        },
+        "2": {
+          "hands": 547,
+          "photos": 547,
+          "users": 304
+        },
+        "3": {
+          "hands": 173,
+          "photos": 173,
+          "users": 116
+        },
+        "4": {
+          "hands": 159,
+          "photos": 159,
+          "users": 111
+        },
+        "5": {
+          "hands": 174,
+          "photos": 174,
+          "users": 127
+        }
+      },
+      "new_six_class": {
+        "0": {
+          "hands": 2016,
+          "photos": 1725,
+          "users": 524
+        },
+        "1": {
+          "hands": 690,
+          "photos": 690,
+          "users": 311
+        },
+        "2": {
+          "hands": 547,
+          "photos": 547,
+          "users": 304
+        },
+        "3": {
+          "hands": 173,
+          "photos": 173,
+          "users": 116
+        },
+        "4": {
+          "hands": 159,
+          "photos": 159,
+          "users": 111
+        },
+        "5": {
+          "hands": 174,
+          "photos": 174,
+          "users": 127
+        }
+      },
+      "old_photo_commands": {
+        "0": 1695,
+        "5": 174,
+        "3": 173,
+        "4": 159,
+        "2": 547,
+        "1": 354
+      },
+      "new_photo_commands": {
+        "0": 1359,
+        "5": 174,
+        "3": 173,
+        "4": 159,
+        "2": 547,
+        "1": 690
+      },
+      "raw_photo_folder_classes": {
+        "call": 181,
+        "dislike": 174,
+        "fist": 173,
+        "four": 173,
+        "like": 159,
+        "mute": 195,
+        "ok": 179,
+        "one": 151,
+        "palm": 180,
+        "peace": 184,
+        "peace_inverted": 170,
+        "rock": 155,
+        "stop": 172,
+        "stop_inverted": 195,
+        "three": 161,
+        "three2": 164,
+        "two_up": 175,
+        "two_up_inverted": 161
+      }
+    }
+  },
+  "feature_caches": {
+    "train": {
+      "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\features_train.pt",
+      "source_sha256": "96427a3b1d3894f1c88dc4f800865a4aeccb2ace8d5f2beed8427ec3b8c6ab92",
+      "new_sha256": "f5222573b2c6fadecbe3988b02088886be624ead4a59037befce1c7ca57e7362",
+      "feature_shape": [
+        30799,
+        2048
+      ],
+      "old_labels_match_index_in_order": true,
+      "feature_values_elementwise_equal": true,
+      "new_labels_match_index_in_order": true,
+      "changed_labels": 2918,
+      "pretrained_sha256": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a",
+      "feature_tensor_sha256": "d55b0a4dc94128fba7a1b808fe5077c63d386af31e08f745899564ea49c263a8"
+    },
+    "val": {
+      "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\features_val.pt",
+      "source_sha256": "2602dc6292f6ed3bf03be1565f2a0ee4ff42dcfb8660ae59f2fa6c3e03e2c773",
+      "new_sha256": "236d905799517da41c6e0f7f04076864494c84d4f10be73b609562b414987463",
+      "feature_shape": [
+        4326,
+        2048
+      ],
+      "old_labels_match_index_in_order": true,
+      "feature_values_elementwise_equal": true,
+      "new_labels_match_index_in_order": true,
+      "changed_labels": 366,
+      "pretrained_sha256": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a",
+      "feature_tensor_sha256": "9b3cda15eff0ba8a1e533585ccbb70d152d3cd0d4d08720d8a25c45aa7d167c6"
+    }
+  },
+  "official_pretrained": {
+    "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\完整源码与数据\\Vision_CA\\pretrained\\checkpoints\\resnet50-0676ba61.pth",
+    "sha256": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a",
+    "weights": "resnet50:IMAGENET1K_V1",
+    "hash_prefix_verified": true
+  }
+}

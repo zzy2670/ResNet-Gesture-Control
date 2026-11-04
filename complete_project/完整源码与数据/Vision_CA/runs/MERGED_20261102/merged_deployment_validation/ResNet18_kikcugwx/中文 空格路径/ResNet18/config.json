@@ -1,0 +1,84 @@
+{
+  "architecture": "resnet18",
+  "classifier_dropout": 0.034015425923446606,
+  "thresholds": {
+    "detector": 0.3,
+    "classifier": 0.3
+  },
+  "weights": {
+    "classifier": {
+      "path": "weights/classifier.pt",
+      "sha256": "d5caff3e658f7f8e63842d855111ab064ea780e807e2aac029da0c4cc182d65d"
+    },
+    "detector": {
+      "path": "weights/detector.pt",
+      "sha256": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+    }
+  },
+  "mapping": {
+    "0": {
+      "name": "其他或无有效指令",
+      "command": "无有效动作指令"
+    },
+    "1": {
+      "name": "V形或并拢两指前进",
+      "command": "前进"
+    },
+    "2": {
+      "name": "张开手掌",
+      "command": "后退"
+    },
+    "3": {
+      "name": "握拳",
+      "command": "停止"
+    },
+    "4": {
+      "name": "拇指向上",
+      "command": "左转"
+    },
+    "5": {
+      "name": "拇指向下",
+      "command": "右转"
+    }
+  },
+  "preprocessing": {
+    "input": "full_RGB_photo",
+    "crop_side_factor": 1.2,
+    "crop_size": [
+      224,
+      224
+    ],
+    "resize": "PIL_BILINEAR",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "provenance": {
+    "variant": "merged_peace_two_up_6class",
+    "protocol": "A",
+    "class1_raw": [
+      "peace",
+      "peace_inverted",
+      "two_up",
+      "two_up_inverted"
+    ],
+    "manifest_sha256": {
+      "train": "f6c8df1447c4e4dbd73717d81ba1302ea3527f0f3081aab0a526e6f96b5e8f43",
+      "val": "1708ff8c88e7ad15f6e8b40352573a68828c28ddf9cdc1552856f2cab6ba3bc7",
+      "test": "e7fb855f1d3872cc3cd01fb06918320c133835fcca639aa15d241e82b7f58081"
+    },
+    "run": "runs/MERGED_20261102/A/resnet18",
+    "selection": "merged_validation_only",
+    "classifier_retrained": true,
+    "postprocessing_zero_to_one": false,
+    "detector_reused_within_same_protocol": true,
+    "training_required": false
+  }
+}

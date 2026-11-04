@@ -1,0 +1,58 @@
+{
+  "status": "PASS_README_SOURCE_AND_LOGICAL_PATH_REVIEW_WITH_LIMITATIONS",
+  "reviewed_at": "2026-11-03T01:14:47.226258+08:00",
+  "reviewer": "root_non_author",
+  "source_sha256": "df989331f01b2f0d2aca86017334ed3b5ebcaf8b3df6a4661b20fa85bbd11202",
+  "markdown_links": [
+    "../../交接说明.md",
+    "../../交接说明.docx",
+    "../../历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+    "../../历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+    "../../历史与正式文档/基于ResNet18的手势识别项目方案_v11.docx",
+    "../../历史与正式文档/A与B协议ResNet训练与对比实验报告_v2.docx",
+    "../../程序/不合并/A/resnet18/README.md",
+    "../../程序/不合并/A/resnet34/README.md",
+    "../../程序/不合并/A/resnet50/README.md",
+    "../../程序/不合并/B/resnet18/README.md",
+    "../../程序/不合并/B/resnet34/README.md",
+    "../../程序/不合并/B/resnet50/README.md",
+    "../../程序/合并/A/resnet18/README.md",
+    "../../程序/合并/A/resnet34/README.md",
+    "../../程序/合并/A/resnet50/README.md",
+    "../../程序/合并/B/resnet18/README.md",
+    "../../程序/合并/B/resnet34/README.md",
+    "../../程序/合并/B/resnet50/README.md"
+  ],
+  "expected_final_member_targets": [
+    "交接说明.docx",
+    "交接说明.md",
+    "历史与正式文档/A与B协议ResNet训练与对比实验报告_v2.docx",
+    "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+    "历史与正式文档/基于ResNet18的手势识别项目方案_v11.docx",
+    "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+    "程序/不合并/A/resnet18/README.md",
+    "程序/不合并/A/resnet34/README.md",
+    "程序/不合并/A/resnet50/README.md",
+    "程序/不合并/B/resnet18/README.md",
+    "程序/不合并/B/resnet34/README.md",
+    "程序/不合并/B/resnet50/README.md",
+    "程序/合并/A/resnet18/README.md",
+    "程序/合并/A/resnet34/README.md",
+    "程序/合并/A/resnet50/README.md",
+    "程序/合并/B/resnet18/README.md",
+    "程序/合并/B/resnet34/README.md",
+    "程序/合并/B/resnet50/README.md"
+  ],
+  "checks": {
+    "actual_raw_folder_checked": true,
+    "current_runtime_python_and_Pillow_import_checked": true,
+    "historical_environment_not_unified": true,
+    "single_output_vs_per_hand_details_and_no_command_stop_distinguished": true,
+    "merged_fixed_RUN_and_rebuild_cache_migration_limit_explicit": true,
+    "no_fresh_install_or_robot_integration_acceptance_claim": true
+  },
+  "limitations": [
+    "此时部分新Word及合并推理程序尚未生成；18个目标仅按最终白名单逻辑布局核对，实际ZIP成员和解压入口仍须最终验收。",
+    "整套原实验controller并非已验证的一键移机重训入口；可便携识别入口为独立推理小包。"
+  ]
+}

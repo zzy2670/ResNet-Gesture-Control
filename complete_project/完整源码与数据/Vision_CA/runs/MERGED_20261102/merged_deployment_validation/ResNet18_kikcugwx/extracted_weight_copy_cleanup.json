@@ -1,0 +1,23 @@
+{
+  "status": "REMOVED_VERIFIED_EXTRACTED_WEIGHT_COPIES",
+  "offline_helper_completed_without_exception": true,
+  "source_package_and_ZIP_reverified": true,
+  "source_snapshot": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并手势识别交付\\A\\ResNet18_合并A协议图片识别程序.zip": "d3c25a88cb1832b273da513ed1a92d33e973f3af84490c06cfabfd8e4b21cd17",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并手势识别交付\\A\\ResNet18\\SHA256SUMS.json": "3701fa0c6aeaf8ca3881f673f36a98519edadf7245321d521d096ce6c933b198"
+  },
+  "removed": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet18_kikcugwx\\中文 空格路径\\ResNet18\\weights\\classifier.pt",
+      "bytes": 44799947,
+      "sha256": "d5caff3e658f7f8e63842d855111ab064ea780e807e2aac029da0c4cc182d65d"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet18_kikcugwx\\中文 空格路径\\ResNet18\\weights\\detector.pt",
+      "bytes": 15174137,
+      "sha256": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+    }
+  ],
+  "removed_bytes": 59974084,
+  "retained": "manifest/config/samples/examples/predict/wrapper/详细结果/CLI stdout和stderr记录/清理计划及本回执；原ZIP和完整程序未改。"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "AUTHOR_CHECKS_COMPLETE_AWAITING_ROOT_INDEPENDENT_SOURCE_REVIEW",
+  "recorded_at": "2026-11-03T00:37:48.663636+08:00",
+  "scope": "源码准备与实际小文件schema/路径拒绝检查；不是推理包成品或清理执行PASS。",
+  "bound_file_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\audit_merged_gesture_delivery.py": "fea876d7a6969e119971c30d1073eef222ed6e3b561c0df9b39db56ad83151e0",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\MERGED_DELIVERY_VALIDATION_PROTOCOL.md": "ac157445fe4f4062f8f549c762d5279f6933b94795461bee86bc0e52b4341e5f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\audit_B_gesture_delivery.py": "1499f000b18bbed51c7b89aa16c266efa729867da35a33d3483f0f5327006901",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\build_merged_gesture_delivery.py": "c159f13f359f699984c3591218512909a557090c6daf07d7ef2d2e9d29518fde",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\delivery_storage_budget.json": "571cb3e82b8ff90defcf3558fa43216a47b7e2ede584c499e8861a3219f92eed",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\check_merged_adapter_source.py": "5aacd23d1ef3a8ec0695b8aa2063a075439ece876f4e7f9c9ae83299dee8142b"
+  },
+  "AST_valid": true,
+  "actual_legacy_schema_checks": [
+    {
+      "protocol": "A",
+      "models": 3,
+      "expected_bound_files": 53,
+      "top_level_identity_present": false
+    },
+    {
+      "protocol": "B",
+      "models": 3,
+      "expected_bound_files": 65,
+      "top_level_identity_present": true
+    }
+  ],
+  "schema_fix": "A使用six_program_readiness锚定原review/manifest/离线ZIP及每文件SHA；B保留非空顶层identity_sha256并与同readiness一致。",
+  "outside_cleanup_boundary_rejected_without_IO_mutation": true,
+  "cleanup_design": {
+    "only_new_mkdtemp_two_extracted_weight_files": true,
+    "no_recursive_delete": true,
+    "plain_file_link_count1_and_no_symlink_or_junction_required": true,
+    "absolute_resolved_containment_and_each_component_checked": true,
+    "all_offline_assertions_success_then_source_program_ZIP_reverification": true,
+    "target_manifest_size_SHA_checked_and_rechecked_immediately_before_unlink": true,
+    "plan_and_receipt_and_CLI_raw_stdout_stderr_retained": true,
+    "interface_failure_preserves_all_extracted_files": true,
+    "partial_cleanup_failure_retains_remaining_and_exact_removed_receipt": true
+  },
+  "models_loaded": false,
+  "inference_executed": false,
+  "ZIP_built_or_extracted": false,
+  "cleanup_executed": false,
+  "old_tools_or_packages_modified": false,
+  "root_archive_plan": "E:/ResNet_合并与不合并完整交接_20261103.zip",
+  "remaining_gate": "root按这些实际SHA独立复审新适配；正式CPU窗口实际运行后核72例/离线结果/每份清理回执与原完整包身份。"
+}

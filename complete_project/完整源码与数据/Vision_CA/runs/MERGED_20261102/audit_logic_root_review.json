@@ -1,0 +1,26 @@
+{
+  "status": "PASS_SECONDARY_AUDIT_SOURCE_REVIEW_WITH_LIMITATIONS",
+  "reviewed_at": "2026-11-03T00:23:44.414010+08:00",
+  "scope": "root已逐段读取合并审核器及旧数学/逐框辅助接口；这是审核源码的二次审阅，不替代六模型实际独审、速度/程序/文档/ZIP验收。",
+  "checks": {
+    "new_truth_rebuilt_from_fixed_annotations": true,
+    "raw_label_mapping_and_complete_unique_GT_hand_coverage": true,
+    "all12_val_threshold_candidates_recomputed_before_frozen_test": true,
+    "saved_per_hand_probability_argmax_and_photo_aggregation_recomputed": true,
+    "head18_and_actual_finetune_patience4_bestval_checked": true,
+    "official_frozen_tensors_and_own_protocol_detector_checked": true,
+    "paired_old_new_same_image_and_hand_keys_checked": true,
+    "different_class0_denominators_and_common_raw_negative_group_separated": true,
+    "no_GPU_inference_and_no_original_A_B_write": true,
+    "bound_static_files_rehashed_before_exclusive_commit": true
+  },
+  "source_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\audit_merged_results.py": "707c40737dda456cd3abf6089211bc7f2aae61cd655e2b61fa178ffe33658b96",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\audit_B_final_models.py": "5c2ae0eb4faa03e3970fc91049555307baa99b489e9801e9f2c848dbb8c8b348"
+  },
+  "limitations": [
+    "未重推理训练验证概率，检查依赖原日志混淆矩阵、保存预测和已冻结来源。",
+    "不重新全量hash原图片；照片像素身份沿用既有独立审计。",
+    "不同标签定义的准确率变化不能直接解释为泛化提升；共同原始负类配对需单独呈现。"
+  ]
+}

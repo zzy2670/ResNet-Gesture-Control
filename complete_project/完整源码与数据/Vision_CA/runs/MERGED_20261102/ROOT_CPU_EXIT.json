@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-11-03T01:39:55.030874+08:00",
+  "exec_session_id": 39626,
+  "actual_exit_code": 0,
+  "result_sha256": "f78457295f9be97f5a4bb2452c312232f5c773db4cfa95c8c25cf4cf9c820813",
+  "model_count": 12,
+  "raw_timing_count": 7200,
+  "independent_audit_pending": true
+}

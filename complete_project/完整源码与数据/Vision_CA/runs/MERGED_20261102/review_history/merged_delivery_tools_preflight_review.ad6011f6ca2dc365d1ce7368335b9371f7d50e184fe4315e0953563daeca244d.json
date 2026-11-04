@@ -1,0 +1,69 @@
+{
+  "status": "NEEDS_FIX_BEFORE_BUILD",
+  "reviewed_at": "2026-11-03T00:12:40.407142+08:00",
+  "reviewer": "merged_independent_preflight",
+  "scope": "只读源码、help/list与不落盘spec结构核验；没有复制、构建、压缩、加载权重或推理",
+  "bound_file_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\build_merged_gesture_delivery.py": "3548e85356b4ca71bc0f9b72aa3de8c57b48f02bd487a7e64883b99dff38762f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\build_label_comparison_bundle.py": "cb4fb835ad545187de4da01d575e5f39609ebd5920eb75debed329e7525d0b05",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\build_ab_project_bundle.py": "36988cbafa2b217815fc44a30ea70b95f5fa3bbe36961fd594f6fba38bd3a0bc",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\deployment_src\\gesture_predict.py": "d8d7f63a724e9d3084487991e96b1d64ecb69f21a8233cad7964d852328d9d99",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\review_merged_tool_preflights.py": "45afaaf7694acc029eadfa7f65a35ca93d12f55f8930791802421e1a7e37e446"
+  },
+  "issues": [
+    {
+      "severity": "blocking",
+      "file": "build_merged_gesture_delivery.py",
+      "location": "ready and --review default",
+      "finding": "仍消费MERGED/final_independent_review.json且status=PASS；真实权威为aggregate_review.json与PASS_MERGED_SIX_MODEL_AUDIT_WITH_LIMITATIONS。"
+    },
+    {
+      "severity": "blocking",
+      "file": "build_label_comparison_bundle.py",
+      "location": "default_spec reviews",
+      "finding": "继承的旧B/final_independent_review.json与新增MERGED同名兼容PASS均不是真实科学权威schema。旧B应消费ab_final_independent_review，合并消费aggregate_review。"
+    },
+    {
+      "severity": "blocking",
+      "file": "build_label_comparison_bundle.py",
+      "location": "checked_reviews",
+      "finding": "只看review status，没有live复核科学review绑定的实际输出/权重/校准/源SHA。"
+    },
+    {
+      "severity": "blocking",
+      "file": "build_label_comparison_bundle.py",
+      "location": "check_ready package gate",
+      "finding": "十二ZIP虽核当前SHA，但并排十二目录也必须与各ZIP的SHA256SUMS清单逐文件一致，避免目录审核后变化而ZIP不变。"
+    },
+    {
+      "severity": "required",
+      "file": "build_label_comparison_bundle.py",
+      "location": "DEFAULT_BUNDLE",
+      "finding": "默认根名仍ResNet_标签方案对照完整交接_20261103，需改为约定ResNet_合并与不合并完整交接_20261103。"
+    }
+  ],
+  "checks_already_supported": {
+    "new_class1_four_raw_labels": true,
+    "validation_truth_recomputed_from_raw": true,
+    "validation_examples_fixed_by_ID_no_prediction_filter": true,
+    "six_new_packages_and_twelve_total_identities": true,
+    "original_six_model_directories_not_written": true,
+    "merged_weight_must_differ_from_old_classifier": true,
+    "new_calibration_weight_hash_and_thresholds_used": true,
+    "new_doc_gate_requires_v12_v3_and_new_handover": true,
+    "archive_temporarily_replaces_old_transport_doc_gate": true,
+    "source_README_redirected_to_merged_packaged_README": true,
+    "raw_A_fixed_B_fixed_each_once_and_all_merged_scientific_outputs": true,
+    "crops_features_bytecode_personal_notes_media_excluded_scientific_figures_kept": true,
+    "twelve_unique_ZIP_SHA_CRC_interface_review_required": true,
+    "archive_streams_frozen_SHA_and_verifies_all_members_before_rename": true
+  },
+  "tools_executed": [
+    "build_merged_gesture_delivery.py list",
+    "build_label_comparison_bundle.py --help",
+    "default_spec structure only"
+  ],
+  "product_built": false,
+  "model_loaded": false,
+  "next_step": "writer修复上述门禁后按新SHA独立复审；不能将本预审当十二程序或最终ZIP PASS。"
+}

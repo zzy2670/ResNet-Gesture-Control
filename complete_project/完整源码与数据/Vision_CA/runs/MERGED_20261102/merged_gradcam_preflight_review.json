@@ -1,0 +1,222 @@
+{
+  "status": "PASS_GRADCAM_SOURCE_PREFLIGHT_WITH_LIMITATIONS",
+  "reviewed_at": "2026-11-03T00:43:10.212588+08:00",
+  "reviewer": "merged_independent_preflight",
+  "scope": "非作者静态源码、AST公式与标准库固定选样/许可拒绝核验；没有加载模型、权重、图像或运行CAM前向反向。",
+  "bound_file_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\make_merged_trained_gradcam.py": "134fa605c4ed59b6fe61b0179e5630a5718ed1a1b0607e43f2d8185c33f72f07",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\MERGED_GRADCAM_PROTOCOL.md": "b64149af6fee7f374ff26b4c26c6939e6da7bd0efd2ed1a40116ffae8f6fbe1c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\make_A_trained_gradcam.py": "eaea6337877fa15878f906068782986c84d222d2896760fbab3de9d267a3b1f6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\make_B_trained_gradcam.py": "71461bbf298f2b1b6fbc71bba5d058b2fc093a3237c51dadfbddccc0693714da",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\benchmark_label_variants_cpu.py": "d359f637088212f8730f89461881a82589e8ab3ac013ddbec437c42586d79269",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\audit_merged_cam_preflight.py": "cf6c2136a575446a8d86cbfe3b6a33e732c4203e2e515abc60b462691e540122",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\crops_test.json": "7b254510f46eeb89b34e1c023a0b6b6a996f0a46447e936b257dcd10145cd291",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\trained_gradcam\\metadata.json": "3d2367694ef50927f4291b9a17119b23fdbf93abc240abdb73c29d10719ed95c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\crops_test.json": "393ea42209557eac8b40cbf8961bc01c1ba8b578e818fd3ebfc993dd777eca4b",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\crops_test.json": "351dea095057e072c8e606b3c983be895d1fa2859be679abd3361339c23f57a0",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\trained_gradcam\\metadata.json": "20fd31c0f492685d656bb04cf77c0b9ca99aac86cb868d9851bdb49a2d4723ae",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\crops_test.json": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583"
+  },
+  "fixed_selections_independently_recomputed": {
+    "A": [
+      {
+        "class": 0,
+        "image_id": "0051ed49-9c2c-4a60-ba33-0990ff531e9b",
+        "hand_index": 0,
+        "raw_label": "three",
+        "original_label": 0,
+        "previous_key": [
+          "0051ed49-9c2c-4a60-ba33-0990ff531e9b",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 1,
+        "image_id": "00366db8-9f6e-46fc-8e96-c3945136f81e",
+        "hand_index": 0,
+        "raw_label": "peace",
+        "original_label": 1,
+        "previous_key": [
+          "00366db8-9f6e-46fc-8e96-c3945136f81e",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 2,
+        "image_id": "00a2f936-93f3-46ca-b448-987c8f6f76b7",
+        "hand_index": 0,
+        "raw_label": "stop",
+        "original_label": 2,
+        "previous_key": [
+          "00a2f936-93f3-46ca-b448-987c8f6f76b7",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 3,
+        "image_id": "0076df79-2901-40c8-8db6-57bec455ba90",
+        "hand_index": 0,
+        "raw_label": "fist",
+        "original_label": 3,
+        "previous_key": [
+          "0076df79-2901-40c8-8db6-57bec455ba90",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 4,
+        "image_id": "013c87fa-c02a-4710-9744-4f0a304ba265",
+        "hand_index": 0,
+        "raw_label": "like",
+        "original_label": 4,
+        "previous_key": [
+          "013c87fa-c02a-4710-9744-4f0a304ba265",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 5,
+        "image_id": "05179bab-c39f-464c-8485-c66567219040",
+        "hand_index": 0,
+        "raw_label": "dislike",
+        "original_label": 5,
+        "previous_key": [
+          "05179bab-c39f-464c-8485-c66567219040",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      }
+    ],
+    "B": [
+      {
+        "class": 0,
+        "image_id": "00428258-9862-4a88-b772-b4c91be6d79e",
+        "hand_index": 1,
+        "raw_label": "no_gesture",
+        "original_label": 0,
+        "previous_key": [
+          "003e5a9c-d03a-4ff7-8ad6-645ce884af12",
+          0
+        ],
+        "selection": "old_identity_changed_semantics_first_immutable_key_legal_class",
+        "same_original_identity": false
+      },
+      {
+        "class": 1,
+        "image_id": "0094a989-be92-410d-b267-305271cc1904",
+        "hand_index": 0,
+        "raw_label": "peace_inverted",
+        "original_label": 1,
+        "previous_key": [
+          "0094a989-be92-410d-b267-305271cc1904",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 2,
+        "image_id": "00431c02-98d8-4155-a55b-03f161f331a2",
+        "hand_index": 0,
+        "raw_label": "stop_inverted",
+        "original_label": 2,
+        "previous_key": [
+          "00431c02-98d8-4155-a55b-03f161f331a2",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 3,
+        "image_id": "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+        "hand_index": 0,
+        "raw_label": "fist",
+        "original_label": 3,
+        "previous_key": [
+          "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 4,
+        "image_id": "017d2429-a037-42ed-9983-e59bdf70b195",
+        "hand_index": 0,
+        "raw_label": "like",
+        "original_label": 4,
+        "previous_key": [
+          "017d2429-a037-42ed-9983-e59bdf70b195",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      },
+      {
+        "class": 5,
+        "image_id": "0131a90f-29f1-45ec-96df-5c7b352f55b7",
+        "hand_index": 0,
+        "raw_label": "dislike",
+        "original_label": 5,
+        "previous_key": [
+          "0131a90f-29f1-45ec-96df-5c7b352f55b7",
+          0
+        ],
+        "selection": "reuse_original_fixed_sample_identity",
+        "same_original_identity": true
+      }
+    ]
+  },
+  "checks": {
+    "old_A_B_formula_AST_exact_equal_for_weight_native_upsample_minmax_overlay": true,
+    "four_last_residual_blocks_true_logit_gradients": true,
+    "ground_truth_target_fixed_wrong_predictions_kept": true,
+    "independent_per_sample_per_layer_minmax_constant_map_zero": true,
+    "old_CAM_image_bytes_never_relabelled_or_rewritten": true,
+    "new_class0_excludes_four_forward_raw_poses": true,
+    "sample_identity_prior_reused_or_first_legal_immutable_key_no_prediction_selection": true,
+    "source_GT_crop_and_detector_crop_scope_explicit": true,
+    "source_science_aggregate_six_reviews_full_SHA_gate_before_torch_import": true,
+    "real_speed_complete_and_review_data_SHA_bound": true,
+    "root_CPU_permit_identity_expiry_and_exact_sha_required": true,
+    "expired_permit_rejected_in_memory_without_creating_authorization_file": true,
+    "strict_local_new_ResNet18_checkpoint_load_and_actual_CPU_required_at_execution": true,
+    "output_only_new_protocol_resnet18_trained_gradcam_reject_existing": true,
+    "NPZ_RGB_input_logits_activation_gradient_weight_native_up_normalized_all_layers": true,
+    "frozen_oracle_probabilities_and_whole_prediction_attached_without_false_bitwise_claim": true,
+    "NPZ_PNG_materialized_in_buffers_and_exclusively_fsynced": true,
+    "metadata_payload_materialized_before_live_sources_and_exact7_output_SHA_recheck": true,
+    "permit_bytes_reread_SHA_and_current_expiry_checked_last_before_same_metadata_commit": true,
+    "completion_status_pending_independent_CAM_review": true
+  },
+  "resolved_findings": [
+    "协议明确固定真实类logit，删除与argmax目标相矛盾的措辞",
+    "metadata成功提交前精确核六NPZ及PNG集合与SHA",
+    "全部大hash之后紧邻提交重核同一许可字节及实时expiry"
+  ],
+  "issues": [],
+  "model_loaded": false,
+  "inference_or_backward_executed": false,
+  "new_CAM_generated": false,
+  "scientific_CAM_result_pass": false,
+  "limitations": [
+    "本预审不能替代真实CPU加载/前向反向或48组四层CAM数值独审。",
+    "A沿用旧六身份；B原0类身份因two_up_inverted变新1类而替换为固定首个合法0手，其余五行保留。",
+    "主图为人工GT手框分类解释，不是检测器CAM或检测裁图解释，不建立物理因果。",
+    "每map独立归一化，颜色深浅不能跨层/样本当绝对强度或性能。",
+    "未来必须逐层从原gradient/activation复算、核各格图像与原图手部位置和概率差异；仅生成metadata不代表独审PASS。"
+  ],
+  "execution_gate": "只有科学总独审、12CPU测速与真实独审、root当前有效许可均满足后，root才能安排实际--run-cpu。"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS_CPU_BENCHMARK_SOURCE_PREFLIGHT_WITH_LIMITATIONS",
+  "reviewed_at": "2026-11-03T00:12:40.393143+08:00",
+  "reviewer": "merged_independent_preflight",
+  "scope": "仅源码/协议/固定输入身份与依赖实际import预审；未运行测速，不是7200次结果或成品验收",
+  "bound_file_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\benchmark_label_variants_cpu.py": "d359f637088212f8730f89461881a82589e8ab3ac013ddbec437c42586d79269",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\LABEL_VARIANTS_CPU_PROTOCOL.md": "f3a76aa029bf323604081d3e1ac76b36dc1f671e6429eac58f6145f0378fe897",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\matched_cpu_benchmark.json": "23f8dd1e2b08ac7e9e2f4f1618534212a209f867410a54873663555a6e3fba68",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\review_merged_tool_preflights.py": "45afaaf7694acc029eadfa7f65a35ca93d12f55f8930791802421e1a7e37e446"
+  },
+  "dependency_actual_import": {
+    "psutil": "7.0.0",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "actual_import": true,
+    "models_constructed": false,
+    "weights_loaded": false,
+    "inference_executed": false
+  },
+  "incomplete_scientific_gate_test": {
+    "status": "BLOCKED_AS_REQUIRED",
+    "missing": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\all_training_evaluation_complete.json",
+    "no_torch_import_before_readiness": true
+  },
+  "checks": {
+    "AST_valid": true,
+    "default_help_only_no_models": true,
+    "before_any_model_load_complete_aggregate_and_six_real_reviews_required": true,
+    "real_aggregate_schema_and_empty_issues_six_unique_identities": true,
+    "all_review_bound_files_live_SHA_before_model_load_and_precommit": true,
+    "review_calibration_weights_and_selected_thresholds_consistent": true,
+    "same100_photo_and100_crop_keys_order_pixels_tensor_SHA_as_prior_reference": true,
+    "two_label_variants_recalculate_truth_metadata_no_accuracy_selection": true,
+    "12_models_strict_architecture_and_fulltail_cpu_load": true,
+    "same_protocol_detector_original_weight_identity": true,
+    "batch1_float32_8threads20warm3x100_all12models": true,
+    "72_blocks7200_calls_all_raw_times_and_workloads_retained": true,
+    "fixed_interleaved_reverse_rotate6_orders": true,
+    "original_whole_photo_function_and_preprocessed_classifier_scope": true,
+    "background_raw_counters_RSS_available_memory_recorded": true,
+    "minimum6GiB_available_before_all12_model_load": true,
+    "exclusive_attempt_no_silent_retry_or_best_round_selection": true,
+    "materialize_bytes_then_full_live_precommit_then_xb_fsync_same_bytes": true
+  },
+  "execution_gate": "仅在全部新模型训练与真实科学独审完成且root给独占CPU窗口后显式--run；当前门禁正确拒绝未完成状态。",
+  "result_exists_at_review": false,
+  "attempt_exists_at_review": false,
+  "issues": [],
+  "resolved_findings": [
+    "补充任何模型加载之前的真实completion+aggregate+六model_review身份门禁及提交前全SHA核验"
+  ],
+  "limitations": [
+    "A-val固定输入用于速度比较，不能用作十二模型泛化准确率。",
+    "模型各自冻结阈值带来检测框/接受手数量差异，不能把整图时延差直接归因于深度或标签语义。",
+    "三轮固定顺序只能部分控制漂移，背景负载为原始计数的估计，不能据此剔除慢轮。",
+    "资源约3GiB是协议预估，不是已测RSS；模型实际加载与推理必须留待正式窗口。",
+    "执行后还须独审72块、7200原始ms、模型/输入身份及所有汇总；本预审不替代结果独审。"
+  ]
+}

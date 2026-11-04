@@ -1,0 +1,145 @@
+{
+  "variant": "merged_peace_two_up_6class",
+  "selection": "first validation image_id per single six-class, multi-hand and four raw forward gestures; no prediction filtering",
+  "samples": [
+    {
+      "file": "examples/0.jpg",
+      "image_id": "0020a3db-82d8-47aa-8642-2715d4744db5",
+      "truth": 0,
+      "raw_labels": [
+        "call"
+      ],
+      "labels": [
+        0
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/1.jpg",
+      "image_id": "00101734-4032-4edd-beef-9e933bcbd68d",
+      "truth": 1,
+      "raw_labels": [
+        "two_up"
+      ],
+      "labels": [
+        1
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/2.jpg",
+      "image_id": "003f2700-fdf5-47c0-8f14-25f022d22d1d",
+      "truth": 2,
+      "raw_labels": [
+        "stop"
+      ],
+      "labels": [
+        2
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/3.jpg",
+      "image_id": "00f7aa40-a5fb-47b0-9274-70b1ea4a0ab3",
+      "truth": 3,
+      "raw_labels": [
+        "fist"
+      ],
+      "labels": [
+        3
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/4.jpg",
+      "image_id": "00209a6a-a779-4af7-9307-b2a598406f43",
+      "truth": 4,
+      "raw_labels": [
+        "like"
+      ],
+      "labels": [
+        4
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/5.jpg",
+      "image_id": "008789fa-d1c6-4034-8fd9-46050874c2d3",
+      "truth": 5,
+      "raw_labels": [
+        "dislike"
+      ],
+      "labels": [
+        5
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/multi.jpg",
+      "image_id": "0088c77f-2176-4f9d-a4a0-a1fd7d95e1e0",
+      "truth": 2,
+      "raw_labels": [
+        "no_gesture",
+        "stop_inverted"
+      ],
+      "labels": [
+        0,
+        2
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/peace.jpg",
+      "image_id": "01af3d9f-8f9f-45d3-98ba-d4c7160d78f0",
+      "truth": 1,
+      "raw_labels": [
+        "peace"
+      ],
+      "labels": [
+        1
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/peace_inverted.jpg",
+      "image_id": "03a72911-36b7-4417-8ed6-552cf493aebd",
+      "truth": 1,
+      "raw_labels": [
+        "peace_inverted"
+      ],
+      "labels": [
+        1
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/two_up.jpg",
+      "image_id": "00101734-4032-4edd-beef-9e933bcbd68d",
+      "truth": 1,
+      "raw_labels": [
+        "two_up"
+      ],
+      "labels": [
+        1
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/two_up_inverted.jpg",
+      "image_id": "006ef058-c8a8-41d5-9c44-cdb0cd47f0e4",
+      "truth": 1,
+      "raw_labels": [
+        "two_up_inverted"
+      ],
+      "labels": [
+        1
+      ],
+      "split": "val"
+    },
+    {
+      "file": "examples/empty.png",
+      "truth": 0,
+      "split": "synthetic"
+    }
+  ]
+}

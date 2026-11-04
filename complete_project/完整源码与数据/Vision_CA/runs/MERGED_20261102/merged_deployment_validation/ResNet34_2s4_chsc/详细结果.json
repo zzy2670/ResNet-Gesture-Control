@@ -1,0 +1,39 @@
+{
+  "architecture": "resnet34",
+  "input": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_2s4_chsc\\中文 空格路径\\ResNet34\\examples\\0.jpg",
+  "image_size": [
+    683,
+    384
+  ],
+  "device": "cpu",
+  "thresholds": {
+    "detector": 0.3,
+    "classifier": 0.3
+  },
+  "prediction": 0,
+  "command": "无有效动作指令",
+  "class_name": "其他或无有效指令",
+  "reason": "已接受的手势均属于其他类",
+  "hands": [
+    {
+      "bbox": [
+        360.6457214355469,
+        121.07125091552734,
+        389.2392272949219,
+        162.96408081054688
+      ],
+      "detector_score": 0.31401708722114563,
+      "label": 0,
+      "confidence": 0.5304521322250366,
+      "accepted": true,
+      "probabilities": [
+        0.5304521322250366,
+        0.15257276594638824,
+        0.04193513095378876,
+        0.026767104864120483,
+        0.09054732322692871,
+        0.1577255129814148
+      ]
+    }
+  ]
+}

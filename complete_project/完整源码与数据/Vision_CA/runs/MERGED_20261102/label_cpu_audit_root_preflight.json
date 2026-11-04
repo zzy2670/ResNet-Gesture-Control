@@ -1,0 +1,31 @@
+{
+  "status": "PASS_CPU_AUDIT_SOURCE_PREFLIGHT_WITH_LIMITATIONS",
+  "reviewer": "root_non_author",
+  "reviewed_at": "2026-11-03T00:53:23.634792+08:00",
+  "source_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\audit_label_variants_cpu.py": "988a4ce50d2921d46b29381d4c31fd09764028165a1d6ac1ddbf657f0a4e5033",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\LABEL_VARIANTS_CPU_AUDIT_PREPARATION.md": "a04169c64cac182fd2049f32d0985aff24dd9de461b9f4f27a5cc382581ea4ce"
+  },
+  "actual_pure_numeric_test": {
+    "n": 300,
+    "mean_ms": 150.5,
+    "p50_ms": 150.5,
+    "p95_ms": 285.05,
+    "sd_ms": 86.74675786448736
+  },
+  "invalid_cases_rejected": 4,
+  "ML_libraries_imported": false,
+  "checks": {
+    "actual_old_reference_schema_read": true,
+    "all_scientific_and_live_file_bindings_checked": true,
+    "72_blocks_and7200_raw_times_journal_exact_order_required": true,
+    "fixed100_input_identities_and_no_model_inference": true,
+    "independent_percentiles_mean_sample_sd": true,
+    "all_background_blocks_retained_and_recomputed": true,
+    "materialized_report_bytes_precommit_live_sha_then_exclusive_write": true
+  },
+  "limitations": [
+    "仅源码和纯函数执行前审核；尚无真实12模型测速结果，不代表数值实测PASS。",
+    "不证明Windows系统静默或外部计时可信性；不产生新准确率。"
+  ]
+}

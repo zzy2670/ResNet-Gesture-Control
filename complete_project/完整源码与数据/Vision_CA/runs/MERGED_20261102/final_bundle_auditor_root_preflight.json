@@ -1,0 +1,25 @@
+{
+  "status": "PASS_FINAL_ARCHIVE_AUDITOR_SOURCE_PREFLIGHT_WITH_LIMITATIONS",
+  "reviewer": "root_non_author",
+  "reviewed_at": "2026-11-03T01:33:19.954574+08:00",
+  "source_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\audit_final_label_bundle.py": "a5cdb4d1a310b454290af6ffb89f22adc9f1936b3ed46743f9337b5ec385702e",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\FINAL_LABEL_BUNDLE_AUDIT_PROTOCOL.md": "82fe33fa68e649e778856416613c31ad69dac70f0a9dbcfb686a222748349344"
+  },
+  "checks": {
+    "actual_old_A_schema_and_required_figure_paths_checked": true,
+    "full_outer_member_SHA_CRC_and_nested12_zip_bytes_read_by_actual_run": true,
+    "scientific_and_formal_reviews_bound_to_archive_member_bytes": true,
+    "source_readme_alias_and12_variant_protocol_arch_identity_checked": true,
+    "all_MD_and_Word_links_classified_entry_vs_archival": true,
+    "OPC_rooted_package_paths_not_host_absolute_paths": true,
+    "OPC_escape_rejected_and_external_host_paths_not_relaxed": true,
+    "actual_pure_path_and_markdown_tests": 6,
+    "ML_imported": false
+  },
+  "limitations": [
+    "仅执行前源码审阅和纯函数小例；最终大ZIP尚未生成，不表示实际封包或全成员验收通过。",
+    "历史来源中的绝对链接单列限制；不将其虚报为已迁移可用。",
+    "未来沿用已实际离线验证且SHA一致的12程序记录，不重复12模型推理。"
+  ]
+}

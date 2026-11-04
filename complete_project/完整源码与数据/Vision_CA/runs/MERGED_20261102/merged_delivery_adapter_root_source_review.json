@@ -1,0 +1,26 @@
+{
+  "status": "PASS_ADAPTER_SOURCE_PREFLIGHT_WITH_LIMITATIONS",
+  "reviewer": "root_non_author_source_review",
+  "reviewed_at": "2026-11-03T00:38:49.360191+08:00",
+  "source_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\audit_merged_gesture_delivery.py": "fea876d7a6969e119971c30d1073eef222ed6e3b561c0df9b39db56ad83151e0",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\MERGED_DELIVERY_VALIDATION_PROTOCOL.md": "ac157445fe4f4062f8f549c762d5279f6933b94795461bee86bc0e52b4341e5f"
+  },
+  "checks": {
+    "A_real_schema_without_top_level_identity_verified": true,
+    "B_real_schema_with_nonempty_identity_verified": true,
+    "original_review_manifest_code_config_and_prior_zip_digest_anchored": true,
+    "future_combine_rehashes_all_bound_files_and_checks_directory_zip_content": true,
+    "CPU_readiness_precedes_model_import": true,
+    "success_only_cleanup_scoped_to_two_new_extracted_regular_nlink1_files": true,
+    "resolved_containment_no_symlink_no_junction_and_immediate_hash_before_unlink": true,
+    "original_package_and_zip_reverified_before_cleanup": true,
+    "failure_logs_and_cli_transcripts_retained": true
+  },
+  "executed": "--check-legacy-schema: PASS_ACTUAL_LEGACY_SCHEMA_ONLY, A3/B3; no weights/ZIP bodies read, no models loaded.",
+  "limitations": [
+    "这是执行前源码审核，不代表72例真实CPU接口比较或12ZIP最终通过。",
+    "未来只清可重解压的临时权重副本；原始模型、数据、程序、ZIP和训练失败证据不清理。",
+    "真实CPU窗口需六模型完整结果及12CPU独审先通过。"
+  ]
+}

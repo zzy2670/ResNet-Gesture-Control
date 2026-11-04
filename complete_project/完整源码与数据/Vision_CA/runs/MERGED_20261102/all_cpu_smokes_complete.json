@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-11-02T23:53:27.928329+08:00",
+  "source_sha256": {
+    "run_merged_pipeline.py": "0a5266c4673a733c1c8b08d49313332d29d2615174f649fad657b127253f7f4d",
+    "run_merged_training.py": "5e10536bfb801db20f1e1467d372202cf5a0bf5c580e8f06ded2d02611923a92",
+    "train_A.py": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+    "prepare_merged_labels.py": "d341b809862fb9d60c7aff41dd951b00344b2d9d0e0d7115a0ce4683aa5cf2e4",
+    "runs/MERGED_20261102/MERGED_PROTOCOL.md": "7e6f6d882c7c4e61cb3c7263b625a5ed1df3dce0ca4091042f4c1d6588469358"
+  },
+  "CPU_benchmark_pending": true,
+  "independent_review_pending": true
+}

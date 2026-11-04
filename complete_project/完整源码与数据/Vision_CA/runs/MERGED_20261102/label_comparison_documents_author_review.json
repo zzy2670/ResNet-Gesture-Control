@@ -1,0 +1,80 @@
+{
+  "status": "AUTHOR_VISUAL_PASS_AWAITING_INDEPENDENT_REVIEW",
+  "facts_sha256": "4b41152c8b40a912c772ba027d67ad9ed56b3828f5f535329b2986b536617931",
+  "documents": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v12.docx",
+      "sha256": "f9f136d40aac91325732a31bd3586409be9a5c9de989805fc30a706c0443d5bb",
+      "pages": 37,
+      "render_summary": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\project_plan_v12_final_render\\render_summary.json"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并与不合并完整交接_20261103\\交接说明.docx",
+      "sha256": "87d35dac652b5d0bafc460818c3dadc36e637479e2ac23d75633d701efabbb23",
+      "pages": 9,
+      "render_summary": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\handover_label_comparison_render_final\\render_summary.json"
+    }
+  ],
+  "all_pages_viewed": 46,
+  "plan_preservation": {
+    "old_images": 27,
+    "new_images": 29,
+    "all_original_image_bytes_and_multiplicities": true,
+    "old_tables": 8,
+    "new_tables": 15,
+    "all_original_table_cells": true
+  },
+  "handover_eight_chapters": true,
+  "logical_links": [
+    {
+      "source": "README.md",
+      "target": "交接说明.md",
+      "logical_member": true
+    },
+    {
+      "source": "README.md",
+      "target": "交接说明.docx",
+      "logical_member": true
+    },
+    {
+      "source": "README.md",
+      "target": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "logical_member": true
+    },
+    {
+      "source": "README.md",
+      "target": "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "logical_member": true
+    },
+    {
+      "source": "README.md",
+      "target": "完整源码与数据/Vision_CA/README.md",
+      "logical_member": true
+    },
+    {
+      "source": "交接说明.md",
+      "target": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v3.docx",
+      "logical_member": true
+    },
+    {
+      "source": "交接说明.md",
+      "target": "历史与正式文档/基于ResNet18的手势识别项目方案_v12.docx",
+      "logical_member": true
+    },
+    {
+      "source": "交接说明.md",
+      "target": "历史与正式文档/手势合并与数字编码.docx",
+      "logical_member": true
+    },
+    {
+      "source": "交接说明.md",
+      "target": "完整源码与数据/Vision_CA/README.md",
+      "logical_member": true
+    }
+  ],
+  "layout_notes": [
+    "原教学结构图及参考矩阵保留原尺寸/独立页阅读节奏，部分页下方留白；无裁切或孤标题。",
+    "交接首轮LO并表导致错误重复表头，已只在新生成器加入相邻表空段；最终第3→4页按十二结果表自身表头重复。"
+  ],
+  "old_formal_files_overwritten": false
+}

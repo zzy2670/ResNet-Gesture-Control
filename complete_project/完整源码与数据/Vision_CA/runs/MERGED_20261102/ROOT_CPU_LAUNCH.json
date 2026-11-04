@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-03T01:35:30.176472+08:00",
+  "exec_session_id": 39626,
+  "process": {
+    "pid": 39600,
+    "process_create_time": 1793640883.8651595
+  },
+  "script_sha256": "d359f637088212f8730f89461881a82589e8ab3ac013ddbec437c42586d79269",
+  "aggregate_review_sha256": "e433fbfd18ac3cd28a6c3e22f7f7e7f5b728347976267a3c5e8789b5571da5af",
+  "scope": "唯一十二模型同输入CPU测速；模型加载及哈希不计时；无其他本任务重CPU工作并行。"
+}

@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\run_offline.py",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\中文 空格路径\\ResNet34\\predict.py",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\中文 空格路径\\ResNet34\\examples\\0.jpg",
+    "--device",
+    "cpu",
+    "--threads",
+    "8",
+    "--json",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\详细结果.json"
+  ],
+  "cwd": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet34_k4swzak0\\另一个 中文工作目录",
+  "returncode": 0,
+  "stdout": "0\n",
+  "stderr": ""
+}

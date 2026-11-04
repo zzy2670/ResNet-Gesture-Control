@@ -1,0 +1,7 @@
+{
+  "pid": 27144,
+  "process_create_time": 1793634969.823619,
+  "started_at": "2026-11-02T23:56:09.829284+08:00",
+  "preflight_status": "PASS_PREFLIGHT",
+  "purpose": "merged_labels_six_classifiers_real_training_no_new_TPE_no_detector_retraining"
+}

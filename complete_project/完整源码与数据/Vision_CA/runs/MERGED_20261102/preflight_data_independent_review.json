@@ -1,0 +1,1643 @@
+{
+  "status": "PASS_DATA_PREFLIGHT",
+  "reviewed_at": "2026-11-02T23:51:32.172045+08:00",
+  "reviewer": "merged_independent_preflight",
+  "gpu_used": false,
+  "scope": "独立全量索引/冻结特征/标签/照片命令核验，非训练结果验收",
+  "protocols": {
+    "A": {
+      "splits": {
+        "train": {
+          "manifest_sha256": "f6c8df1447c4e4dbd73717d81ba1302ea3527f0f3081aab0a526e6f96b5e8f43",
+          "photos": 25468,
+          "hands": 31095,
+          "users": 6999,
+          "changed_hands": 2896,
+          "changed_photo_commands": 2896,
+          "raw": {
+            "call": {
+              "hands": 1411,
+              "photos": 1411,
+              "users": 972
+            },
+            "dislike": {
+              "hands": 1427,
+              "photos": 1427,
+              "users": 1046
+            },
+            "fist": {
+              "hands": 1388,
+              "photos": 1388,
+              "users": 1043
+            },
+            "four": {
+              "hands": 1444,
+              "photos": 1444,
+              "users": 993
+            },
+            "like": {
+              "hands": 1386,
+              "photos": 1386,
+              "users": 1031
+            },
+            "mute": {
+              "hands": 1449,
+              "photos": 1449,
+              "users": 1080
+            },
+            "no_gesture": {
+              "hands": 5627,
+              "photos": 5627,
+              "users": 1938
+            },
+            "ok": {
+              "hands": 1400,
+              "photos": 1400,
+              "users": 1024
+            },
+            "one": {
+              "hands": 1422,
+              "photos": 1422,
+              "users": 989
+            },
+            "palm": {
+              "hands": 1416,
+              "photos": 1416,
+              "users": 1028
+            },
+            "peace": {
+              "hands": 1415,
+              "photos": 1415,
+              "users": 1093
+            },
+            "peace_inverted": {
+              "hands": 1394,
+              "photos": 1394,
+              "users": 932
+            },
+            "rock": {
+              "hands": 1389,
+              "photos": 1389,
+              "users": 946
+            },
+            "stop": {
+              "hands": 1398,
+              "photos": 1398,
+              "users": 1033
+            },
+            "stop_inverted": {
+              "hands": 1443,
+              "photos": 1443,
+              "users": 1022
+            },
+            "three": {
+              "hands": 1401,
+              "photos": 1401,
+              "users": 992
+            },
+            "three2": {
+              "hands": 1389,
+              "photos": 1389,
+              "users": 927
+            },
+            "two_up": {
+              "hands": 1484,
+              "photos": 1484,
+              "users": 1078
+            },
+            "two_up_inverted": {
+              "hands": 1412,
+              "photos": 1412,
+              "users": 999
+            }
+          },
+          "old_six_class": {
+            "0": {
+              "hands": 19828,
+              "photos": 16671,
+              "users": 5207
+            },
+            "1": {
+              "hands": 2809,
+              "photos": 2809,
+              "users": 1820
+            },
+            "2": {
+              "hands": 4257,
+              "photos": 4257,
+              "users": 2307
+            },
+            "3": {
+              "hands": 1388,
+              "photos": 1388,
+              "users": 1043
+            },
+            "4": {
+              "hands": 1386,
+              "photos": 1386,
+              "users": 1031
+            },
+            "5": {
+              "hands": 1427,
+              "photos": 1427,
+              "users": 1046
+            }
+          },
+          "new_six_class": {
+            "0": {
+              "hands": 16932,
+              "photos": 14387,
+              "users": 4694
+            },
+            "1": {
+              "hands": 5705,
+              "photos": 5705,
+              "users": 2810
+            },
+            "2": {
+              "hands": 4257,
+              "photos": 4257,
+              "users": 2307
+            },
+            "3": {
+              "hands": 1388,
+              "photos": 1388,
+              "users": 1043
+            },
+            "4": {
+              "hands": 1386,
+              "photos": 1386,
+              "users": 1031
+            },
+            "5": {
+              "hands": 1427,
+              "photos": 1427,
+              "users": 1046
+            }
+          },
+          "old_photo_commands": {
+            "0": 14201,
+            "5": 1427,
+            "3": 1388,
+            "4": 1386,
+            "2": 4257,
+            "1": 2809
+          },
+          "new_photo_commands": {
+            "0": 11305,
+            "5": 1427,
+            "3": 1388,
+            "4": 1386,
+            "2": 4257,
+            "1": 5705
+          },
+          "raw_photo_folder_classes": {
+            "call": 1411,
+            "dislike": 1427,
+            "fist": 1388,
+            "four": 1444,
+            "like": 1386,
+            "mute": 1449,
+            "ok": 1400,
+            "one": 1422,
+            "palm": 1416,
+            "peace": 1415,
+            "peace_inverted": 1394,
+            "rock": 1389,
+            "stop": 1398,
+            "stop_inverted": 1443,
+            "three": 1401,
+            "three2": 1389,
+            "two_up": 1484,
+            "two_up_inverted": 1412
+          }
+        },
+        "val": {
+          "manifest_sha256": "1708ff8c88e7ad15f6e8b40352573a68828c28ddf9cdc1552856f2cab6ba3bc7",
+          "photos": 3185,
+          "hands": 3872,
+          "users": 1876,
+          "changed_hands": 363,
+          "changed_photo_commands": 363,
+          "raw": {
+            "call": {
+              "hands": 176,
+              "photos": 176,
+              "users": 168
+            },
+            "dislike": {
+              "hands": 178,
+              "photos": 178,
+              "users": 172
+            },
+            "fist": {
+              "hands": 173,
+              "photos": 173,
+              "users": 168
+            },
+            "four": {
+              "hands": 181,
+              "photos": 181,
+              "users": 167
+            },
+            "like": {
+              "hands": 173,
+              "photos": 173,
+              "users": 166
+            },
+            "mute": {
+              "hands": 181,
+              "photos": 181,
+              "users": 169
+            },
+            "no_gesture": {
+              "hands": 688,
+              "photos": 688,
+              "users": 453
+            },
+            "ok": {
+              "hands": 175,
+              "photos": 175,
+              "users": 165
+            },
+            "one": {
+              "hands": 178,
+              "photos": 178,
+              "users": 172
+            },
+            "palm": {
+              "hands": 177,
+              "photos": 177,
+              "users": 165
+            },
+            "peace": {
+              "hands": 177,
+              "photos": 177,
+              "users": 169
+            },
+            "peace_inverted": {
+              "hands": 174,
+              "photos": 174,
+              "users": 160
+            },
+            "rock": {
+              "hands": 174,
+              "photos": 174,
+              "users": 166
+            },
+            "stop": {
+              "hands": 175,
+              "photos": 175,
+              "users": 167
+            },
+            "stop_inverted": {
+              "hands": 180,
+              "photos": 180,
+              "users": 174
+            },
+            "three": {
+              "hands": 175,
+              "photos": 175,
+              "users": 165
+            },
+            "three2": {
+              "hands": 174,
+              "photos": 174,
+              "users": 165
+            },
+            "two_up": {
+              "hands": 186,
+              "photos": 186,
+              "users": 175
+            },
+            "two_up_inverted": {
+              "hands": 177,
+              "photos": 177,
+              "users": 169
+            }
+          },
+          "old_six_class": {
+            "0": {
+              "hands": 2465,
+              "photos": 2092,
+              "users": 1356
+            },
+            "1": {
+              "hands": 351,
+              "photos": 351,
+              "users": 315
+            },
+            "2": {
+              "hands": 532,
+              "photos": 532,
+              "users": 463
+            },
+            "3": {
+              "hands": 173,
+              "photos": 173,
+              "users": 168
+            },
+            "4": {
+              "hands": 173,
+              "photos": 173,
+              "users": 166
+            },
+            "5": {
+              "hands": 178,
+              "photos": 178,
+              "users": 172
+            }
+          },
+          "new_six_class": {
+            "0": {
+              "hands": 2102,
+              "photos": 1802,
+              "users": 1199
+            },
+            "1": {
+              "hands": 714,
+              "photos": 714,
+              "users": 590
+            },
+            "2": {
+              "hands": 532,
+              "photos": 532,
+              "users": 463
+            },
+            "3": {
+              "hands": 173,
+              "photos": 173,
+              "users": 168
+            },
+            "4": {
+              "hands": 173,
+              "photos": 173,
+              "users": 166
+            },
+            "5": {
+              "hands": 178,
+              "photos": 178,
+              "users": 172
+            }
+          },
+          "old_photo_commands": {
+            "0": 1778,
+            "5": 178,
+            "3": 173,
+            "4": 173,
+            "2": 532,
+            "1": 351
+          },
+          "new_photo_commands": {
+            "0": 1415,
+            "5": 178,
+            "3": 173,
+            "4": 173,
+            "2": 532,
+            "1": 714
+          },
+          "raw_photo_folder_classes": {
+            "call": 176,
+            "dislike": 178,
+            "fist": 174,
+            "four": 181,
+            "like": 173,
+            "mute": 181,
+            "ok": 175,
+            "one": 178,
+            "palm": 177,
+            "peace": 177,
+            "peace_inverted": 174,
+            "rock": 174,
+            "stop": 175,
+            "stop_inverted": 180,
+            "three": 175,
+            "three2": 174,
+            "two_up": 186,
+            "two_up_inverted": 177
+          }
+        },
+        "test": {
+          "manifest_sha256": "e7fb855f1d3872cc3cd01fb06918320c133835fcca639aa15d241e82b7f58081",
+          "photos": 3180,
+          "hands": 3917,
+          "users": 1931,
+          "changed_hands": 361,
+          "changed_photo_commands": 361,
+          "raw": {
+            "call": {
+              "hands": 176,
+              "photos": 176,
+              "users": 168
+            },
+            "dislike": {
+              "hands": 178,
+              "photos": 178,
+              "users": 170
+            },
+            "fist": {
+              "hands": 173,
+              "photos": 173,
+              "users": 168
+            },
+            "four": {
+              "hands": 180,
+              "photos": 180,
+              "users": 171
+            },
+            "like": {
+              "hands": 173,
+              "photos": 173,
+              "users": 169
+            },
+            "mute": {
+              "hands": 181,
+              "photos": 181,
+              "users": 172
+            },
+            "no_gesture": {
+              "hands": 737,
+              "photos": 737,
+              "users": 505
+            },
+            "ok": {
+              "hands": 175,
+              "photos": 175,
+              "users": 171
+            },
+            "one": {
+              "hands": 178,
+              "photos": 178,
+              "users": 167
+            },
+            "palm": {
+              "hands": 177,
+              "photos": 177,
+              "users": 169
+            },
+            "peace": {
+              "hands": 177,
+              "photos": 177,
+              "users": 163
+            },
+            "peace_inverted": {
+              "hands": 174,
+              "photos": 174,
+              "users": 161
+            },
+            "rock": {
+              "hands": 173,
+              "photos": 173,
+              "users": 163
+            },
+            "stop": {
+              "hands": 175,
+              "photos": 175,
+              "users": 166
+            },
+            "stop_inverted": {
+              "hands": 180,
+              "photos": 180,
+              "users": 174
+            },
+            "three": {
+              "hands": 175,
+              "photos": 175,
+              "users": 164
+            },
+            "three2": {
+              "hands": 174,
+              "photos": 174,
+              "users": 166
+            },
+            "two_up": {
+              "hands": 185,
+              "photos": 185,
+              "users": 176
+            },
+            "two_up_inverted": {
+              "hands": 176,
+              "photos": 176,
+              "users": 171
+            }
+          },
+          "old_six_class": {
+            "0": {
+              "hands": 2510,
+              "photos": 2092,
+              "users": 1395
+            },
+            "1": {
+              "hands": 351,
+              "photos": 351,
+              "users": 312
+            },
+            "2": {
+              "hands": 532,
+              "photos": 532,
+              "users": 470
+            },
+            "3": {
+              "hands": 173,
+              "photos": 173,
+              "users": 168
+            },
+            "4": {
+              "hands": 173,
+              "photos": 173,
+              "users": 169
+            },
+            "5": {
+              "hands": 178,
+              "photos": 178,
+              "users": 170
+            }
+          },
+          "new_six_class": {
+            "0": {
+              "hands": 2149,
+              "photos": 1816,
+              "users": 1237
+            },
+            "1": {
+              "hands": 712,
+              "photos": 712,
+              "users": 600
+            },
+            "2": {
+              "hands": 532,
+              "photos": 532,
+              "users": 470
+            },
+            "3": {
+              "hands": 173,
+              "photos": 173,
+              "users": 168
+            },
+            "4": {
+              "hands": 173,
+              "photos": 173,
+              "users": 169
+            },
+            "5": {
+              "hands": 178,
+              "photos": 178,
+              "users": 170
+            }
+          },
+          "old_photo_commands": {
+            "0": 1773,
+            "5": 178,
+            "3": 173,
+            "4": 173,
+            "2": 532,
+            "1": 351
+          },
+          "new_photo_commands": {
+            "0": 1412,
+            "5": 178,
+            "3": 173,
+            "4": 173,
+            "2": 532,
+            "1": 712
+          },
+          "raw_photo_folder_classes": {
+            "call": 176,
+            "dislike": 178,
+            "fist": 173,
+            "four": 180,
+            "like": 173,
+            "mute": 181,
+            "ok": 175,
+            "one": 178,
+            "palm": 177,
+            "peace": 177,
+            "peace_inverted": 174,
+            "rock": 173,
+            "stop": 175,
+            "stop_inverted": 180,
+            "three": 175,
+            "three2": 174,
+            "two_up": 185,
+            "two_up_inverted": 176
+          }
+        }
+      },
+      "models": {
+        "resnet18": {
+          "source_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE",
+          "features": {
+            "train": {
+              "shape": [
+                31095,
+                512
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "d2823ea60e3b6b37ab219d6228481e5e6291a0635c048d4a8b9c8c2f9877fe0a",
+              "new_sha256": "da95dfc5bd3beb6d19e202f2cbfb70dddb5cc372af5c31abb0beab135b03deaa"
+            },
+            "val": {
+              "shape": [
+                3872,
+                512
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "f2d194cecd8154df3d8c63b5079cd2e5a4347c73f911084e4af45419fdecda43",
+              "new_sha256": "e1cc595874ce99026cf415c5503f25d3d847523753fdf85d9ee7004e88752ed6"
+            }
+          },
+          "all_nonlabel_fields_preserved": true,
+          "new_training_or_test_absent": true
+        },
+        "resnet34": {
+          "source_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\compare_resnet34",
+          "features": {
+            "train": {
+              "shape": [
+                31095,
+                512
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "87c67e303e3f57713abaf95f8392510eb87fddd9ff66827bb14ccaf4faa73e87",
+              "new_sha256": "239a8bf8c65acef6fd497fe6957d182f0ea6ec2ca54d6cdcd45798e5c07ec20f"
+            },
+            "val": {
+              "shape": [
+                3872,
+                512
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "5517d9f4ea3ce8585f4361414eaea47b29f01518fd372572d35989c28e66d317",
+              "new_sha256": "9a563fced67eb6af34f2f6461ab890a88d45dec769312db1c4db2cf662598cf4"
+            }
+          },
+          "all_nonlabel_fields_preserved": true,
+          "new_training_or_test_absent": true
+        },
+        "resnet50": {
+          "source_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\compare_resnet50",
+          "features": {
+            "train": {
+              "shape": [
+                31095,
+                2048
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "2915ac4d67bb64de917bd95b20da6f2f8a87bdde44ec2695d8f442c9535e4248",
+              "new_sha256": "a11baff713427a32c256cccf08f066794c2838ad52e56cf6c040bf0ee046ddb5"
+            },
+            "val": {
+              "shape": [
+                3872,
+                2048
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "6626a867cf7ae4f9054140d57ac617f0e7e59708dac20d1f78be3576adfe7ca3",
+              "new_sha256": "058ade4b47c136469813b9043597cd3f9b97490817be3246c847fda24ef9ba29"
+            }
+          },
+          "all_nonlabel_fields_preserved": true,
+          "new_training_or_test_absent": true
+        }
+      },
+      "overlaps": {
+        "train_val": {
+          "photo_ids": 0,
+          "users": 1394
+        },
+        "train_test": {
+          "photo_ids": 0,
+          "users": 1410
+        },
+        "val_test": {
+          "photo_ids": 0,
+          "users": 792
+        }
+      }
+    },
+    "B": {
+      "splits": {
+        "train": {
+          "manifest_sha256": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+          "photos": 25274,
+          "hands": 30799,
+          "users": 6379,
+          "changed_hands": 2918,
+          "changed_photo_commands": 2918,
+          "raw": {
+            "call": {
+              "hands": 1398,
+              "photos": 1398,
+              "users": 908
+            },
+            "dislike": {
+              "hands": 1409,
+              "photos": 1409,
+              "users": 974
+            },
+            "fist": {
+              "hands": 1366,
+              "photos": 1366,
+              "users": 998
+            },
+            "four": {
+              "hands": 1438,
+              "photos": 1438,
+              "users": 932
+            },
+            "like": {
+              "hands": 1388,
+              "photos": 1388,
+              "users": 987
+            },
+            "mute": {
+              "hands": 1411,
+              "photos": 1411,
+              "users": 1007
+            },
+            "no_gesture": {
+              "hands": 5526,
+              "photos": 5526,
+              "users": 1787
+            },
+            "ok": {
+              "hands": 1354,
+              "photos": 1354,
+              "users": 948
+            },
+            "one": {
+              "hands": 1423,
+              "photos": 1423,
+              "users": 947
+            },
+            "palm": {
+              "hands": 1412,
+              "photos": 1412,
+              "users": 978
+            },
+            "peace": {
+              "hands": 1405,
+              "photos": 1405,
+              "users": 1030
+            },
+            "peace_inverted": {
+              "hands": 1401,
+              "photos": 1401,
+              "users": 868
+            },
+            "rock": {
+              "hands": 1385,
+              "photos": 1385,
+              "users": 914
+            },
+            "stop": {
+              "hands": 1359,
+              "photos": 1359,
+              "users": 957
+            },
+            "stop_inverted": {
+              "hands": 1409,
+              "photos": 1409,
+              "users": 929
+            },
+            "three": {
+              "hands": 1383,
+              "photos": 1383,
+              "users": 911
+            },
+            "three2": {
+              "hands": 1414,
+              "photos": 1414,
+              "users": 863
+            },
+            "two_up": {
+              "hands": 1488,
+              "photos": 1488,
+              "users": 1036
+            },
+            "two_up_inverted": {
+              "hands": 1430,
+              "photos": 1430,
+              "users": 963
+            }
+          },
+          "old_six_class": {
+            "0": {
+              "hands": 19650,
+              "photos": 16538,
+              "users": 4761
+            },
+            "1": {
+              "hands": 2806,
+              "photos": 2806,
+              "users": 1691
+            },
+            "2": {
+              "hands": 4180,
+              "photos": 4180,
+              "users": 2099
+            },
+            "3": {
+              "hands": 1366,
+              "photos": 1366,
+              "users": 998
+            },
+            "4": {
+              "hands": 1388,
+              "photos": 1388,
+              "users": 987
+            },
+            "5": {
+              "hands": 1409,
+              "photos": 1409,
+              "users": 974
+            }
+          },
+          "new_six_class": {
+            "0": {
+              "hands": 16732,
+              "photos": 14242,
+              "users": 4290
+            },
+            "1": {
+              "hands": 5724,
+              "photos": 5724,
+              "users": 2589
+            },
+            "2": {
+              "hands": 4180,
+              "photos": 4180,
+              "users": 2099
+            },
+            "3": {
+              "hands": 1366,
+              "photos": 1366,
+              "users": 998
+            },
+            "4": {
+              "hands": 1388,
+              "photos": 1388,
+              "users": 987
+            },
+            "5": {
+              "hands": 1409,
+              "photos": 1409,
+              "users": 974
+            }
+          },
+          "old_photo_commands": {
+            "0": 14125,
+            "5": 1409,
+            "3": 1366,
+            "4": 1388,
+            "2": 4180,
+            "1": 2806
+          },
+          "new_photo_commands": {
+            "0": 11207,
+            "5": 1409,
+            "3": 1366,
+            "4": 1388,
+            "2": 4180,
+            "1": 5724
+          },
+          "raw_photo_folder_classes": {
+            "call": 1398,
+            "dislike": 1409,
+            "fist": 1367,
+            "four": 1438,
+            "like": 1388,
+            "mute": 1411,
+            "ok": 1354,
+            "one": 1423,
+            "palm": 1412,
+            "peace": 1405,
+            "peace_inverted": 1401,
+            "rock": 1385,
+            "stop": 1359,
+            "stop_inverted": 1409,
+            "three": 1383,
+            "three2": 1414,
+            "two_up": 1488,
+            "two_up_inverted": 1430
+          }
+        },
+        "val": {
+          "manifest_sha256": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+          "photos": 3457,
+          "hands": 4326,
+          "users": 797,
+          "changed_hands": 366,
+          "changed_photo_commands": 366,
+          "raw": {
+            "call": {
+              "hands": 184,
+              "photos": 184,
+              "users": 111
+            },
+            "dislike": {
+              "hands": 200,
+              "photos": 200,
+              "users": 128
+            },
+            "fist": {
+              "hands": 195,
+              "photos": 195,
+              "users": 135
+            },
+            "four": {
+              "hands": 194,
+              "photos": 194,
+              "users": 120
+            },
+            "like": {
+              "hands": 185,
+              "photos": 185,
+              "users": 123
+            },
+            "mute": {
+              "hands": 205,
+              "photos": 205,
+              "users": 147
+            },
+            "no_gesture": {
+              "hands": 869,
+              "photos": 869,
+              "users": 245
+            },
+            "ok": {
+              "hands": 217,
+              "photos": 217,
+              "users": 139
+            },
+            "one": {
+              "hands": 204,
+              "photos": 204,
+              "users": 123
+            },
+            "palm": {
+              "hands": 178,
+              "photos": 178,
+              "users": 114
+            },
+            "peace": {
+              "hands": 180,
+              "photos": 180,
+              "users": 124
+            },
+            "peace_inverted": {
+              "hands": 171,
+              "photos": 171,
+              "users": 103
+            },
+            "rock": {
+              "hands": 196,
+              "photos": 196,
+              "users": 111
+            },
+            "stop": {
+              "hands": 217,
+              "photos": 217,
+              "users": 151
+            },
+            "stop_inverted": {
+              "hands": 199,
+              "photos": 199,
+              "users": 135
+            },
+            "three": {
+              "hands": 207,
+              "photos": 207,
+              "users": 125
+            },
+            "three2": {
+              "hands": 159,
+              "photos": 159,
+              "users": 108
+            },
+            "two_up": {
+              "hands": 192,
+              "photos": 192,
+              "users": 129
+            },
+            "two_up_inverted": {
+              "hands": 174,
+              "photos": 174,
+              "users": 116
+            }
+          },
+          "old_six_class": {
+            "0": {
+              "hands": 2801,
+              "photos": 2321,
+              "users": 607
+            },
+            "1": {
+              "hands": 351,
+              "photos": 351,
+              "users": 203
+            },
+            "2": {
+              "hands": 594,
+              "photos": 594,
+              "users": 282
+            },
+            "3": {
+              "hands": 195,
+              "photos": 195,
+              "users": 135
+            },
+            "4": {
+              "hands": 185,
+              "photos": 185,
+              "users": 123
+            },
+            "5": {
+              "hands": 200,
+              "photos": 200,
+              "users": 128
+            }
+          },
+          "new_six_class": {
+            "0": {
+              "hands": 2435,
+              "photos": 2038,
+              "users": 550
+            },
+            "1": {
+              "hands": 717,
+              "photos": 717,
+              "users": 319
+            },
+            "2": {
+              "hands": 594,
+              "photos": 594,
+              "users": 282
+            },
+            "3": {
+              "hands": 195,
+              "photos": 195,
+              "users": 135
+            },
+            "4": {
+              "hands": 185,
+              "photos": 185,
+              "users": 123
+            },
+            "5": {
+              "hands": 200,
+              "photos": 200,
+              "users": 128
+            }
+          },
+          "old_photo_commands": {
+            "0": 1932,
+            "5": 200,
+            "3": 195,
+            "4": 185,
+            "2": 594,
+            "1": 351
+          },
+          "new_photo_commands": {
+            "0": 1566,
+            "5": 200,
+            "3": 195,
+            "4": 185,
+            "2": 594,
+            "1": 717
+          },
+          "raw_photo_folder_classes": {
+            "call": 184,
+            "dislike": 200,
+            "fist": 195,
+            "four": 194,
+            "like": 185,
+            "mute": 205,
+            "ok": 217,
+            "one": 204,
+            "palm": 178,
+            "peace": 180,
+            "peace_inverted": 171,
+            "rock": 196,
+            "stop": 217,
+            "stop_inverted": 199,
+            "three": 207,
+            "three2": 159,
+            "two_up": 192,
+            "two_up_inverted": 174
+          }
+        },
+        "test": {
+          "manifest_sha256": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+          "photos": 3102,
+          "hands": 3759,
+          "users": 797,
+          "changed_hands": 336,
+          "changed_photo_commands": 336,
+          "raw": {
+            "call": {
+              "hands": 181,
+              "photos": 181,
+              "users": 117
+            },
+            "dislike": {
+              "hands": 174,
+              "photos": 174,
+              "users": 127
+            },
+            "fist": {
+              "hands": 173,
+              "photos": 173,
+              "users": 116
+            },
+            "four": {
+              "hands": 173,
+              "photos": 173,
+              "users": 107
+            },
+            "like": {
+              "hands": 159,
+              "photos": 159,
+              "users": 111
+            },
+            "mute": {
+              "hands": 195,
+              "photos": 195,
+              "users": 132
+            },
+            "no_gesture": {
+              "hands": 657,
+              "photos": 657,
+              "users": 213
+            },
+            "ok": {
+              "hands": 179,
+              "photos": 179,
+              "users": 123
+            },
+            "one": {
+              "hands": 151,
+              "photos": 151,
+              "users": 104
+            },
+            "palm": {
+              "hands": 180,
+              "photos": 180,
+              "users": 124
+            },
+            "peace": {
+              "hands": 184,
+              "photos": 184,
+              "users": 130
+            },
+            "peace_inverted": {
+              "hands": 170,
+              "photos": 170,
+              "users": 105
+            },
+            "rock": {
+              "hands": 155,
+              "photos": 155,
+              "users": 102
+            },
+            "stop": {
+              "hands": 172,
+              "photos": 172,
+              "users": 129
+            },
+            "stop_inverted": {
+              "hands": 195,
+              "photos": 195,
+              "users": 134
+            },
+            "three": {
+              "hands": 161,
+              "photos": 161,
+              "users": 109
+            },
+            "three2": {
+              "hands": 164,
+              "photos": 164,
+              "users": 103
+            },
+            "two_up": {
+              "hands": 175,
+              "photos": 175,
+              "users": 113
+            },
+            "two_up_inverted": {
+              "hands": 161,
+              "photos": 161,
+              "users": 110
+            }
+          },
+          "old_six_class": {
+            "0": {
+              "hands": 2352,
+              "photos": 1996,
+              "users": 581
+            },
+            "1": {
+              "hands": 354,
+              "photos": 354,
+              "users": 209
+            },
+            "2": {
+              "hands": 547,
+              "photos": 547,
+              "users": 304
+            },
+            "3": {
+              "hands": 173,
+              "photos": 173,
+              "users": 116
+            },
+            "4": {
+              "hands": 159,
+              "photos": 159,
+              "users": 111
+            },
+            "5": {
+              "hands": 174,
+              "photos": 174,
+              "users": 127
+            }
+          },
+          "new_six_class": {
+            "0": {
+              "hands": 2016,
+              "photos": 1725,
+              "users": 524
+            },
+            "1": {
+              "hands": 690,
+              "photos": 690,
+              "users": 311
+            },
+            "2": {
+              "hands": 547,
+              "photos": 547,
+              "users": 304
+            },
+            "3": {
+              "hands": 173,
+              "photos": 173,
+              "users": 116
+            },
+            "4": {
+              "hands": 159,
+              "photos": 159,
+              "users": 111
+            },
+            "5": {
+              "hands": 174,
+              "photos": 174,
+              "users": 127
+            }
+          },
+          "old_photo_commands": {
+            "0": 1695,
+            "5": 174,
+            "3": 173,
+            "4": 159,
+            "2": 547,
+            "1": 354
+          },
+          "new_photo_commands": {
+            "0": 1359,
+            "5": 174,
+            "3": 173,
+            "4": 159,
+            "2": 547,
+            "1": 690
+          },
+          "raw_photo_folder_classes": {
+            "call": 181,
+            "dislike": 174,
+            "fist": 173,
+            "four": 173,
+            "like": 159,
+            "mute": 195,
+            "ok": 179,
+            "one": 151,
+            "palm": 180,
+            "peace": 184,
+            "peace_inverted": 170,
+            "rock": 155,
+            "stop": 172,
+            "stop_inverted": 195,
+            "three": 161,
+            "three2": 164,
+            "two_up": 175,
+            "two_up_inverted": 161
+          }
+        }
+      },
+      "models": {
+        "resnet18": {
+          "source_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE",
+          "features": {
+            "train": {
+              "shape": [
+                30799,
+                512
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "2b6e42589aa1a7304847af11acd653ef769e8e8c53da1585c769c31f257b6f54",
+              "new_sha256": "006e84bced77e31d78537c42b1016f9d88aa36dcdecbdefb75fe43c16e62ea9c"
+            },
+            "val": {
+              "shape": [
+                4326,
+                512
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "514faece53e2cd4115ce15b8a87ce501bba89aefa6afbeb7f76e3e66453b2945",
+              "new_sha256": "7b6647470a404d713df7a5712b9e7c42b36fc45512eeed6ffde728b7603fb08d"
+            }
+          },
+          "all_nonlabel_fields_preserved": true,
+          "new_training_or_test_absent": true
+        },
+        "resnet34": {
+          "source_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet34",
+          "features": {
+            "train": {
+              "shape": [
+                30799,
+                512
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "138334d37875d3683c1a35055758b8a295b1ba939624216e7bed4c7694d394e3",
+              "new_sha256": "e89af31f8ad97b9efe88e022a67ac6efc1e5b6e342b6c2b3bd94300fe4e6c239"
+            },
+            "val": {
+              "shape": [
+                4326,
+                512
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "b054ca7446b747bc6d149df4fa1c03ffbe6813777138c0a1e5939a8253ece2c9",
+              "new_sha256": "d60ff376304828aed4fe92e62dcc66a1c2ca7e93d5d99c1f0dc10adf25a66511"
+            }
+          },
+          "all_nonlabel_fields_preserved": true,
+          "new_training_or_test_absent": true
+        },
+        "resnet50": {
+          "source_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50",
+          "features": {
+            "train": {
+              "shape": [
+                30799,
+                2048
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "96427a3b1d3894f1c88dc4f800865a4aeccb2ace8d5f2beed8427ec3b8c6ab92",
+              "new_sha256": "f5222573b2c6fadecbe3988b02088886be624ead4a59037befce1c7ca57e7362"
+            },
+            "val": {
+              "shape": [
+                4326,
+                2048
+              ],
+              "all_x_elements_equal": true,
+              "old_and_new_y_match_indexes_in_order": true,
+              "source_sha256": "2602dc6292f6ed3bf03be1565f2a0ee4ff42dcfb8660ae59f2fa6c3e03e2c773",
+              "new_sha256": "236d905799517da41c6e0f7f04076864494c84d4f10be73b609562b414987463"
+            }
+          },
+          "all_nonlabel_fields_preserved": true,
+          "new_training_or_test_absent": true
+        }
+      },
+      "overlaps": {
+        "train_val": {
+          "photo_ids": 0,
+          "users": 0
+        },
+        "train_test": {
+          "photo_ids": 0,
+          "users": 0
+        },
+        "val_test": {
+          "photo_ids": 0,
+          "users": 0
+        }
+      }
+    }
+  },
+  "bound_file_sha256": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\audit_merged_preflight.py": "e372d737b81a641ee043e388c2f0ab443f771647b6e3366fef5fde3b7e3c448d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\preflight_independent_review.json": "d9a26ce14d3a150935c919a640f050b403e7c4d270932fee7c40ea7a74e39bf5",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\manifest.csv": "f6c8df1447c4e4dbd73717d81ba1302ea3527f0f3081aab0a526e6f96b5e8f43",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\call.json": "e63925f956ca2a2006a09768f49f8a34a2b447b09dca3b97e0a5e56227155664",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\dislike.json": "d8dafbe51ff4f0312a6bab417636b1fdef47009230953b71d0e3f5b288a4075a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\fist.json": "6d51cd023caee7e746a628e080d3b6d9cf07843910a9f879dfb374dd17318c54",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\four.json": "5e7952b7eeb2cf395cb904cf86ab9a7f527a77d022f7bff636313dff69714443",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\like.json": "a6d4491b33d7e235f717b2a0a14ff9fbbd982261b27521e3d4bfa5511b54e0ad",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\mute.json": "63ddf0324a87e3a6145997521367dce425e5dfcc9855b3d7b67859a59e46b83e",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\ok.json": "a98b5726534b10882bd6866f82c48529b7053c077bbf5727e1de9d9bb9616bd6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\one.json": "2f33b055f57ca74a9b39fc786ad36acb59f923feca0a38634c6a7c37647ef004",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\palm.json": "4c39b142a11935a28d2ddfd6fa7525babe1f9af30b2c1096d8558179e82d645a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\peace.json": "7bbee1695b040c3943eae7b1c582f2b63ee09619b6ee8788a122b5ad507d07f6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\peace_inverted.json": "abcc0a4695742f165b388e79423078e6d13a2fa5307025c2eea7b3cada99b8e4",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\rock.json": "49e2b23493579e9f3a10776b56736384dde160a9ded80228b18eae7f7d2100f8",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\stop.json": "19c3afbe19dcd239ef330ba1c50ace713cebfb161f0f78d3a7323809ba701117",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\stop_inverted.json": "5f4b3632a461cf350fee010e94d529d9b70895d96c64e3ec7e5844030de8e5b3",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\three.json": "52f5c71ba24c7d16d4df9018b3018d165629473b52a7a6d95144321d970517df",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\three2.json": "e2d9f3b4881991e04f72304d460de1be18fbc3b047a9563fc36873aee620f7ed",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\two_up.json": "0aae6314861a8abde92e391bc920e37200479211c8119421345e42c166251eae",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\train\\annotations\\two_up_inverted.json": "b1d2dd66e7172e95e222ca65ab5004cf8cad5fbd7d9668824fd248fcbbc7942d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\manifest.csv": "1708ff8c88e7ad15f6e8b40352573a68828c28ddf9cdc1552856f2cab6ba3bc7",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\call.json": "5fe233f0a286bd6aa46efbdacb127425af9c868f8cc8b64ad06c2bcc8f7741b1",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\dislike.json": "971acf1e95cd7c7df3476bd834771cd7ebfacc07ceffa4ec8b2877fa09ff3154",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\fist.json": "0b217a4582e89d4c062c3dc7ad126ed7ffcd7c2e4f74810d1c8508c7a39b39ac",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\four.json": "92c073ee3bd184838f9ee3c3eb2e66c4c6462eb501992afe4cb14a95f9e30c38",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\like.json": "00b3d82466861fd614fbc6bf365a557f64b4b555920a2b05df4799a2d937ac60",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\mute.json": "1075889a19fe9c040a96ad9b9d3f2d90d6591a32cac269e58024250e02c18252",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\ok.json": "13bcdb4f1412ae1cf3b4da14615ced99761eff43c974d9066a6910a30415c28f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\one.json": "a427316d3f8f648dc9b5c1243241e1eeea553491c9109f898e0947fa5f5e8333",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\palm.json": "6d232e275b2b6073c787ae26ab11b8901e2839ac9a27da9c1c04a3dcb0fa2f2d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\peace.json": "f668c2e48ba71f55c53a0009ce005b7733ead197ad1371c4541d4f59642c9d0e",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\peace_inverted.json": "4db846f8f46f36c0c1e959bf85fba891bfe6b2ea29f89ebd101f2603807f0ec6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\rock.json": "d5aad14907c68fb69d4953b5c4e77157a02f399a26d10741da9eb7f45d16be2b",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\stop.json": "2e34228bc963e5e8684a4cd83557175587586a84361da755eb090f39a1811849",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\stop_inverted.json": "26b6942f81e001bc7cb59dfc811d7e86431044e9f103dfffac9b87959abbd6e7",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\three.json": "b4737456c0308a4adee75cf0b0fa3bf7388f5409d843689f03a7f962a8db90b8",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\three2.json": "5844adadbc15266437d10873c7051b40bbaf0e0d452563028e8b20ce6a3f524e",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\two_up.json": "c1d31585f74e289cbf5aba0e52db951e8f29927229058e3b602db8a1383b72af",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\val\\annotations\\two_up_inverted.json": "5860539ab3210afad17f61a79098152d8863ce86507766a26fa2cbe5efc9acf1",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\manifest.csv": "e7fb855f1d3872cc3cd01fb06918320c133835fcca639aa15d241e82b7f58081",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\call.json": "f23024f913c3359506eb98a30bc85f7adf150cd75ed3b438a5112b17b1ceaeed",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\dislike.json": "3e02f9cd15d5cd7dcfc9867644cc04521c6bd8e86a79e6eca9c839b2be8dd93f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\fist.json": "588322085f433b3eea63c946a0cccc8b7975c8eeaa1e9b4976897218dbb9ef27",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\four.json": "2c2037a0915e00830fbda030f44bb70f29d38182879cb417cfe9ade82df55b1f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\like.json": "e4d8fa352a7ed3d54246a91b5fde371b45267f359937608360660f12d4ed5dd7",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\mute.json": "37a505a53b3491921fcf519792d3a40f680de8bcc2536a7bd4a2ebcc6aff4b6c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\ok.json": "01db1a6b14bdd30a7c8a32b12db0b1e6942c5d97744e4cfbc984577d6aed0fbf",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\one.json": "5ffa5337e61723e32bf2cb9f628ef48b286136c51e8f93b01c3bb26e894d3ea3",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\palm.json": "4d1d52585d14575e842c997986c328d82221277dbe61d58b8de0efa3803d1e35",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\peace.json": "24aba511acbc8d8a96d533579ce1f21709cd50baa9f78f05e1799ddefa652e1a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\peace_inverted.json": "82474ddf5a3966114a9a655699079524935ba603ce4e7fc0fc9103c53af16a01",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\rock.json": "9430574cf4d158769df505dae0d100cf27f46c5022c256bf0ba65c1191f4078c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\stop.json": "899a21284bb01366b858c0263cd70899c679a16b75b55a987bbb2a9360dd6298",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\stop_inverted.json": "04ba03561c7cd8c9252b755dbea7dd1da089ba188ec1211dc9221952ce53d8f0",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\three.json": "9617f497d29729eb129446bd23703219b1ee26b91568e53b557a9f836a6d842f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\three2.json": "948ac677704f29098c0f54b5e796ae00a38ea508f549294faf6775824f7dd32c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\two_up.json": "16d8212a714cfb7047a3779167f04ebd5c9bde424a3ab5643f00ea14b010289c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\A_split_verified_20261102\\P1_random_image\\test\\annotations\\two_up_inverted.json": "d810774577a12e6693233e34a36fb435a4e0d531702feeac270413e939552101",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\crops_train.json": "268a628bccee40b65cde2b49ec0b6d930b0536c32d62ef00aa97f649b9b18d1d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\photo_truth_train.json": "baca55aa7218a56aef91734a08b6ab93f30eed01d89c9526a168f5d978f7f444",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\crops_val.json": "48e87061745417d220af9f4a5dcc828e107d96f852b62b6e00e8d2a62e0061ce",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\photo_truth_val.json": "548035c748cfe3cd7eda71424d13c79f96a204fa1418ce4588504886b62259e6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\crops_test.json": "7b254510f46eeb89b34e1c023a0b6b6a996f0a46447e936b257dcd10145cd291",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\photo_truth_test.json": "8ff8004a0210ceb81fd19b1136883a5230fc3d1eecb4d04bcb7bac4b9ecd9e01",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\完整源码与数据\\Vision_CA\\pretrained\\checkpoints\\resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\features_train.pt": "d2823ea60e3b6b37ab219d6228481e5e6291a0635c048d4a8b9c8c2f9877fe0a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\features_train.pt": "da95dfc5bd3beb6d19e202f2cbfb70dddb5cc372af5c31abb0beab135b03deaa",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\features_val.pt": "f2d194cecd8154df3d8c63b5079cd2e5a4347c73f911084e4af45419fdecda43",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\features_val.pt": "e1cc595874ce99026cf415c5503f25d3d847523753fdf85d9ee7004e88752ed6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\merged_data_identity.json": "15455f8a150989579212055e2892b0d5eeeb1796ee6a59856bde6b5725458c2f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\label_statistics.json": "105b115bdc21007108bd950edb82d9fcf345ffd5125c513f71ef8684d8b05140",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\prepare_merged_log.json": "9ad70a1269fa77809879652bc203cf9159ee454b08b6211b21751b7c5df9f815",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\crops_train.json": "268a628bccee40b65cde2b49ec0b6d930b0536c32d62ef00aa97f649b9b18d1d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\photo_truth_train.json": "baca55aa7218a56aef91734a08b6ab93f30eed01d89c9526a168f5d978f7f444",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\crops_val.json": "48e87061745417d220af9f4a5dcc828e107d96f852b62b6e00e8d2a62e0061ce",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\photo_truth_val.json": "548035c748cfe3cd7eda71424d13c79f96a204fa1418ce4588504886b62259e6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\crops_test.json": "7b254510f46eeb89b34e1c023a0b6b6a996f0a46447e936b257dcd10145cd291",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\photo_truth_test.json": "8ff8004a0210ceb81fd19b1136883a5230fc3d1eecb4d04bcb7bac4b9ecd9e01",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\完整源码与数据\\Vision_CA\\pretrained\\checkpoints\\resnet34-b627a593.pth": "b627a593bcbe140c234610266fe4f8ae95ea42fc881d091c9b6052e6b1d0590f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\compare_resnet34\\features_train.pt": "87c67e303e3f57713abaf95f8392510eb87fddd9ff66827bb14ccaf4faa73e87",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\features_train.pt": "239a8bf8c65acef6fd497fe6957d182f0ea6ec2ca54d6cdcd45798e5c07ec20f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\compare_resnet34\\features_val.pt": "5517d9f4ea3ce8585f4361414eaea47b29f01518fd372572d35989c28e66d317",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\features_val.pt": "9a563fced67eb6af34f2f6461ab890a88d45dec769312db1c4db2cf662598cf4",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\merged_data_identity.json": "5f2f3dc4852425975d07f76a59c1ffd279b969d0ad266e1830cfeb5b84070862",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\label_statistics.json": "105b115bdc21007108bd950edb82d9fcf345ffd5125c513f71ef8684d8b05140",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\prepare_merged_log.json": "044279f3b54c624b605c64cb311a2d2c95046984e7328185b5c24ea68931b610",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\crops_train.json": "268a628bccee40b65cde2b49ec0b6d930b0536c32d62ef00aa97f649b9b18d1d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\photo_truth_train.json": "baca55aa7218a56aef91734a08b6ab93f30eed01d89c9526a168f5d978f7f444",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\crops_val.json": "48e87061745417d220af9f4a5dcc828e107d96f852b62b6e00e8d2a62e0061ce",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\photo_truth_val.json": "548035c748cfe3cd7eda71424d13c79f96a204fa1418ce4588504886b62259e6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\crops_test.json": "7b254510f46eeb89b34e1c023a0b6b6a996f0a46447e936b257dcd10145cd291",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\photo_truth_test.json": "8ff8004a0210ceb81fd19b1136883a5230fc3d1eecb4d04bcb7bac4b9ecd9e01",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\完整源码与数据\\Vision_CA\\pretrained\\checkpoints\\resnet50-0676ba61.pth": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\compare_resnet50\\features_train.pt": "2915ac4d67bb64de917bd95b20da6f2f8a87bdde44ec2695d8f442c9535e4248",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\features_train.pt": "a11baff713427a32c256cccf08f066794c2838ad52e56cf6c040bf0ee046ddb5",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\A_20261102_TPE\\compare_resnet50\\features_val.pt": "6626a867cf7ae4f9054140d57ac617f0e7e59708dac20d1f78be3576adfe7ca3",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\features_val.pt": "058ade4b47c136469813b9043597cd3f9b97490817be3246c847fda24ef9ba29",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\merged_data_identity.json": "5d344a22190f7672fd78bb0c060871db16d964b06190b1bee6bbe2246f21132f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\label_statistics.json": "105b115bdc21007108bd950edb82d9fcf345ffd5125c513f71ef8684d8b05140",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\prepare_merged_log.json": "4e57f1ce386121f8132aa546d8cc27d9a3ef291fed6c5e3f2561ffe708e93501",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\preflight_independent_review.json": "326ad996d39e1b0edb8777b1e6a5e48bf7841cb65cccf2179cb50370d6e49ddf",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\manifest.csv": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\call.json": "b251f74938bf9d57b61c509d672acc9e8e31fa9498b6e5ed6853916efd34c80c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\dislike.json": "165145d05f4627b72ae225908d404ee1a54b69d30ae3c0d6f99af743a5634614",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\fist.json": "5b633863b4cd823f72abfc9e8bd9a07d4e3a9582d263b6a6338a56089ca94cfc",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\four.json": "b29e4b509c768841084144707461a5c687ad41b1943267f05e90905399e0f6c9",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\like.json": "9690624c906fd5e2f7519b5c1e76149858330f0bf435fd9a93baa76657699bc3",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\mute.json": "d8683c0e0604ae71b825f3ef5f02474b237223191e8fbd5a1cc26e9d2bb14c00",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\ok.json": "3d40a54096cfeaa7acee073a054a3fcdeb90c6621e361e330d4106690a3469db",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\one.json": "425fca7ac9d0e49c2727be3426ff54efcd868824d5afdf6b445e655aa65f524f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\palm.json": "ff13b3704527906b46785b53d8ed1fea29075dfea89bb27c664bcf74c83bfef2",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\peace.json": "54ce73cc6af2fbcbbb7cd7511c6c029e3d72caebb7e4cf058de6cad985ebd4f0",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\peace_inverted.json": "6d3224186993ab812cd7d604ccaaaef984a86c2e44314823fb743c779001cab7",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\rock.json": "fda291b0adbb69e45e54ca886a25f888e658aacd9870c6067698af13b8d4f4cb",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\stop.json": "74a0baf5ccfd4586f374e1c248f40413c2dc71cb2b5a3057a8d5723d84840ae3",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\stop_inverted.json": "6995a45c6963f9af4f9a5d6586164555a06c8ba5cefc167527321ad8991ad105",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\three.json": "06ab0d95c843aa2ea79516bbd618c41f60c35a1d5a8a90102f9e78dc668b85ad",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\three2.json": "981f1959e1ba2e061830f069484aa6d4fcdefc9f1f20b94203a6c766df77cbc1",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\two_up.json": "c82f5928e5a508c269b2de74548ceb50267d07847ba6a8eb526fd2ded512d313",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\train\\annotations\\two_up_inverted.json": "ba14203dff022f7bdf7e4de0e8f83219b4e9f8de473fe3c15e20df90c2ff18cd",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\manifest.csv": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\call.json": "f03bcbe0dfe78493f4dab49170602c81b578d446c88855a0e3920b5ba914844b",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\dislike.json": "69591466f5159baa30111888f67e8f5a6286415cf1117fb7fa3cdf891f3e7082",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\fist.json": "382483a70f856f44b0db2b380d471d03bf89c9199414a4c65d029a57125d1184",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\four.json": "f271ace3f038ebb3dda9f59abfe09e5b902fb1fb525e6ec0c27bf17ac770d606",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\like.json": "facd0439c02d8ce6d4585b2602aed645953d0b3e73c933e0eb993400b6404736",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\mute.json": "84d7d37e5a8ed2718cedc12acd5abbb8868f67e4dbc6b635472dbe8c684c6b50",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\ok.json": "0bd9849da3397ebe3b73703019b6588555bdbdafb2925d81d786d49f0ecc288c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\one.json": "d41b74239b4f642f4296764ba16297910fb8280f4bf8d6a75c1f103e63895a2a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\palm.json": "2fda8f3ff989db9a8c7ea291c4a481663053fd1b951f7fb527729c94507e566e",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\peace.json": "24f4fd3781c17c041c5e996130667030dea0a069e3000ecd06de9007060f0cc9",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\peace_inverted.json": "1fb9291205bc49220d462e351771c753e1a0eab4a7e48b587362d77a4a702503",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\rock.json": "4cc36ec2d2b720e035e6e9de965079c10809f6037c9f4c5353066c289053cd54",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\stop.json": "663181af9ffda13bfcc4b14858c53f902b55b075b3225f64b3fb21bc67f66c61",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\stop_inverted.json": "9c9c9031c9ff6e66c373bcbabe3b38c08b0f3649bab84a63927e3f58398db4aa",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\three.json": "8f2faf5fae11918ce6382f25a8daa7479f5b18f46862fdc251f252c1e66f26f6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\three2.json": "eb7ddce5b7134fd9dec262ec4d03e76e855687e3558a85cc26591eef01d8dca6",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\two_up.json": "ccb8f6c78f26ea071e50ecf2afbe9d8c45a3f35742bae4a6510a1cd306201ec2",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\val\\annotations\\two_up_inverted.json": "60b0d9b32e9fe8ce8e2895f153717929f6d9e3d1b2641355361a686b3244abf5",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\manifest.csv": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\call.json": "cbe25d9a66140a8027a6160269e702f11d55a1fe37a33e0593a59a6acc2a536d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\dislike.json": "47357d05e88baadde62c109262866cfc619a7d599eac7aaad154ee800873d3dd",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\fist.json": "8babf82764fa9e2eaae7e24a8634449d64077cb8ce971fa24b3593209200888a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\four.json": "b4705bdef40dbde439535b7bfd5f1e10df127f89a8cc1f5d41e293e1f8d3de36",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\like.json": "15973a61c1759e3f6b5e171604a0c091edc2cde76a347f4fcd5f3d74be285bec",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\mute.json": "ec2387811fe0c8f125ca01ee39ce609f2da8222e2ae20465c00041bfc0d94d24",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\ok.json": "a817469294f17a1f58c629900071710a30f74f9f30fdf605dcfbdb0328d01bf5",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\one.json": "083c52881fcb310bf2e9ae7862225e855d04d6f34caeb95dc5a9892bbc7789f5",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\palm.json": "502b81a563ac6606261b044e36faa449d49a72b99dce2c42346ac299b2efb4ad",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\peace.json": "b108780932b979bab58a941de7080644c50a9be67c66c91d3dbf8d2822b9a821",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\peace_inverted.json": "ea14fae9779d7efe1dd69ac8d285592ca6cc66d60c8110a77a6830bbb292376a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\rock.json": "db155f8a6153004c5712442e2ff3bc500f663b536cf1c0cc79831241c03e7d18",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\stop.json": "3d8fcaf83fe562fc3f19cc66090a1443801153099c2de9d27d8f1bde11d9cb61",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\stop_inverted.json": "6ab74b886ee6c8ca9abeea863d40e4602d8346319c49db35575a5fe2dc51a052",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\three.json": "1f5e700e945658f97daf1fd0c19d208c2283f9f4eb986e31fe24aa1b3bb9bb68",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\three2.json": "c4fe96c45191f50cf804d18984b94a109b2c277880ec5decf8fbee4f65855c1f",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\two_up.json": "9c2a5daab1197f5c4fece0d70840dcdff944d5b0a5d37712aed15ef99f9c5dca",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\annotations\\two_up_inverted.json": "31a28fb2d9dafd9b898a5e7e6591115edac1d6019996e4b5857eaae0f2a61dba",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\crops_train.json": "5afd729b838ce1824ac4deaa70cd678ea4aa2b75ac3fd69d1a8d2234e4d8b53a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\photo_truth_train.json": "82462e16c553b84f255bdcc13c153f158d7c09827a0b30ef9f77171895caef2a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\crops_val.json": "971d54607d39568428f8cf363a9bde26b29e8361597743afabcdf648c3417735",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\photo_truth_val.json": "411156faf2e0d31ab754d75a8d9d0fdb27b47c31606d263b5506dd0b6fb55d58",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\crops_test.json": "351dea095057e072c8e606b3c983be895d1fa2859be679abd3361339c23f57a0",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\photo_truth_test.json": "b004abb3ccbf5f6649275cc4de4b14478aed92df92e2251ab68c83f2ba2c9f4b",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\features_train.pt": "2b6e42589aa1a7304847af11acd653ef769e8e8c53da1585c769c31f257b6f54",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\features_train.pt": "006e84bced77e31d78537c42b1016f9d88aa36dcdecbdefb75fe43c16e62ea9c",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\features_val.pt": "514faece53e2cd4115ce15b8a87ce501bba89aefa6afbeb7f76e3e66453b2945",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\features_val.pt": "7b6647470a404d713df7a5712b9e7c42b36fc45512eeed6ffde728b7603fb08d",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\merged_data_identity.json": "a23c1d34be8600330d0593aa152540e06702ac5cc649505937bbd76cf6cd18b3",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\label_statistics.json": "e3e602c4a572310af7797c6da7ee598615e850df56831cd00a78e18aa0759b30",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\prepare_merged_log.json": "1d64b43f4af83586056bb0e6a5df48614ecf857a28c9f9c0ff836287607d0525",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\crops_train.json": "5afd729b838ce1824ac4deaa70cd678ea4aa2b75ac3fd69d1a8d2234e4d8b53a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\photo_truth_train.json": "82462e16c553b84f255bdcc13c153f158d7c09827a0b30ef9f77171895caef2a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\crops_val.json": "971d54607d39568428f8cf363a9bde26b29e8361597743afabcdf648c3417735",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\photo_truth_val.json": "411156faf2e0d31ab754d75a8d9d0fdb27b47c31606d263b5506dd0b6fb55d58",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\crops_test.json": "351dea095057e072c8e606b3c983be895d1fa2859be679abd3361339c23f57a0",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\photo_truth_test.json": "b004abb3ccbf5f6649275cc4de4b14478aed92df92e2251ab68c83f2ba2c9f4b",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet34\\features_train.pt": "138334d37875d3683c1a35055758b8a295b1ba939624216e7bed4c7694d394e3",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\features_train.pt": "e89af31f8ad97b9efe88e022a67ac6efc1e5b6e342b6c2b3bd94300fe4e6c239",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet34\\features_val.pt": "b054ca7446b747bc6d149df4fa1c03ffbe6813777138c0a1e5939a8253ece2c9",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\features_val.pt": "d60ff376304828aed4fe92e62dcc66a1c2ca7e93d5d99c1f0dc10adf25a66511",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\merged_data_identity.json": "282345aff9783b391b20cdfe814e257cb7264a2edb1f1d46583d83e9b38238ac",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\label_statistics.json": "e3e602c4a572310af7797c6da7ee598615e850df56831cd00a78e18aa0759b30",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\prepare_merged_log.json": "7a83f449fc085b15bc506abe70692624a2e202f60a93743d14e272ea881e2543",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\crops_train.json": "5afd729b838ce1824ac4deaa70cd678ea4aa2b75ac3fd69d1a8d2234e4d8b53a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\photo_truth_train.json": "82462e16c553b84f255bdcc13c153f158d7c09827a0b30ef9f77171895caef2a",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\crops_val.json": "971d54607d39568428f8cf363a9bde26b29e8361597743afabcdf648c3417735",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\photo_truth_val.json": "411156faf2e0d31ab754d75a8d9d0fdb27b47c31606d263b5506dd0b6fb55d58",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\crops_test.json": "351dea095057e072c8e606b3c983be895d1fa2859be679abd3361339c23f57a0",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\photo_truth_test.json": "b004abb3ccbf5f6649275cc4de4b14478aed92df92e2251ab68c83f2ba2c9f4b",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\features_train.pt": "96427a3b1d3894f1c88dc4f800865a4aeccb2ace8d5f2beed8427ec3b8c6ab92",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\features_train.pt": "f5222573b2c6fadecbe3988b02088886be624ead4a59037befce1c7ca57e7362",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\features_val.pt": "2602dc6292f6ed3bf03be1565f2a0ee4ff42dcfb8660ae59f2fa6c3e03e2c773",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\features_val.pt": "236d905799517da41c6e0f7f04076864494c84d4f10be73b609562b414987463",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\merged_data_identity.json": "82b9ebd74033224d0cc4a1c0961fd8e9ac50bb544a2de2c18677ad1198ce5b49",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\label_statistics.json": "e3e602c4a572310af7797c6da7ee598615e850df56831cd00a78e18aa0759b30",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\prepare_merged_log.json": "0ae1f655c6ced445d0e3b2b649657503dff9032a367cbdb8e8755258300521fe"
+  },
+  "old_full_raw_hash_audits_reused": true,
+  "all_new_indexes_compared_and_all_feature_elements_compared": true
+}

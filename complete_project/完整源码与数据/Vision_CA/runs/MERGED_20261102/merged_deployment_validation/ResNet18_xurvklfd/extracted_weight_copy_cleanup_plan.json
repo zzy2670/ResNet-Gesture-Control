@@ -1,0 +1,20 @@
+{
+  "status": "VERIFIED_PLAN",
+  "only_two_new_extracted_weight_copies": true,
+  "source_snapshot": {
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并手势识别交付\\B\\ResNet18_合并B协议图片识别程序.zip": "849d0faa274a7f8acb6ee3023a9ed5b76493a4c6dc1e5d496385486357d216d9",
+    "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_合并手势识别交付\\B\\ResNet18\\SHA256SUMS.json": "a0f79ddd5bec7b9e15d02ff686246fa5d9787499928032d44323f38c19e7d473"
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet18_xurvklfd\\中文 空格路径\\ResNet18\\weights\\classifier.pt",
+      "bytes": 44799947,
+      "sha256": "11ce9fc474699eb28bf08708b1bc284e313e554418525258e53d396d03216296"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_deployment_validation\\ResNet18_xurvklfd\\中文 空格路径\\ResNet18\\weights\\detector.pt",
+      "bytes": 15174137,
+      "sha256": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+    }
+  ]
+}

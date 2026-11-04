@@ -1,0 +1,37 @@
+{
+  "status": "READONLY_STORAGE_ESTIMATE",
+  "recorded_at": "2026-11-03T00:37:17.064057+08:00",
+  "C_free_bytes": 8042864640,
+  "old_frozen_member_bytes": 5052692914,
+  "old_groups": {
+    "other_old_members": 408060923,
+    "old_fixed_data_A_split_verified_20261102": 832949488,
+    "old_fixed_data_B_split_verified_20261102": 845731477,
+    "old_fixed_data_raw_train_data": 999813286,
+    "old_scientific_outputs": 922528661,
+    "old_six_programs": 1043609079
+  },
+  "new_six_program_weight_bytes_estimate": 540042180,
+  "new_six_programs_upper_bytes": 552625092,
+  "new_six_ZIP_upper_bytes": 554778918,
+  "all_six_extracted_weights_bytes_if_kept": 540042180,
+  "one_extraction_peak_bytes": 111675130,
+  "sequential_cleanup_saves_after_all6_bytes": 540042180,
+  "old_six_ZIP_bytes_existing": 502399383,
+  "old_six_ZIP_already_in_old_manifest_bytes": 502399383,
+  "old_six_ZIP_increment_bytes": 0,
+  "new_scientific_upper_bytes": 650323950,
+  "final_ZIP_conservative_uncompressed_upper_bytes": 6810420874,
+  "C_extra_need_conservative_including_new_packages_ZIPs_finalZIP_and_one_temp": 8029500014,
+  "root_selected_final_archive": "E:/ResNet_合并与不合并完整交接_20261103.zip",
+  "selected_plan": "项目、正式文档、12程序仍在桌面P；最后大ZIP及partial直接写已有E盘根目录。实际验完后才在桌面项目写位置/SHA回执，现不创建假最终入口。",
+  "C_new_packages_ZIPs_and_one_extract_peak_with_E_final_plan": 1219079140,
+  "note": "最终ZIP实际压缩大小尚未测；已压缩JPEG/独立ZIP通常不能再显著压缩。新科学图表未最终生成，此为保守计划而非保证。现有训练已写部分新checkpoint，未来训练增量另需统计。",
+  "drives_free_bytes": {
+    "C:/": 8042864640,
+    "D:/": 63723003904,
+    "E:/": 74288541696,
+    "F:/": 105296871424
+  },
+  "budget_script_sha256": "b4dee1dedc4877b0f5d4be8840ee56906ce989b09812f15498527b9663df6f08"
+}

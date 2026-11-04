@@ -1,0 +1,116 @@
+{
+  "author_state": "READY_FOR_FACT_ASSEMBLY",
+  "report_analysis_markdown": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\report_analysis_v3.md",
+  "report_execution_markdown": "原不合并实验保留两次测试中断恢复。B18首次评价已经完成3,759只手的人工框预测，随后进程消失，整图产物未写完，具体中断原因未知；归档后使用同一冻结权重、阈值和清单恢复。两次有1,039只手的概率向量变化，最大绝对差0.0010422468185425，全部预测标签与指标相同。B50首次评价则被系统重启中断；Windows事件记录shutdown.exe发起重启，但其上游调用者未知。它在相同冻结条件下恢复后，有2,116只手的概率向量变化，最大绝对差0.0031867623329162598；一只真值为2的stop_inverted手由首次p0=p2平票后输出0，变为恢复后输出2。旧产物与完整恢复结果均保留，正式指标采用自然完成全部测试的恢复产物，不在两次结果间择高，也不将浮点变化归因于某项已经确定的CUDA机制。此前已访问过这些测试样本，不能把恢复写成从未访问测试。\n\n本次六组合并训练与评价的控制器记录没有失败或失败后重试：六组新分类头均完整训练18轮；微调实际完成轮数按A18、A34、A50、B18、B34、B50依次为16、18、16、17、18、12，最终均采用末组微调，选中轮依次为12、14、12、13、17、8。短于18轮的运行按原patience4自然早停，不是故障截断。六组各自验证冻结后，完整测试均在evaluate attempt1自然退出并保存三项评价产物；最后一组于2026年11月3日01:30:34完成。没有新TPE、按测试改参数或以CAM重新选模型。原输入、权重、验证阈值、日志与异常恢复证据分别保留；本次解释和程序核验没有覆盖正式测试预测。",
+  "report_conclusion_markdown": "按各自标签任务计分，合并A三架构的人工框准确率为98.90%—99.36%，整图准确率为91.95%—92.89%；合并B分别为98.94%—99.07%和91.81%—92.42%。六组合并的整图准确率均低于对应不合并项，然而正确答案与0/1类分布同时改变，这不是在相同任务上单独测得的泛化退化。新任务真正增加的是允许two_up两种姿态触发前进：六模型在这两种raw人工框手图上的输出1率为98.38%—100.00%，对应完整照片输出1率为86.36%—94.29%。人工框与整图的差距仍提示自动定位后的完整处理需要单独评价。\n\n共同负类显示，允许更多前进姿态并没有同时保证减少误运动。A18在同一1,412张纯其他照片上，由旧15张误运动增至新30张；B18在同一1,359张上，由5张增至16张。这里旧B18分母明确是1,359张共同负类，而非旧任务完整0类的1,695张。变化也不是所有模型、所有环节同向：A34共同纯其他照片误运动由14降至10／1,412，人工框共同其他手却由12增至19／2,149；B50人工框共同负类由18降至16／2,016，完整照片则由12增至15／1,359。应据共同样本及处理环节判断，不能只比较分母不同的两项完整0类率，或笼统声称合并更安全。\n\n在合并B任务内部，ResNet50的整图准确率92.42%、宏F1 90.13%最高，ResNet18分别为91.84%、89.44%。本次共同输入CPU整图均值由B18的33.07 ms增加到B50的50.55 ms；B18真实停止误运动为0／173，B50为1／173，两者停止输出0均为40／173。B34人工框宏F1为99.17%，高于B18的99.00%，但整图宏F1为89.36%，停止误运动2／173。因而单手分类、整图识别、停止错误和计算开销各有取舍，不能只凭一个总分替组内决定模型。\n\n本次十二模型共同输入测量中，ResNet18整图均值为32.69—33.07 ms，ResNet34为43.25—43.88 ms，ResNet50为49.62—50.65 ms；这些是本机这轮测量的描述。相同架构的新旧差异较小，实际保留框数和背景CPU负载也不同，不能解释为合并标签本身改变了网络计算复杂度。前述旧六模型速度及原补测仍保留，各次测量输入或运行批次的差别不冒充模型更新带来的提速。\n\n若控制接口只接受peace两种V形姿态，应使用不合并程序；若确实允许two_up两种姿态也发出前进，合并程序已经提供真实训练与测试结果，但还要接受并复核共同负类误运动和停止错误的取舍。先确定手势含义，再在同一任务内选择架构；B是同来源人员互斥评价，也没有替代新设备、连续视频和实际机器人条件的验证。\n\n十二个独立程序与相应ZIP均完成实现及离线交付核验。其中新合并六程序按每个12例、共72个固定调用，对比源实现与包内CPU结果一致；这些调用有67个输出与所列标签一致，5个自然识别错例完整保留。实现一致不等于每例识别正确，这组固定接口样例也不作为新增准确率结果；性能仍以全部固定测试照片为准。",
+  "source_files": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\report_analysis_v3.md",
+      "sha256": "89bb84597a22494330bbdecccad732c1ac64691b173d3160e4c319bb4558defa"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\aggregate_review.json",
+      "sha256": "e433fbfd18ac3cd28a6c3e22f7f7e7f5b728347976267a3c5e8789b5571da5af"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\all_training_evaluation_complete.json",
+      "sha256": "9e9ad3080ce999b493b50ed4d1ecdaad5e3ef398736b86955c412715ea3001d5"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\controller_events.jsonl",
+      "sha256": "36aeeec7945127f8b61b25cff433017f2cb2e6a9fbc42c133ffef87f6b20885f"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\label_variants_cpu_benchmark.json",
+      "sha256": "f78457295f9be97f5a4bb2452c312232f5c773db4cfa95c8c25cf4cf9c820813"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\label_variants_cpu_independent_review.json",
+      "sha256": "e6d6ed0bfbc39b2939a0ff956e72ef2c71815657f128493cf9a47f3885cf9f75"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_gradcam_independent_review.json",
+      "sha256": "46ab163eae61bd98a2b1cbbf866d5595ed2ae9dbaf7ce977343b3af84bd1a975"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\twelve_packages_independent_review.json",
+      "sha256": "b2e94faa37d15a0ae40f2db9fa84cd831c098d52acb9e03b9119f30adb3add08"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\merged_packages_independent_review.json",
+      "sha256": "39542cf53304a3ff5289ace016858d9cd382e5bb56c6b7394c35b8367e1b71cc"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\detection_spotcheck_20261103\\spotcheck.json",
+      "sha256": "a34abaf0bde28fcc5eb72a63c3ddcb990fddcb5d826d43c07fc3a5fa600407ef"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\detection_spotcheck_20261103\\spotcheck_independent_review.json",
+      "sha256": "684253c4503e5cae83f4169ca6a8d7e6245fbce4c9051a138998e70f3ad9709e"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\detection_spotcheck_20261103\\四张双手照片_人工标注与检测对照.png",
+      "sha256": "bf97ef2a87313c2822554316e5889301c11754f3f2e96afe299dcffff742a29e"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_resnet50_system_events.json",
+      "sha256": "447367f8f32b2befa0eb5aff4ea57a40c4183febbc576c979fd5e37e21017e9d"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_20261102_2202\\test_oracle_crop.json",
+      "sha256": "064959e8b108bfbbfe9a4501f65dd726accaed59ff99f8efbf7ce9c1ec12a547"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\test_oracle_crop.json",
+      "sha256": "451b9677058ea4c1475c41e1831909a9496cbe5c77f5ee6627a532d03edf1054"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_resnet50_20261102_2256\\test_oracle_crop.json",
+      "sha256": "0d02e1229a04d33768b7b8383ff6861542de30574edd7b797c2759688fc733dd"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\test_oracle_crop.json",
+      "sha256": "ec9313eef77d15395a34a093484ed0acb7479443f37e288e121d9b45365f9b61"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\trained_gradcam\\metadata.json",
+      "sha256": "67a6c2527b9910364ca1a29381078205c283eb6f6478bcbf95e7795a2c2c3e88"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\trained_gradcam\\trained_six_class_matrix.png",
+      "sha256": "dcc7ef19dc26bababffb768020e0a83d1cc1ab19df31a0e94bcf8e58a289a6db"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet18\\model_review.json",
+      "sha256": "04b313b5026a7c2bb4e61e1fd8d2c06d2453495d453389a2c8c75aec3ea6b975"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet34\\model_review.json",
+      "sha256": "792468c77a28b4896eb05d1c3f6fc0eff2a5ce99c80c4ea0f85bf968b3f4da2a"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\A\\resnet50\\model_review.json",
+      "sha256": "01051709d057932cc3c76db02dd69c2e7fb5c6d4b7f1cdae0c85fb2354b1e268"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\trained_gradcam\\metadata.json",
+      "sha256": "9175672dd0e2cf73b911bcd148b8d7c25986584483f8041988fcae1b4be10ccd"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\trained_gradcam\\trained_six_class_matrix.png",
+      "sha256": "a63948398d79a7fb9abd8121854fe836136fdcd1ee646801ee344ac5038b39ba"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet18\\model_review.json",
+      "sha256": "563e5d99ddfbc360b7da2d4ec207335cfd808fae74657cc1752a799107ccd284"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet34\\model_review.json",
+      "sha256": "57a98b4ee197f5962577d395836e5a498e768390b324611d61030a1991301464"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102\\B\\resnet50\\model_review.json",
+      "sha256": "4513ba1a1ec1c083c31156afb1a2bf2e6d5fdfd4a1d8ea5d89bc9cfaa01451cf"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "time": "2026-11-02T23:55:23.737518+08:00",
+  "source_thread_id": "01a19bb5-9eec-73d3-8e76-41a1ff86bbf8",
+  "user_instruction": "停，我希望合并和不合并两种都各训练一次。现在是不合并的搞好了，你再搞合并的；搞完了再重新打包和其他工作。",
+  "forwarding_explicitly_authorized": true,
+  "archive_pid_stopped": 32112,
+  "completed_archive_delivered": false,
+  "preserved": [
+    "unmerged A/B datasets, models, all predictions and original logs",
+    "v11 project plan",
+    "v2 report",
+    "unmerged handover docs and frozen manifests"
+  ],
+  "new_run": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\MERGED_20261102",
+  "merged_raw_labels_to_1": [
+    "peace",
+    "peace_inverted",
+    "two_up",
+    "two_up_inverted"
+  ],
+  "aborted_partial": {
+    "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102.zip.partial",
+    "bytes": 847028812,
+    "sha256": "644eb483c7eb2e0ba6f93910bc3fb04d27bec4923682b109899b9e75e14fb51c",
+    "removed_generated_temporary_only": true
+  },
+  "SHA256SUMS.json_sha256": "c724faf87eeb00fc11a385e4861cd644af67a2b5365fc40e5af5906342fa32c6",
+  "冻结成员映射.json_sha256": "2fe8cc3d7a0b3f679f4e7992648b12d3caf5dde9abc1319762592146bc6e1dd2"
+}

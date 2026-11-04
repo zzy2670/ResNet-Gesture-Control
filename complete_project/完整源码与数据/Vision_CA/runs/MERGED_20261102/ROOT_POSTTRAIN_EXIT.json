@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-11-03T01:50:39.426968+08:00",
+  "actual_sessions_exit0": {
+    "CAM_A": 6591,
+    "CAM_B": 60822,
+    "build_merged_packages": 97454,
+    "audit_new6_CPU": 71438,
+    "combine12": 56261
+  },
+  "new_programs": 6,
+  "total_programs": 12,
+  "same_CPU_source_package_cases": 72,
+  "natural_prediction_errors_retained": 5,
+  "twelve_packages_review_sha256": "b2e94faa37d15a0ae40f2db9fa84cd831c098d52acb9e03b9119f30adb3add08",
+  "CAM_independent_review_pending": true
+}
