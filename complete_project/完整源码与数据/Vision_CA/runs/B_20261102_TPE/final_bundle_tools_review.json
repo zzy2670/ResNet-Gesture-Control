@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "reviewed_at": "2026-11-02T23:33:49.206389+08:00",
+  "reviewer": "b50_recovery_review",
+  "scope": "独立静态审查最新builder与finalspec，并实际只读gather全部来源；未freeze/archive，未改作者源码和科学产物。",
+  "issues": [],
+  "sourceidentity": {
+    "build_ab_project_bundle.py": "36988cbafa2b217815fc44a30ea70b95f5fa3bbe36961fd594f6fba38bd3a0bc",
+    "final_package_spec.json": "996931ea57e826621905ad6e23280fdeb17fa6c96f5be325c0dd55c5feccc3ed",
+    "packaged_project_README.md": "f7376db62a7496b6343f1d342f7d9eebab194b186d55b299a8f15f8465236751",
+    "prior_tools_v2_review": "94fe903f9b4f0023701be81cf35a1a6ed75b0e6891c7d64cdf941a092715652a"
+  },
+  "actual_gather_snapshot": {
+    "files": 96389,
+    "excluded_entries": 78045,
+    "missing_sources": 0,
+    "raw_JPG": 31833,
+    "A_split_JPG": 31833,
+    "B_split_JPG": 31833,
+    "small_inference_ZIPs": 6,
+    "six_inference_directories": true,
+    "storage_artifacts_included": 0,
+    "personal_learning_notes_or_notes_builder_included": 0,
+    "draft_or_final_render_directory_included": 0,
+    "scientific_figures_preserved": [
+      "trained_gradcam/trained_six_class_matrix.png",
+      "report_figures/whole_photo_error_examples.png",
+      "report_figures/actual_crop_comparison.png"
+    ],
+    "note": "snapshot在本预审JSON与最后独审等少量记录落盘前枚举，正式freeze实际数量可增加；author_document_render_review.json为独审记录，合理保留。"
+  },
+  "checks": {
+    "packaged_README_maps_to_actual_zip_Vision_CA_README": true,
+    "all6_original_independent_ZIPs_plus_both_manifests_and_delivery_reviews_explicit": true,
+    "personal_notes_media_transcripts_and_old_notes_builder_excluded": true,
+    "temporary_renders_storage_and_formal_text_excerpts_excluded": true,
+    "scientific_training_logs_weights_metrics_figures_and_recovery_evidence_preserved": true,
+    "rebuildable_crop_feature_bytecode_cache_excluded": true,
+    "all6_inference_directory_identities_required": true,
+    "formal_3Word_reviews_bind_exact_source_SHA_before_freeze_and_before_after_archive": true,
+    "all_required_science_CPU_CAM_and_program_reviews_gate_freeze_archive": true,
+    "unique_casefold_destination_and_path_traversal_protection": true,
+    "frozen_mapping_manifest_exact_member_set_and_SHA": true,
+    "archive_streams_real_bytes_with_frozen_size_SHA_check": true,
+    "output_and_partial_exclusive_no_silent_overwrite": true,
+    "post_archive_full_SHA_and_CRC_verify_before_rename": true,
+    "no_zip_symlinks_or_junction_entries_written": true,
+    "external_final_independent_review_excluded_by_design": true,
+    "all9_local_README_links_target_explicit_members": true
+  },
+  "nonblocking_observations": [
+    "交付版README保留对源工作目录历史P1/P2统计的解释；实际迁移训练与推理入口已使用包内真实路径。",
+    "打包独审预审不等于正式ZIP PASS；完整ZIP产生后仍须另独立逐成员SHA/CRC、文档/科学身份和六程序迁移调用核验。"
+  ],
+  "next_gate": "等待正式三Word独审PASS后root可按现有builder/spec freeze与archive；本预审无阻塞。"
+}

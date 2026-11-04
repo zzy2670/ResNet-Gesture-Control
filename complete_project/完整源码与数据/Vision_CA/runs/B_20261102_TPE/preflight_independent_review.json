@@ -1,0 +1,247 @@
+{
+  "updated_at": "2026-11-02T20:59:28.172154+08:00",
+  "status": "PASS_PREFLIGHT",
+  "scope": "独立全量数据核验与B训练入口静态审核，CPU工厂烟测由root控制器执行",
+  "source_images": 31833,
+  "source_users": 7973,
+  "raw_annotated_total": 509323,
+  "split_root": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102",
+  "splits": {
+    "train": {
+      "images": 25274,
+      "users": 6379,
+      "hands": 30799,
+      "primary_classes": {
+        "call": 1398,
+        "dislike": 1409,
+        "fist": 1367,
+        "four": 1438,
+        "like": 1388,
+        "mute": 1411,
+        "ok": 1354,
+        "one": 1423,
+        "palm": 1412,
+        "peace": 1405,
+        "peace_inverted": 1401,
+        "rock": 1385,
+        "stop": 1359,
+        "stop_inverted": 1409,
+        "three": 1383,
+        "three2": 1414,
+        "two_up": 1488,
+        "two_up_inverted": 1430
+      },
+      "raw_hand_labels": {
+        "call": 1398,
+        "dislike": 1409,
+        "fist": 1366,
+        "four": 1438,
+        "like": 1388,
+        "mute": 1411,
+        "no_gesture": 5526,
+        "ok": 1354,
+        "one": 1423,
+        "palm": 1412,
+        "peace": 1405,
+        "peace_inverted": 1401,
+        "rock": 1385,
+        "stop": 1359,
+        "stop_inverted": 1409,
+        "three": 1383,
+        "three2": 1414,
+        "two_up": 1488,
+        "two_up_inverted": 1430
+      },
+      "merged_hand_labels": {
+        "0": 19650,
+        "1": 2806,
+        "2": 4180,
+        "3": 1366,
+        "4": 1388,
+        "5": 1409
+      },
+      "unique_content_hashes": 25274
+    },
+    "val": {
+      "images": 3457,
+      "users": 797,
+      "hands": 4326,
+      "primary_classes": {
+        "call": 184,
+        "dislike": 200,
+        "fist": 195,
+        "four": 194,
+        "like": 185,
+        "mute": 205,
+        "ok": 217,
+        "one": 204,
+        "palm": 178,
+        "peace": 180,
+        "peace_inverted": 171,
+        "rock": 196,
+        "stop": 217,
+        "stop_inverted": 199,
+        "three": 207,
+        "three2": 159,
+        "two_up": 192,
+        "two_up_inverted": 174
+      },
+      "raw_hand_labels": {
+        "call": 184,
+        "dislike": 200,
+        "fist": 195,
+        "four": 194,
+        "like": 185,
+        "mute": 205,
+        "no_gesture": 869,
+        "ok": 217,
+        "one": 204,
+        "palm": 178,
+        "peace": 180,
+        "peace_inverted": 171,
+        "rock": 196,
+        "stop": 217,
+        "stop_inverted": 199,
+        "three": 207,
+        "three2": 159,
+        "two_up": 192,
+        "two_up_inverted": 174
+      },
+      "merged_hand_labels": {
+        "0": 2801,
+        "1": 351,
+        "2": 594,
+        "3": 195,
+        "4": 185,
+        "5": 200
+      },
+      "unique_content_hashes": 3457
+    },
+    "test": {
+      "images": 3102,
+      "users": 797,
+      "hands": 3759,
+      "primary_classes": {
+        "call": 181,
+        "dislike": 174,
+        "fist": 173,
+        "four": 173,
+        "like": 159,
+        "mute": 195,
+        "ok": 179,
+        "one": 151,
+        "palm": 180,
+        "peace": 184,
+        "peace_inverted": 170,
+        "rock": 155,
+        "stop": 172,
+        "stop_inverted": 195,
+        "three": 161,
+        "three2": 164,
+        "two_up": 175,
+        "two_up_inverted": 161
+      },
+      "raw_hand_labels": {
+        "call": 181,
+        "dislike": 174,
+        "fist": 173,
+        "four": 173,
+        "like": 159,
+        "mute": 195,
+        "no_gesture": 657,
+        "ok": 179,
+        "one": 151,
+        "palm": 180,
+        "peace": 184,
+        "peace_inverted": 170,
+        "rock": 155,
+        "stop": 172,
+        "stop_inverted": 195,
+        "three": 161,
+        "three2": 164,
+        "two_up": 175,
+        "two_up_inverted": 161
+      },
+      "merged_hand_labels": {
+        "0": 2352,
+        "1": 354,
+        "2": 547,
+        "3": 173,
+        "4": 159,
+        "5": 174
+      },
+      "unique_content_hashes": 3102
+    }
+  },
+  "overlaps": {
+    "train_val": {
+      "image_id": 0,
+      "user_id": 0,
+      "sha256": 0
+    },
+    "train_test": {
+      "image_id": 0,
+      "user_id": 0,
+      "sha256": 0
+    },
+    "val_test": {
+      "image_id": 0,
+      "user_id": 0,
+      "sha256": 0
+    }
+  },
+  "manifests": {
+    "train": {
+      "sha256": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+      "bytes": 5915852
+    },
+    "val": {
+      "sha256": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+      "bytes": 807647
+    },
+    "test": {
+      "sha256": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+      "bytes": 726095
+    }
+  },
+  "all_source_images_preserved": true,
+  "all_original_annotations_equal": true,
+  "all_copied_image_bytes_match_source": true,
+  "GPU_started_by_reviewer": false,
+  "fixed_split_recomputed_seed42": true,
+  "split_summary_recomputed_all_counts": true,
+  "source_unique_content_hashes": 31833,
+  "duplicate_content_groups": 0,
+  "source_sha256": {
+    "prepare_B_datasets.py": "c5f7e21f20d2524d427511e2a9f0274af2bd1cf50e5c33b1334f421b51d272ef",
+    "run_B_pipeline.py": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+    "run_B_training.py": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+    "train_A.py": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f"
+  },
+  "code_review": {
+    "B_paths_separate_from_A": true,
+    "classification_initialization": "official ImageNet1K V1 only",
+    "detector_initialization": "official ImageNet MobileNetV3 only; B train supervision",
+    "A_finetuned_classifier_or_detector_used": false,
+    "B_detector_shared_across_three_architectures": true,
+    "feature_search_splits": [
+      "train",
+      "val"
+    ],
+    "deterministic_test_crop_preparation_not_fitting": true,
+    "TPE_trials": 24,
+    "TPE_epochs_per_trial": 18,
+    "finetune_max_epochs": 18,
+    "finetune_patience": 4,
+    "detector_epochs": 16,
+    "threshold_selection": "12 validation-only candidate combinations; classifier and detector hashes frozen before final test",
+    "resume": "source and successful output hashes checked; no implicit retry/append trial/optimizer resume claim",
+    "failure_logs_preserved": true,
+    "single_GPU_stage_serialization": true,
+    "no_obsolete_deadline": true,
+    "CPU_factory_smoke": "mandatory controller stage; not executed by reviewer",
+    "warning": "preflight is not final result acceptance; whole final predictions and real stage exits need later independent review"
+  },
+  "training_launch_gate": "PASS; root may launch CPU prepare/smoke and GPU features after mandatory smoke exit0"
+}

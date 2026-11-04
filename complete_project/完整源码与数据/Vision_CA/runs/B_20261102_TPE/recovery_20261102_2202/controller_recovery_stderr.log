@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\Vision_CA\run_B_training.py", line 152, in <module>
+    main()
+  File "C:\Users\Administrator\Desktop\6216_VISION\MA6216_CA3_final_project\Vision_CA\run_B_training.py", line 142, in main
+    raise RuntimeError(f'{arch}/{stage}退出{exit_code}，原日志保留，不自动盲重试')
+RuntimeError: resnet50/evaluate退出1073807364，原日志保留，不自动盲重试

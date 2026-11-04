@@ -1,0 +1,634 @@
+{
+  "status": "PASS",
+  "reviewer": "formal_docs_independent_audit 非作者独立审者",
+  "reviewed_at": "2026-11-02T15:33:21.755195+00:00",
+  "scope": "三份最终Word的全文表格图像、实际75页渲染、权威实验数字、包内本地链接及原内容保全；未训练或运行GPU。",
+  "documents": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v11.docx",
+      "sha256": "e05c3935d302d895ffc2b87535caaf2e1f88a5bf708b4292d546453c85022c1b",
+      "status": "PASS",
+      "bytes": 18593699,
+      "pages": 28,
+      "tables": 8,
+      "embedded_image_occurrences": 27,
+      "zip_crc": "PASS",
+      "all_XML_and_relationship_parts_parsed": 18,
+      "internal_relationship_targets": "PASS",
+      "visible_placeholder_and_assistant_brand_scan": "PASS",
+      "local_links": [],
+      "public_web_link_count": 7,
+      "render_directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2",
+      "page_evidence": [
+        {
+          "page": 1,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-1.png",
+          "sha256": "de0031e342aa319f969ab8f69956cdc3137f034f016e694b5987c516f80ff284",
+          "visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-2.png",
+          "sha256": "ca9aef5b4f2f4a8bef942642d6ec4f56b21c5afbf0cd63e430d11f1370626ebd",
+          "visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-3.png",
+          "sha256": "2069c915ffa4058cc1873952437aa6d30f89c2a29b8cc07989dcf76a037e0fec",
+          "visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-4.png",
+          "sha256": "d4b0ae3c8583230485c2eb93d731ef9f13f8c60ae220dc44c36edb21472dc849",
+          "visually_reviewed": true
+        },
+        {
+          "page": 5,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-5.png",
+          "sha256": "9524ff06efa4182ba4a731386c9c2e04848f099f99c78c40964caa76e3262e4d",
+          "visually_reviewed": true
+        },
+        {
+          "page": 6,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-6.png",
+          "sha256": "2f1bad9adfa49c015ccfff5e44bcc764e434e66fba5658c6da3f677103bbed97",
+          "visually_reviewed": true
+        },
+        {
+          "page": 7,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-7.png",
+          "sha256": "3f79256da0a5c0db3bf4d5ba41ee3f841ea21cbd8e86feef37d1ac1987897335",
+          "visually_reviewed": true
+        },
+        {
+          "page": 8,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-8.png",
+          "sha256": "b48fe2291a5a13f30a67733a4904d7bf652f2f9519965e83f1036fea8b152ae7",
+          "visually_reviewed": true
+        },
+        {
+          "page": 9,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-9.png",
+          "sha256": "f06781130d7f5ab3e374aa50c1bcdcf3c1ff0b2c444c9d8b123ac59349b2ae52",
+          "visually_reviewed": true
+        },
+        {
+          "page": 10,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-10.png",
+          "sha256": "3c69d3662645056e88cebb5117b19e349babb0085ca66a44a8473f824a65b3d8",
+          "visually_reviewed": true
+        },
+        {
+          "page": 11,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-11.png",
+          "sha256": "234cac1f8dbe3d0e547f824eaf020e1134db29f55a0b6fbd057a83dfe080f08e",
+          "visually_reviewed": true
+        },
+        {
+          "page": 12,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-12.png",
+          "sha256": "f767b3b3474d2492ee4462fed586840c5878832913451d6834148515085e6bee",
+          "visually_reviewed": true
+        },
+        {
+          "page": 13,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-13.png",
+          "sha256": "1fe06d7143b064410f2fe38cf0e5928c51bab433d7a693486ecf775ed564b5cf",
+          "visually_reviewed": true
+        },
+        {
+          "page": 14,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-14.png",
+          "sha256": "e48f276a52d0c389aaf7d6a31f166ef9065b431b37df17151d70de3d3b4ce02e",
+          "visually_reviewed": true
+        },
+        {
+          "page": 15,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-15.png",
+          "sha256": "61adbb4dad7d870fc61dea7217f6d64173f6b749461f8ccdecb4c4df3aa84004",
+          "visually_reviewed": true
+        },
+        {
+          "page": 16,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-16.png",
+          "sha256": "b8e502a001da073a62060ad23bc918d70d23f98093c6ab2bcae4ea8e0d73b440",
+          "visually_reviewed": true
+        },
+        {
+          "page": 17,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-17.png",
+          "sha256": "e6b815a76ebad601ad2d5b18ea3edef241e397d1ce83c77a3fb9b1238870b5aa",
+          "visually_reviewed": true
+        },
+        {
+          "page": 18,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-18.png",
+          "sha256": "5deb0dae75eba8588bea27b534b31a95154ef46857d567d0c18f3fe74197a43c",
+          "visually_reviewed": true
+        },
+        {
+          "page": 19,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-19.png",
+          "sha256": "8f25f957bc1885d54456a859b3f4e51950d3761c4833b38c4acafae2271fde63",
+          "visually_reviewed": true
+        },
+        {
+          "page": 20,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-20.png",
+          "sha256": "4a23cb8ea91b4dbdca921316b5f87745ac52a5bb686802201f5078ae384ebecb",
+          "visually_reviewed": true
+        },
+        {
+          "page": 21,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-21.png",
+          "sha256": "c2f2cc23d0b17f6ce202bbd2425c8d2cb344804e32d67fe21ef93eec30ea1ec5",
+          "visually_reviewed": true
+        },
+        {
+          "page": 22,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-22.png",
+          "sha256": "17fb454ed8f4650bb5fc00fd8907072115fc18ff18323cc89f39f83815588e0c",
+          "visually_reviewed": true
+        },
+        {
+          "page": 23,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-23.png",
+          "sha256": "f42e4582daef6d6b5ee3d1b7b3a562d2cd655213b5c1533b60b77924c1023805",
+          "visually_reviewed": true
+        },
+        {
+          "page": 24,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-24.png",
+          "sha256": "eb5ab6aa8a289b7f407fc891f6f87c03b67ecb2dfc226c20510f5892e0ca6e5a",
+          "visually_reviewed": true
+        },
+        {
+          "page": 25,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-25.png",
+          "sha256": "2468e70c9f1adbb3649cd885c7149be949f0701f8a75a42ecd1f103bdac08753",
+          "visually_reviewed": true
+        },
+        {
+          "page": 26,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-26.png",
+          "sha256": "daaef7eba4deb81ad4e79666176002d6b85aa4bfb1a3ea5e780682bdc2a499e9",
+          "visually_reviewed": true
+        },
+        {
+          "page": 27,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-27.png",
+          "sha256": "372a6e241961615a148f558fda953d32c4512ec0019f7bb55c4a597a53b4d8f3",
+          "visually_reviewed": true
+        },
+        {
+          "page": 28,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_final_render2\\page-28.png",
+          "sha256": "75cb2ccbc78eadf24c785066637021440f3350853a7c16f4bed2315f2cdbdc2a",
+          "visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\A与B协议ResNet训练与对比实验报告_v2.docx",
+      "sha256": "f0423c89427e68c19ce877185db4a547b608f213f58575a6d9c8fd9dc7504770",
+      "status": "PASS",
+      "bytes": 14857140,
+      "pages": 40,
+      "tables": 29,
+      "embedded_image_occurrences": 12,
+      "zip_crc": "PASS",
+      "all_XML_and_relationship_parts_parsed": 17,
+      "internal_relationship_targets": "PASS",
+      "visible_placeholder_and_assistant_brand_scan": "PASS",
+      "local_links": [],
+      "public_web_link_count": 2,
+      "render_directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查",
+      "page_evidence": [
+        {
+          "page": 1,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-01.png",
+          "sha256": "98de816044c8a1a7f0d05f25aaa58b887e6a805f4382e9e678b4f2e93068f867",
+          "visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-02.png",
+          "sha256": "ca109c8f247ddc78b85c760515b511fa1564caf81a2252509a2640f3a782283b",
+          "visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-03.png",
+          "sha256": "520eeb93950ff1d46fd73ffb11da516621d0bec13335faba23c4941008bd68f3",
+          "visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-04.png",
+          "sha256": "7413103154a169b763dfc48047cd9ebd3c482a9285cae465913ec78360e5cdd8",
+          "visually_reviewed": true
+        },
+        {
+          "page": 5,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-05.png",
+          "sha256": "886b657b64fe4a14a0ef4e44c79cb5085e76ff8eb84543f1ef1bb7f6ad2d146b",
+          "visually_reviewed": true
+        },
+        {
+          "page": 6,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-06.png",
+          "sha256": "9cddf77c03856fbc4935a49001e80b10dd83b439ad3fb8d599ce1686c53c8118",
+          "visually_reviewed": true
+        },
+        {
+          "page": 7,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-07.png",
+          "sha256": "f609a55be2683726c713ed93ea8218f427df21617f3a0831b770b0e18d071d16",
+          "visually_reviewed": true
+        },
+        {
+          "page": 8,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-08.png",
+          "sha256": "e957c552d40e6eb44e0c0cd1862a2ee60d014471381d43e1e1d3ec74eb7d0a5f",
+          "visually_reviewed": true
+        },
+        {
+          "page": 9,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-09.png",
+          "sha256": "c1d011456029dc1c9dc48d08b2a4eb18f61da3d5813c263c58c5babda27f4b93",
+          "visually_reviewed": true
+        },
+        {
+          "page": 10,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-10.png",
+          "sha256": "78d2257550086043360833692ad2b03905789703faabdb264028d1bf48b5cf02",
+          "visually_reviewed": true
+        },
+        {
+          "page": 11,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-11.png",
+          "sha256": "b7c036fe2c7fb5cbba385a4b5a9bf4c14470a326634ab502b08802a82754a068",
+          "visually_reviewed": true
+        },
+        {
+          "page": 12,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-12.png",
+          "sha256": "6bfa5066e93b226ec62c708980d13fe4c4cf0b11c1f084f1cf07dc755ff415e3",
+          "visually_reviewed": true
+        },
+        {
+          "page": 13,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-13.png",
+          "sha256": "c68a7484c0d2fbacd1220e5d5437e358554a4e13db2f83f62a4988417c3143a9",
+          "visually_reviewed": true
+        },
+        {
+          "page": 14,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-14.png",
+          "sha256": "8b654056bdf94738c31228b10302e33dbc4facf191a803e1b918fb96e740fa2e",
+          "visually_reviewed": true
+        },
+        {
+          "page": 15,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-15.png",
+          "sha256": "98e3e3428b3cbcb0d8ad8e4b3e6a98a63d9375748255df5e3de65436d1a26448",
+          "visually_reviewed": true
+        },
+        {
+          "page": 16,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-16.png",
+          "sha256": "84712340fbb574f17c24b625145c5a20e6e0f952dd2fdc1851195b4f74fa5b55",
+          "visually_reviewed": true
+        },
+        {
+          "page": 17,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-17.png",
+          "sha256": "ca3719864e3c7d0b51171890e34ad28cb4d9c91f5d2b099768ef013dd6244fa1",
+          "visually_reviewed": true
+        },
+        {
+          "page": 18,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-18.png",
+          "sha256": "dd6ff29bc0ef62a5951260aa8a034b6c1e67d7f2c2e5f0b0e0f43519919982bc",
+          "visually_reviewed": true
+        },
+        {
+          "page": 19,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-19.png",
+          "sha256": "e790a741fb4998a57506200426a9ea6e96f4d5e8f9f3af1c1a583571b0186ec6",
+          "visually_reviewed": true
+        },
+        {
+          "page": 20,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-20.png",
+          "sha256": "9d80a02bde9384c8a645ac0a910ad8f45567aaa2b8a971d3ba79e455acd4f36b",
+          "visually_reviewed": true
+        },
+        {
+          "page": 21,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-21.png",
+          "sha256": "fbc2e092c1ced2c5b8deef234bc07fbbfcc5b9e5090e9d0d96952032ae14e151",
+          "visually_reviewed": true
+        },
+        {
+          "page": 22,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-22.png",
+          "sha256": "b0291432937c2e8127034087080b888839dbb331f5aa2316ca46e1a12940b24e",
+          "visually_reviewed": true
+        },
+        {
+          "page": 23,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-23.png",
+          "sha256": "1eec9981f1e6a266880ff31cf1b17a9c4cea7ac040e5db6151f9863476fee523",
+          "visually_reviewed": true
+        },
+        {
+          "page": 24,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-24.png",
+          "sha256": "704dc052c47ab98415309b8d3f77cbd7a9332950536d3006c53cd8b02d09de16",
+          "visually_reviewed": true
+        },
+        {
+          "page": 25,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-25.png",
+          "sha256": "1f34170922e0e65001892869477cd13abf8ac2ac012e0bb64026641148c1b20d",
+          "visually_reviewed": true
+        },
+        {
+          "page": 26,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-26.png",
+          "sha256": "7408ab65c3716f64f13300c5e6eb20d0ea847063c50d8f1e78a68b7c308421d4",
+          "visually_reviewed": true
+        },
+        {
+          "page": 27,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-27.png",
+          "sha256": "2287a2c45f5fe0174477fb2f6caba1ab6480c083fc5f1885cf62dbd2599d6ef5",
+          "visually_reviewed": true
+        },
+        {
+          "page": 28,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-28.png",
+          "sha256": "e4eff81f13e9865e35442c1c6bfd1cd200fe3f20366c74825e15a6a1a8b9fd5d",
+          "visually_reviewed": true
+        },
+        {
+          "page": 29,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-29.png",
+          "sha256": "d10cfefcb7b93d9e17f92e10bc2179d25958764764a82cd7e2ecea7215e1e20f",
+          "visually_reviewed": true
+        },
+        {
+          "page": 30,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-30.png",
+          "sha256": "5e18fc16dad27f67404d2f711e164a0c6a9c514a07809df0e4310cd107805e14",
+          "visually_reviewed": true
+        },
+        {
+          "page": 31,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-31.png",
+          "sha256": "0b51342596b9b400a239dc533d3387c443a1fd3a2e5ecaedb03e9257122805c6",
+          "visually_reviewed": true
+        },
+        {
+          "page": 32,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-32.png",
+          "sha256": "70a30ab7ed1813d852a302aadd364f580a7a2fc0e615bd9e06ee0a6da88a1e6f",
+          "visually_reviewed": true
+        },
+        {
+          "page": 33,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-33.png",
+          "sha256": "2a4fab0dc4a4e28bea771fcb5942f81d94c16f576a1acfb393e6e9a39c211384",
+          "visually_reviewed": true
+        },
+        {
+          "page": 34,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-34.png",
+          "sha256": "215ae5508cd9b9fb6d7a896481d63b01465f9babac0a6f687b2bf4a4c6c8c21a",
+          "visually_reviewed": true
+        },
+        {
+          "page": 35,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-35.png",
+          "sha256": "e3405f54e0eb5392a49c56ba89db395364ffc1d45c51ef008f3befbf1eb3386a",
+          "visually_reviewed": true
+        },
+        {
+          "page": 36,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-36.png",
+          "sha256": "42bc85ea2e9490674599c03c6800a8a97a6c0ebccb912eda19985cc2278b16c0",
+          "visually_reviewed": true
+        },
+        {
+          "page": 37,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-37.png",
+          "sha256": "f3cbbab7060d206cd921f77ddda3bae9f4c99e4f420268e2c35710eb3d339e70",
+          "visually_reviewed": true
+        },
+        {
+          "page": 38,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-38.png",
+          "sha256": "a11c5e39ab68628c41ce8caf0990e0b33dd4c8c6bb7e4ac60f3c67299e226d25",
+          "visually_reviewed": true
+        },
+        {
+          "page": 39,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-39.png",
+          "sha256": "a7f3012a8edf6ead4a6ce17c2d1147e6f9d60c059f6f881ee799f8450cd10065",
+          "visually_reviewed": true
+        },
+        {
+          "page": 40,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\报告版式预览渲染_ABv2正式检查\\page-40.png",
+          "sha256": "ef41ab0170e2643e56266c1d53bace7ac35fb954e44e7c6b5994da13bdaf2065",
+          "visually_reviewed": true
+        }
+      ]
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.docx",
+      "sha256": "798eed955b0b92565382c67aec909e829f96a640aa63c07d17444a65524d0464",
+      "status": "PASS",
+      "bytes": 48685,
+      "pages": 7,
+      "tables": 6,
+      "embedded_image_occurrences": 0,
+      "zip_crc": "PASS",
+      "all_XML_and_relationship_parts_parsed": 17,
+      "internal_relationship_targets": "PASS",
+      "visible_placeholder_and_assistant_brand_scan": "PASS",
+      "local_links": [
+        {
+          "target": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v2.docx",
+          "member": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v2.docx",
+          "present": true
+        },
+        {
+          "target": "历史与正式文档/基于ResNet18的手势识别项目方案_v11.docx",
+          "member": "历史与正式文档/基于ResNet18的手势识别项目方案_v11.docx",
+          "present": true
+        },
+        {
+          "target": "历史与正式文档/手势合并与数字编码.docx",
+          "member": "历史与正式文档/手势合并与数字编码.docx",
+          "present": true
+        },
+        {
+          "target": "完整源码与数据/Vision_CA/README.md",
+          "member": "完整源码与数据/Vision_CA/README.md",
+          "present": true
+        }
+      ],
+      "public_web_link_count": 0,
+      "render_directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3",
+      "page_evidence": [
+        {
+          "page": 1,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3\\page-1.png",
+          "sha256": "9d898139ab01eca59181d5728a0ab84ebc884c881d429e905b46045d8bd12674",
+          "visually_reviewed": true
+        },
+        {
+          "page": 2,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3\\page-2.png",
+          "sha256": "28add25dac98deaef8389f7dacc8c2efaf4c83e1e034fab7ccbe2b98fdbcd913",
+          "visually_reviewed": true
+        },
+        {
+          "page": 3,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3\\page-3.png",
+          "sha256": "7e15f2b3ebebb01463c8590e11a0198625fe607c693c1e19c289afbcde42a480",
+          "visually_reviewed": true
+        },
+        {
+          "page": 4,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3\\page-4.png",
+          "sha256": "c59e328ccae39d2b46a02f574ba71fff77944d81db3fffdc3d12cc3a8c84a612",
+          "visually_reviewed": true
+        },
+        {
+          "page": 5,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3\\page-5.png",
+          "sha256": "660b97809e3c770da931660f96bd7ed1fb624173ede2f6b64d39570dbe91d081",
+          "visually_reviewed": true
+        },
+        {
+          "page": 6,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3\\page-6.png",
+          "sha256": "bec5adccca8b690b4998de47c55c0f769de58e0556d36a4e9e196ecd6634367f",
+          "visually_reviewed": true
+        },
+        {
+          "page": 7,
+          "png": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_AB_final_render3\\page-7.png",
+          "sha256": "0eb281f980300b4f15149cab341a60ef2f0a7d9a997b1cc4c8c34bda8a074095",
+          "visually_reviewed": true
+        }
+      ]
+    }
+  ],
+  "authorities": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\ab_comparison_results.json",
+      "sha256": "31eb58e0c0aee004d76daaeb9bbee242fd20e319be0c736d70b9e0eca7203513",
+      "status": "6_ROWS_VERIFIED"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\matched_cpu_benchmark.json",
+      "sha256": "23f8dd1e2b08ac7e9e2f4f1618534212a209f867410a54873663555a6e3fba68",
+      "status": "complete"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\ab_final_independent_review.json",
+      "sha256": "05c3cc3b49da161a1b46bc931ceaf11f96e92c9e75c867e8b84fd7e06e50d1c9",
+      "status": "PASS_AB_RESULT_AUDIT_WITH_LIMITATIONS"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\matched_cpu_independent_review.json",
+      "sha256": "52e8d6b969ec6661ca50100192c02a9324f827f8befa3facca5c3d6f4d6cfce2",
+      "status": "PASS"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\gradcam_independent_review.json",
+      "sha256": "db0c0f0289592b8d44bcc1e463c7c5d3179b5503a97333ec3f506a9741a2fa1b",
+      "status": "PASS"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\six_program_readiness.json",
+      "sha256": "065391a73998151c1332297c5becb92626cffe68fff1a508151ec01b9a30c7b2",
+      "status": "PASS"
+    }
+  ],
+  "preservation": {
+    "project_plan_reference": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v10.docx",
+    "original_24_images_exact_bytes_and_occurrences_preserved": true,
+    "original_5_tables_retained_in_updated_8_table_document": true,
+    "old_and_new_architecture_figures_both_present": true,
+    "A_report_reference": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\A协议ResNet训练与对比实验报告_v1.docx",
+    "A_original_9_tables_all_cells_exactly_preserved": true,
+    "A_original_6_figures_exact_bytes_and_occurrences_preserved": true
+  },
+  "scientific_checks": [
+    "六行A/B结果与ab_comparison_results逐模型核对；手图和整图分母分开。",
+    "B人员6379/797/797、照片25274/3457/3102、手框30799/4326/3759与独审及数据权威一致。",
+    "B微调实际18/18/11、B50最佳7且patience4；冻结头每架构24次且每次18轮。",
+    "B18恢复1039概率向量变化、标签全同；B50恢复2116概率变化且1手真2平票0变2；完整attempt2非择高。",
+    "共同100张A验证照片与独立100只手、8线程预热20、3轮300次/范围，均值中位P95样本标准差与matched_cpu_benchmark相符；背景负载和慢轮保留。",
+    "历史CPU原六行保留，与共同输入补测明确区分；未把小差异当显著或因果效应。",
+    "peace两种归1，two_up两种归0；0无新指令与3明确取消运动区分，异常stderr与非0退出。",
+    "CAM为固定ResNet18事后相关性解释；无检测框不补造分类输入，仅具体停止例定位漏检。",
+    "A/B不同测试照片、内部同来源人员隔离及尚无ROS/连续摄像头/外部泛化实际验收写明。",
+    "根交接阅读顺序、建议分工的输入产物与接收方清楚，无编造人名或既定会议决定。"
+  ],
+  "package_link_check": {
+    "specification": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\final_package_spec.json",
+    "specification_sha256": "d7104818e4798cdd3424d2f81208f29b5401cce889e62356d7bff4b278158cc8",
+    "builder": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\build_ab_project_bundle.py",
+    "builder_sha256_at_check": "36988cbafa2b217815fc44a30ea70b95f5fa3bbe36961fd594f6fba38bd3a0bc",
+    "method": "import gather只读枚举真实ZIP目标成员，再按Word映射位置解析相对链接",
+    "member_count_at_check": 96389,
+    "all_4_local_links_present": true,
+    "file_URI_links_in_three_formal_documents": 0,
+    "cache_promise_matches_gather": true,
+    "scientific_CAM_and_figures_retained_personal_notes_excluded": true
+  },
+  "closed_findings": [
+    {
+      "issue": "方案15项个人媒体file链接不可携带",
+      "resolution": "作者移除file关系并保留所有图字节及可见文字，最终本地file链接0。"
+    },
+    {
+      "issue": "图15逐行归一化与实际逐图不符",
+      "resolution": "改各图独立归一化，重看新第24页，另27页PNG逐SHA一致。"
+    },
+    {
+      "issue": "B34人工框全部指标低于18的概括不符",
+      "resolution": "第13章明确人工框准确率略低、宏F1略高99.04对98.95；独审重看最终第39页。"
+    },
+    {
+      "issue": "正式报告助手口吻用户和组员",
+      "resolution": "改我和组员共同负责。"
+    },
+    {
+      "issue": "交接承诺缓存随包但gather排除",
+      "resolution": "改保留索引与重建代码，裁图/冻结特征缓存可从原图重建；独审重看最终5—7页。"
+    }
+  ],
+  "layout_review": {
+    "all_75_pages_actually_viewed": true,
+    "contact_sheet_only_review": false,
+    "overflow_overlap_clipped_text_or_images": false,
+    "orphaned_headings": false,
+    "split_tables_have_repeated_headers_and_intact_rows": true,
+    "large_whitespace_assessed": "部分来源/架构图与科学矩阵采用整图专页，前页留白用于保留可读尺寸；没有空白整页、独占末行表格或缺失内容。",
+    "render_reuse": "方案除24页外27页PNG精确一致；交接1—4页PNG精确一致；修改页均重新实际view；报告40页均逐页实际view。"
+  },
+  "limits": [
+    "本次使用LibreOffice规范渲染并全页审；未使用Microsoft Word UI或OpenXML SDK，不把XML解析等同Word应用兼容性认证。",
+    "本JSON通过前置最终成员集核链接；最终ZIP字节与所有成员校验仍由冻结/归档门禁执行。"
+  ],
+  "open_findings": []
+}

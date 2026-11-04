@@ -1,0 +1,374 @@
+{
+  "final_independent_review": "PASS",
+  "six_programs_verified": true,
+  "verified_files": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\ab_final_independent_review.json",
+      "sha256": "05c3cc3b49da161a1b46bc931ceaf11f96e92c9e75c867e8b84fd7e06e50d1c9"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\six_program_readiness.json",
+      "sha256": "065391a73998151c1332297c5becb92626cffe68fff1a508151ec01b9a30c7b2"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\ab_comparison_results.json",
+      "sha256": "31eb58e0c0aee004d76daaeb9bbee242fd20e319be0c736d70b9e0eca7203513"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\matched_cpu_benchmark.json",
+      "sha256": "23f8dd1e2b08ac7e9e2f4f1618534212a209f867410a54873663555a6e3fba68"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\matched_cpu_independent_review.json",
+      "sha256": "52e8d6b969ec6661ca50100192c02a9324f827f8befa3facca5c3d6f4d6cfce2"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\gradcam_independent_review.json",
+      "sha256": "db0c0f0289592b8d44bcc1e463c7c5d3179b5503a97333ec3f506a9741a2fa1b"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\trained_gradcam\\metadata.json",
+      "sha256": "20fd31c0f492685d656bb04cf77c0b9ca99aac86cb868d9851bdb49a2d4723ae"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\trained_gradcam\\trained_six_class_matrix.png",
+      "sha256": "a5f86ed87f189c4b78a244541bf6a65bca38ae1b1671cb1d30c2df5f11572374"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\report_figures\\actual_crop_comparison.png",
+      "sha256": "bbcf4e3c4614a64734ac778f93075fb66ba5986347eaed143c768b8e9ccd0742"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\actual_crop_comparison.json",
+      "sha256": "1e254285ae816fd62554d03a11e1c71a73aab580df56dcf7230e0fa233b1675c"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\portable_B_training.py",
+      "sha256": "5d30bbf3638057b640bd582b58ed45797c61fec4151bf14d96761f2d55630217"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\resnet18_final_independent_review.json",
+      "sha256": "ce7abd5e1f9d11106615902d4508c397606340568d3369cccf72ddedc44bdb18"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\resnet34_final_independent_review.json",
+      "sha256": "c6636981bd9b916f7b114c3b0b836d3682c1675f594a3a88fa9537cfd1101c84"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\resnet50_final_independent_review.json",
+      "sha256": "09982e149309ecfd01566e93eb33174ce9c4ee847fd0d17c9311652a2a69f4f8"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_working.md",
+      "sha256": "8a6c237d2921366f279802e71c4e376ef0ada63beb57ab344d9637eeda8a11f1"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\build_AB_handover_docs.py",
+      "sha256": "675871fd54038288c4f15c4f080e9b6afb06514f5c4729db0dc13829af5a2022"
+    }
+  ],
+  "report_filename": "A与B协议ResNet训练与对比实验报告_v2.docx",
+  "A_comparison": [
+    {
+      "protocol": "A",
+      "model": "ResNet18",
+      "crop_n": 3917,
+      "crop_correct": 3891,
+      "crop_accuracy": 0.9933622670411029,
+      "crop_macro_f1": 0.9910281429233736,
+      "photo_n": 3180,
+      "photo_correct": 2977,
+      "photo_errors": 203,
+      "photo_accuracy": 0.9361635220125786,
+      "photo_macro_f1": 0.9044915025044727,
+      "whole_cpu_mean_ms": 37.38971833333333,
+      "whole_cpu_p95_ms": 52.21919500000001,
+      "classifier_cpu_mean_ms": 17.60205033333333,
+      "classifier_cpu_p95_ms": 25.10825,
+      "classifier_parameters": 11179590,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 18,
+      "finetune_seconds": 703.5203506946564,
+      "best_validation_macro_f1": 0.9892619592644359,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.3
+      },
+      "zero_samples": 1773,
+      "zero_to_motion": 16,
+      "stop_samples": 173,
+      "stop_to_motion": 1,
+      "stop_to_zero": 35,
+      "detector_metrics": {
+        "tp": 3240,
+        "fp": 431,
+        "fn": 677,
+        "precision": 0.882593298828657,
+        "recall": 0.8271636456471789,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "611023f0954d8e756b4e6b4620ea288d9ae933903958f4c0e86887750942ec94",
+        "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+      },
+      "test_crop_accuracy": 0.9933622670411029,
+      "test_crop_macro_f1": 0.9910281429233736,
+      "test_photo_accuracy": 0.9361635220125786,
+      "test_photo_macro_f1": 0.9044915025044727
+    },
+    {
+      "protocol": "A",
+      "model": "ResNet34",
+      "crop_n": 3917,
+      "crop_correct": 3885,
+      "crop_accuracy": 0.9918304825121266,
+      "crop_macro_f1": 0.9883678448556243,
+      "photo_n": 3180,
+      "photo_correct": 2962,
+      "photo_errors": 218,
+      "photo_accuracy": 0.9314465408805032,
+      "photo_macro_f1": 0.8976078999611522,
+      "whole_cpu_mean_ms": 46.86445833333333,
+      "whole_cpu_p95_ms": 66.57387000000001,
+      "classifier_cpu_mean_ms": 35.108528,
+      "classifier_cpu_p95_ms": 65.42148,
+      "classifier_parameters": 21287750,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 18,
+      "finetune_seconds": 845.4481770992279,
+      "best_validation_macro_f1": 0.9886918197973579,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.5
+      },
+      "zero_samples": 1773,
+      "zero_to_motion": 16,
+      "stop_samples": 173,
+      "stop_to_motion": 1,
+      "stop_to_zero": 32,
+      "detector_metrics": {
+        "tp": 3241,
+        "fp": 431,
+        "fn": 676,
+        "precision": 0.8826252723311547,
+        "recall": 0.827418943068675,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "e3ad53c1b04ea89a01ec31f5c342ff2b9cadde935995a330a245944b803f463d",
+        "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+      },
+      "test_crop_accuracy": 0.9918304825121266,
+      "test_crop_macro_f1": 0.9883678448556243,
+      "test_photo_accuracy": 0.9314465408805032,
+      "test_photo_macro_f1": 0.8976078999611522
+    },
+    {
+      "protocol": "A",
+      "model": "ResNet50",
+      "crop_n": 3917,
+      "crop_correct": 3895,
+      "crop_accuracy": 0.9943834567270871,
+      "crop_macro_f1": 0.9914399438251578,
+      "photo_n": 3180,
+      "photo_correct": 3000,
+      "photo_errors": 180,
+      "photo_accuracy": 0.9433962264150944,
+      "photo_macro_f1": 0.9136600660073267,
+      "whole_cpu_mean_ms": 50.841514333333336,
+      "whole_cpu_p95_ms": 71.33884,
+      "classifier_cpu_mean_ms": 32.21928233333333,
+      "classifier_cpu_p95_ms": 41.915065,
+      "classifier_parameters": 23520326,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 18,
+      "finetune_seconds": 1323.6602272987366,
+      "best_validation_macro_f1": 0.9915610118535482,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.3
+      },
+      "zero_samples": 1773,
+      "zero_to_motion": 5,
+      "stop_samples": 173,
+      "stop_to_motion": 0,
+      "stop_to_zero": 32,
+      "detector_metrics": {
+        "tp": 3241,
+        "fp": 431,
+        "fn": 676,
+        "precision": 0.8826252723311547,
+        "recall": 0.827418943068675,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "cb35e65b71d0ca10254c371e5f9fe7aac94a4171825d821339c8c9396fe87dfc",
+        "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+      },
+      "test_crop_accuracy": 0.9943834567270871,
+      "test_crop_macro_f1": 0.9914399438251578,
+      "test_photo_accuracy": 0.9433962264150944,
+      "test_photo_macro_f1": 0.9136600660073267
+    }
+  ],
+  "B_comparison": [
+    {
+      "protocol": "B",
+      "model": "ResNet18",
+      "crop_n": 3759,
+      "crop_correct": 3727,
+      "crop_accuracy": 0.991487097632349,
+      "crop_macro_f1": 0.989481791614783,
+      "photo_n": 3102,
+      "photo_correct": 2887,
+      "photo_errors": 215,
+      "photo_accuracy": 0.9306898774983882,
+      "photo_macro_f1": 0.8982369524203241,
+      "whole_cpu_mean_ms": 40.54497800000001,
+      "whole_cpu_p95_ms": 70.34771000000005,
+      "classifier_cpu_mean_ms": 19.91999233333333,
+      "classifier_cpu_p95_ms": 38.059485000000016,
+      "classifier_parameters": 11179590,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 18,
+      "finetune_seconds": 615.7215197086334,
+      "best_validation_macro_f1": 0.9893394453954586,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.3
+      },
+      "zero_samples": 1695,
+      "zero_to_motion": 5,
+      "stop_samples": 173,
+      "stop_to_motion": 0,
+      "stop_to_zero": 41,
+      "detector_metrics": {
+        "tp": 3044,
+        "fp": 259,
+        "fn": 715,
+        "precision": 0.9215864365728126,
+        "recall": 0.8097898377227987,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "test_crop_accuracy": 0.991487097632349,
+      "test_crop_macro_f1": 0.989481791614783,
+      "test_photo_accuracy": 0.9306898774983882,
+      "test_photo_macro_f1": 0.8982369524203241
+    },
+    {
+      "protocol": "B",
+      "model": "ResNet34",
+      "crop_n": 3759,
+      "crop_correct": 3726,
+      "crop_accuracy": 0.99122106943336,
+      "crop_macro_f1": 0.9903779339362386,
+      "photo_n": 3102,
+      "photo_correct": 2875,
+      "photo_errors": 227,
+      "photo_accuracy": 0.9268214055448099,
+      "photo_macro_f1": 0.8939949164365286,
+      "whole_cpu_mean_ms": 47.340305666666666,
+      "whole_cpu_p95_ms": 64.56588,
+      "classifier_cpu_mean_ms": 30.945712666666672,
+      "classifier_cpu_p95_ms": 49.78520500000001,
+      "classifier_parameters": 21287750,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 18,
+      "finetune_seconds": 813.7473969459534,
+      "best_validation_macro_f1": 0.9881444938217792,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.3
+      },
+      "zero_samples": 1695,
+      "zero_to_motion": 9,
+      "stop_samples": 173,
+      "stop_to_motion": 1,
+      "stop_to_zero": 42,
+      "detector_metrics": {
+        "tp": 3044,
+        "fp": 259,
+        "fn": 715,
+        "precision": 0.9215864365728126,
+        "recall": 0.8097898377227987,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "0ec1faf39be0c73687ac58ea17abed80858a136babc3c0471ddd8c1a68a3f658",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "test_crop_accuracy": 0.99122106943336,
+      "test_crop_macro_f1": 0.9903779339362386,
+      "test_photo_accuracy": 0.9268214055448099,
+      "test_photo_macro_f1": 0.8939949164365286
+    },
+    {
+      "protocol": "B",
+      "model": "ResNet50",
+      "crop_n": 3759,
+      "crop_correct": 3722,
+      "crop_accuracy": 0.9901569566374036,
+      "crop_macro_f1": 0.9872498911616848,
+      "photo_n": 3102,
+      "photo_correct": 2895,
+      "photo_errors": 207,
+      "photo_accuracy": 0.9332688588007737,
+      "photo_macro_f1": 0.9037482883188003,
+      "whole_cpu_mean_ms": 49.814962333333334,
+      "whole_cpu_p95_ms": 69.71061,
+      "classifier_cpu_mean_ms": 35.11450266666667,
+      "classifier_cpu_p95_ms": 56.637585000000016,
+      "classifier_parameters": 23520326,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 11,
+      "finetune_seconds": 807.9855217933655,
+      "best_validation_macro_f1": 0.9909484352118264,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.5
+      },
+      "zero_samples": 1695,
+      "zero_to_motion": 13,
+      "stop_samples": 173,
+      "stop_to_motion": 0,
+      "stop_to_zero": 40,
+      "detector_metrics": {
+        "tp": 3044,
+        "fp": 260,
+        "fn": 715,
+        "precision": 0.9213075060532687,
+        "recall": 0.8097898377227987,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "302a9acc3f61570c42843550e43bb75ae80f7354da649830900b476c5b5e0f6c",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "test_crop_accuracy": 0.9901569566374036,
+      "test_crop_macro_f1": 0.9872498911616848,
+      "test_photo_accuracy": 0.9332688588007737,
+      "test_photo_macro_f1": 0.9037482883188003
+    }
+  ],
+  "paragraph_replacements": {
+    "ResNet识别分支由我和组员共同负责。我们已经把完整照片到数字输出的程序、A三模型实验和固定A/B数据清单整理出来；B18已完成训练与测试，B34、B50和统一测速仍在执行。本文件是本次新版交接的内部工作稿，正式交接将在B三模型结果、程序和最终审核完成后生成。": "ResNet识别分支由我和组员共同负责。我们已经完成A按照片划分和B按人员划分的ResNet18、34、50实验，整理出六个自带权重的识别程序、完整源码与真实数据、正式方案和综合报告。组员可直接接收复核、使用现有结果准备汇报，并与另一识别子组和控制组继续比较及集成。",
+    "每种分类架构先固定ImageNet主干，对冻结特征上的分类头做24次TPE搜索，每次18轮；再解冻layer4和分类头微调，上限18轮、连续4轮无验证宏F1提高可早停。TPE比较优化器、学习率、权重衰减、Dropout、标签平滑与类别权重开关，不是整网搜索。手检测器用对应协议训练照片和人工手框训练16轮；同一协议的三种分类器共用手检测器。完整验证照片再比较12组检测／分类阈值，各模型单独固定。": "每种分类架构先固定ImageNet主干，对冻结特征上的分类头做24次TPE搜索，每次18轮，再解冻layer4和分类头微调。TPE比较优化器、学习率、权重衰减、Dropout、标签平滑与类别权重开关，不是整网搜索。A微调均完成18轮；B三模型全部完成24次冻结头TPE搜索，每次18轮；随后18、34分别微调18个完整轮，最佳验证轮为17、18。50按原连续4轮验证宏F1无提高的规则，在第11个完整轮后自然早停，最佳轮为7，没有为了补齐18轮而追加训练。B手检测器独立训练16轮，各架构仅用B验证照片在12组阈值中选择，检测／分类阈值分别为0.3／0.3、0.3／0.3、0.3／0.5。",
+    "| 工作 | 已完成内容 | 交接后用途 |\n|---|---|---|\n| 数据 | 原图与标注接入、六类映射、A照片划分和B人员划分、逐图名单与隔离审核 | 确认每张照片归属，复现相同评价 |\n| A训练与测试 | 18/34/50各24次TPE与18轮微调、16轮检测、完整手图与整图测试 | 正式报告与三程序已有结果 |\n| B训练与测试 | B18已完成，34/50及统一CPU比较仍在运行 | 最终结果审核后写入同一交接版本 |\n| 解释与病例 | A、B18真实六类分层CAM及整图错误／实际裁图对照已生成，B图计算审核仍在进行 | 讲清真实手形与定位、分类等环节 |\n| 独立程序 | A三程序自带权重，可离线输入完整照片输出整数；B独立程序按最终配置生成 | 接收复核、集成与演示 |\n| 文档 | 方案v11与A/B综合报告正在按真实实验更新 | 以最终审核后的文档为准 |": "| 工作 | 已完成内容 | 交接后用途 |\n|---|---|---|\n| 数据 | 原图标注、六类映射、A/B固定名单及隔离审核 | 确认每张照片归属，复现相同评价 |\n| A/B训练与测试 | 六分类器各24次TPE，A微调18/18/18轮，B为18/18/11轮；两检测器各16轮，全部固定测试完成 | 正式报告与六程序使用同一冻结结果 |\n| 解释与错误分析 | A/B真实六类分层CAM、错误照片、实际裁图对照及源张量 | 讲清真实形态与错误环节 |\n| 独立程序 | 六模型自带权重，完成离线、六类、多手、空白及异常检查 | 接收复核、集成与演示 |\n| 文档与速度 | 方案v11、A/B报告v2及共同输入CPU补测 | 理解方法、复核结果、选择演示模型 |",
+    "人工框手图先由标注裁好，只看分类器；整图包含自动找手、裁图、分类、阈值和多手汇总。实际输入是完整照片，不能只用约99%的手图成绩描述整套系统。CPU条件为Intel Core Ultra 9 285H、8线程、batch1、模型已加载；整图计时从打开解码照片到输出数字，不包含冷启动导入和读权重。": "人工框手图先由标注裁好，只看分类器；整图包含自动找手、裁图、分类、阈值和多手汇总。实际输入是完整照片，不能只用约99%的手图成绩描述整套系统。上表CPU采用六模型共同输入补测。六模型速度另作共同输入补测：使用A固定验证清单按图片编号排序的前100张完整照片，以及A验证人工框手图按图片编号和手序号排序的前100张手图。全部模型提前加载；CPU float32、8线程，每个范围预热20次，三轮均遍历全部100个输入，保留300次原始时间并轮换模型顺序。整图从打开解码到检测、裁图、分类和整数汇总，纯分类只计已预处理张量的前向。每次整图输入一张照片，内部多手按原接口成批分类；各模型保留已冻结阈值及实际手框工作量。计时块估计背景CPU占用约7.4%—43%，B18整图第三轮均值50.54 ms也完整保留；全部三轮共同汇总，不挑最快轮，也不能把小幅耗时差异直接归因于A/B划分。新补测不重算准确率，原测试集计时保留在各运行目录。",
+    "A中50较18少23张整图错误，平均CPU时间增加约22.50 ms；34没有取得更好的准确率与耗时组合。最终模型选择还要结合B人员互斥结果与目标设备运行情况共同判断。": "与各自A结果相比，B18、34、50整图准确率分别低0.55、0.46、1.01个百分点。B保持测试人员未参加训练，但A与B测试照片构成、训练人员及独立训练检测器均不同，差值不能单独量出人员重叠的因果影响。本次B50比B18少8张整图错误，却在真实0照片中多8张误发运动，人工框分类也未优于18；模型选择须一起考虑停止漏识别、误运动和目标设备速度。人员互斥仍限于同一HaGRID来源，尚未证明真实摄像头或不同设备的外部泛化。",
+    "停止类必须保留漏识别：A18/34/50在173张停止照片中，分别有1/1/0张误发运动，还有35/32/32张输出0。输出0没有发出停止3，不能当作停止识别成功。B18的首个停止错例没有自动手框，但同张照片的人工框手图分类为3；该例是定位漏检，不能将它推广为所有停止输出0的原因。": "停止类必须保留漏识别：A18/34/50在173张停止照片中分别有1/1/0张误发运动，还有35/32/32张输出0。B三模型在1,695张真实0照片中分别有5、9、13张误发运动，在173张停止照片中分别有0、1、0张误发运动，另有41、42、40张停止照片输出0。停止输出0并未识别出停止3。B18检测在score0.3、IoU0.5下有TP3,044、FP259、FN715，召回率80.98%；漏框数与失败照片数不是同一个分母，单张照片也可能包含多只手。 B18首个停止错例没有自动框，但人工框分类为3；只证明该例定位漏检。\n\nB18与B50的完整照片测试曾被中断，保留中断证据后，在模型、阈值和数据身份核验通过的条件下恢复同一测试阶段。B18两次已保存的3,759只人工框手图标签一致，1,039只手的概率有微小差异，最大绝对差0.00104225；B50有2,116只手的概率变化，最大绝对差0.00318676，其中一只真实2类stop_inverted手图由原平票输出0变为2。正式成绩统一采用恢复后自然完成的完整attempt2，不在两次结果中择高，也不把恢复视为独立重复实验。",
+    "完整项目包含31,833张原图及标注、固定A和B各31,833张照片、各协议38,884张派生手图、三架构特征缓存、训练日志、TPE数据库、完整预测及解释证据。四份官方预训练为ResNet18、34、50和MobileNetV3 ImageNet权重。程序目录用于迅速运行，完整项目用于开发和复核。": "完整项目包含31,833张原图及标注、固定A和B各31,833张照片、对应手图索引、训练日志、TPE数据库、完整预测及解释证据。派生裁图和冻结特征缓存未重复收进总包，可按保留的原图、固定索引及预处理代码重建。四份官方预训练为ResNet18、34、50和MobileNetV3 ImageNet权重。程序目录用于迅速运行，完整项目用于开发复核；所有权威训练记录在完整源码与数据/Vision_CA/runs。程序/A中原README提到的“训练记录”是原独立交付布局，在本完整包请进入上述runs目录查阅，原程序文件和SHA保持不变。",
+    "原日志与历史Word保留原机器路径；迁移时按完整项目README选择当前路径，不整体替换历史记录。当前`python portable_project.py check`只读核对原图、A分组和四份本地预训练，B清单另按B审核记录及最终文件校验核对。另开实验使用新的输出目录，不能覆盖本次冻结模型、阈值和原预测。B重新训练入口以B运行协议和实际调度脚本为准，不能误用A包装器输出到B目录。": "原日志与历史Word保留原机器路径；迁移时按完整项目README选择当前路径，不整体替换历史记录。在完整源码与数据/Vision_CA目录运行`python portable_ab_project.py check`只读核包；B新实验从`python portable_B_training.py prepare --out runs/new_B --arch resnet18`开始，使用包内四份pretrained/checkpoints权重并重建当前路径的手图索引。每条命令只执行一个阶段，按`--list`所列顺序继续；34/50复用这次新生成的裁图和18的检测器。新输出目录必须未被使用，历史A/B结果受到保护。迁移重训使用这一新入口，正式成绩仍对应本次已冻结的原运行。",
+    "下面是建议分工，供组内确认；不编成员姓名、不写成已有会议决定，也不要求组员把已完成实验从头再跑。接收复核和汇报初稿可先推进；两路线共同评价依赖另一子组，控制联调依赖控制接口和环境。": "以下建议分工供组内确认。接收复核和汇报初稿可先推进，组员继续使用并检查已完成实验；两路线共同评价依赖另一子组提供程序和结果，控制联调依赖控制组提供接口和环境。"
+  }
+}

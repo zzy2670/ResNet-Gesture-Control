@@ -1,0 +1,206 @@
+[
+  {
+    "image_id": "1fc5f07b-610e-480c-acf1-db3cd276927c",
+    "truth": 0,
+    "prediction": 4,
+    "gt_hands": [
+      {
+        "image_id": "1fc5f07b-610e-480c-acf1-db3cd276927c",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\crops\\test\\1fc5f07b-610e-480c-acf1-db3cd276927c__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\call\\1fc5f07b-610e-480c-acf1-db3cd276927c.jpg",
+        "raw_label": "call",
+        "label": 0,
+        "user_id": "1d11b134a3cad87babd19f4255cf460efe94683f51c6f60126e3e192a895d583",
+        "bbox_xyxy": [
+          234.59526656,
+          146.78252928,
+          278.25099776,
+          207.48661248000002
+        ],
+        "crop_rectangle": [
+          220,
+          140,
+          293,
+          214
+        ]
+      }
+    ],
+    "predicted_hands": [
+      {
+        "bbox": [
+          242.11428833007812,
+          151.73880004882812,
+          285.1551513671875,
+          196.4827423095703
+        ],
+        "detector_score": 0.43819236755371094,
+        "label": 4,
+        "confidence": 0.570186972618103,
+        "accepted": true,
+        "probabilities": [
+          0.2587141990661621,
+          0.051192864775657654,
+          0.031876470893621445,
+          0.0427534393966198,
+          0.570186972618103,
+          0.04527605324983597
+        ]
+      }
+    ],
+    "selection": "first_wrong_image_id_in_prespecified_classes_0_3_4_5"
+  },
+  {
+    "image_id": "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+    "truth": 3,
+    "prediction": 0,
+    "gt_hands": [
+      {
+        "image_id": "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\crops\\test\\00a21d28-a152-49d1-bf5a-c22a81df75b7__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\fist\\00a21d28-a152-49d1-bf5a-c22a81df75b7.jpg",
+        "raw_label": "fist",
+        "label": 3,
+        "user_id": "3582ab079b6e9774790ef4cce60717b6258cf075f8682d85ae8a22a5872a9af1",
+        "bbox_xyxy": [
+          235.70804352000002,
+          189.30722816,
+          287.83852032000004,
+          235.98928896
+        ],
+        "crop_rectangle": [
+          230,
+          181,
+          294,
+          244
+        ]
+      }
+    ],
+    "predicted_hands": [],
+    "selection": "first_wrong_image_id_in_prespecified_classes_0_3_4_5"
+  },
+  {
+    "image_id": "074f0d83-6822-4d2c-8056-c0131738a0f6",
+    "truth": 4,
+    "prediction": 0,
+    "gt_hands": [
+      {
+        "image_id": "074f0d83-6822-4d2c-8056-c0131738a0f6",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\crops\\test\\074f0d83-6822-4d2c-8056-c0131738a0f6__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\like\\074f0d83-6822-4d2c-8056-c0131738a0f6.jpg",
+        "raw_label": "no_gesture",
+        "label": 0,
+        "user_id": "3e6d67b470b17ec974fd0ab50ef17464a52dbf841e8af5302ada6ca288eda0ce",
+        "bbox_xyxy": [
+          86.63219712,
+          388.11560689,
+          122.44770815999999,
+          433.92587568
+        ],
+        "crop_rectangle": [
+          77,
+          383,
+          133,
+          439
+        ]
+      },
+      {
+        "image_id": "074f0d83-6822-4d2c-8056-c0131738a0f6",
+        "hand_index": 1,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\crops\\test\\074f0d83-6822-4d2c-8056-c0131738a0f6__hand1.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\like\\074f0d83-6822-4d2c-8056-c0131738a0f6.jpg",
+        "raw_label": "like",
+        "label": 4,
+        "user_id": "3e6d67b470b17ec974fd0ab50ef17464a52dbf841e8af5302ada6ca288eda0ce",
+        "bbox_xyxy": [
+          173.32015488000002,
+          210.81554416999998,
+          217.40155392,
+          266.48389140999996
+        ],
+        "crop_rectangle": [
+          161,
+          205,
+          229,
+          273
+        ]
+      }
+    ],
+    "predicted_hands": [],
+    "selection": "first_wrong_image_id_in_prespecified_classes_0_3_4_5"
+  },
+  {
+    "image_id": "080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba",
+    "truth": 5,
+    "prediction": 0,
+    "gt_hands": [
+      {
+        "image_id": "080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba",
+        "hand_index": 0,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\crops\\test\\080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba__hand0.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\dislike\\080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba.jpg",
+        "raw_label": "no_gesture",
+        "label": 0,
+        "user_id": "c03ac42180012a09969eeac1b7d3a41831a4d5f00e2c623fdf78f0c161e6c835",
+        "bbox_xyxy": [
+          148.3862784,
+          429.7445376,
+          224.26856447999998,
+          498.90322432
+        ],
+        "crop_rectangle": [
+          140,
+          418,
+          232,
+          510
+        ]
+      },
+      {
+        "image_id": "080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba",
+        "hand_index": 1,
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\crops\\test\\080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba__hand1.jpg",
+        "source_path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\data\\B_split_verified_20261102\\test\\images\\dislike\\080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba.jpg",
+        "raw_label": "dislike",
+        "label": 5,
+        "user_id": "c03ac42180012a09969eeac1b7d3a41831a4d5f00e2c623fdf78f0c161e6c835",
+        "bbox_xyxy": [
+          207.34061184,
+          270.77966336,
+          259.05485952,
+          337.94773504
+        ],
+        "crop_rectangle": [
+          192,
+          264,
+          274,
+          345
+        ]
+      }
+    ],
+    "predicted_hands": [
+      {
+        "bbox": [
+          145.2390594482422,
+          428.6768493652344,
+          212.8888397216797,
+          497.65362548828125
+        ],
+        "detector_score": 0.9326322078704834,
+        "label": 0,
+        "confidence": 0.6278039813041687,
+        "accepted": true,
+        "probabilities": [
+          0.6278039813041687,
+          0.038366641849279404,
+          0.0366482250392437,
+          0.04957379400730133,
+          0.1898459643125534,
+          0.05776141583919525
+        ]
+      }
+    ],
+    "selection": "first_wrong_image_id_in_prespecified_classes_0_3_4_5"
+  }
+]

@@ -1,0 +1,778 @@
+{
+  "reviewed_at": "2026-11-02T22:53:05.897621+08:00",
+  "reviewer": "b50_recovery_review",
+  "status": "PASS_FOR_CONTROLLED_RESNET50_EVALUATION_RECOVERY",
+  "conclusion": "允许root先完整保留B50中断证据、再用原控制器--retry-failed恢复未成功evaluate及后续固定CPU测速。4源码及快照、21个已成功marker对应46个产物、3manifest和三模型冻结双权重均一致；无需改参数、加试验或重训。该PASS只针对受控恢复条件，不代表B50完整测试、CPU或最终交付已通过。",
+  "scope": "独立只读审查；本审者唯一写入本JSON，未修改源代码、阈值、权重、索引、marker或既有结果，未启动GPU、训练、评价或恢复。",
+  "prior_review": {
+    "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_independent_review.json",
+    "bytes": 10830,
+    "sha256": "4d6f8be9a83a1696cf5d8fa74dcac2ee3310737df8a66d226bf750e45e28d51b"
+  },
+  "source_checks": [
+    {
+      "file": "run_B_pipeline.py",
+      "expected": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+      "current": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+      "snapshot": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+      "pass": true
+    },
+    {
+      "file": "run_B_training.py",
+      "expected": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+      "current": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+      "snapshot": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+      "pass": true
+    },
+    {
+      "file": "train_A.py",
+      "expected": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+      "current": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+      "snapshot": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+      "pass": true
+    },
+    {
+      "file": "compare_resnets_A.py",
+      "expected": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+      "current": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+      "snapshot": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+      "pass": true
+    }
+  ],
+  "successful_marker_count": 21,
+  "successful_marker_output_count": 46,
+  "successful_marker_checks": [
+    {
+      "architecture": "resnet18",
+      "stage": "calibrate",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:53:06.882125+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "calibration.json",
+          "expected": "ceefe2712b74373daf9a50750ffc9db915ce4e2d1a27fecdd58d0653e81cbb84",
+          "current": "ceefe2712b74373daf9a50750ffc9db915ce4e2d1a27fecdd58d0653e81cbb84",
+          "pass": true
+        },
+        {
+          "file": "val_whole_raw.json",
+          "expected": "c0a878cbeabd0873c59bfbe56323a9ab33b8d468dd4c7bf8222c8157aea4ab39",
+          "current": "c0a878cbeabd0873c59bfbe56323a9ab33b8d468dd4c7bf8222c8157aea4ab39",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "a6f6dcb235dfbb813ea35e0fc91af0459b13960fb6b2563649accd0df387555a"
+    },
+    {
+      "architecture": "resnet18",
+      "stage": "detector",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:50:57.724873+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "detector_best.pt",
+          "expected": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa",
+          "current": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "22a2bf9ac7b7eadccc90260a4cab40153f9636b02f60b51f4e184f38373ac8a0"
+    },
+    {
+      "architecture": "resnet18",
+      "stage": "evaluate",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:05:00.542323+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "test_oracle_crop.json",
+          "expected": "451b9677058ea4c1475c41e1831909a9496cbe5c77f5ee6627a532d03edf1054",
+          "current": "451b9677058ea4c1475c41e1831909a9496cbe5c77f5ee6627a532d03edf1054",
+          "pass": true
+        },
+        {
+          "file": "test_whole_photo.json",
+          "expected": "5706f049ad15ee3b76c38416bfa9597583305d9031963e86bebcb9b6f45d617b",
+          "current": "5706f049ad15ee3b76c38416bfa9597583305d9031963e86bebcb9b6f45d617b",
+          "pass": true
+        },
+        {
+          "file": "test_detector.json",
+          "expected": "5e77b5388485a6498437ea33a0a90348e844f9d48e51c7cdd9c69ad6ec518034",
+          "current": "5e77b5388485a6498437ea33a0a90348e844f9d48e51c7cdd9c69ad6ec518034",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "f0fa90837ec263e2fb4f3edab34deadd0c5733e69b1eadcaf1fe8206606d62d6"
+    },
+    {
+      "architecture": "resnet18",
+      "stage": "features",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:02:26.612831+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "features_train.pt",
+          "expected": "2b6e42589aa1a7304847af11acd653ef769e8e8c53da1585c769c31f257b6f54",
+          "current": "2b6e42589aa1a7304847af11acd653ef769e8e8c53da1585c769c31f257b6f54",
+          "pass": true
+        },
+        {
+          "file": "features_val.pt",
+          "expected": "514faece53e2cd4115ce15b8a87ce501bba89aefa6afbeb7f76e3e66453b2945",
+          "current": "514faece53e2cd4115ce15b8a87ce501bba89aefa6afbeb7f76e3e66453b2945",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "a613e5e6b99246b65145e9664e51e72de277014fa3e7fd83e15e3f239acdae2e"
+    },
+    {
+      "architecture": "resnet18",
+      "stage": "finetune",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:13:37.973594+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "classifier_best.pt",
+          "expected": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+          "current": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "16b5f0718c286537e3402163c693f9d58cda258ccee1ed15c7e6ab936c45ccca"
+    },
+    {
+      "architecture": "resnet18",
+      "stage": "prepare",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:01:17.781416+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "data_audit.json",
+          "expected": "2478ea54ad81c56ffc761493b7aa67fa304cebf632ac72c42f73c6f85dc3aa08",
+          "current": "2478ea54ad81c56ffc761493b7aa67fa304cebf632ac72c42f73c6f85dc3aa08",
+          "pass": true
+        },
+        {
+          "file": "crops_train.json",
+          "expected": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+          "current": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+          "pass": true
+        },
+        {
+          "file": "crops_val.json",
+          "expected": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+          "current": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+          "pass": true
+        },
+        {
+          "file": "crops_test.json",
+          "expected": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+          "current": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+          "pass": true
+        },
+        {
+          "file": "model_info.json",
+          "expected": "b13e8b6fda2fbcae21cead573d0e03228f6d78c0d6b68398599311dcdc11256d",
+          "current": "b13e8b6fda2fbcae21cead573d0e03228f6d78c0d6b68398599311dcdc11256d",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "4a156d75cbf90d3b7fb234ec3f45678ba7c7390052100213500d59f41104d5b0"
+    },
+    {
+      "architecture": "resnet18",
+      "stage": "search",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:03:15.855636+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "tpe_summary.json",
+          "expected": "0c3e9d30a729708eb72cdcd7e292714bfb501bca4fa6b86f5b575aabe20c892b",
+          "current": "0c3e9d30a729708eb72cdcd7e292714bfb501bca4fa6b86f5b575aabe20c892b",
+          "pass": true
+        },
+        {
+          "file": "tpe.sqlite3",
+          "expected": "aa36f09255cb96bde95d09bd3e1662ca63224abfc9874736a42fbf246679ff95",
+          "current": "aa36f09255cb96bde95d09bd3e1662ca63224abfc9874736a42fbf246679ff95",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "e59c06af8f85d347aceab804ccce6b0b2a1b5ad54a7ca42ac508a6e246127cf0"
+    },
+    {
+      "architecture": "resnet18",
+      "stage": "smoke",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:01:22.597862+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "cpu_smoke.json",
+          "expected": "5fc052b7a9d63a824d3a0c3b2ad69580b70fa32cd9995190077e272265086338",
+          "current": "5fc052b7a9d63a824d3a0c3b2ad69580b70fa32cd9995190077e272265086338",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "8eaea2b9705ae112f8f36f54c6b4862a6d03292686310caed2d4f0f34c68b374"
+    },
+    {
+      "architecture": "resnet34",
+      "stage": "calibrate",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:23:01.089151+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "calibration.json",
+          "expected": "fa950983561e8e51e3ca8f02d47069c6ce93d7c6cb95331986cfeb7a9778b14e",
+          "current": "fa950983561e8e51e3ca8f02d47069c6ce93d7c6cb95331986cfeb7a9778b14e",
+          "pass": true
+        },
+        {
+          "file": "val_whole_raw.json",
+          "expected": "12fe0e770b7897b25b6970fcb93994bf159bd0a631557e55cbd54d3d74b715bd",
+          "current": "12fe0e770b7897b25b6970fcb93994bf159bd0a631557e55cbd54d3d74b715bd",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "30aad70198ba6067509f6c3ddd8ba73c2c9ab358741969170516aefa5d21ffe4"
+    },
+    {
+      "architecture": "resnet34",
+      "stage": "evaluate",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:25:07.711235+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "test_oracle_crop.json",
+          "expected": "f61d19f8437208e7d5c2e051c3707c98b335d7172342b117a62abb11bba49fdd",
+          "current": "f61d19f8437208e7d5c2e051c3707c98b335d7172342b117a62abb11bba49fdd",
+          "pass": true
+        },
+        {
+          "file": "test_whole_photo.json",
+          "expected": "afac083fd83493a79eb409682117a9053e3aca51a98f6244412bccdbc4f5f08d",
+          "current": "afac083fd83493a79eb409682117a9053e3aca51a98f6244412bccdbc4f5f08d",
+          "pass": true
+        },
+        {
+          "file": "test_detector.json",
+          "expected": "cb19cfa1be5808dfd9d59459c4a99cf5b29e1c23190a69f2fcb7f1421a611191",
+          "current": "cb19cfa1be5808dfd9d59459c4a99cf5b29e1c23190a69f2fcb7f1421a611191",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "98c9a4a63c56469934e35d801d0102e035f73b28753d7831e9dd74c7545d0154"
+    },
+    {
+      "architecture": "resnet34",
+      "stage": "features",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:06:24.340337+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "features_train.pt",
+          "expected": "138334d37875d3683c1a35055758b8a295b1ba939624216e7bed4c7694d394e3",
+          "current": "138334d37875d3683c1a35055758b8a295b1ba939624216e7bed4c7694d394e3",
+          "pass": true
+        },
+        {
+          "file": "features_val.pt",
+          "expected": "b054ca7446b747bc6d149df4fa1c03ffbe6813777138c0a1e5939a8253ece2c9",
+          "current": "b054ca7446b747bc6d149df4fa1c03ffbe6813777138c0a1e5939a8253ece2c9",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "5c91122326f9376987b0e1fc61d70762f11e241f2ac9cb3588f5e5ad8765342c"
+    },
+    {
+      "architecture": "resnet34",
+      "stage": "finetune",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:20:59.076786+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "classifier_best.pt",
+          "expected": "0ec1faf39be0c73687ac58ea17abed80858a136babc3c0471ddd8c1a68a3f658",
+          "current": "0ec1faf39be0c73687ac58ea17abed80858a136babc3c0471ddd8c1a68a3f658",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "3acabd7362a6d3ac2e3590e4edab4feaccbd8a9d13d92551dd1edc7c38244b2f"
+    },
+    {
+      "architecture": "resnet34",
+      "stage": "prepare",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:05:05.063026+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "data_audit.json",
+          "expected": "2478ea54ad81c56ffc761493b7aa67fa304cebf632ac72c42f73c6f85dc3aa08",
+          "current": "2478ea54ad81c56ffc761493b7aa67fa304cebf632ac72c42f73c6f85dc3aa08",
+          "pass": true
+        },
+        {
+          "file": "crops_train.json",
+          "expected": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+          "current": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+          "pass": true
+        },
+        {
+          "file": "crops_val.json",
+          "expected": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+          "current": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+          "pass": true
+        },
+        {
+          "file": "crops_test.json",
+          "expected": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+          "current": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+          "pass": true
+        },
+        {
+          "file": "model_info.json",
+          "expected": "7d5769fce3134e565e206f50f8ca06f894589770285cfaa140322fdb644bb1cd",
+          "current": "7d5769fce3134e565e206f50f8ca06f894589770285cfaa140322fdb644bb1cd",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "b79eb8e588cbf1830c3c9c383e83c7376e0921a230b33906acb40af30bb22134"
+    },
+    {
+      "architecture": "resnet34",
+      "stage": "search",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:07:17.750981+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "tpe_summary.json",
+          "expected": "c4b0b82072d8aff3e7ba6b1351f1903a1a37ca789bf055f709d9a9f9b6f7916a",
+          "current": "c4b0b82072d8aff3e7ba6b1351f1903a1a37ca789bf055f709d9a9f9b6f7916a",
+          "pass": true
+        },
+        {
+          "file": "tpe.sqlite3",
+          "expected": "9792afd8129d724aa5a2d8c0204eb117bca608f7b775dc7152ff7e6e52e8c2f0",
+          "current": "9792afd8129d724aa5a2d8c0204eb117bca608f7b775dc7152ff7e6e52e8c2f0",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "3a6fdd770a3219568d48c53bc494c3578aa9a1b7383c80c81912c9751cde5212"
+    },
+    {
+      "architecture": "resnet34",
+      "stage": "smoke",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:05:09.728974+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "cpu_smoke.json",
+          "expected": "8117a74f79de34cc6faf03667832140c8642d3bbc08d38be17023f48b4d62eae",
+          "current": "8117a74f79de34cc6faf03667832140c8642d3bbc08d38be17023f48b4d62eae",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "c381576ab79e2992f43c47ae5c88532d29defd50dd64a18d0844b6aa7dc92e42"
+    },
+    {
+      "architecture": "resnet50",
+      "stage": "calibrate",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:44:31.531730+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "calibration.json",
+          "expected": "36934730ba8438ec9bc5530f65e6008781d8d76e618737dd61d5f9034cc7e888",
+          "current": "36934730ba8438ec9bc5530f65e6008781d8d76e618737dd61d5f9034cc7e888",
+          "pass": true
+        },
+        {
+          "file": "val_whole_raw.json",
+          "expected": "d75dd2bbd76afc6d12dc62968be92a72089ac3bec8e951e7f8f8c19a9f86672c",
+          "current": "d75dd2bbd76afc6d12dc62968be92a72089ac3bec8e951e7f8f8c19a9f86672c",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "1a4e04ee2d91bd0a1fab5f9245142c25d9d2d7a89ad2ee0777a5cbd1c060cd36"
+    },
+    {
+      "architecture": "resnet50",
+      "stage": "features",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:27:13.880268+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "features_train.pt",
+          "expected": "96427a3b1d3894f1c88dc4f800865a4aeccb2ace8d5f2beed8427ec3b8c6ab92",
+          "current": "96427a3b1d3894f1c88dc4f800865a4aeccb2ace8d5f2beed8427ec3b8c6ab92",
+          "pass": true
+        },
+        {
+          "file": "features_val.pt",
+          "expected": "2602dc6292f6ed3bf03be1565f2a0ee4ff42dcfb8660ae59f2fa6c3e03e2c773",
+          "current": "2602dc6292f6ed3bf03be1565f2a0ee4ff42dcfb8660ae59f2fa6c3e03e2c773",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "67054dc99b8ab4213adba3a70f76ddb872bf0c0b3d98cc2d8372c8d81b7177f5"
+    },
+    {
+      "architecture": "resnet50",
+      "stage": "finetune",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:41:41.501894+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "classifier_best.pt",
+          "expected": "302a9acc3f61570c42843550e43bb75ae80f7354da649830900b476c5b5e0f6c",
+          "current": "302a9acc3f61570c42843550e43bb75ae80f7354da649830900b476c5b5e0f6c",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "447ab24e280410da4e450f25c24f26443b92c55f4890d49c861e64d441e16771"
+    },
+    {
+      "architecture": "resnet50",
+      "stage": "prepare",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:25:12.512298+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "data_audit.json",
+          "expected": "2478ea54ad81c56ffc761493b7aa67fa304cebf632ac72c42f73c6f85dc3aa08",
+          "current": "2478ea54ad81c56ffc761493b7aa67fa304cebf632ac72c42f73c6f85dc3aa08",
+          "pass": true
+        },
+        {
+          "file": "crops_train.json",
+          "expected": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+          "current": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+          "pass": true
+        },
+        {
+          "file": "crops_val.json",
+          "expected": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+          "current": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+          "pass": true
+        },
+        {
+          "file": "crops_test.json",
+          "expected": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+          "current": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+          "pass": true
+        },
+        {
+          "file": "model_info.json",
+          "expected": "5577fff94cb93c249166869cc1f9ac9d9d23c6608213a6ae385267c585121587",
+          "current": "5577fff94cb93c249166869cc1f9ac9d9d23c6608213a6ae385267c585121587",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "4a522adbd885642db6affa3f3c12da2296e1a871f5290b85cd0eb9992a5790ce"
+    },
+    {
+      "architecture": "resnet50",
+      "stage": "search",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:28:05.881270+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "tpe_summary.json",
+          "expected": "404376e086ad0a58870379a337c865693fceaa43d8317b85f09d2eff8cf2a765",
+          "current": "404376e086ad0a58870379a337c865693fceaa43d8317b85f09d2eff8cf2a765",
+          "pass": true
+        },
+        {
+          "file": "tpe.sqlite3",
+          "expected": "24cdc74b2565a9bef19662b116a490cb99617848c94a1d772cc318419f28eda6",
+          "current": "24cdc74b2565a9bef19662b116a490cb99617848c94a1d772cc318419f28eda6",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "4cb7bb9a26eb3e5821b008ea5999aceffe5e019e11701d12049c2ebed297b814"
+    },
+    {
+      "architecture": "resnet50",
+      "stage": "smoke",
+      "status": "exit0",
+      "completed_at": "2026-11-02T22:25:17.356009+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "cpu_smoke.json",
+          "expected": "13f82b03fc721e5116bef36669b34945f4973746547e41938125320ea6975532",
+          "current": "13f82b03fc721e5116bef36669b34945f4973746547e41938125320ea6975532",
+          "pass": true
+        }
+      ],
+      "marker_sha256": "94418eccd0d7b9f3b8cbc6b343c263d358d9ab8789d04abd818126b018062e6d"
+    }
+  ],
+  "manifest_checks": [
+    {
+      "split": "train",
+      "expected": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+      "current": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+      "pass": true
+    },
+    {
+      "split": "val",
+      "expected": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+      "current": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+      "pass": true
+    },
+    {
+      "split": "test",
+      "expected": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+      "current": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+      "pass": true
+    }
+  ],
+  "frozen_evaluations": [
+    {
+      "architecture": "resnet18",
+      "selection_split": "val",
+      "test_accessed_in_calibration": false,
+      "weights_recorded": {
+        "classifier_best.pt": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "weights_current": {
+        "classifier_best.pt": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "weights_match": true,
+      "detector_threshold": 0.3,
+      "class_threshold": 0.3,
+      "candidate_count": 12,
+      "calibration_sha256": "ceefe2712b74373daf9a50750ffc9db915ce4e2d1a27fecdd58d0653e81cbb84",
+      "frozen_at": "2026-11-02T21:53:06.004907+08:00"
+    },
+    {
+      "architecture": "resnet34",
+      "selection_split": "val",
+      "test_accessed_in_calibration": false,
+      "weights_recorded": {
+        "classifier_best.pt": "0ec1faf39be0c73687ac58ea17abed80858a136babc3c0471ddd8c1a68a3f658",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "weights_current": {
+        "classifier_best.pt": "0ec1faf39be0c73687ac58ea17abed80858a136babc3c0471ddd8c1a68a3f658",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "weights_match": true,
+      "detector_threshold": 0.3,
+      "class_threshold": 0.3,
+      "candidate_count": 12,
+      "calibration_sha256": "fa950983561e8e51e3ca8f02d47069c6ce93d7c6cb95331986cfeb7a9778b14e",
+      "frozen_at": "2026-11-02T22:23:00.255687+08:00"
+    },
+    {
+      "architecture": "resnet50",
+      "selection_split": "val",
+      "test_accessed_in_calibration": false,
+      "weights_recorded": {
+        "classifier_best.pt": "302a9acc3f61570c42843550e43bb75ae80f7354da649830900b476c5b5e0f6c",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "weights_current": {
+        "classifier_best.pt": "302a9acc3f61570c42843550e43bb75ae80f7354da649830900b476c5b5e0f6c",
+        "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+      },
+      "weights_match": true,
+      "detector_threshold": 0.3,
+      "class_threshold": 0.5,
+      "candidate_count": 12,
+      "calibration_sha256": "36934730ba8438ec9bc5530f65e6008781d8d76e618737dd61d5f9034cc7e888",
+      "frozen_at": "2026-11-02T22:44:30.563469+08:00"
+    }
+  ],
+  "training_facts": {
+    "planned_max_epochs": 18,
+    "patience": 4,
+    "complete_epochs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "complete_epoch_sample_counts": [
+      30799,
+      30799,
+      30799,
+      30799,
+      30799,
+      30799,
+      30799,
+      30799,
+      30799,
+      30799,
+      30799
+    ],
+    "best_epoch": 7,
+    "best_val_macro_f1": 0.9909484352118264,
+    "best_val_accuracy": 0.9939898289412853,
+    "last_four_val_macro_f1": [
+      0.989982746676309,
+      0.9899511380666596,
+      0.9906856692373353,
+      0.9885099912663623
+    ],
+    "exit0_in_stage_log": true,
+    "interpretation": "实际11完整轮、best7，8至11连续4轮验证macroF1未提高，符合冻结源码原patience4自然早停；不能写完成18轮或把11轮当故障中断。"
+  },
+  "interruption": {
+    "active_stage": {
+      "architecture": "resnet50",
+      "stage": "evaluate",
+      "pid": 37648,
+      "supervisor_pid": 19048,
+      "log": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\stage_logs\\evaluate_attempt1.log",
+      "status": "failed",
+      "exit_code": 1073807364
+    },
+    "controller_exit_event": {
+      "time": "2026-11-02T22:47:03.248934+08:00",
+      "architecture": "resnet50",
+      "stage": "evaluate",
+      "status": "exited",
+      "pid": 37648,
+      "exit_code": 1073807364
+    },
+    "exit_code_decimal": 1073807364,
+    "exit_code_hex": "0x40010004",
+    "termination_cause": "系统重启中断：已读取root保存的System日志，Event1074于22:47:02.500记shutdown.exe代表Administrator账户发起重启，evaluate随后22:47:03退出；Event6008记上次22:47:22关闭意外，LastBootUpTime为22:48:28.5，Event6005为22:48:47.586服务启动。已证实系统重启时间链；未知哪个实际用户或上游程序调用shutdown.exe，不能归因于Codex job或特定操作者。",
+    "process_check": "本审者Get-CimInstance查询PID19048/37648均无当前进程；root启动前须再核避免PID复用或重复运行。",
+    "disk_free_bytes": 4368338944,
+    "system_evidence": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_resnet50_system_events.json",
+      "sha256": "53a21be2869af578adac849fa806b5ddd770cc5f4f46e7f3952e17953e13bc1e",
+      "last_boot_time_local": "2026-11-02T22:48:28.5+08:00",
+      "events": [
+        {
+          "TimeCreated": "/Date(1793630927586)/",
+          "Id": 6005,
+          "ProviderName": "EventLog",
+          "Message": "事件日志服务已启动。",
+          "time_local": "2026-11-02T22:48:47.586000+08:00"
+        },
+        {
+          "TimeCreated": "/Date(1793630927581)/",
+          "Id": 6008,
+          "ProviderName": "EventLog",
+          "Message": "上一次系统的 22:47:22 在 ‎2026/‎11/‎2 上的关闭是意外的。",
+          "time_local": "2026-11-02T22:48:47.581000+08:00"
+        },
+        {
+          "TimeCreated": "/Date(1793630822500)/",
+          "Id": 1074,
+          "ProviderName": "User32",
+          "Message": "The process C:\\Windows\\System32\\shutdown.exe (WIN-M0BEJ5NDMVU) has initiated the 重启 of computer WIN-M0BEJ5NDMVU on behalf of user WIN-M0BEJ5NDMVU\\Administrator for the following reason: 没有找到这个原因的标题\r\n Reason Code: 0x800000ff\r\n Shutdown Type: 重启\r\n Comment: ",
+          "time_local": "2026-11-02T22:47:02.500000+08:00"
+        }
+      ],
+      "query_returncode": 0
+    }
+  },
+  "partial_oracle": {
+    "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\test_oracle_crop.json",
+    "bytes": 1463065,
+    "sha256": "0d02e1229a04d33768b7b8383ff6861542de30574edd7b797c2759688fc733dd",
+    "valid_json": true,
+    "prediction_count": 3759,
+    "unique_image_hand_keys": 3759,
+    "checkpoint_sha256": "302a9acc3f61570c42843550e43bb75ae80f7354da649830900b476c5b5e0f6c",
+    "whole_photo_missing": true,
+    "detector_missing": true,
+    "evaluate_success_marker_missing": true,
+    "interpretation": "人工框子产物完整，evaluate整体失败。已经访问B50 test；后续恢复不得宣称测试从未访问。"
+  },
+  "preserve_before_recovery": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\active_stage.json",
+      "bytes": 326,
+      "sha256": "a75f751604cde0692f100a59272e5e432dafd6b2098ac6d456dce778844accd6"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\controller_lock.json",
+      "bytes": 73,
+      "sha256": "351514788ab54f56dbc7b14e12f114faf457591701f4710500338b17ddedc4ec"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\controller_events.jsonl",
+      "bytes": 18621,
+      "sha256": "99e56f3832ee1bb44edaf0b8a6226427a19bf16a39a00fe1c4d968969dfef275"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\events.jsonl",
+      "bytes": 102048,
+      "sha256": "8d206dc1823f1ac843aefc7b0bdc881ea5707673980ae556303a0a450b146cf7"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\stage_logs\\evaluate_attempt1.log",
+      "bytes": 2266,
+      "sha256": "0c971e39914d0f6f806d99c10f58a3217d23cb95d5c76041bc55560d0f7620de"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\stage_logs\\finetune_attempt1.log",
+      "bytes": 11858,
+      "sha256": "e748b06799a82d8ba4b199527918ede14d4391c748dc74cee61aa00a10c6e104"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\stage_logs\\calibrate_attempt1.log",
+      "bytes": 3363,
+      "sha256": "dc69ce452302cc71b16df52d92d6eb4d960a074d9d132046d22752e92d5efb2d"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\calibration.json",
+      "bytes": 25970,
+      "sha256": "36934730ba8438ec9bc5530f65e6008781d8d76e618737dd61d5f9034cc7e888"
+    }
+  ],
+  "recovery": {
+    "allowed": true,
+    "write_owner": "root独占恢复归档、进程启动与GPU；审者只写本JSON。",
+    "necessary_sequence": [
+      "启动前复查旧controller/child及命令行均不存在，确认无第二控制器和>=512MiB磁盘余量。",
+      "在唯一新归档中保留partial oracle、attempt1日志、active/lock/controller events及本审查所列证据；移动oracle前核目录边界与目标不存在，移动后核bytes和SHA一致；不覆盖旧归档。",
+      "原路径不再有任何B50 test输出后，使用原环境和4个原源码启动run_B_training.py --retry-failed；不绕过run_B_pipeline.py已有输出禁止覆盖门禁。",
+      "控制器按原成功marker核hash并跳过全部21成功阶段，不重新prepare/features/TPE/finetune/detector/calibrate；B50 evaluate使用attempt2和同一权重、val阈值0.3/0.5；随后按既定计划进行三模型CPU测速。",
+      "新evaluate自然exit0后核三项test完整性及逐样本ID，再复核源码/双权重/calibration/3manifest仍同SHA；保留两次oracle并比较数值，不按test表现择优。"
+    ],
+    "source_behavior": "run_B_training.py成功marker分支核4源码及全部输出SHA后continue；缺evaluate marker时--retry-failed允许保留原日志并启动attempt2。train_A.py final_evaluate在读取test前核val冻结记录和双权重，读取selected阈值，仅执行eval推理与JSON写入，无optimizer、训练或阈值搜索。",
+    "actual_recovery_started_by_reviewer": false
+  },
+  "limitations": [
+    "未加载checkpoint tensor或重算31833原图字节，沿用已存在preflight和模型训练审查；本轮新增核查覆盖全部当前成功marker产物及3manifest。",
+    "本轮不以中断oracle成绩选择模型或阈值，不把重复评价称为新独立试验。",
+    "系统重启已由事件证据确认；若再次发生外部重启仍可能中断。进程启动由root负责，不需要从本次中断推导必须修改detachment机制。"
+  ]
+}

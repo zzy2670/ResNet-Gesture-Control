@@ -1,0 +1,531 @@
+{
+  "reviewed_at": "2026-11-02T22:26:27.081410+08:00",
+  "status": "NEEDS_FIX",
+  "scope": "独立只读工具代码及真实来源清单/manifest路径核验；无训练/推理/最终ZIP生成",
+  "issues": [
+    {
+      "severity": "must_fix_before_final_bundle",
+      "file": "build_ab_project_bundle.py",
+      "line": 101,
+      "problem": "runs整个子树直接纳入，当前实际成员含内部文档准备材料。",
+      "actual_members": [
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/document_update_coverage.json",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\document_update_coverage.json"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/document_update_materials.md",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\document_update_materials.md"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-1.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-1.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-10.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-10.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-11.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-11.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-12.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-12.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-13.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-13.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-14.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-14.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-15.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-15.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-16.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-16.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-17.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-17.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-18.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-18.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-19.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-19.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-2.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-2.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-20.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-20.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-21.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-21.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-22.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-22.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-23.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-23.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-24.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-24.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-25.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-25.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-26.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-26.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-3.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-3.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-4.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-4.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-5.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-5.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-6.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-6.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-7.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-7.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-8.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-8.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-9.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-9.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/project_plan_v11_working.pdf",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\project_plan_v11_working.pdf"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/contact_sheet.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\contact_sheet.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-1.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-1.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-10.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-10.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-11.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-11.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-12.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-12.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-13.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-13.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-14.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-14.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-15.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-15.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-16.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-16.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-17.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-17.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-18.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-18.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-19.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-19.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-2.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-2.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-20.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-20.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-21.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-21.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-22.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-22.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-23.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-23.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-24.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-24.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-25.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-25.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-3.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-3.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-4.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-4.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-5.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-5.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-6.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-6.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-7.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-7.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-8.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-8.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-9.png",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-9.png"
+        },
+        {
+          "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/project_plan_v11_working.pdf",
+          "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\project_plan_v11_working.pdf"
+        }
+      ],
+      "fix": "排除内部draft/文档准备材料，保留科学结果、源证据和正式审核。"
+    },
+    {
+      "severity": "must_fix_before_final_bundle",
+      "file": "build_ab_project_bundle.py",
+      "line": 138,
+      "problem": "默认reviews仅含通用final_independent_review；未强制正式文档独审/实际渲染review及对应正式文档SHA，archive不调用check_ready，冻结后门禁变化仍可直接归档。",
+      "fix": "正式文档独审包含文档身份SHA并强制通过；freeze完成提交前与archive最终提交前重新核对门禁及文档身份。"
+    }
+  ],
+  "sources_sha256": {
+    "build_ab_project_bundle.py": "e063aef8ae4ed80cfec35ff50e23ba8e114a05b81d0a6cbea11f092708b3e58a",
+    "portable_ab_project.py": "05453e6bcf1e544b56feaa47f0992fb28e3f601f0d3d74245a363e4abad7eb07",
+    "build_B_gesture_delivery.py": "3f4dea2d518dde85d7912b3ad0f43915b84d3bb340ad7845e39136a091cb63ab",
+    "postprocess_AB_results.py": "7e168d00ba0c9cc6b72c65e7af8a29c8048dda816f07b7bbbdfbb176a98e3bb1",
+    "make_B_trained_gradcam.py": "71461bbf298f2b1b6fbc71bba5d058b2fc093a3237c51dadfbddccc0693714da",
+    "make_B_error_examples.py": "984177e8cd248f8de44e603f7742e771e84b1bedd79f633d4e255490b23cdb3f",
+    "deployment_src/gesture_predict.py": "d8d7f63a724e9d3084487991e96b1d64ecb69f21a8233cad7964d852328d9d99"
+  },
+  "bundle_source_enumeration": {
+    "files": 96321,
+    "existing_source_bytes": 4137049043,
+    "missing_source_files": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet18",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet34",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet50",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\README.md",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.md",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.docx",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v11.docx",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\A与B协议ResNet训练与对比实验报告_v2.docx"
+    ],
+    "personal_notes_or_media_destinations": [],
+    "internal_draft_members": [
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/document_update_coverage.json",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\document_update_coverage.json"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/document_update_materials.md",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\document_update_materials.md"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-1.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-1.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-10.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-10.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-11.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-11.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-12.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-12.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-13.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-13.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-14.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-14.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-15.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-15.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-16.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-16.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-17.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-17.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-18.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-18.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-19.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-19.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-2.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-2.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-20.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-20.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-21.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-21.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-22.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-22.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-23.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-23.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-24.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-24.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-25.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-25.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-26.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-26.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-3.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-3.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-4.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-4.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-5.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-5.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-6.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-6.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-7.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-7.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-8.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-8.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/page-9.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\page-9.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render/project_plan_v11_working.pdf",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render\\project_plan_v11_working.pdf"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/contact_sheet.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\contact_sheet.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-1.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-1.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-10.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-10.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-11.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-11.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-12.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-12.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-13.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-13.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-14.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-14.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-15.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-15.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-16.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-16.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-17.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-17.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-18.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-18.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-19.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-19.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-2.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-2.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-20.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-20.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-21.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-21.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-22.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-22.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-23.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-23.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-24.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-24.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-25.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-25.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-3.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-3.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-4.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-4.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-5.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-5.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-6.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-6.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-7.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-7.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-8.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-8.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/page-9.png",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\page-9.png"
+      },
+      {
+        "destination": "完整源码与数据/Vision_CA/runs/B_20261102_TPE/project_plan_v11_draft_render2/project_plan_v11_working.pdf",
+        "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\project_plan_v11_draft_render2\\project_plan_v11_working.pdf"
+      }
+    ]
+  },
+  "portable_manifest_path_review": {
+    "raw_JPG_count": 31833,
+    "protocols": {
+      "A": {
+        "manifest_rows": 31833,
+        "unmatched_source_image_paths": 0,
+        "example_missing": []
+      },
+      "B": {
+        "manifest_rows": 31833,
+        "unmatched_source_image_paths": 0,
+        "example_missing": []
+      }
+    },
+    "windows_A_backslashes_normalized": true,
+    "source_root": "data/raw_train_data/hagrid-sample-30k-384p",
+    "full_byte_check_executed": false,
+    "conclusion": "当前A/B全部source_image可匹配真实RAW相对路径；工具以__file__定位ROOT、image_path相对读取，数据校验入口不依赖旧绝对裁图索引。但它只执行check，并不提供迁移后重建B裁图/离线训练的完整入口。"
+  },
+  "positive_code_findings": [
+    "streamingZIP使用独占partial、逐成员SHA和长度、固定映射/清单一致性、完整流式读取验证CRC后rename；不是仅testzip。",
+    "归档成员safe_name防绝对路径/..、冒号与反斜线；casefold去重；ZIP写成普通文件位避免打入junction本身。",
+    "原始JPEG/A/B分组及四官方ImageNet权重均在来源范围；个人笔记和视频素材不在默认项目来源子树。",
+    "B推理包权重只取B各架构目录并与该架构calibration双SHA核对，配置阈值直接来自B val冻结。",
+    "B8个接口示例=按val image_id各取首个单手六类+首个多手+合成白图；没有按预测正确性筛选。",
+    "离线deployment_src工厂weights=None、显式full-tail SSD和strict加载，构造不调用预训练下载。",
+    "postprocess_AB_results只读保存预测，不重新预测；逐样本重建混淆矩阵且保留手/照片分母、stop→0。"
+  ],
+  "limitations": [
+    "Bpackage和最终正式文档/ZIP当前未完成，本审查没有把静态审核当作包内真实成员SHA、CPU接口一致性或最终ZIP验收。",
+    "迁移数据check实际全量散列可在最终包抽取后执行，本轮只核全部manifest路径与RAW相对路径集合，不重复已核原图SHA。",
+    "B小程序ZIP当前仅自身CRC检查，最终仍须独立验证ZIP成员SHA/解压一致性；不能把代码已检查CRC写成实际打包已通过。",
+    "程序完整性、性能和模型解释是不同证据层；任何一项PASS不替代最终文档和整包独审。"
+  ]
+}

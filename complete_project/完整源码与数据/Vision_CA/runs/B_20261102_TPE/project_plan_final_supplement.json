@@ -1,0 +1,336 @@
+{
+  "final_independent_review": "PASS",
+  "verified_files": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\ab_final_independent_review.json",
+      "sha256": "05c3cc3b49da161a1b46bc931ceaf11f96e92c9e75c867e8b84fd7e06e50d1c9"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\six_program_readiness.json",
+      "sha256": "065391a73998151c1332297c5becb92626cffe68fff1a508151ec01b9a30c7b2"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\ab_comparison_results.json",
+      "sha256": "31eb58e0c0aee004d76daaeb9bbee242fd20e319be0c736d70b9e0eca7203513"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\matched_cpu_benchmark.json",
+      "sha256": "23f8dd1e2b08ac7e9e2f4f1618534212a209f867410a54873663555a6e3fba68"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\matched_cpu_independent_review.json",
+      "sha256": "52e8d6b969ec6661ca50100192c02a9324f827f8befa3facca5c3d6f4d6cfce2"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\gradcam_independent_review.json",
+      "sha256": "db0c0f0289592b8d44bcc1e463c7c5d3179b5503a97333ec3f506a9741a2fa1b"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\trained_gradcam\\metadata.json",
+      "sha256": "20fd31c0f492685d656bb04cf77c0b9ca99aac86cb868d9851bdb49a2d4723ae"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\trained_gradcam\\trained_six_class_matrix.png",
+      "sha256": "a5f86ed87f189c4b78a244541bf6a65bca38ae1b1671cb1d30c2df5f11572374"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\report_figures\\actual_crop_comparison.png",
+      "sha256": "bbcf4e3c4614a64734ac778f93075fb66ba5986347eaed143c768b8e9ccd0742"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\actual_crop_comparison.json",
+      "sha256": "1e254285ae816fd62554d03a11e1c71a73aab580df56dcf7230e0fa233b1675c"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\portable_B_training.py",
+      "sha256": "5d30bbf3638057b640bd582b58ed45797c61fec4151bf14d96761f2d55630217"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\resnet18_final_independent_review.json",
+      "sha256": "ce7abd5e1f9d11106615902d4508c397606340568d3369cccf72ddedc44bdb18"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\resnet34_final_independent_review.json",
+      "sha256": "c6636981bd9b916f7b114c3b0b836d3682c1675f594a3a88fa9537cfd1101c84"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\resnet50_final_independent_review.json",
+      "sha256": "09982e149309ecfd01566e93eb33174ce9c4ee847fd0d17c9311652a2a69f4f8"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\build_project_plan_v11.py",
+      "sha256": "239d54f85682b0c332612656eb2d5c175577fbdb94712f411fcbc26ccf774956"
+    }
+  ],
+  "A_comparison": [
+    {
+      "protocol": "A",
+      "model": "ResNet18",
+      "crop_n": 3917,
+      "crop_correct": 3891,
+      "crop_accuracy": 0.9933622670411029,
+      "crop_macro_f1": 0.9910281429233736,
+      "photo_n": 3180,
+      "photo_correct": 2977,
+      "photo_errors": 203,
+      "photo_accuracy": 0.9361635220125786,
+      "photo_macro_f1": 0.9044915025044727,
+      "whole_cpu_mean_ms": 37.38971833333333,
+      "whole_cpu_p95_ms": 52.21919500000001,
+      "classifier_cpu_mean_ms": 17.60205033333333,
+      "classifier_cpu_p95_ms": 25.10825,
+      "classifier_parameters": 11179590,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 18,
+      "finetune_seconds": 703.5203506946564,
+      "best_validation_macro_f1": 0.9892619592644359,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.3
+      },
+      "zero_samples": 1773,
+      "zero_to_motion": 16,
+      "stop_samples": 173,
+      "stop_to_motion": 1,
+      "stop_to_zero": 35,
+      "detector_metrics": {
+        "tp": 3240,
+        "fp": 431,
+        "fn": 677,
+        "precision": 0.882593298828657,
+        "recall": 0.8271636456471789,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "611023f0954d8e756b4e6b4620ea288d9ae933903958f4c0e86887750942ec94",
+        "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+      },
+      "test_crop_accuracy": 0.9933622670411029,
+      "test_crop_macro_f1": 0.9910281429233736,
+      "test_photo_accuracy": 0.9361635220125786,
+      "test_photo_macro_f1": 0.9044915025044727
+    },
+    {
+      "protocol": "A",
+      "model": "ResNet34",
+      "crop_n": 3917,
+      "crop_correct": 3885,
+      "crop_accuracy": 0.9918304825121266,
+      "crop_macro_f1": 0.9883678448556243,
+      "photo_n": 3180,
+      "photo_correct": 2962,
+      "photo_errors": 218,
+      "photo_accuracy": 0.9314465408805032,
+      "photo_macro_f1": 0.8976078999611522,
+      "whole_cpu_mean_ms": 46.86445833333333,
+      "whole_cpu_p95_ms": 66.57387000000001,
+      "classifier_cpu_mean_ms": 35.108528,
+      "classifier_cpu_p95_ms": 65.42148,
+      "classifier_parameters": 21287750,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 18,
+      "finetune_seconds": 845.4481770992279,
+      "best_validation_macro_f1": 0.9886918197973579,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.5
+      },
+      "zero_samples": 1773,
+      "zero_to_motion": 16,
+      "stop_samples": 173,
+      "stop_to_motion": 1,
+      "stop_to_zero": 32,
+      "detector_metrics": {
+        "tp": 3241,
+        "fp": 431,
+        "fn": 676,
+        "precision": 0.8826252723311547,
+        "recall": 0.827418943068675,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "e3ad53c1b04ea89a01ec31f5c342ff2b9cadde935995a330a245944b803f463d",
+        "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+      },
+      "test_crop_accuracy": 0.9918304825121266,
+      "test_crop_macro_f1": 0.9883678448556243,
+      "test_photo_accuracy": 0.9314465408805032,
+      "test_photo_macro_f1": 0.8976078999611522
+    },
+    {
+      "protocol": "A",
+      "model": "ResNet50",
+      "crop_n": 3917,
+      "crop_correct": 3895,
+      "crop_accuracy": 0.9943834567270871,
+      "crop_macro_f1": 0.9914399438251578,
+      "photo_n": 3180,
+      "photo_correct": 3000,
+      "photo_errors": 180,
+      "photo_accuracy": 0.9433962264150944,
+      "photo_macro_f1": 0.9136600660073267,
+      "whole_cpu_mean_ms": 50.841514333333336,
+      "whole_cpu_p95_ms": 71.33884,
+      "classifier_cpu_mean_ms": 32.21928233333333,
+      "classifier_cpu_p95_ms": 41.915065,
+      "classifier_parameters": 23520326,
+      "tpe_complete_trials": 24,
+      "complete_finetune_epochs": 18,
+      "finetune_seconds": 1323.6602272987366,
+      "best_validation_macro_f1": 0.9915610118535482,
+      "thresholds": {
+        "detector": 0.3,
+        "classifier": 0.3
+      },
+      "zero_samples": 1773,
+      "zero_to_motion": 5,
+      "stop_samples": 173,
+      "stop_to_motion": 0,
+      "stop_to_zero": 32,
+      "detector_metrics": {
+        "tp": 3241,
+        "fp": 431,
+        "fn": 676,
+        "precision": 0.8826252723311547,
+        "recall": 0.827418943068675,
+        "score_threshold": 0.3,
+        "iou_threshold": 0.5
+      },
+      "weights": {
+        "classifier_best.pt": "cb35e65b71d0ca10254c371e5f9fe7aac94a4171825d821339c8c9396fe87dfc",
+        "detector_best.pt": "9f2a395f0b942b03d3d3ddc96e386728bd0c3681ade0fe2963954aab455b7f5e"
+      },
+      "test_crop_accuracy": 0.9943834567270871,
+      "test_crop_macro_f1": 0.9914399438251578,
+      "test_photo_accuracy": 0.9433962264150944,
+      "test_photo_macro_f1": 0.9136600660073267
+    }
+  ],
+  "replace_body_paragraphs": {
+    "20": "本项目由本人和组员共同负责ResNet识别分支：输入一张完整RGB照片，自动找到手，按合并标签识别手势，输出0—5中的一个整数。以ResNet18建立完整流程，同时在A照片随机划分和B人员互斥协议下比较ResNet34与ResNet50。两协议的三模型训练、完整测试、解释分析和六个独立识别程序均已完成；控制端实际联调另行开展。",
+    "33": "本项目以ImageNet预训练ResNet18建立完整程序，并实测ResNet34与ResNet50。A三者整图准确率为93.62%、93.14%、94.34%，B为93.07%、92.68%、93.33%。A50比18少23张整图错误，B50比18少8张，但B50真实0误发运动更多。共同输入CPU补测见第6.5节；准确率、误运动、停止漏识别和速度需共同决定演示模型。",
+    "91": "A三分类器各完成24次搜索与18轮微调，B三分类器各完成24次搜索，微调实际完成18、18、11轮；B50第7轮被选，第11轮按原规则早停。A、B检测器各训练16轮，各自保存完整验证与测试预测，不混用已训练参数。",
+    "100": "A、B均已形成完整测试预测、六类混淆、真实错误照片、实际裁图对照和CPU计时。人工框评价只检查已经找到手的分类能力，整图评价还包含检测、裁图、拒识与多手汇总；各项分母与原始结果分别保留。",
+    "102": "解释分析使用已完成测试的固定模型、裁图方式和阈值，把分类响应对应到实际可见的手指、掌面与背景，并区分整图错误环节。A、B真实六类分层Grad-CAM均已生成，模型和预测身份保持不变。解释计算不更新参数，也未依据热图重新选模型或阈值；下面先保留参考原图和教学示例，再给任务模型的正式结果。",
+    "127": "A、B均保存真实六类分层总览及样本记录，包含原图、实际手图、原始标签、真值、预测、解释目标、目标层、裁图和权重身份。旧ImageNet示例用于解释计算，正式任务图使用对应协议训练后的ResNet18；整体性能以全部测试预测为准。",
+    "130": "（2）六个独立程序均已检查六类、多手冲突、空白与错误路径，并在离线环境核验。接收组员可先复核同一接口，再与控制组确认数字、频率、有效期及异常处理；真正连接后另存整数与小车动作的实际记录。",
+    "131": "已形成六个可运行的A/B识别程序、整数与详细输出接口、真实测试结果和解释分析。后续控制联调由识别与控制组共同完成；本次识别交付不等于课程整体演示已经验收。",
+    "145": "六模型速度另作共同输入补测：使用A固定验证清单按图片编号排序的前100张完整照片，以及A验证人工框手图按图片编号和手序号排序的前100张手图。全部模型提前加载；CPU float32、8线程，每个范围预热20次，三轮均遍历全部100个输入，保留300次原始时间并轮换模型顺序。整图从打开解码到检测、裁图、分类和整数汇总，纯分类只计已预处理张量的前向。每次整图输入一张照片，内部多手按原接口成批分类；各模型保留已冻结阈值及实际手框工作量。计时块估计背景CPU占用约7.4%—43%，B18整图第三轮均值50.54 ms也完整保留；全部三轮共同汇总，不挑最快轮，也不能把小幅耗时差异直接归因于A/B划分。新补测不重算准确率，原测试集计时保留在各运行目录。控制端动作检查在实际接入后另记。"
+  },
+  "B_results_paragraphs": [
+    "B三模型全部完成24次冻结头TPE搜索，每次18轮；随后18、34分别微调18个完整轮，最佳验证轮为17、18。50按原连续4轮验证宏F1无提高的规则，在第11个完整轮后自然早停，最佳轮为7，没有为了补齐18轮而追加训练。B手检测器独立训练16轮，各架构仅用B验证照片在12组阈值中选择，检测／分类阈值分别为0.3／0.3、0.3／0.3、0.3／0.5。",
+    "B18、34、50的人工框分类正确数分别为3,727、3,726、3,722／3,759；完整照片正确数分别为2,887、2,875、2,895／3,102。人工框准确率为99.15%、99.12%、99.02%，整图准确率为93.07%、92.68%、93.33%，说明已经裁好手的分类成绩不能代替完整照片系统成绩。",
+    "B三模型在1,695张真实0照片中分别有5、9、13张误发运动，在173张停止照片中分别有0、1、0张误发运动，另有41、42、40张停止照片输出0。停止输出0并未识别出停止3。B18检测在score0.3、IoU0.5下有TP3,044、FP259、FN715，召回率80.98%；漏框数与失败照片数不是同一个分母，单张照片也可能包含多只手。",
+    "与各自A结果相比，B18、34、50整图准确率分别低0.55、0.46、1.01个百分点。B保持测试人员未参加训练，但A与B测试照片构成、训练人员及独立训练检测器均不同，差值不能单独量出人员重叠的因果影响。本次B50比B18少8张整图错误，却在真实0照片中多8张误发运动，人工框分类也未优于18；模型选择须一起考虑停止漏识别、误运动和目标设备速度。人员互斥仍限于同一HaGRID来源，尚未证明真实摄像头或不同设备的外部泛化。",
+    "B18与B50的完整照片测试曾被中断，保留中断证据后，在模型、阈值和数据身份核验通过的条件下恢复同一测试阶段。B18两次已保存的3,759只人工框手图标签一致，1,039只手的概率有微小差异，最大绝对差0.00104225；B50有2,116只手的概率变化，最大绝对差0.00318676，其中一只真实2类stop_inverted手图由原平票输出0变为2。正式成绩统一采用恢复后自然完成的完整attempt2，不在两次结果中择高，也不把恢复视为独立重复实验。",
+    "六模型速度另作共同输入补测：使用A固定验证清单按图片编号排序的前100张完整照片，以及A验证人工框手图按图片编号和手序号排序的前100张手图。全部模型提前加载；CPU float32、8线程，每个范围预热20次，三轮均遍历全部100个输入，保留300次原始时间并轮换模型顺序。整图从打开解码到检测、裁图、分类和整数汇总，纯分类只计已预处理张量的前向。每次整图输入一张照片，内部多手按原接口成批分类；各模型保留已冻结阈值及实际手框工作量。计时块估计背景CPU占用约7.4%—43%，B18整图第三轮均值50.54 ms也完整保留；全部三轮共同汇总，不挑最快轮，也不能把小幅耗时差异直接归因于A/B划分。新补测不重算准确率，原测试集计时保留在各运行目录。"
+  ],
+  "B_tables": [
+    {
+      "headers": [
+        "指标",
+        "ResNet18",
+        "ResNet34",
+        "ResNet50"
+      ],
+      "rows": [
+        [
+          "人工框准确率",
+          "99.15%",
+          "99.12%",
+          "99.02%"
+        ],
+        [
+          "人工框宏F1",
+          "98.95%",
+          "99.04%",
+          "98.72%"
+        ],
+        [
+          "整图准确率",
+          "93.07%",
+          "92.68%",
+          "93.33%"
+        ],
+        [
+          "整图宏F1",
+          "89.82%",
+          "89.40%",
+          "90.37%"
+        ],
+        [
+          "整图错误数／3,102",
+          "215",
+          "227",
+          "207"
+        ],
+        [
+          "共同输入CPU整图均值 ms",
+          "40.54",
+          "47.34",
+          "49.81"
+        ],
+        [
+          "共同输入CPU整图P95 ms",
+          "70.35",
+          "64.57",
+          "69.71"
+        ],
+        [
+          "0误发运动／1,695",
+          "5",
+          "9",
+          "13"
+        ],
+        [
+          "停止误发运动／173",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "停止输出0／173",
+          "41",
+          "42",
+          "40"
+        ]
+      ],
+      "widths": [
+        2.55,
+        1.35,
+        1.35,
+        1.35
+      ]
+    }
+  ],
+  "B_cam_content": [
+    {
+      "kind": "text",
+      "text": "图16按各真实类的图片编号和手序号排序取首个B测试手图，六行真实类0—5均预测正确；每行固定同一人工框输入，依次展示输入与layer4、layer1、layer2、layer3。它检验这些固定例子的类别响应，不能解释检测器有没有找到手。"
+    },
+    {
+      "kind": "image",
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\trained_gradcam\\trained_six_class_matrix.png",
+      "width_inches": 6.5,
+      "alt": "B人员互斥协议已训练ResNet18六行五列Grad-CAM，同一行同一真实输入，六类真实与预测均相同。",
+      "caption": "图16 B协议已训练ResNet18六类分层Grad-CAM。解释真实类logit，各图独立归一化；颜色不等于概率，不能比较跨层绝对强弱。"
+    },
+    {
+      "kind": "text",
+      "text": "0行是并拢伸出两指的two_up_inverted，属于本项目其他手势0；1行两指张开形成V形，主要响应同时覆盖手指下部与掌部。2行张掌背面含并拢手指与手背，3行握拳响应覆盖拳面和弯曲指节。4行拇指向上，5行拇指向下，响应还包含收拢手指与掌面，不能说模型只看拇指方向。浅层仍出现衣服和背景边缘响应，layer4的7×7响应经上采样也不会增加指尖定位证据。"
+    },
+    {
+      "kind": "image",
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\report_figures\\actual_crop_comparison.png",
+      "width_inches": 6.5,
+      "alt": "B同一照片人工框与自动输入比较：0类人工裁图预测0但最高检测框输入预测4；握拳人工框预测3但自动检测未产生分类输入。",
+      "caption": "图17 B测试照片的人工框分类与自动定位输入对照。上例右图仅为最高检测分数框，未声称一定与左侧真框匹配；下例没有通过阈值的自动框。"
+    },
+    {
+      "kind": "text",
+      "text": "上例真实0手图在人工框下分类为0，最高检测分数框形成的输入预测4，说明应先检查框对应和实际裁图内容；该对照没有证明哪个像素独自导致误判。下例握拳人工框分类为3，整图却因没有通过阈值的手框而输出0，属于该照片的定位漏检，不能据此归因全部停止输出0。没有自动分类输入时不补造分类CAM。"
+    }
+  ]
+}

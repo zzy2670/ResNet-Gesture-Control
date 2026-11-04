@@ -1,0 +1,222 @@
+{
+  "documents": [
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\README.md",
+      "destination": "README.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.md",
+      "destination": "交接说明.md"
+    },
+    {
+      "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.docx",
+      "destination": "交接说明.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v11.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v11.docx"
+    },
+    {
+      "source": "A与B协议ResNet训练与对比实验报告_v2.docx",
+      "destination": "历史与正式文档/A与B协议ResNet训练与对比实验报告_v2.docx"
+    },
+    {
+      "source": "A协议ResNet训练与对比实验报告_v1.docx",
+      "destination": "历史与正式文档/A协议ResNet训练与对比实验报告_v1.docx"
+    },
+    {
+      "source": "手势合并与数字编码.docx",
+      "destination": "历史与正式文档/手势合并与数字编码.docx"
+    },
+    {
+      "source": "手势识别项目总体理解_v1.docx",
+      "destination": "历史与正式文档/手势识别项目总体理解_v1.docx"
+    },
+    {
+      "source": "MA6216项目二_问题解答与实施建议_v4.docx",
+      "destination": "历史与正式文档/MA6216项目二_问题解答与实施建议_v4.docx"
+    },
+    {
+      "source": "Project 2-Hand-Gesture Recognition for Mobile Robot Control.pdf",
+      "destination": "历史与正式文档/Project 2-Hand-Gesture Recognition for Mobile Robot Control.pdf"
+    },
+    {
+      "source": "MA6216_CA3_final_project.pptx",
+      "destination": "历史与正式文档/MA6216_CA3_final_project.pptx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v1.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v1.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v2.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v2.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v3.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v3.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v4.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v4.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v5.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v5.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v6.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v6.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v7.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v7.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v8.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v8.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v9.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v9.docx"
+    },
+    {
+      "source": "基于ResNet18的手势识别项目方案_v10.docx",
+      "destination": "历史与正式文档/基于ResNet18的手势识别项目方案_v10.docx"
+    }
+  ],
+  "inference_packages": [
+    {
+      "protocol": "A",
+      "architecture": "resnet18",
+      "source": "ResNet手势识别交付/ResNet18"
+    },
+    {
+      "protocol": "A",
+      "architecture": "resnet34",
+      "source": "ResNet手势识别交付/ResNet34"
+    },
+    {
+      "protocol": "A",
+      "architecture": "resnet50",
+      "source": "ResNet手势识别交付/ResNet50"
+    },
+    {
+      "protocol": "B",
+      "architecture": "resnet18",
+      "source": "ResNet_B手势识别交付/ResNet18"
+    },
+    {
+      "protocol": "B",
+      "architecture": "resnet34",
+      "source": "ResNet_B手势识别交付/ResNet34"
+    },
+    {
+      "protocol": "B",
+      "architecture": "resnet50",
+      "source": "ResNet_B手势识别交付/ResNet50"
+    }
+  ],
+  "project_readme_source": "Vision_CA/runs/B_20261102_TPE/packaged_project_README.md",
+  "additional_files": [
+    {
+      "source": "ResNet手势识别交付/ResNet18_图片识别程序.zip",
+      "destination": "程序/A/ResNet18_图片识别程序.zip"
+    },
+    {
+      "source": "ResNet手势识别交付/ResNet34_图片识别程序.zip",
+      "destination": "程序/A/ResNet34_图片识别程序.zip"
+    },
+    {
+      "source": "ResNet手势识别交付/ResNet50_图片识别程序.zip",
+      "destination": "程序/A/ResNet50_图片识别程序.zip"
+    },
+    {
+      "source": "ResNet手势识别交付/程序包清单.json",
+      "destination": "程序/A/原程序包清单.json"
+    },
+    {
+      "source": "ResNet手势识别交付/交付独立检查.json",
+      "destination": "程序/A/交付独立检查.json"
+    },
+    {
+      "source": "ResNet_B手势识别交付/ResNet18_B协议图片识别程序.zip",
+      "destination": "程序/B/ResNet18_B协议图片识别程序.zip"
+    },
+    {
+      "source": "ResNet_B手势识别交付/ResNet34_B协议图片识别程序.zip",
+      "destination": "程序/B/ResNet34_B协议图片识别程序.zip"
+    },
+    {
+      "source": "ResNet_B手势识别交付/ResNet50_B协议图片识别程序.zip",
+      "destination": "程序/B/ResNet50_B协议图片识别程序.zip"
+    },
+    {
+      "source": "ResNet_B手势识别交付/程序包清单.json",
+      "destination": "程序/B/原程序包清单.json"
+    },
+    {
+      "source": "ResNet_B手势识别交付/交付独立检查.json",
+      "destination": "程序/B/交付独立检查.json"
+    }
+  ],
+  "document_review": "Vision_CA/runs/B_20261102_TPE/formal_documents_independent_review.json",
+  "reviews": [
+    {
+      "source": "Vision_CA/runs/B_20261102_TPE/all_stages_complete.json",
+      "field": "status",
+      "accepted": [
+        "PASS"
+      ]
+    },
+    {
+      "source": "Vision_CA/runs/B_20261102_TPE/ab_final_independent_review.json",
+      "field": "status",
+      "accepted": [
+        "PASS_AB_RESULT_AUDIT_WITH_LIMITATIONS"
+      ]
+    },
+    {
+      "source": "Vision_CA/runs/B_20261102_TPE/matched_cpu_independent_review.json",
+      "field": "status",
+      "accepted": [
+        "PASS"
+      ]
+    },
+    {
+      "source": "Vision_CA/runs/B_20261102_TPE/gradcam_independent_review.json",
+      "field": "status",
+      "accepted": [
+        "PASS"
+      ]
+    },
+    {
+      "source": "Vision_CA/runs/B_20261102_TPE/six_program_readiness.json",
+      "field": "status",
+      "accepted": [
+        "PASS"
+      ]
+    },
+    {
+      "source": "ResNet手势识别交付/交付独立检查.json",
+      "field": "status",
+      "accepted": [
+        "PASS"
+      ]
+    },
+    {
+      "source": "ResNet_B手势识别交付/交付独立检查.json",
+      "field": "status",
+      "accepted": [
+        "PASS"
+      ]
+    },
+    {
+      "source": "Vision_CA/runs/B_20261102_TPE/final_bundle_tools_review.json",
+      "field": "status",
+      "accepted": [
+        "PASS"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "reviewed_at": "2026-11-02T22:03:21.0146642+08:00",
+  "reviewer": "b_recovery_review",
+  "status": "PASS_FOR_CONTROLLED_RECOVERY",
+  "conclusion": "允许在完整保留中断证据后恢复现有控制器；没有源码或成功产物身份障碍。该判断只覆盖本次恢复，不代表B测试或整体交付已通过。",
+  "scope": "独立只读源码/标记/哈希审查；唯一写入本JSON；未启动GPU、训练或评价，未修改源码。",
+  "interruption": {
+    "known": "controller_events最后为21:53:06 resnet18/evaluate启动PID35096；attempt1仅start，无exit或成功marker。root实测原controller37440及child35096已消失、原exec session Unknown。",
+    "cause": "证据不能确定具体终止原因，不认定为模型错误或特定kill来源。",
+    "detector_complete": "detector_attempt1有1至16完整轮，21:50:57自然exit0及有效marker。"
+  },
+  "source_checks": [
+    {
+      "file": "run_B_pipeline.py",
+      "expected": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+      "current": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+      "snapshot": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+      "pass": true
+    },
+    {
+      "file": "run_B_training.py",
+      "expected": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+      "current": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+      "snapshot": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+      "pass": true
+    },
+    {
+      "file": "train_A.py",
+      "expected": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+      "current": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+      "snapshot": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+      "pass": true
+    },
+    {
+      "file": "compare_resnets_A.py",
+      "expected": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+      "current": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+      "snapshot": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+      "pass": true
+    }
+  ],
+  "successful_marker_checks": [
+    {
+      "stage": "calibrate",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:53:06.882125+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "calibration.json",
+          "expected": "ceefe2712b74373daf9a50750ffc9db915ce4e2d1a27fecdd58d0653e81cbb84",
+          "current": "ceefe2712b74373daf9a50750ffc9db915ce4e2d1a27fecdd58d0653e81cbb84",
+          "pass": true
+        },
+        {
+          "file": "val_whole_raw.json",
+          "expected": "c0a878cbeabd0873c59bfbe56323a9ab33b8d468dd4c7bf8222c8157aea4ab39",
+          "current": "c0a878cbeabd0873c59bfbe56323a9ab33b8d468dd4c7bf8222c8157aea4ab39",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": "detector",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:50:57.724873+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "detector_best.pt",
+          "expected": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa",
+          "current": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": "features",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:02:26.612831+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "features_train.pt",
+          "expected": "2b6e42589aa1a7304847af11acd653ef769e8e8c53da1585c769c31f257b6f54",
+          "current": "2b6e42589aa1a7304847af11acd653ef769e8e8c53da1585c769c31f257b6f54",
+          "pass": true
+        },
+        {
+          "file": "features_val.pt",
+          "expected": "514faece53e2cd4115ce15b8a87ce501bba89aefa6afbeb7f76e3e66453b2945",
+          "current": "514faece53e2cd4115ce15b8a87ce501bba89aefa6afbeb7f76e3e66453b2945",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": "finetune",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:13:37.973594+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "classifier_best.pt",
+          "expected": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+          "current": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": "prepare",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:01:17.781416+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "data_audit.json",
+          "expected": "2478ea54ad81c56ffc761493b7aa67fa304cebf632ac72c42f73c6f85dc3aa08",
+          "current": "2478ea54ad81c56ffc761493b7aa67fa304cebf632ac72c42f73c6f85dc3aa08",
+          "pass": true
+        },
+        {
+          "file": "crops_train.json",
+          "expected": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+          "current": "f321c206dc7fd29ac852821246d900301041535a957314b411d2cfce563530c9",
+          "pass": true
+        },
+        {
+          "file": "crops_val.json",
+          "expected": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+          "current": "634bff27488d5a0768eb418d823cdcd4b1334ec78f3346ba55661f930d28d9cc",
+          "pass": true
+        },
+        {
+          "file": "crops_test.json",
+          "expected": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+          "current": "20522477b172ae8745194b2e94241276c445a0a8d64fd694730f7ba00ca00583",
+          "pass": true
+        },
+        {
+          "file": "model_info.json",
+          "expected": "b13e8b6fda2fbcae21cead573d0e03228f6d78c0d6b68398599311dcdc11256d",
+          "current": "b13e8b6fda2fbcae21cead573d0e03228f6d78c0d6b68398599311dcdc11256d",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": "search",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:03:15.855636+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "tpe_summary.json",
+          "expected": "0c3e9d30a729708eb72cdcd7e292714bfb501bca4fa6b86f5b575aabe20c892b",
+          "current": "0c3e9d30a729708eb72cdcd7e292714bfb501bca4fa6b86f5b575aabe20c892b",
+          "pass": true
+        },
+        {
+          "file": "tpe.sqlite3",
+          "expected": "aa36f09255cb96bde95d09bd3e1662ca63224abfc9874736a42fbf246679ff95",
+          "current": "aa36f09255cb96bde95d09bd3e1662ca63224abfc9874736a42fbf246679ff95",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "stage": "smoke",
+      "status": "exit0",
+      "completed_at": "2026-11-02T21:01:22.597862+08:00",
+      "source_match": true,
+      "outputs": [
+        {
+          "file": "cpu_smoke.json",
+          "expected": "5fc052b7a9d63a824d3a0c3b2ad69580b70fa32cd9995190077e272265086338",
+          "current": "5fc052b7a9d63a824d3a0c3b2ad69580b70fa32cd9995190077e272265086338",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "manifest_checks": [
+    {
+      "split": "train",
+      "expected": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+      "current": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+      "pass": true
+    },
+    {
+      "split": "val",
+      "expected": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+      "current": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+      "pass": true
+    },
+    {
+      "split": "test",
+      "expected": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+      "current": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+      "pass": true
+    }
+  ],
+  "frozen_evaluation": {
+    "selection_split": "val",
+    "test_accessed_in_calibration": false,
+    "weights": {
+      "classifier_best.pt": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+      "detector_best.pt": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa"
+    },
+    "detector_threshold": 0.3,
+    "class_threshold": 0.3,
+    "calibration_sha256": "ceefe2712b74373daf9a50750ffc9db915ce4e2d1a27fecdd58d0653e81cbb84",
+    "behavior": "train_A.py:648-695先验证val冻结记录和双权重哈希；仅读取test，模型eval后计算结果。没有阈值搜索、optimizer、权重写入或重新分组；校准函数不调用。",
+    "repeat_scope": "恢复evaluate会按同一条件重新计算oracle和整图。原test已经访问，不能宣称测试从未访问；保留两次尝试证据且不据任一测试成绩选择模型或阈值。"
+  },
+  "partial_oracle": {
+    "original_path": "test_oracle_crop.json",
+    "bytes": 1458919,
+    "sha256": "064959e8b108bfbbfe9a4501f65dd726accaed59ff99f8efbf7ce9c1ec12a547",
+    "valid_json": true,
+    "predictions": 3759,
+    "checkpoint_sha256": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+    "interpretation": "oracle子产物完整，但evaluate整体未完成；整图和检测输出缺失。",
+    "preservation": "由root使用Move-Item -LiteralPath移至本B/recovery_20261102_2202/test_oracle_crop.json，移前后核同一SHA和字节数；保留原attempt1日志并记录恢复缘由。移动前检查目标为空/唯一，禁止覆盖已有归档。"
+  },
+  "recovery": {
+    "allowed": true,
+    "write_owner": "root独占归档、控制器重启与GPU，独审agent仅写此JSON。",
+    "necessary_sequence": [
+      "先确认旧controller与child仍不存在，避免并发执行。",
+      "归档partial oracle并核SHA；保持源码、calibration、双权重、分组和7个成功marker原样。",
+      "run_B_pipeline.py:192存在任何test输出便拒绝evaluate；腾空原partial路径而不绕过此保护。",
+      "使用相同环境启动run_B_training.py --retry-failed；控制器核sourcepin与每个成功marker并跳过，evaluate写attempt2。",
+      "新evaluate完成后核双权重/calibration/manifests仍为同一SHA，独立审查新三项test完整性；旧oracle作为中断证据，不从两次中择优。"
+    ],
+    "actual_recovery_started_by_reviewer": false
+  },
+  "limitations": [
+    "本审查未加载checkpoint tensor，未重新核31833原图字节；沿用已完成preflight与训练独审，当前另核3manifest及所有既有marker产物。",
+    "原evaluate中断原因未知；恢复若产生真实异常须保留新日志再复盘，不能无痕重复。"
+  ]
+}

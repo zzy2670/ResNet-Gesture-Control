@@ -1,0 +1,17 @@
+{
+  "architecture": "resnet50",
+  "stage": "evaluate",
+  "status": "exit0",
+  "source_sha256": {
+    "run_B_pipeline.py": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+    "run_B_training.py": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+    "train_A.py": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f"
+  },
+  "outputs": {
+    "test_oracle_crop.json": "ec9313eef77d15395a34a093484ed0acb7479443f37e288e121d9b45365f9b61",
+    "test_whole_photo.json": "4b050e4d5f0e2172e2d0e2ddea4f087eeb9fc3898d8f40142362a37e61530195",
+    "test_detector.json": "d40421e117c5c1abeaa2312b74c82dca20de6cc353eb0983053c1b3e20133862"
+  },
+  "completed_at": "2026-11-02T22:56:59.712112+08:00"
+}

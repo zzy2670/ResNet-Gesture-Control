@@ -1,0 +1,21 @@
+{
+  "protocol": "B_subject_independent",
+  "architecture": "resnet18",
+  "parameters": 11179590,
+  "finetune_trainable_parameters": 8396806,
+  "feature_dim": 512,
+  "pretraining": "ImageNet1K_V1",
+  "fine_tune": "layer4_and_fc_only",
+  "layer4_lr": 0.0001,
+  "fc_lr": 0.0005,
+  "manifest_sha256": {
+    "train": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+    "val": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+    "test": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc"
+  },
+  "source_sha256": {
+    "train_A.py": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+    "run_B_pipeline.py": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205"
+  }
+}

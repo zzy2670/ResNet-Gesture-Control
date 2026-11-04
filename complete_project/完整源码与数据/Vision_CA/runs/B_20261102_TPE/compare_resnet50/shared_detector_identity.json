@@ -1,0 +1,6 @@
+{
+  "protocol": "B_subject_independent",
+  "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\detector_best.pt",
+  "sha256": "db8c2d91baef48ccc12aebaa91e168f0c4db0f3ce57d97c8015e81a84db6bcfa",
+  "trained_only_on_B_train": true
+}

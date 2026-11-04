@@ -1,0 +1,83 @@
+{
+  "status": "PASS_MATCHED_CPU_PREFLIGHT_WITH_LIMITATIONS",
+  "reviewed_at": "2026-11-02T23:07:58.389281+08:00",
+  "reviewer": "b50_recovery_review",
+  "scope": "只读静态审查源码、原whole_photo_predictions及离线full-tail工厂和冻结协议；未导入模型库、未加载权重、未运行推理或测速。唯一写入本JSON。",
+  "script_sha256": "cd38b346af669e7b308723ff04396394d66b9410039582f942db1f2b4da4b4fb",
+  "protocol_sha256": "1aef8d5b51fe95f1b0a5bd7ae74f85f4ee1fbe4d14e3186f0bd8c610bde032f3",
+  "source_sha256": {
+    "train_A.py": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f",
+    "deployment_src/gesture_predict.py": "d8d7f63a724e9d3084487991e96b1d64ecb69f21a8233cad7964d852328d9d99"
+  },
+  "syntax_valid": true,
+  "issues": [],
+  "checks": {
+    "six_frozen_original_models": true,
+    "strict_classifier_and_full_tail_detector_load_on_cpu": true,
+    "network_or_gpu_inference_required": false,
+    "fixed_common_A_validation_first100_sorted_photos": true,
+    "fixed_common_A_validation_first100_sorted_GT_hand_crops": true,
+    "same100_classifier_preprocessed_float32_224_tensors": true,
+    "CPU_threads": 8,
+    "warmup_per_model_per_scope": 20,
+    "repeats": 3,
+    "timed_inputs_per_model_per_scope": 300,
+    "total_timed_calls": 3600,
+    "repeat_orders": [
+      [
+        "A_resnet18",
+        "B_resnet18",
+        "A_resnet34",
+        "B_resnet34",
+        "A_resnet50",
+        "B_resnet50"
+      ],
+      [
+        "B_resnet50",
+        "A_resnet50",
+        "B_resnet34",
+        "A_resnet34",
+        "B_resnet18",
+        "A_resnet18"
+      ],
+      [
+        "B_resnet34",
+        "A_resnet50",
+        "B_resnet50",
+        "A_resnet18",
+        "B_resnet18",
+        "A_resnet34"
+      ]
+    ],
+    "all_rounds_retained_no_fastest_round_selection": true,
+    "original_accuracy_weights_thresholds_and_timings_untouched": true,
+    "whole_scope_uses_original_train_A_function_includes_PIL_decode_detector_crop_classifier_rules": true,
+    "whole_scope_one_photo_per_call_with_detected_crops_classified_together": true,
+    "classifier_scope_excludes_preprocessing_and_model_loading": true,
+    "thresholds_remain_model_specific_and_workload_counts_saved": true,
+    "raw_ms_and_sample_input_identity_saved": true,
+    "background_CPU_raw_counters_saved_without_filtering_blocks": true,
+    "summary_mean_p50_p95_and_sample_sd_ddof1": true,
+    "exclusive_attempt_journal_prevents_silent_rerun": true,
+    "partial_failure_evidence_persisted": true,
+    "materialize_then_precommit_validate_then_exclusive_write_same_bytes_fsync": true,
+    "precommit_rechecks_weights_calibration_code_protocol_indexes_annotations_selected_image_bytes": true
+  },
+  "resolved_issue": {
+    "finding": "原稿在序列化前核部分模型身份，提交前未复核源码/协议/输入。",
+    "resolution": "作者已将save_exclusive改为先编码payload，再precommit复核全部模型和输入活身份，最后xb写同bytes并fsync；本审者回读确认。",
+    "scientific_conditions_changed": false
+  },
+  "execution_gate": "root确认存储hash等重CPU工作结束后再显式--run；本PASS不启动执行，也不表示新结果已经存在或通过。",
+  "result_exists_at_review": false,
+  "attempt_exists_at_review": false,
+  "limitations": [
+    "固定A-val输入用于同条件速度比较，不能作为六模型泛化准确率或外部真实机器人速度。",
+    "3轮顺序为固定交错，不能完全平衡所有位置或消除热状态、自然缓存与系统漂移。",
+    "每模型冻结阈值及检测器可能导致框数量和分类工作量不同；整图时间不能把全部差异归因于ResNet深度。",
+    "背景其他进程占用为系统计数估计；必须按原值披露，不据它筛除慢轮。",
+    "全部六模型常驻内存且不计加载，属于该明确内存/调用条件下的在线CPU推理时间。",
+    "执行后须另核36个计时块、3600原始ms、样本/模型身份及全部汇总统计；本轮未对未生成结果给PASS。"
+  ]
+}

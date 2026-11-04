@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "scope": "readiness_aggregation_of_two_independent_deliveries_with_current_byte_checks",
+  "programs": [
+    {
+      "protocol": "A",
+      "model": "ResNet18",
+      "directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet手势识别交付\\ResNet18",
+      "archive": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet手势识别交付\\ResNet18_图片识别程序.zip",
+      "archive_sha256": "780565200cb0bda91ced457fe48e0f317b6c86cc3ec4e814637c1b3f1460513e",
+      "package_manifest_sha256": "2695675eb832a3530d6d0235dad407b423eb4a54e9474f6097b1e3ae99a474bb",
+      "files_verified": 15,
+      "independent_review_sha256": "4c563b2508da7c2b8858fab560189d7102f05c93f09ef7545da2be9720f37abd"
+    },
+    {
+      "protocol": "A",
+      "model": "ResNet34",
+      "directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet手势识别交付\\ResNet34",
+      "archive": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet手势识别交付\\ResNet34_图片识别程序.zip",
+      "archive_sha256": "83092f0eecb291f7d0630ecf5ab3472beab74b26966642e1c64a31926ddc6fc8",
+      "package_manifest_sha256": "d7751bda1f8d5873855ef537517d388624451b90c85671b65c8f2b9831de2e59",
+      "files_verified": 15,
+      "independent_review_sha256": "4c563b2508da7c2b8858fab560189d7102f05c93f09ef7545da2be9720f37abd"
+    },
+    {
+      "protocol": "A",
+      "model": "ResNet50",
+      "directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet手势识别交付\\ResNet50",
+      "archive": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet手势识别交付\\ResNet50_图片识别程序.zip",
+      "archive_sha256": "63e9cf96920ec0e661f5c77262835fae31ce033ba8e6b523555ac9580adcf8e4",
+      "package_manifest_sha256": "bc87629603ea8c547d24235c39bb66b324aa9626da951f295ec45fab1ff79cfb",
+      "files_verified": 15,
+      "independent_review_sha256": "4c563b2508da7c2b8858fab560189d7102f05c93f09ef7545da2be9720f37abd"
+    },
+    {
+      "protocol": "B",
+      "model": "ResNet18",
+      "directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet18",
+      "archive": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet18_B协议图片识别程序.zip",
+      "archive_sha256": "e7d0e24c30126f0dcc98d4c913da5fcaf4ea15f4c9edd57c03b0523f9c24f804",
+      "package_manifest_sha256": "e07471fa1a3f9c5570905a8621a04669d90aa988a77f85f70a0793b9527fb51d",
+      "files_verified": 15,
+      "independent_review_sha256": "5a054ab0c28e5ac6007287995eaf03fdf7c21da1e4661bd30275ea54c0c6a07f"
+    },
+    {
+      "protocol": "B",
+      "model": "ResNet34",
+      "directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet34",
+      "archive": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet34_B协议图片识别程序.zip",
+      "archive_sha256": "3d9b9d720b91dfee475575be7ee0ff2787d59684f4caff3bf926b4dc686b093c",
+      "package_manifest_sha256": "9ab265d5443fd6bcfc77ae2a779abe958535ccfbc4179961ed99b34bf7282def",
+      "files_verified": 15,
+      "independent_review_sha256": "5a054ab0c28e5ac6007287995eaf03fdf7c21da1e4661bd30275ea54c0c6a07f"
+    },
+    {
+      "protocol": "B",
+      "model": "ResNet50",
+      "directory": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet50",
+      "archive": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet50_B协议图片识别程序.zip",
+      "archive_sha256": "519d1f27684b0de2ce8777ab0ecfa347b3d6b4b188b05d8d6976c7e7c82dad5b",
+      "package_manifest_sha256": "273e89304a17dcfbdd895121b7b6f8926051e52c92cd36a8e210add158bb507e",
+      "files_verified": 15,
+      "independent_review_sha256": "5a054ab0c28e5ac6007287995eaf03fdf7c21da1e4661bd30275ea54c0c6a07f"
+    }
+  ],
+  "original_A_preserved": true,
+  "new_accuracy_tests_executed": false
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "active_stage.json",
+    "bytes": 326,
+    "sha256": "a75f751604cde0692f100a59272e5e432dafd6b2098ac6d456dce778844accd6"
+  },
+  {
+    "file": "calibration.json",
+    "bytes": 25970,
+    "sha256": "36934730ba8438ec9bc5530f65e6008781d8d76e618737dd61d5f9034cc7e888"
+  },
+  {
+    "file": "controller_events.jsonl",
+    "bytes": 18621,
+    "sha256": "99e56f3832ee1bb44edaf0b8a6226427a19bf16a39a00fe1c4d968969dfef275"
+  },
+  {
+    "file": "controller_lock.json",
+    "bytes": 73,
+    "sha256": "351514788ab54f56dbc7b14e12f114faf457591701f4710500338b17ddedc4ec"
+  },
+  {
+    "file": "evaluate_attempt1.log",
+    "bytes": 2266,
+    "sha256": "0c971e39914d0f6f806d99c10f58a3217d23cb95d5c76041bc55560d0f7620de"
+  },
+  {
+    "file": "recovery_resnet50_system_events.json",
+    "bytes": 1222,
+    "sha256": "447367f8f32b2befa0eb5aff4ea57a40c4183febbc576c979fd5e37e21017e9d"
+  },
+  {
+    "file": "test_oracle_crop.json",
+    "bytes": 1463065,
+    "sha256": "0d02e1229a04d33768b7b8383ff6861542de30574edd7b797c2759688fc733dd"
+  }
+]

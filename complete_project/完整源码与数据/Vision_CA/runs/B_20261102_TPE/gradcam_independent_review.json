@@ -1,0 +1,514 @@
+{
+  "reviewed_at": "2026-11-02T22:24:36.672368+08:00",
+  "status": "PASS",
+  "issues": [],
+  "checks": 158,
+  "scope": "独立CPU单线程复算保存的24组Grad-CAM及错误图证据；未模型推理/训练/反向传播/GPU",
+  "source_sha256": {
+    "make_B_trained_gradcam.py": "71461bbf298f2b1b6fbc71bba5d058b2fc093a3237c51dadfbddccc0693714da",
+    "make_B_error_examples.py": "984177e8cd248f8de44e603f7742e771e84b1bedd79f633d4e255490b23cdb3f"
+  },
+  "checkpoint_sha256": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+  "tensor_formula_checks": [
+    {
+      "class": 0,
+      "layer": "layer1",
+      "activation_shape": [
+        64,
+        56,
+        56
+      ],
+      "gradient_absmax": 0.01765301823616028,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 0,
+      "layer": "layer2",
+      "activation_shape": [
+        128,
+        28,
+        28
+      ],
+      "gradient_absmax": 0.02423674799501896,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 0,
+      "layer": "layer3",
+      "activation_shape": [
+        256,
+        14,
+        14
+      ],
+      "gradient_absmax": 0.05396976321935654,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 0,
+      "layer": "layer4",
+      "activation_shape": [
+        512,
+        7,
+        7
+      ],
+      "gradient_absmax": 0.004486433230340481,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 1,
+      "layer": "layer1",
+      "activation_shape": [
+        64,
+        56,
+        56
+      ],
+      "gradient_absmax": 0.05724411457777023,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 1,
+      "layer": "layer2",
+      "activation_shape": [
+        128,
+        28,
+        28
+      ],
+      "gradient_absmax": 0.041711632162332535,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 1,
+      "layer": "layer3",
+      "activation_shape": [
+        256,
+        14,
+        14
+      ],
+      "gradient_absmax": 0.09175831824541092,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 1,
+      "layer": "layer4",
+      "activation_shape": [
+        512,
+        7,
+        7
+      ],
+      "gradient_absmax": 0.008364920504391193,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 2,
+      "layer": "layer1",
+      "activation_shape": [
+        64,
+        56,
+        56
+      ],
+      "gradient_absmax": 0.02966064214706421,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 2,
+      "layer": "layer2",
+      "activation_shape": [
+        128,
+        28,
+        28
+      ],
+      "gradient_absmax": 0.025884492322802544,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 2,
+      "layer": "layer3",
+      "activation_shape": [
+        256,
+        14,
+        14
+      ],
+      "gradient_absmax": 0.0925028920173645,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 2,
+      "layer": "layer4",
+      "activation_shape": [
+        512,
+        7,
+        7
+      ],
+      "gradient_absmax": 0.006894437596201897,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 3,
+      "layer": "layer1",
+      "activation_shape": [
+        64,
+        56,
+        56
+      ],
+      "gradient_absmax": 0.0378117635846138,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 3,
+      "layer": "layer2",
+      "activation_shape": [
+        128,
+        28,
+        28
+      ],
+      "gradient_absmax": 0.03172694519162178,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 3,
+      "layer": "layer3",
+      "activation_shape": [
+        256,
+        14,
+        14
+      ],
+      "gradient_absmax": 0.06429757177829742,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 3,
+      "layer": "layer4",
+      "activation_shape": [
+        512,
+        7,
+        7
+      ],
+      "gradient_absmax": 0.0063492292538285255,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 4,
+      "layer": "layer1",
+      "activation_shape": [
+        64,
+        56,
+        56
+      ],
+      "gradient_absmax": 0.055665940046310425,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 4,
+      "layer": "layer2",
+      "activation_shape": [
+        128,
+        28,
+        28
+      ],
+      "gradient_absmax": 0.0639493316411972,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 4,
+      "layer": "layer3",
+      "activation_shape": [
+        256,
+        14,
+        14
+      ],
+      "gradient_absmax": 0.1480855494737625,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 4,
+      "layer": "layer4",
+      "activation_shape": [
+        512,
+        7,
+        7
+      ],
+      "gradient_absmax": 0.007641504053026438,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 5,
+      "layer": "layer1",
+      "activation_shape": [
+        64,
+        56,
+        56
+      ],
+      "gradient_absmax": 0.045263633131980896,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 5,
+      "layer": "layer2",
+      "activation_shape": [
+        128,
+        28,
+        28
+      ],
+      "gradient_absmax": 0.04542454704642296,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 5,
+      "layer": "layer3",
+      "activation_shape": [
+        256,
+        14,
+        14
+      ],
+      "gradient_absmax": 0.10854459553956985,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "class": 5,
+      "layer": "layer4",
+      "activation_shape": [
+        512,
+        7,
+        7
+      ],
+      "gradient_absmax": 0.008484847843647003,
+      "native_exact": true,
+      "normalized_224_exact": true,
+      "normalized_range": [
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "CPU_CAM_vs_GPU_oracle_probability_differences": [
+    {
+      "class": 0,
+      "max_abs_CPU_CAM_vs_GPU_oracle_probability_difference": 0.0001240372657775879
+    },
+    {
+      "class": 1,
+      "max_abs_CPU_CAM_vs_GPU_oracle_probability_difference": 0.0002491474151611328
+    },
+    {
+      "class": 2,
+      "max_abs_CPU_CAM_vs_GPU_oracle_probability_difference": 1.4066696166992188e-05
+    },
+    {
+      "class": 3,
+      "max_abs_CPU_CAM_vs_GPU_oracle_probability_difference": 7.787719368934631e-05
+    },
+    {
+      "class": 4,
+      "max_abs_CPU_CAM_vs_GPU_oracle_probability_difference": 0.00013834238052368164
+    },
+    {
+      "class": 5,
+      "max_abs_CPU_CAM_vs_GPU_oracle_probability_difference": 8.61436128616333e-05
+    }
+  ],
+  "error_examples_recomputed": [
+    {
+      "image_id": "1fc5f07b-610e-480c-acf1-db3cd276927c",
+      "truth": 0,
+      "prediction": 4,
+      "detected_hands": 1
+    },
+    {
+      "image_id": "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+      "truth": 3,
+      "prediction": 0,
+      "detected_hands": 0
+    },
+    {
+      "image_id": "074f0d83-6822-4d2c-8056-c0131738a0f6",
+      "truth": 4,
+      "prediction": 0,
+      "detected_hands": 0
+    },
+    {
+      "image_id": "080b3f72-f9e9-4c68-9f35-bd6df3f8a1ba",
+      "truth": 5,
+      "prediction": 0,
+      "detected_hands": 1
+    }
+  ],
+  "actual_crop_comparison_recomputed": [
+    {
+      "image_id": "1fc5f07b-610e-480c-acf1-db3cd276927c",
+      "hand_index": 0,
+      "truth": 0,
+      "oracle_prediction": 0,
+      "oracle_crop_rectangle": [
+        220,
+        140,
+        293,
+        214
+      ],
+      "network_rerun": false,
+      "automatic_prediction": 4,
+      "automatic_crop_rectangle": [
+        236,
+        147,
+        291,
+        201
+      ],
+      "comparison_scope": "highest_score_detected_hand_not_guaranteed_GT_matching"
+    },
+    {
+      "image_id": "00a21d28-a152-49d1-bf5a-c22a81df75b7",
+      "hand_index": 0,
+      "truth": 3,
+      "oracle_prediction": 3,
+      "oracle_crop_rectangle": [
+        230,
+        181,
+        294,
+        244
+      ],
+      "network_rerun": false,
+      "automatic_prediction": null,
+      "automatic_crop_rectangle": null
+    }
+  ],
+  "visual_review": {
+    "images": [
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\trained_gradcam\\trained_six_class_matrix.png",
+        "sha256": "a5f86ed87f189c4b78a244541bf6a65bca38ae1b1671cb1d30c2df5f11572374"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\report_figures\\whole_photo_error_examples.png",
+        "sha256": "f6f559b9180b28e08a24b53007688230567d304cce2c37a1c2aeb5cd0e503da8"
+      },
+      {
+        "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\report_figures\\actual_crop_comparison.png",
+        "sha256": "bbcf4e3c4614a64734ac778f93075fb66ba5986347eaed143c768b8e9ccd0742"
+      }
+    ],
+    "actual_images_opened": true,
+    "matrix": "六类输入与四层热图排列及真实类目标标签可读；layer4主解释，逐图min-max和跨层色深不比较的脚注实际可见。",
+    "errors": "0→4、3→0、4→0、5→0均与保存预测相符，绿真框与虚线预测框位置可见。",
+    "B3_missed_detection": "真值3例00a21d28-a152-49d1-bf5a-c22a81df75b7没有自动手框，整图为0；人工框分类为3。右下确实是文字说明“没有进入分类器的自动裁图”，没有伪造自动裁图。"
+  },
+  "limitations": [
+    "CAM目标是六类中的真实类logit，属于事后解释；不能据热图声称因果机制、正确性或外部泛化得到证明。",
+    "CAM前向在CPU、test oracle在GPU混合精度，概率存在数值差异；本轮列出实际差异，不把同标签说成同概率。",
+    "本轮由保存activation/gradient逐项复算公式，并核最后层梯度与冻结fc权重、保存最后层与metadata概率一致；没有对原图重跑网络，不能独立证明全部早期层前向/反向链。",
+    "最高分检测框未声称必定对应选定真框，comparison_scope明确保留。"
+  ]
+}

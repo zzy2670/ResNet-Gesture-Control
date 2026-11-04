@@ -1,0 +1,29 @@
+{
+  "scope": "B50_evaluate_interruption",
+  "last_boot_time_local": "2026-11-02T22:48:28.5+08:00",
+  "event_query_returncode": 0,
+  "finding": "Event1074 at22:47:02 records shutdown.exe-initiated restart; Event6005 at22:48:47 records event service startup.",
+  "initiator_program_or_human_unknown": true,
+  "training_weights_and_thresholds_not_changed": true,
+  "events": [
+    {
+      "TimeCreated": "/Date(1793630927586)/",
+      "Id": 6005,
+      "ProviderName": "EventLog",
+      "Message": "事件日志服务已启动。"
+    },
+    {
+      "TimeCreated": "/Date(1793630927581)/",
+      "Id": 6008,
+      "ProviderName": "EventLog",
+      "Message": "上一次系统的 22:47:22 在 ‎2026/‎11/‎2 上的关闭是意外的。"
+    },
+    {
+      "TimeCreated": "/Date(1793630822500)/",
+      "Id": 1074,
+      "ProviderName": "User32",
+      "Message": "The process C:\\Windows\\System32\\shutdown.exe (WIN-M0BEJ5NDMVU) has initiated the 重启 of computer WIN-M0BEJ5NDMVU on behalf of user WIN-M0BEJ5NDMVU\\Administrator for the following reason: 没有找到这个原因的标题\r\n Reason Code: 0x800000ff\r\n Shutdown Type: 重启\r\n Comment: "
+    }
+  ],
+  "query_stderr": ""
+}

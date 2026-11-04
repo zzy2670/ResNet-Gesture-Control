@@ -1,0 +1,26 @@
+[
+  {
+    "Path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_20261102_2202\\active_stage.json",
+    "Hash": "CE9D2277A016CC160BE21AFE3E5092B81A7CB919CBD62D88414E24A7FD99E5DA"
+  },
+  {
+    "Path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_20261102_2202\\calibration.json",
+    "Hash": "CEEFE2712B74373DAF9A50750FFC9DB915CE4E2D1A27FECDD58D0653E81CBB84"
+  },
+  {
+    "Path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_20261102_2202\\controller_events.jsonl",
+    "Hash": "FAF000F5CEC2C9D761CF7D493312A17F9C3EA5B3BAF248CFE8AF84B21C3C0AA7"
+  },
+  {
+    "Path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_20261102_2202\\controller_lock.json",
+    "Hash": "0645EBE8CE47672F3BB32C942950A57AA90B5C7652F5D8F4C7F848832DA4AC27"
+  },
+  {
+    "Path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_20261102_2202\\evaluate_attempt1.log",
+    "Hash": "9BDA4943C0D9C7B7698A7FDF75A2CE8B2E70A4D2BA0C0AF567FF17001DE4340B"
+  },
+  {
+    "Path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\recovery_20261102_2202\\test_oracle_crop.json",
+    "Hash": "064959E8B108BFBBFE9A4501F65DD726ACCAED59FF99F8EFBF7CE9C1EC12A547"
+  }
+]

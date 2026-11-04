@@ -1,0 +1,9 @@
+{
+  "architecture": "resnet50",
+  "stage": "evaluate",
+  "pid": 37648,
+  "supervisor_pid": 19048,
+  "log": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\compare_resnet50\\stage_logs\\evaluate_attempt1.log",
+  "status": "failed",
+  "exit_code": 1073807364
+}

@@ -1,0 +1,215 @@
+{
+  "status": "PASS",
+  "reviewed_at": "2026-11-02T22:34:50.781133+08:00",
+  "scope": "独立复核打包修复、真实list成员、新迁移入口静态与CLI拒绝路径；未freeze/archive/训练/模型推理",
+  "issues": [],
+  "checks": [
+    {
+      "check": "all_internal_preparation_and_preview_excluded",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "scientific_figures_retained",
+      "passed": true,
+      "detail": {
+        "trained_gradcam/trained_six_class_matrix.png": true,
+        "report_figures/whole_photo_error_examples.png": true,
+        "report_figures/actual_crop_comparison.png": true
+      }
+    },
+    {
+      "check": "report_interpretation_sections_explicitly_excluded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "formal_Word_identity_checks_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "freeze_and_archive_pre_post_ready_checks",
+      "passed": true,
+      "detail": {
+        "freeze": 2,
+        "archive": 2
+      }
+    },
+    {
+      "check": "archive_review_binds_frozen_document_SHA",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "archive_post_verify_pre_rename_gate",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_cli:--help",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_cli:--list",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_cli:prepare,--out,runs/B_20261102_TPE",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_cli:prepare,--out,runs/A_20261102_TPE/audit_disallowed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_cli:prepare,--out,runs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_cli:prepare,--out,data/audit_disallowed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_rebinds_B_runtime_paths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_first_stage_rebuilds_crops",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "portable_protects_existing_new_runs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "old_NEEDS_FIX_review_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "original_training_sources_unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "list_result": {
+    "files": 96250,
+    "source_bytes": 4142102610,
+    "missing": [
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet18",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet34",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_B手势识别交付\\ResNet50",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\README.md",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.md",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.docx",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\基于ResNet18的手势识别项目方案_v11.docx",
+      "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\A与B协议ResNet训练与对比实验报告_v2.docx"
+    ],
+    "excluded_entries": 77895,
+    "archive_created": false
+  },
+  "actual_member_inspection": {
+    "internal_draft_members_remaining": [],
+    "scientific_figures_retained": {
+      "trained_gradcam/trained_six_class_matrix.png": true,
+      "report_figures/whole_photo_error_examples.png": true,
+      "report_figures/actual_crop_comparison.png": true
+    },
+    "formal_MD_member_names": [
+      "完整源码与数据/Vision_CA/README.md",
+      "完整源码与数据/Vision_CA/data/raw_train_data/README.md",
+      "完整源码与数据/Vision_CA/runs/B_20261102_TPE/resnet18_final_audit.md",
+      "程序/A/resnet18/README.md",
+      "程序/A/resnet34/README.md",
+      "程序/A/resnet50/README.md"
+    ]
+  },
+  "portable_cli_tests": [
+    {
+      "args": [
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: portable_B_training.py [-h] [--list] [--out OUT]\n                              [--arch {resnet18,resnet34,resnet50}]\n                              [--device {cpu,cuda}] [--workers WORKERS]\n                              [--batch-size BATCH_SIZE] [--epochs EPOCHS]\n                              [--trials TRIALS] [--lr LR]\n                              [--patience PATIENCE]\n                              [{prepare,smoke,features,search,finetune,detector,calibrate,evaluate,latency,classifier-latency}]\n\n迁移后显式运行B的一个新实验阶段；重建当前路径索引，保护全部历史A/B结果。\n\npositional arguments:\n  {prepare,smoke,features,search,finetune,detector,calibrate,evaluate,latency,classifier-latency}\n\noptions:\n  -h, --help            show this help message and exit\n  --list                只列出阶段，不导入模型依赖、不创建目录\n  --out OUT             本项目runs内尚不存在的新目录；首阶段必须18/prepare\n  --arch {resnet18,resnet34,resnet50}\n  --device {cpu,cuda}\n  --workers WORKERS\n  --batch-size BATCH_SIZE\n  --epochs EPOCHS\n  --trials TRIALS\n  --lr LR\n  --patience PATIENCE",
+      "stderr_tail": []
+    },
+    {
+      "args": [
+        "--list"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"stages\": [\"prepare\", \"smoke\", \"features\", \"search\", \"finetune\", \"detector\", \"calibrate\", \"evaluate\", \"latency\", \"classifier-latency\"], \"first\": \"prepare --arch resnet18\", \"shared\": \"先完成18的prepare；34/50复用本次新生成的裁图索引和18检测器\", \"execution\": \"每条命令只执行一个阶段；不调用历史controller\"}",
+      "stderr_tail": []
+    },
+    {
+      "args": [
+        "prepare",
+        "--out",
+        "runs/B_20261102_TPE"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr_tail": [
+        "ValueError: 拒绝写入或包含原A/B权威结果目录"
+      ]
+    },
+    {
+      "args": [
+        "prepare",
+        "--out",
+        "runs/A_20261102_TPE/audit_disallowed"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr_tail": [
+        "ValueError: 拒绝写入或包含原A/B权威结果目录"
+      ]
+    },
+    {
+      "args": [
+        "prepare",
+        "--out",
+        "runs"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr_tail": [
+        "ValueError: --out必须为当前项目runs内的独立新目录"
+      ]
+    },
+    {
+      "args": [
+        "prepare",
+        "--out",
+        "data/audit_disallowed"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr_tail": [
+        "ValueError: --out必须为当前项目runs内的独立新目录"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "build_ab_project_bundle.py": "9da8ea112a71979d7a3e0f873beee90bc3379702e342b3befd7ac85a913c21a7",
+    "portable_ab_project.py": "05453e6bcf1e544b56feaa47f0992fb28e3f601f0d3d74245a363e4abad7eb07",
+    "portable_B_training.py": "5d30bbf3638057b640bd582b58ed45797c61fec4151bf14d96761f2d55630217"
+  },
+  "old_review_preserved": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\delivery_tools_independent_review.json",
+  "limitations": [
+    "当前正式Word与B推理包尚未全部落盘，list缺少文件是实际等待项；本PASS只代表工具实现修复通过，不代表最终冻结或ZIP验收。",
+    "未执行合法prepare或任何训练；迁移入口已静态核RUN/SPLIT/PRETRAINED重绑与18prepare重建路径，真正新训练须由用户显式阶段命令运行。",
+    "便携data check原全量SHA不在本轮重复；沿用上一独审A/B各31833源相对路径全部匹配RAW的证据。",
+    "正式文档review PASS由文档审者负责真实内容和渲染，本轮只核门禁强制三份正式Word身份及archive前后绑定，不制造文档PASS。"
+  ]
+}

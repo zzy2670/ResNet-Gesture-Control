@@ -1,0 +1,167 @@
+{
+  "status": "PASS_COMPLETED_RESNET18_TRAINING",
+  "updated_at": "2026-11-02T21:25:14.213864+08:00",
+  "scope": "B ResNet18已完成分类器训练；检测器/阈值/最终test未纳入本审查",
+  "TPE": {
+    "study_name": "B_resnet18_frozen_features_TPE",
+    "complete_trials": 24,
+    "each_trial_complete_epochs": 18,
+    "best_trial": 5,
+    "best_validation_macro_f1": 0.7898241519073682,
+    "best_params": {
+      "optimizer": "adamw",
+      "lr": 0.02471874974474003,
+      "weight_decay": 1.575053109136539e-06,
+      "dropout": 0.0049244678259749985,
+      "label_smoothing": 0.11865877236900568,
+      "class_weight": false
+    },
+    "sqlite_and_summary_all_values_parameters_matched": true
+  },
+  "finetune": {
+    "complete_epochs": 18,
+    "train_samples_per_epoch": 30799,
+    "validation_samples_each_epoch": 4326,
+    "checkpoint_best_epoch": 17,
+    "checkpoint_best_validation": {
+      "n": 4326,
+      "accuracy": 0.992371705963939,
+      "macro_f1": 0.9893394453954586,
+      "confusion_matrix": [
+        [
+          2796,
+          5,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          15,
+          336,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          591,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          193,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          0,
+          179,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          198
+        ]
+      ],
+      "precision": [
+        0.990084985835694,
+        0.9853372434017595,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall": [
+        0.9982149232416994,
+        0.9572649572649573,
+        0.9949494949494949,
+        0.9897435897435898,
+        0.9675675675675676,
+        0.99
+      ],
+      "f1": [
+        0.9941333333333333,
+        0.9710982658959537,
+        0.9974683544303797,
+        0.9948453608247423,
+        0.9835164835164836,
+        0.9949748743718593
+      ],
+      "support": [
+        2801,
+        351,
+        594,
+        195,
+        185,
+        200
+      ]
+    },
+    "all_epoch_confusion_metrics_recomputed": true,
+    "training_and_validation_seconds": 615.7215197086334
+  },
+  "initialization": {
+    "official_identity": {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet项目完整交接_20261102\\完整源码与数据\\Vision_CA\\pretrained\\checkpoints\\resnet18-f37072fd.pth",
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "bytes": 46830571
+    },
+    "frozen_ImageNet_parameter_keys_equal": 75,
+    "A_finetuned_weights_used": false,
+    "feature_caches": {
+      "train": {
+        "shape": [
+          30799,
+          512
+        ],
+        "labels_match_B_crop_index": true,
+        "pretrained_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+      },
+      "val": {
+        "shape": [
+          4326,
+          512
+        ],
+        "labels_match_B_crop_index": true,
+        "pretrained_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+      }
+    }
+  },
+  "classifier_sha256": "95f9de0a6f04ddf62be91215a6b8b57065f5857e10d8e764e805f2dcfcb14d70",
+  "TPE_sqlite_sha256": "aa36f09255cb96bde95d09bd3e1662ca63224abfc9874736a42fbf246679ff95",
+  "source_sha256": {
+    "run_B_pipeline.py": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+    "run_B_training.py": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+    "train_A.py": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f"
+  },
+  "manifest_sha256": {
+    "train": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+    "val": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+    "test": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc"
+  },
+  "completed_stage_markers_verified": [
+    "prepare",
+    "smoke",
+    "features",
+    "search",
+    "finetune"
+  ],
+  "test_metrics_claimed": false,
+  "detector_training_currently_in_progress": true,
+  "GPU_started_by_reviewer": false,
+  "models_reinferred_by_reviewer": false
+}

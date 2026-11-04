@@ -1,0 +1,15 @@
+{
+  "architecture": "resnet50",
+  "stage": "classifier-latency",
+  "status": "exit0",
+  "source_sha256": {
+    "run_B_pipeline.py": "09005d1bbec82a3aa0cd0f301cd9f2669a6fa2b878569114a012af9db042e205",
+    "run_B_training.py": "5e13338dae9f68388402ff2f11d81bff7c8f6b76cb883019b1e530e92da761e3",
+    "train_A.py": "8f63912166b2ecee0b31cacf984904e646cf43d2b722eb4a4167956a4b5e1b9d",
+    "compare_resnets_A.py": "3bd9e96999917edf07a1738b0ab6eb8710405848cc2baa1691303e97ec944a3f"
+  },
+  "outputs": {
+    "classifier_cpu_latency_unified.json": "40a90b453c82b677bb78427c5e28327fe82b20f7be41c883a0957e430952426c"
+  },
+  "completed_at": "2026-11-02T22:57:59.091241+08:00"
+}

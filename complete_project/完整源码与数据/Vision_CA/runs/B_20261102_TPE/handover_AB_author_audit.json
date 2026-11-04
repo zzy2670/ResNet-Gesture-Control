@@ -1,0 +1,25 @@
+{
+  "status": "TEXT_AND_PACKAGE_CHECKS_READY_FOR_INDEPENDENT_RENDER_REVIEW",
+  "facts": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\handover_final_accepted_facts.json",
+  "facts_sha256": "e9c68c5c02b0d75b83f87b8c4227736b080051b6162f3e4043814b044e7c31d8",
+  "outputs": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.md",
+      "sha256": "d2d2a876b61f1e0b4a2f96dad912a9d1541176253dd48363d883ec693ff2c31f"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\交接说明.docx",
+      "sha256": "798eed955b0b92565382c67aec909e829f96a640aa63c07d17444a65524d0464"
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\ResNet_AB项目完整交接_20261102\\README.md",
+      "sha256": "e0acd2be7f38f9d5e2040d8f7b04ed06cbfc38f6ae3ecf7a3e50833d0b083c8d"
+    }
+  ],
+  "old_handover_overwritten": false,
+  "rendered_QA_claimed": false,
+  "link_validation_requires_final_freeze_member_set": true,
+  "author_render_review": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\Vision_CA\\runs\\B_20261102_TPE\\author_document_render_review.json",
+  "author_render_review_status": "PASS",
+  "independent_review_pending": true
+}
