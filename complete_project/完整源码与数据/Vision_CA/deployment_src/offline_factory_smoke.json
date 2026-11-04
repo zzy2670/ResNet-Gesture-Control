@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "network_download_blocked": true,
+  "strict_missing_keys": [],
+  "strict_unexpected_keys": [],
+  "reference_detection_equal": true,
+  "image_id": "01f1417f-4899-4a53-a6d3-6156c33a204d",
+  "n_returned_boxes": 120,
+  "feature_tail_channels": 960,
+  "crop_pixels_equal": true,
+  "class_aggregation_cases": [
+    [
+      [],
+      0
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      1
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      0
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      3
+    ]
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "status": "UPDATED_MARKDOWN_FROZEN_NEW_WORD_REVIEW_PENDING",
+  "review_scope": "完整项目交接说明、最终Word与总ZIP清单",
+  "write_ownership": {
+    "handover_markdown": "本次新增第8章后冻结，交还root；独审者停止写入",
+    "this_review": "handover_high_review",
+    "word_and_bundle": "root"
+  },
+  "criteria": [
+    "照片、detector裁手图、ResNet分类、可靠性和多手汇总、数字输出形成通俗连续主线",
+    "编码1为V前进、2为掌后退、3为拳停止、4为like左转、5为dislike右转，0为无新有效指令；0与3不同",
+    "ResNet始终由我和组员共同负责；现有训练、评测、解释和交付是已完成工作，不重新派给组员从零开始",
+    "不得将MediaPipe、ROS、B协议和课程其他任务描述为本次已经完成",
+    "ResNet18、34、50各24次TPE和18次微调；完整测试3917手图、3180照片；照片准确率93.62%、93.14%、94.34%，oracle手图99.34%、99.18%、99.44%，CPU照片32.25、45.88、54.76毫秒",
+    "当前实测优先；总体理解v1、问答v4、方案v10作为历史材料按用途和阅读顺序明确标识，训练前将来时不覆盖现状",
+    "完整数据、源码、原runs、预训练权重、历史文档、学习笔记和讨论记录可追溯；第三视频笔记仅P1如实说明",
+    "旧日志绝对路径保留为历史证据，移动后用portable prepare生成新索引，不能声称直接复训无路径准备",
+    "相对文件链接在交接目录内均存在；最终Word与Markdown实质一致，字体、表格和分页可读",
+    "总ZIP含真实数据及必要权重，不以目录联接或外部路径代替文件；ZIP manifest与最终目录一致",
+    "新增组员接手工作须具体覆盖核包、六类与自选图/API验证、复核结果、共同选型、ResNet汇报主笔及来源、另一识别组评价对齐和控制联调、B及新场景补测的确认边界；建议分工不冒充既定会议决定"
+  ],
+  "checks": {
+    "markdown_content": "PASS：输入输出、训练解释、真实共同分工、当前数据与实测、历史阅读顺序、旧CLI契约更新、0/3、多手、A/B、完整数据及迁移操作均逐段核对",
+    "relative_links": [
+      {
+        "target": "程序与训练/A协议ResNet训练与对比实验报告_v1.docx",
+        "exists": true
+      },
+      {
+        "target": "历史文档/手势识别项目总体理解_v1.docx",
+        "exists": true
+      },
+      {
+        "target": "历史文档/手势合并与数字编码.docx",
+        "exists": true
+      },
+      {
+        "target": "历史文档/基于ResNet18的手势识别项目方案_v10.docx",
+        "exists": true
+      },
+      {
+        "target": "程序与训练/README.md",
+        "exists": true
+      },
+      {
+        "target": "完整源码与数据/Vision_CA/README.md",
+        "exists": true
+      },
+      {
+        "target": "学习笔记/ResNet三视频整合图文笔记.docx",
+        "exists": true
+      },
+      {
+        "target": "学习笔记/ResNet视频一图文笔记_v2.docx",
+        "exists": true
+      },
+      {
+        "target": "学习笔记/ResNet视频二图文笔记_v2.docx",
+        "exists": true
+      },
+      {
+        "target": "学习笔记/ResNet视频三第一集图文笔记.docx",
+        "exists": true
+      },
+      {
+        "target": "历史文档/MA6216项目二_问题解答与实施建议_v4.docx",
+        "exists": true
+      },
+      {
+        "target": "历史文档/Project 2-Hand-Gesture Recognition for Mobile Robot Control.pdf",
+        "exists": true
+      },
+      {
+        "target": "历史文档/MA6216_CA3_final_project.pptx",
+        "exists": true
+      },
+      {
+        "target": "程序与训练/训练记录/README.md",
+        "exists": true
+      },
+      {
+        "target": "SHA256SUMS.json",
+        "exists": true
+      },
+      {
+        "target": "来源与整理说明.json",
+        "exists": true
+      }
+    ],
+    "word": "PENDING：旧7页Word的通过结论不能覆盖新增第8章，待root生成新版Word并提供页面",
+    "zip_manifest": "root/portablehelper独立负责；本JSON复制入S并冻结后，由root生成SHA256SUMS.json并确认16/16链接及ZIP一致性。本次不将未生成清单或总ZIP描述为已验证。",
+    "word_relative_links": [
+      {
+        "target": "程序与训练/A协议ResNet训练与对比实验报告_v1.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "历史文档/手势识别项目总体理解_v1.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "历史文档/手势合并与数字编码.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "历史文档/基于ResNet18的手势识别项目方案_v10.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "程序与训练/README.md",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "完整源码与数据/Vision_CA/README.md",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "学习笔记/ResNet三视频整合图文笔记.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "学习笔记/ResNet视频一图文笔记_v2.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "学习笔记/ResNet视频二图文笔记_v2.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "学习笔记/ResNet视频三第一集图文笔记.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "历史文档/MA6216项目二_问题解答与实施建议_v4.docx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "历史文档/Project 2-Hand-Gesture Recognition for Mobile Robot Control.pdf",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "历史文档/MA6216_CA3_final_project.pptx",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "程序与训练/训练记录/README.md",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "SHA256SUMS.json",
+        "exists": false,
+        "true_word_hyperlink": true,
+        "relative": true
+      },
+      {
+        "target": "来源与整理说明.json",
+        "exists": true,
+        "true_word_hyperlink": true,
+        "relative": true
+      }
+    ],
+    "new_chapter": "作者自检完成：第8章明确建议分工，7项具体任务及负责人/交付标准，报告章节取材已实查；root需独立复读新增内容后生成Word"
+  },
+  "findings": [
+    {
+      "status": "resolved",
+      "issue": "原阅读顺序先历史理解再实测，易以训练前状态理解当前成果",
+      "resolution": "正式实测报告移为第2项，历史理解与方案随后并标明过时状态"
+    },
+    {
+      "status": "resolved",
+      "issue": "分工与目录说明需明确共同已完成工作和总包完整数据范围",
+      "resolution": "改为我和组员共同负责，增加真实数据数量、会议目录及精选训练子包边界"
+    },
+    {
+      "status": "resolved",
+      "issue": "需提供移动后的实际入口并与旧索引分开",
+      "resolution": "提供只读check及显式新out prepare，不改旧路径或结果"
+    },
+    {
+      "status": "implemented_pending_independent_review",
+      "issue": "用户明确要求写组员接手后的实际工作，原稿仅有衔接边界与简短检查",
+      "resolution": "保留原7节，新增第8章，组员重点接收、复核、汇报撰写及集成；已完成训练不重新派发；补测先由小组确认"
+    }
+  ],
+  "source_draft_sha256": "740c47750b06fdea8d7b5d8531df28e4da25f0cac0ab8b28adaae10a4622f07c",
+  "frozen_markdown_sha256": "e5b1849d9a154d3b802ddecfc10edff3d02d6f0e68b412591f59bde3e2a9c46b",
+  "markdown_characters": 9442,
+  "archive_handoff": {
+    "remaining_action_owner": "root",
+    "actions": [
+      "独立复读第8章建议分工和报告取材段",
+      "生成新版Word并回传页面独审",
+      "复制最终独审JSON后重新冻结总包",
+      "更新SHA256SUMS.json及重建总ZIP"
+    ],
+    "document_blocker": false
+  },
+  "previous_word_review": {
+    "word_sha256": "330978953a13753b3e541182b0633a58a22f20a0cd7007cad2e7cbf3a643bcba",
+    "review": "原7页Word曾逐页审查通过；本次新增第8章后，原Word不再代表最新内容"
+  },
+  "previous_markdown_sha256": "ad7607d501197ba97fb3620a081f75b5dbe641b6993757ddd1dcfc5bca2912e6"
+}
