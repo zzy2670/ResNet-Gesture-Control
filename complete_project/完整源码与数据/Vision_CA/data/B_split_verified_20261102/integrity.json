@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "all_source_images_accounted": true,
+  "source_image_count": 31833,
+  "copied_image_count": 31833,
+  "source_unique_sha256_count": 31833,
+  "cross_split_overlap": {
+    "train_val": {
+      "users": 0,
+      "image_ids": 0,
+      "sha256": 0
+    },
+    "train_test": {
+      "users": 0,
+      "image_ids": 0,
+      "sha256": 0
+    },
+    "val_test": {
+      "users": 0,
+      "image_ids": 0,
+      "sha256": 0
+    }
+  },
+  "every_exported_image_sha256_checked": true,
+  "manifests": {
+    "train": {
+      "sha256": "8411a8f88f6e24858f34e5c3bc060e4494f5b2c377f8160c575c2a55e2b7c4e5",
+      "bytes": 5915852
+    },
+    "val": {
+      "sha256": "ec6bd0bd0d9415bffeb9a715761aec45861f580a77aac6badc7e32a2b4353b12",
+      "bytes": 807647
+    },
+    "test": {
+      "sha256": "d588ad0b6d598974082bb40601f34aad79635c2c9c67ae429ff9c51b44614efc",
+      "bytes": 726095
+    }
+  },
+  "split_spec_sha256": "00bc8893fb24885bf9870518b485bf0fd0f775016cb5b53cbe3da07b30fd7340",
+  "source_and_copy_hashes_sha256": "d38f275aa2e89e36f5787a996ea01c4aed80a06c9f7a84da9d1405308bf81ca5"
+}

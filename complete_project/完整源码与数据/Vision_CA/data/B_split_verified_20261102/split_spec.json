@@ -1,0 +1,29 @@
+{
+  "protocol": "B_subject_independent",
+  "seed": 42,
+  "requested_ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "ratio_unit": "users",
+  "normal_algorithm": "prepare_datasets.make_subject_split: sorted users, Random(42).shuffle, largest-remainder user counts",
+  "duplicate_policy": "union users connected by identical source SHA256 before assignment; never split a connected component",
+  "duplicate_component_algorithm": "sorted components, Random(42).shuffle, greatest absolute user target deficit",
+  "balance_policy": "one fixed subject-random split; report all original/merged distributions and deviations; no candidate-seed or test-score selection",
+  "source": "C:\\Users\\Administrator\\Desktop\\6216_VISION\\MA6216_CA3_final_project\\HaGRID\\dataset\\hagrid-sample-30k-384p",
+  "label_mapping": {
+    "peace": 1,
+    "peace_inverted": 1,
+    "stop": 2,
+    "stop_inverted": 2,
+    "palm": 2,
+    "fist": 3,
+    "like": 4,
+    "dislike": 5
+  },
+  "unlisted_labels_map_to": 0,
+  "prediction_or_test_score_used": false,
+  "source_images_modified": false,
+  "missing_class_policy": "stop before export if any original source photo class absent in any split"
+}

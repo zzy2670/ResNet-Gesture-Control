@@ -1,0 +1,3185 @@
+{
+  "0063a387-65f5-4158-a745-f6f77bebdc43": {
+    "bboxes": [
+      [
+        0.51231121,
+        0.21273911,
+        0.07114179,
+        0.08055276
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "9a75cd39c2bea460e0f3a74f9983a14230769408a3bdba95b9b71a32666d06e4"
+  },
+  "0196bf4f-494b-48ee-96ea-51f6d0701b74": {
+    "bboxes": [
+      [
+        0.59900552,
+        0.39591998,
+        0.21903942,
+        0.24090041
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "b2be21b7830a6cf774384d35d0a1ce4f5955cdeebadc7b939299f90bd39aa4d3"
+  },
+  "01ec513c-f543-4334-a3f8-fa3347d21eec": {
+    "bboxes": [
+      [
+        0.15772348,
+        0.396554,
+        0.19200633,
+        0.22834485
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "138268e49a2979263a1755ccebc0eaf365cb87a77d3c2e2d4fb3c52370fa97f4"
+  },
+  "0209442f-77e0-4aef-8cec-e837a9e7ac3b": {
+    "bboxes": [
+      [
+        0.65276207,
+        0.31934035,
+        0.15787635,
+        0.16906727
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "8fe84605017371cecc6d475654f33dde887093ac0dae10bb88a98ffd7781f523"
+  },
+  "04ead791-5f18-452b-99bc-000636a0f283": {
+    "bboxes": [
+      [
+        0.33507831,
+        0.54868908,
+        0.12726772,
+        0.13318706
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "152ecf5d000cdb8a7ff0bd88f40f4d7e20b5ad2a9e1aa33b2cad0bd03b8ef5d1"
+  },
+  "06aa70cc-a12a-4b1e-85cf-e54d44c19a3a": {
+    "bboxes": [
+      [
+        0.62356658,
+        0.35497779,
+        0.11817286,
+        0.11244298
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "5a9f3729c5e89d31e166faa7526b77076d9c6bc6fa27f565658ba2756f6ca60a"
+  },
+  "0b3eee3f-fe88-49b8-a4eb-143752b22fbd": {
+    "bboxes": [
+      [
+        0.32221349,
+        0.26106802,
+        0.13142207,
+        0.14669126
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "1ee797a3e772c0c8f31b89a613cecf13a3ab83913045e748ec12f9495a99efe6"
+  },
+  "0b71e224-f95b-481a-8983-0bb19fbbe14a": {
+    "bboxes": [
+      [
+        0.6126142,
+        0.23813662,
+        0.20943046,
+        0.18546452
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "34791055fddd0a8c88ab0473c711dac3725af14a3f47fc3874dbe7c751d85e97"
+  },
+  "0c960166-75b0-4c1b-a3cc-2ddbd5a21703": {
+    "bboxes": [
+      [
+        0.11218573,
+        0.47489902,
+        0.17394618,
+        0.2068695
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "33f24b9705142908f1dad6d190bcd08dbf809b3ebdcaafa52617b8c397cd512e"
+  },
+  "1035159f-04cb-486a-9b4b-149a32d6f9a5": {
+    "bboxes": [
+      [
+        0.11837345,
+        0.45148507,
+        0.21462084,
+        0.20265066
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "adb708d92b9ed988a2abbba43c809041cdbeeade51476753d0e4899a009cfcb5"
+  },
+  "13cdd1c0-3e5c-4d83-8eab-d6745807dcab": {
+    "bboxes": [
+      [
+        0.46635241,
+        0.73965253,
+        0.05445592,
+        0.10036566
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "933a273d2a785f4bbfbeda35545e102d4b0847490f49d438f9e151e1d2ff3af9"
+  },
+  "1618da57-625d-475b-a6a4-b824c6c6873a": {
+    "bboxes": [
+      [
+        0.52614799,
+        0.33459342,
+        0.08518898,
+        0.06628555
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "1867c02419b18353dffd85cc6ad27f8be7699ad1f9e71c2703a30da9cbe8dae5"
+  },
+  "165b4da9-590b-4965-ad6a-d339c8b047ca": {
+    "bboxes": [
+      [
+        0.51288403,
+        0.46991011,
+        0.12344431,
+        0.15201597
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "03138b7654d6b59ec1899d4207889c93ef9090af6771223a7b9fdd4e57cd8395"
+  },
+  "1811b218-070a-4942-b623-141045f9d528": {
+    "bboxes": [
+      [
+        0.30248646,
+        0.46922699,
+        0.09329148,
+        0.1890151
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "286f9600ce481eb7af7e250786fd49c5efbe704cfbc75f3c42d555a1cc8ca8c1"
+  },
+  "188f7117-5056-45b8-818f-b735d4bb67fa": {
+    "bboxes": [
+      [
+        0.659717,
+        0.33113994,
+        0.18343423,
+        0.19988438
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "dd790853ddc0d41225356411719f805b91467fa5882b1515fa34bda159e6aabc"
+  },
+  "1ac5dcc0-1ff5-49d6-aa72-4b44cafd781b": {
+    "bboxes": [
+      [
+        0.59819253,
+        0.23815555,
+        0.14367251,
+        0.30071694
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "ee7187f47fe9ae42e242bf2bbad4061bc007b0a49f353c5e034d05dde186ea9a"
+  },
+  "1bfb71d9-1370-4169-9c26-723a8f9cce22": {
+    "bboxes": [
+      [
+        0.57487217,
+        0.38203183,
+        0.06554294,
+        0.06050524
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "b39682a1a51adc9560ed32b922cccfb90e8935bb029087ae42c769f7cfbe3067"
+  },
+  "1c62436e-5907-4d3e-b13e-092f07d99df7": {
+    "bboxes": [
+      [
+        0.66527388,
+        0.3031339,
+        0.21472105,
+        0.27144016
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "db8124129c09d3b72b03f894554b47c59d08b52e2b15f52fc703ccf8a11a1fb9"
+  },
+  "20ade43a-b7d0-4636-a326-dd34e12d1cbe": {
+    "bboxes": [
+      [
+        0.59154515,
+        0.3381872,
+        0.18088463,
+        0.18222693
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "0d6da2c87ef8eabeda2dcfee2dc5b5035e878137a91b149c754a59804f3dce32"
+  },
+  "21b79695-4b6d-4f6a-9870-e0ed3c7a3cb4": {
+    "bboxes": [
+      [
+        0.69051184,
+        0.36717413,
+        0.20066955,
+        0.23595214
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "49d55b4ed011d0e61682fae085be91f4bfa90035e0ef82be779661f7a9694f50"
+  },
+  "21e3b103-5861-4b8a-af7c-3900ea2277b5": {
+    "bboxes": [
+      [
+        0.27936115,
+        0.2308009,
+        0.08924792,
+        0.21235329
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "60eaf2a0df4743459202da946ece5db868943bfbb8fbc5d604bdccb48a08f20f"
+  },
+  "2204c104-a4d8-4b28-9466-912a70766e84": {
+    "bboxes": [
+      [
+        0.45870633,
+        0.35521069,
+        0.04068194,
+        0.069556
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "1fbdc0ccf1d971cf1bfbd5e43580fb735cbf7103e942d86dc69a0b042b72b5a1"
+  },
+  "249c5023-6106-447a-84ac-17eb4713731b": {
+    "bboxes": [
+      [
+        0.49976979,
+        0.36065721,
+        0.13784107,
+        0.15608444
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "140b7c77b93a3bbcac660c552c03ba6db6acc39948fce797fe5a80e8010074a4"
+  },
+  "253f573b-2a1c-4a1c-96b2-4c61f05dbb90": {
+    "bboxes": [
+      [
+        0.3134095,
+        0.63463678,
+        0.05608778,
+        0.06937042
+      ],
+      [
+        0.53349372,
+        0.38548364,
+        0.07496899,
+        0.08249381
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 0.8,
+    "user_id": "155d0ea6ac1a56cbdf5b81b2c34a4135d51821d11a788cf4c244bc434bd841e9"
+  },
+  "25bb4c45-e40b-482c-b588-04db60b7e450": {
+    "bboxes": [
+      [
+        0.45436829,
+        0.58021796,
+        0.03499337,
+        0.05099688
+      ],
+      [
+        0.58613347,
+        0.35541745,
+        0.06004154,
+        0.05547227
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "c9121a542888e33bb626e8c736bbf0ed91aa14a06ce693524ee99557c189160e"
+  },
+  "27eaee2a-3d58-48ff-a44d-81aa9983d4f7": {
+    "bboxes": [
+      [
+        0.59974949,
+        0.45868383,
+        0.06807263,
+        0.08211866
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 0.8,
+    "user_id": "e6f99a53434c3f7545b4967367a1995d83c90d485dd9d22251ec4e7f0c5d790b"
+  },
+  "28f73a4e-facc-4215-8423-7186849ed0c8": {
+    "bboxes": [
+      [
+        0.52428665,
+        0.33393743,
+        0.19577703,
+        0.22409244
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "6c51b3dc992ba68940b08a59fa4b9305ec65e5bb83dcd524eca64207ea33c141"
+  },
+  "2a38c8e2-d8ba-45f3-9076-9e5a1012d8d7": {
+    "bboxes": [
+      [
+        0.41952057,
+        0.37219721,
+        0.05571512,
+        0.05878126
+      ],
+      [
+        0.58878693,
+        0.53865126,
+        0.04687126,
+        0.04420998
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "331ff16a5a9d5717d785c4e08dedc184f082f0a5161ef74fb21178f39c96ed32"
+  },
+  "2b11c587-cace-453a-9561-5fdde7689f41": {
+    "bboxes": [
+      [
+        0.68192414,
+        0.30015013,
+        0.16288185,
+        0.15351913
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "d78fc919847cf2b54fd0a020a3f6909fc7514e85178e768e40df46783db66c93"
+  },
+  "2b2776b2-a33d-456b-a603-0f7f0e201955": {
+    "bboxes": [
+      [
+        0.42925134,
+        0.77551614,
+        0.03320978,
+        0.09117827
+      ],
+      [
+        0.59221324,
+        0.5041896,
+        0.04711688,
+        0.09380201
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "e8c88c4efbc6280879f3ee47c3dd541c5072dedc663cbaabc7d5853da7872ad6"
+  },
+  "2d3b18a9-9150-4dbd-904e-59c3acf782fc": {
+    "bboxes": [
+      [
+        0.24941705,
+        0.49749054,
+        0.1293565,
+        0.1432843
+      ],
+      [
+        0.70720925,
+        0.87300736,
+        0.13496273,
+        0.1263455
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "c38c3ec739e25fb55ca51f98535acaef6ef8d9921782038dabfbfe3089a51e4e"
+  },
+  "2e218970-2efc-4a71-970e-cde42cba28a0": {
+    "bboxes": [
+      [
+        0.15074919,
+        0.25282146,
+        0.20578464,
+        0.1895537
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "5b0b7fdcb8c0b5644141ba7853a114315e91ab549108f83d4ba7c04525d40c08"
+  },
+  "2fa4fc50-6ceb-4a5c-b3bd-493e843f2a38": {
+    "bboxes": [
+      [
+        0.21927792,
+        0.41893125,
+        0.12486042,
+        0.15374625
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "b6825f299189ad51f07907674184fc86764ab8486eb1fce9e97dac820bdf5458"
+  },
+  "3020e080-e994-410f-93f7-8ee447407653": {
+    "bboxes": [
+      [
+        0.53224796,
+        0.33003214,
+        0.07053881,
+        0.15032133
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "ec0b67efe7a695cce91e9ea51efa3ab11d42cdff4915ba7d930d513312972251"
+  },
+  "311cedf4-d3f5-4437-b3d1-9a8d7017bc47": {
+    "bboxes": [
+      [
+        0.27052814,
+        0.21300743,
+        0.11414467,
+        0.24220474
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "4b1aa9e90054ee9cbb7aaa34275b6a3eeb22b29ff4b64f740176f5de2a900ace"
+  },
+  "31f28818-3f31-42d7-860d-aa8c8bcf03db": {
+    "bboxes": [
+      [
+        0.19519849,
+        0.44415637,
+        0.16446717,
+        0.09326901
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "23c78460dfde9fd5d89ff091888e49996c4334892879f2f40ca9b96eb58ef506"
+  },
+  "32ea8c86-11b2-4df4-a554-d999c984783f": {
+    "bboxes": [
+      [
+        0.70038321,
+        0.14580355,
+        0.14489027,
+        0.26686994
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "27d06affca31d526c9e91567ba81eceefe00527029b7b008df0562e192892a82"
+  },
+  "33b063d8-0bdd-49dd-a7a0-f2cc9c4f5711": {
+    "bboxes": [
+      [
+        0.34279029,
+        0.37913002,
+        0.11660095,
+        0.19331597
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "e6f99a53434c3f7545b4967367a1995d83c90d485dd9d22251ec4e7f0c5d790b"
+  },
+  "3430131c-d416-4eb1-8765-03ddf7a4d8ae": {
+    "bboxes": [
+      [
+        0.22199747,
+        0.30711703,
+        0.23460624,
+        0.23711418
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "597fe52313454664a0cab10aac85f3f31e46cf50e3b58fe745255c6465f06811"
+  },
+  "35aaa020-ac78-4aae-9c54-27e61e98bc8f": {
+    "bboxes": [
+      [
+        0.44494933,
+        0.09057166,
+        0.07436171,
+        0.11211348
+      ],
+      [
+        0.64755445,
+        0.56009023,
+        0.03816302,
+        0.11245952
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "1a98c8d1c438bb0d2197aae691ede524f974686b9802381081a7d6b588ca250b"
+  },
+  "36780b01-a10a-4cda-bf7b-9da6ab8fced0": {
+    "bboxes": [
+      [
+        0.19809955,
+        0.45523882,
+        0.18867814,
+        0.19581184
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "c679740304fe4a29b730945e54c88e459adcb5136bdc13b913e45aa6f119437f"
+  },
+  "3a754f13-628c-4a90-931b-043220ae8b2f": {
+    "bboxes": [
+      [
+        0.35154044,
+        0.1560514,
+        0.22376938,
+        0.37793917
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "f6a70144ffee7a97e8eb9a32a2d47ba68f512942fa33fdafd93bb5705b190720"
+  },
+  "3b5b619e-9db3-4069-96de-e69d8755162c": {
+    "bboxes": [
+      [
+        0.53190418,
+        0.57659167,
+        0.09873807,
+        0.10126988
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "eead83cac079b8507fa2b03414b489443dee4a7130777b24eb4104f4314965df"
+  },
+  "3cde4c9c-9b7b-468f-be80-d3ff89dec6d9": {
+    "bboxes": [
+      [
+        0.08451521,
+        0.2539667,
+        0.22727539,
+        0.15036169
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "aa7b74e887d0d8be34c8d62a3f0bba6af05d9075c65fe589bd537fc9954e9de2"
+  },
+  "3d12e578-767f-4a44-b972-49ef9d34746d": {
+    "bboxes": [
+      [
+        0.67758792,
+        0.34695841,
+        0.15874137,
+        0.15912053
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "3386249409dd52a554800a5a3f08b62cd60a11e21c71cfbd2df022975b3e4da5"
+  },
+  "3e77e030-7f50-499b-a573-db3290be0074": {
+    "bboxes": [
+      [
+        0.11803847,
+        0.3583979,
+        0.12238961,
+        0.13533707
+      ],
+      [
+        0.61781221,
+        0.75877586,
+        0.07969539,
+        0.12095045
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "173ccad763d232dd18e9dd5a888da285b6f920b7589e8f79111476ccca0a2abb"
+  },
+  "3f67294d-7030-48ae-acd0-e36d4b5a262e": {
+    "bboxes": [
+      [
+        0.62907205,
+        0.10379669,
+        0.1990375,
+        0.18095804
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "18a136d4edd693fe0f8dc4ab8665e682045725f540d4064de72de21140a740be"
+  },
+  "4051f539-3a50-48f3-a3ac-74e6d7fd2944": {
+    "bboxes": [
+      [
+        0.28252608,
+        0.52624663,
+        0.09841328,
+        0.10299713
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "81af034c95d4427d341477f58f1144c5027dcb8e5d42e2c4c0d615d4850b963a"
+  },
+  "4204bc20-a37e-4e73-8445-334767051d94": {
+    "bboxes": [
+      [
+        0.08592725,
+        0.74997719,
+        0.13563638,
+        0.12333654
+      ],
+      [
+        0.63911501,
+        0.08282644,
+        0.18588421,
+        0.18661727
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "7ad4f371f378d6e45abf38d244991e07b60505a07df0f77a2fa1e6baa402307d"
+  },
+  "4221ef26-112b-41ab-9aad-597e01fd52ad": {
+    "bboxes": [
+      [
+        0.44331319,
+        0.47581189,
+        0.14723883,
+        0.10598177
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "1e342f7190aee8c86bb52415974dcf47b2659a2e027e5501418b50404f7d1328"
+  },
+  "424e499e-f6c1-4d3d-bd29-8f57c529a290": {
+    "bboxes": [
+      [
+        0.23468266,
+        0.35069823,
+        0.16372028,
+        0.13018561
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "90d7ba687cacf6652d1d39e707e6d9867be9da8acd4426fd60b5e386e037cc00"
+  },
+  "42eac9e9-6879-4d13-ab4f-30113f3f2af4": {
+    "bboxes": [
+      [
+        0.55907271,
+        0.57270824,
+        0.12246599,
+        0.11268013
+      ],
+      [
+        0.65563869,
+        0.30502311,
+        0.13204314,
+        0.14925374
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "34d513c09715ba86ab826b009b9387b5a0aea2dd3521efc3f4a222bd9f392445"
+  },
+  "4652e718-6643-4703-bdc9-7959a4cf7821": {
+    "bboxes": [
+      [
+        0.15716819,
+        0.53994914,
+        0.13396984,
+        0.14308476
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "5d481c9deea73f666a63e200cb6ddacb3adb3618d96f11e81cda9e2dafbdc859"
+  },
+  "487362d3-4136-4928-8f2f-9ddeade30800": {
+    "bboxes": [
+      [
+        0.47202013,
+        0.43668435,
+        0.17484318,
+        0.175652
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "f228d50eee91f1d6d1e0470366416c7123f513d314b453caaeb8984e22714e16"
+  },
+  "494cdcbd-3a18-4f62-8205-a62c6954483a": {
+    "bboxes": [
+      [
+        0.29305117,
+        0.19327122,
+        0.17325612,
+        0.21515431
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "799e07dbb3ee6942805c0d132f0006907c2c8d72cd0ba43c2cbd02b46f02d3b1"
+  },
+  "4a502b06-98b0-4eb6-bb2b-b18de6b6fe7c": {
+    "bboxes": [
+      [
+        0.52946774,
+        0.2054032,
+        0.16428767,
+        0.29693747
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 0.8,
+    "user_id": "5a08ee28810d9fb8ec0d0d962b3d4c03f905e2583e3e1d0b6759c1e2f166b8c8"
+  },
+  "4a669b38-eba9-4328-8410-c378863767fe": {
+    "bboxes": [
+      [
+        0.25068739,
+        0.45242061,
+        0.12275467,
+        0.13755795
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "89f9072a9f8b446427879bdc6dd6b6e169319775c37fe19ca013e93bc55fcc09"
+  },
+  "4ec3bd2a-13e2-4df5-8ee1-38802eed1aa7": {
+    "bboxes": [
+      [
+        0.20363109,
+        0.87449055,
+        0.09030304,
+        0.12324612
+      ],
+      [
+        0.64046565,
+        0.31074563,
+        0.12939317,
+        0.15536376
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "c8428416eead2e8cab45f950d9f7a1f5a5b0573e9d4485b2f60a8cc2708fda66"
+  },
+  "50d4778f-c3b1-4bc8-93b0-6cc00d40d398": {
+    "bboxes": [
+      [
+        0.16871569,
+        0.38962628,
+        0.06559243,
+        0.07637888
+      ],
+      [
+        0.33929672,
+        0.44120597,
+        0.06125822,
+        0.06852984
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "7ddbb450a45c1c871b4a92d4d45ad7863f459c7c4541664f15258cb81e783661"
+  },
+  "5194794d-9a09-4854-96af-181d17ff6c84": {
+    "bboxes": [
+      [
+        0.74480985,
+        0.50473494,
+        0.09612457,
+        0.08222394
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 0.8,
+    "user_id": "6d4d7bdde6e71cbca14b0b5ff417446ae2688119c27b7495912607624b722786"
+  },
+  "5f505bfb-efe7-41cf-9df7-e0af63c82798": {
+    "bboxes": [
+      [
+        0.51050115,
+        0.22644388,
+        0.14637229,
+        0.36110226
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "9ad73ac1f3fde82701a93a0d1b2247375fa25ca95717c94e694830049fbc545e"
+  },
+  "6336e850-4032-45f3-a11a-e08165591158": {
+    "bboxes": [
+      [
+        0.51727615,
+        0.49069844,
+        0.06623978,
+        0.09333149
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "6c1fd33f849dc7a8f7bec509fda60d1469491d2b5356be8189de0133e709417b"
+  },
+  "63f8438e-8f80-434e-a48a-b23c927d1647": {
+    "bboxes": [
+      [
+        0.1569003,
+        0.39658398,
+        0.14044222,
+        0.17023856
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "1405a5d7700b4463d5afe06438dae68bec7a6cdf9a5810c00114d553fb969473"
+  },
+  "65637a3f-1aff-4855-b504-162c29968e55": {
+    "bboxes": [
+      [
+        0.11090486,
+        0.34056228,
+        0.28844875,
+        0.2838475
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "5a5bb3945d4e181380b9288b56ff509dac70d3ea01d9799fe6afd71d0395c61d"
+  },
+  "66402ea5-32e0-4b3f-b296-3b7b1a21ba17": {
+    "bboxes": [
+      [
+        0.25047994,
+        0.6808778,
+        0.06345375,
+        0.0560888
+      ],
+      [
+        0.53735317,
+        0.40469299,
+        0.07409214,
+        0.08634739
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "6095129906269c5485971c4b186ec0b0986217559ea3feb241ab0f4ba0d13c3e"
+  },
+  "6924ee2e-b5fd-4eac-b110-5c2123c712f2": {
+    "bboxes": [
+      [
+        0.54614028,
+        0.35177,
+        0.17619893,
+        0.18403481
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "63c6a3162fa6ed5b58468f1b604424824eb4ea0467008fae0ef4f7d09bc0f9b3"
+  },
+  "69fd6c5b-faef-4ee0-9cef-11d060b951dc": {
+    "bboxes": [
+      [
+        0.65414539,
+        0.35838965,
+        0.07504655,
+        0.09150292
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "6b6b48bf27312e1d6e295a9bde94380a8b03e23a9e3229a00720348881a58cd3"
+  },
+  "6b22eb83-e05c-43d8-83ff-4a321fb2c1c6": {
+    "bboxes": [
+      [
+        0.43029807,
+        0.78636662,
+        0.06540464,
+        0.08568286
+      ],
+      [
+        0.69295576,
+        0.40545918,
+        0.10350622,
+        0.10041837
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "c38c3ec739e25fb55ca51f98535acaef6ef8d9921782038dabfbfe3089a51e4e"
+  },
+  "6c7a6144-f27f-42e1-8223-d2e910b07da8": {
+    "bboxes": [
+      [
+        0.25959831,
+        0.41530205,
+        0.16147565,
+        0.18003536
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "c679740304fe4a29b730945e54c88e459adcb5136bdc13b913e45aa6f119437f"
+  },
+  "6cbe7c2c-b2d3-486c-ad46-b7d07c8490ee": {
+    "bboxes": [
+      [
+        0.38358681,
+        0.48437224,
+        0.09973948,
+        0.20089513
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "65f4baf7858bbd4690da235db426652beae8ffef2ef7345df4c0b7da24b8e80f"
+  },
+  "6cdd78be-b1eb-404b-92ee-e9c075e76e8e": {
+    "bboxes": [
+      [
+        0.26659581,
+        0.64820467,
+        0.06316155,
+        0.10016348
+      ],
+      [
+        0.5984408,
+        0.25088941,
+        0.07681211,
+        0.10945758
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "80db57eca3a1a985c4e994d023c49b7cd3ed38ebdea79a353340c9da5dc20fda"
+  },
+  "6d461ee7-e48a-4ff5-a2f0-2b04b0edf531": {
+    "bboxes": [
+      [
+        0.25512721,
+        0.11993519,
+        0.09545609,
+        0.17018294
+      ],
+      [
+        0.59590317,
+        0.76698458,
+        0.09073747,
+        0.15305345
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "1f60f30e4a51b7166dfbb6649be5be92d9efac9cd44a18e4e7cad03010ea6665"
+  },
+  "6d689e1b-1b29-471e-8c5d-4d23e25668d9": {
+    "bboxes": [
+      [
+        0.23659315,
+        0.8509137,
+        0.08273744,
+        0.14123103
+      ],
+      [
+        0.53500147,
+        0.37715089,
+        0.09075237,
+        0.10641296
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "004ff5f7598cad6faf7e49f941c92263dc4eed87d6f9aa9c7f5bce8c3fc4a425"
+  },
+  "6df90d66-6bf8-46d2-ace3-5a5efa7a8da8": {
+    "bboxes": [
+      [
+        0.16866812,
+        0.86397912,
+        0.09768978,
+        0.09263611
+      ],
+      [
+        0.58282191,
+        0.49667798,
+        0.14195782,
+        0.10166478
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "8ed8e48e3760717ec4694d8068ce5e7f84fd98ea16c075aa825bdefcd64bf21d"
+  },
+  "6f3f4282-f63f-48c7-9fe4-901cc8b44c92": {
+    "bboxes": [
+      [
+        0.63368917,
+        0.44821774,
+        0.11311481,
+        0.18724015
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "cc554f4ba77a7c50ad35ec6abce747d030982614c7c5245c863decbc95b829a7"
+  },
+  "752fdaac-c0eb-492d-b3fd-a96863744433": {
+    "bboxes": [
+      [
+        0.55836219,
+        0.42405569,
+        0.05386212,
+        0.04283437
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "f6dc7440a23830b842460bccce6f0cc6967db1d0bf2926925de28bc00561d51b"
+  },
+  "755cc592-9ca6-484c-87b5-e97ada563ece": {
+    "bboxes": [
+      [
+        0.30008032,
+        0.47425728,
+        0.12892481,
+        0.12477747
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "bad3bb8c2c9b10500efc13ebc0b8355c434f8531e9abc3f7ca5a6a15ae87257c"
+  },
+  "7605260b-4a1e-46f5-a1f0-e590917e3a87": {
+    "bboxes": [
+      [
+        0.2984179,
+        0.76897593,
+        0.0738495,
+        0.10810999
+      ],
+      [
+        0.51213396,
+        0.0992481,
+        0.08314846,
+        0.16380153
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "e6f99a53434c3f7545b4967367a1995d83c90d485dd9d22251ec4e7f0c5d790b"
+  },
+  "76beb0f1-123d-44dc-ae48-e1251088ae0a": {
+    "bboxes": [
+      [
+        0.34771699,
+        0.24371233,
+        0.10080749,
+        0.20707
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "4b1aa9e90054ee9cbb7aaa34275b6a3eeb22b29ff4b64f740176f5de2a900ace"
+  },
+  "77d5e0f3-25f9-4ea7-94dc-34353a4659af": {
+    "bboxes": [
+      [
+        0.49101159,
+        0.36595599,
+        0.16086083,
+        0.16945258
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "54d9b3fc8c35b6beafc753e38eb51e32451e5db796c736165a48de99d1026f51"
+  },
+  "795f838c-0e7b-4faa-930d-71caa2bb9360": {
+    "bboxes": [
+      [
+        0.09714736,
+        0.46864143,
+        0.18873685,
+        0.20112617
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "653262f6c1621994bc17c54c0c187aa1d43bfba8e922d219763ad526307176ad"
+  },
+  "79a43c75-d838-4e6f-a881-eee1ab8b52ca": {
+    "bboxes": [
+      [
+        0.07606845,
+        0.25808178,
+        0.33141134,
+        0.53537496
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 0.8,
+    "user_id": "f428abb92b59eb8d2a530a1f77d41f8f957178b6a53152ef9b81d3a020c96a7e"
+  },
+  "7ae03a59-851e-4d5e-994d-780b5cf43702": {
+    "bboxes": [
+      [
+        0.69620534,
+        0.54486095,
+        0.15382527,
+        0.18668449
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "998f6ad69140b3a59cb9823ba680cce62bf2ba678058c2fc497dbbb8b22b29fe"
+  },
+  "7bf05679-7595-4a03-918a-63aaa8694dbd": {
+    "bboxes": [
+      [
+        0.23887977,
+        0.3305707,
+        0.18960357,
+        0.19431698
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "ab00b434269608cbcbff7443da833f8f66d4eb609f684a8ded4fd69e1ea4002d"
+  },
+  "7cbcfb5b-3926-456f-b357-a11bc8151745": {
+    "bboxes": [
+      [
+        0.1473053,
+        0.3801686,
+        0.29435709,
+        0.37633875
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "c019b62ec89dd4178f60d1b96020bd1b886d5be7c2b9718420e9a5ea07b31108"
+  },
+  "7f092f11-5f98-429c-9d73-2b0dc3e081c9": {
+    "bboxes": [
+      [
+        0.15458388,
+        0.31512081,
+        0.17827026,
+        0.17862151
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "cee5261f50cd9cdf8cbcbf732660b4ad445591ea83e41c1679dd6e4fe785b51d"
+  },
+  "816c479c-5239-49c1-85b0-f8e14e2e2ce9": {
+    "bboxes": [
+      [
+        0.26607558,
+        0.35843613,
+        0.10718023,
+        0.18054965
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "23a57357ab9054ec30abdee986b6e4508bb0fc7ac5dd9501e1ee11a420b19956"
+  },
+  "829d0838-4b80-4d9b-9e8a-c17148b97d16": {
+    "bboxes": [
+      [
+        0.6206079,
+        0.30361631,
+        0.12996628,
+        0.27203338
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "ee7187f47fe9ae42e242bf2bbad4061bc007b0a49f353c5e034d05dde186ea9a"
+  },
+  "87814770-0590-4161-9761-7eebfae8b924": {
+    "bboxes": [
+      [
+        0.35434921,
+        0.29193599,
+        0.07176168,
+        0.05824652
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "16febb0add261f90e4dd3a7a923cde1b563aab71332712eb0e61c33672d5247a"
+  },
+  "88e6ae8b-7203-4ace-9631-1cb7adb6cf5f": {
+    "bboxes": [
+      [
+        0.2819387,
+        0.2726576,
+        0.0807525,
+        0.18340342
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "898ad0bf2ffb7eaa561865d7cb9c7ed54697a1fa46306683ff1e3906744c8b1e"
+  },
+  "894af96a-9ff9-4ae2-a85c-4ef71c3a6246": {
+    "bboxes": [
+      [
+        0.38307336,
+        0.35816534,
+        0.05510958,
+        0.10470075
+      ],
+      [
+        0.55961824,
+        0.67493403,
+        0.02917354,
+        0.089738
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "2b71df2f0ec9d2a1d78ddd90fc7456280fdef24964f86e348efb204207feb66b"
+  },
+  "89b01277-77c7-4f3c-a7f2-5954ec694b27": {
+    "bboxes": [
+      [
+        0.58050239,
+        0.63908404,
+        0.05504403,
+        0.10867206
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 0.8,
+    "user_id": "6ba767bc6bfc1fa6e1604f94d4fd2a8285c66568ea683b0d1ddd4feac64ceb82"
+  },
+  "89cf17a5-37ae-4b8d-9bba-ded161bdde8e": {
+    "bboxes": [
+      [
+        0.19253561,
+        0.37032047,
+        0.11739435,
+        0.12993044
+      ],
+      [
+        0.62495821,
+        0.85063585,
+        0.0797438,
+        0.10098625
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "413c75606e61c2d892c1485cda917a27b042c4b93d3ea39abac42b176dda8b6e"
+  },
+  "8a8cf8b9-03d0-4b40-b23a-94f281f0ebd8": {
+    "bboxes": [
+      [
+        0.65788195,
+        0.48647185,
+        0.19922722,
+        0.22373162
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "698176b06c3bf244b2841c1651b60542b8c6681354f98cbca7e3dd40cd3c1da9"
+  },
+  "8aafa895-f7c0-4c56-8fd4-f25d2bca28bb": {
+    "bboxes": [
+      [
+        0.24434844,
+        0.34712145,
+        0.18172154,
+        0.19886927
+      ],
+      [
+        0.5062388,
+        0.89411144,
+        0.14883024,
+        0.10525189
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "ca77c426a84f1e06805718dbbf48f544e01de7b0f85c74c5e8fbda9d58219b7e"
+  },
+  "9068394e-ff1c-4ba8-8c64-bbaa42aa9536": {
+    "bboxes": [
+      [
+        0.72469732,
+        0.2681349,
+        0.08851861,
+        0.25652005
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "5703e788fc3424c9242abe45bef5c0785ea000f5389966e8a16a57ff48e1398a"
+  },
+  "90f7657f-b7e6-4030-b2d7-84bc699d5112": {
+    "bboxes": [
+      [
+        0.33581698,
+        0.47662633,
+        0.0862605,
+        0.11305866
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "51b67c9d984b7cf4c3a9952774048fb51327007b8caff525b390cb98e55bf8f8"
+  },
+  "91594857-b01e-4556-a2d7-b66ee1a0dd9c": {
+    "bboxes": [
+      [
+        0.59864889,
+        0.30771792,
+        0.17968759,
+        0.19813698
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "7fda89208a6ec9a2e8ddb48f20611daf0e737bf0e9349b3232e67878d6b48882"
+  },
+  "937682e0-ceb2-4358-b2bf-f66b42881b81": {
+    "bboxes": [
+      [
+        0.15124515,
+        0.29972967,
+        0.2037547,
+        0.24041607
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "48e3717d41effb0a5e4e3cb663bf17cd842a1112611d5285d17d412f72480def"
+  },
+  "93f0e282-00bb-453b-89fe-d9ac71a29954": {
+    "bboxes": [
+      [
+        0.19674457,
+        0.32011364,
+        0.18377046,
+        0.22663276
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "4c81877529ae08274247c193ee334d8c98cba965785a3f61f8a30d3d7cdb68d1"
+  },
+  "949c5016-8437-4613-a80f-8c806adb7615": {
+    "bboxes": [
+      [
+        0.10625046,
+        0.6647555,
+        0.07812318,
+        0.12248585
+      ],
+      [
+        0.50379421,
+        0.2682754,
+        0.09490567,
+        0.11566477
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "017be7a4683c4c5458f748d98f3a9b5a14afad9a94b425e7114f5765bba0fc15"
+  },
+  "953ad0a0-57d8-47d0-abe4-4f78a15b01c1": {
+    "bboxes": [
+      [
+        0.30867683,
+        0.48930643,
+        0.10084525,
+        0.11982083
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "e51054db8368c982f331d9c3bdff8f0e27c6b9188cf472a0218ba40475d36d65"
+  },
+  "954c11b6-ecd7-480f-a60b-7857b32b3744": {
+    "bboxes": [
+      [
+        0.2374292,
+        0.26789813,
+        0.11290159,
+        0.13365199
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "a5d02e9966143721b0be44b9f4470cff8bd35e5896c9a12113528dcaf6eb3f3d"
+  },
+  "9639630f-f079-4192-8bf2-625f873350f7": {
+    "bboxes": [
+      [
+        0.26243315,
+        0.58765905,
+        0.08723975,
+        0.09080571
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "75a6635a53f1554ce808a6cae9ab67f00e9eb11c15a0c48a1df2a041c61076aa"
+  },
+  "96de5302-539c-4199-838c-f4a0919b82cd": {
+    "bboxes": [
+      [
+        0.61740031,
+        0.2685834,
+        0.12289043,
+        0.26290748
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "21fed6418e483ac447627ee142a66cf02533cecf90e418d86251a35b0322a1c1"
+  },
+  "96fad721-f344-4770-8237-9541f6f42b3f": {
+    "bboxes": [
+      [
+        0.15290708,
+        0.29090456,
+        0.20181819,
+        0.22368699
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "d2f24fc7fecb2d66375d99b3bb04b3f5734026105c0e5fbf75f63be34d5d079e"
+  },
+  "99082fc3-7165-45a8-98d7-6a78fee4b07f": {
+    "bboxes": [
+      [
+        0.26315228,
+        0.91109263,
+        0.0525237,
+        0.0876688
+      ],
+      [
+        0.58378096,
+        0.50619161,
+        0.07083322,
+        0.09047518
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "c38c3ec739e25fb55ca51f98535acaef6ef8d9921782038dabfbfe3089a51e4e"
+  },
+  "9974a38f-8c65-46e0-89f7-03e748d48bf4": {
+    "bboxes": [
+      [
+        0.2077818,
+        0.47441998,
+        0.11476711,
+        0.19449329
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "66dbcf1d44bfaa271cc23e28c512d2c6f286050d399f7190cee76c2e3be9d813"
+  },
+  "9bbc4f9d-475d-4d8a-b8cd-8d1aac6b122a": {
+    "bboxes": [
+      [
+        0.09240831,
+        0.35457593,
+        0.21287238,
+        0.22215036
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "342bf0772670fa29e2149407778a4abca532d0cac6de13ac31c1abe45ed3c19e"
+  },
+  "9d21f4ae-edc1-4eba-8857-441fc5e449be": {
+    "bboxes": [
+      [
+        0.08215078,
+        0.17483483,
+        0.1339814,
+        0.16856969
+      ],
+      [
+        0.68655529,
+        0.73342245,
+        0.08084469,
+        0.11282445
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "d02be2d50b25cec5cbcc9f9f56b0e154647e2a17fa16a353c7c2a2eb225b6033"
+  },
+  "a29511f8-2a19-4032-960d-aaf5bb28da44": {
+    "bboxes": [
+      [
+        0.22611162,
+        0.41915458,
+        0.22314099,
+        0.29276423
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "3755bfae1ee49266e5bf6d742cf74e5e62fab6e3e763c07864f5f79ac351eb2c"
+  },
+  "a49bf375-a5bf-4815-ab91-7162cb23e40f": {
+    "bboxes": [
+      [
+        0.30017768,
+        0.41865023,
+        0.13154096,
+        0.16433085
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "bfce24d2e96b4292a19aae6e310311228988432c3473a51fbff2daf2a98221c0"
+  },
+  "a5369a31-21a7-497d-8ddf-c786d64019a3": {
+    "bboxes": [
+      [
+        0.75709269,
+        0.31170951,
+        0.1897975,
+        0.20229333
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "9af151fb15a809a403ccf06e1513670cf0c6b2c3df02a8604f8caac543c9fb12"
+  },
+  "a584bfec-cf79-4ff4-b1f1-f63440449761": {
+    "bboxes": [
+      [
+        0.5884454,
+        0.19136142,
+        0.1302112,
+        0.1295163
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "33b1f6240aa90fb2daf8784b1439b1a1a0c155f8e1297c0c5f906beede36e016"
+  },
+  "a64def6d-9ce1-4c49-9b51-9b3ff3679391": {
+    "bboxes": [
+      [
+        0.50666902,
+        0.2170422,
+        0.22440298,
+        0.23722016
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 0.8,
+    "user_id": "f19e41ba748e235d8a51618b6f43170c6ac8f50a8a0bd4ed179c08e8eed6b2f1"
+  },
+  "a6e8c859-169f-466b-9d84-4113e510add8": {
+    "bboxes": [
+      [
+        0.70892144,
+        0.55653495,
+        0.09490522,
+        0.08501863
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "169aa7f4d04c3c699c900b2caa6096c0999f54d9fb2d0a903b4cdc7f1ae6cd5a"
+  },
+  "a85c7992-eb68-4ee7-ab83-dec9669d9c8e": {
+    "bboxes": [
+      [
+        0.10313952,
+        0.45090905,
+        0.1538388,
+        0.13793
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "244f4ce97c7168e0be5cc863a930a509feff0cb9bd47221efd7840197957be63"
+  },
+  "a9bef7a8-50fe-4830-ab91-bfae7018817c": {
+    "bboxes": [
+      [
+        0.67315718,
+        0.33761312,
+        0.16558972,
+        0.23645551
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "055e099141c102249e15c9d9d9ef9ab2c96099572dfc1f45bc31f81c1095ee7e"
+  },
+  "aa322298-2b43-4b4d-a7c9-840dbcd0dc67": {
+    "bboxes": [
+      [
+        0.48343795,
+        0.29313191,
+        0.25511358,
+        0.23816126
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "53034f6db9d0cd4766222a344f4760af9c955e199518a2b65f148702f4cdd8df"
+  },
+  "aa9b7121-1638-45c8-8975-9553ea45ff26": {
+    "bboxes": [
+      [
+        0.26352666,
+        0.34192532,
+        0.15254018,
+        0.18167513
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "b85aa9243175fd14113493ce57c7ab826e10bc73ef1778b3f9ac69842d701c4d"
+  },
+  "ab1b142c-6b37-4d0c-ad7f-ead19b88c90f": {
+    "bboxes": [
+      [
+        0.51341945,
+        0.48379526,
+        0.1828294,
+        0.18834183
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "98ea57cabcf187767cdbd04f2ebbe062b719765737ce2e64c1d9614a5f80a32e"
+  },
+  "ac33835e-9aab-4e02-8fb8-41db9c294932": {
+    "bboxes": [
+      [
+        0.08251298,
+        0.22953291,
+        0.12185212,
+        0.14535979
+      ],
+      [
+        0.63528047,
+        0.71649146,
+        0.09116416,
+        0.11358659
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "3b44befb48dd39fb0c4196aa5c3e3eca473081ad50ba9d3f14fce2425db3cb44"
+  },
+  "acd980ac-91d1-4f84-ba00-47101813139a": {
+    "bboxes": [
+      [
+        0.29992485,
+        0.58810432,
+        0.07763738,
+        0.08281258
+      ],
+      [
+        0.59361824,
+        0.86991162,
+        0.05517466,
+        0.08409208
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "d8d6589b0032ab87a924eeddbff0cce17d5a16bca17e706797e13f3c147de7cf"
+  },
+  "ad133c7d-0d29-4924-b1a1-0cb7c9653f9f": {
+    "bboxes": [
+      [
+        0.13490739,
+        0.27285383,
+        0.20790034,
+        0.16567614
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "90d7ba687cacf6652d1d39e707e6d9867be9da8acd4426fd60b5e386e037cc00"
+  },
+  "ad2cc879-b3fa-4c71-be9e-d84b77302eef": {
+    "bboxes": [
+      [
+        0.23234871,
+        0.2879717,
+        0.18604145,
+        0.30655645
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "1aac3f7b29742363e8e3d8aa5b6cb749e653b1bb7a80b15e0cc39b220ff32715"
+  },
+  "ad652ec0-7d85-4076-abc6-346fa1bb400f": {
+    "bboxes": [
+      [
+        0.65086545,
+        0.38082783,
+        0.14854247,
+        0.22284097
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "db35fa30237c919bd7bea9d2a41527de24bcad27da8651edd15b4756f6b91f99"
+  },
+  "adc88495-91ed-4aae-9fc9-2324ee7a6e6b": {
+    "bboxes": [
+      [
+        0.66947281,
+        0.40327514,
+        0.16432222,
+        0.17322331
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "f0bb833562b18a9b5fa2304702b315d5dfb8c0e79df1ec1e9234ad1b0f5e9342"
+  },
+  "ae367503-fcc5-4489-9f37-b83b49d20a87": {
+    "bboxes": [
+      [
+        0.33494569,
+        0.36578331,
+        0.08082414,
+        0.18757533
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "b26848c7747898f59dc5c8bb4db02d7e7c74bd30f58efb21afe3984cdc74cfef"
+  },
+  "ae8815a2-e6dc-4edf-8df8-f4791cc43b40": {
+    "bboxes": [
+      [
+        0.41007315,
+        0.33358855,
+        0.0772404,
+        0.06599264
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "e9dc561ec9f907cb3ba9eaaa6e1c80e982a0f1056efc6a7a85132334adfa91df"
+  },
+  "aefa24ac-99e0-48a1-acfc-6531238f539c": {
+    "bboxes": [
+      [
+        0.29874534,
+        0.36200935,
+        0.11957935,
+        0.11962606
+      ],
+      [
+        0.57433297,
+        0.45673652,
+        0.13015178,
+        0.0745489
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "9bdf10f824d4625aeb2faa3d1dd028a81e2d4b6131230c8134b1e2f6ff86a168"
+  },
+  "b1d11be2-1425-42aa-921c-ec39291c8486": {
+    "bboxes": [
+      [
+        0.3346461,
+        0.50521754,
+        0.16702145,
+        0.1683912
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "b13258a9e6f6c8a31d9c855bad49caea7e2c9fe3d66fb369c5ab5114e820ec14"
+  },
+  "b431b8d4-004a-4ed9-a331-fa64b0a4c518": {
+    "bboxes": [
+      [
+        0.37635206,
+        0.1835786,
+        0.06419504,
+        0.03583519
+      ],
+      [
+        0.47295744,
+        0.13906381,
+        0.05187531,
+        0.05086629
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "3943a6bdc62b881cb9a226014b28db42558df4693cfe786b438fb0845f3a4825"
+  },
+  "b650bc11-1a18-4a59-a6f3-c7cd8be0afff": {
+    "bboxes": [
+      [
+        0.25766299,
+        0.35014853,
+        0.1405532,
+        0.14130494
+      ],
+      [
+        0.70395786,
+        0.71428759,
+        0.06946718,
+        0.08108247
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "b5454396b020bbdb55aa1d65e008b739ce3bed5146673f4957447208611d2934"
+  },
+  "b8877539-e5a9-40e7-b98e-8f92fb8303a1": {
+    "bboxes": [
+      [
+        0.16002706,
+        0.3065026,
+        0.2311394,
+        0.23824022
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "d9770c883bc9e3776b55b8d476adc159e21f2c8659a68c5100585df3e5e64591"
+  },
+  "ba6ef3d0-2ce2-4d5d-95d2-25ef275ad641": {
+    "bboxes": [
+      [
+        0.28946766,
+        0.24347544,
+        0.0688016,
+        0.13745774
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "8960f3d435518a15e60cfa70ae3e12790d62149bb3feec6957ee260535b8620d"
+  },
+  "bb92358b-dbba-4cda-91d2-9083333b35ee": {
+    "bboxes": [
+      [
+        0.22774577,
+        0.68260433,
+        0.09736779,
+        0.13479893
+      ],
+      [
+        0.70120013,
+        0.13339002,
+        0.17986883,
+        0.18647725
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "0cfd260f6d94fcbb443d5f0a609540d322d07b1f44a11a8e73e7859d4092812c"
+  },
+  "bc2dbad1-6564-4fc7-bc70-9b40430750b6": {
+    "bboxes": [
+      [
+        0.57055647,
+        0.40253938,
+        0.09281609,
+        0.09522408
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "09b13d001b8e63a1e9cc82da7ed3009ebba1662c24c8aa61b0cf7fa4e8c1d4a6"
+  },
+  "bd9935f9-f29d-4b59-8957-76039951592e": {
+    "bboxes": [
+      [
+        0.15335462,
+        0.49858448,
+        0.16490173,
+        0.15153313
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "62eed76d7477c5b6b8c27d21c4fae1425aa78a1bcd93fa27e1128eb94cf206cf"
+  },
+  "bdcad83b-36ea-4213-ab7f-bb368a20493e": {
+    "bboxes": [
+      [
+        0.74296613,
+        0.14865364,
+        0.15057177,
+        0.18098541
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 0.8,
+    "user_id": "65f4baf7858bbd4690da235db426652beae8ffef2ef7345df4c0b7da24b8e80f"
+  },
+  "bfc51b4d-1741-4ebf-9a8c-4ed5cf73f6b6": {
+    "bboxes": [
+      [
+        0.59920472,
+        0.26970957,
+        0.12971291,
+        0.10490755
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "964be323d1df72b3800a84d94c8173e121535ed2012884646ea320c2cf11f7fb"
+  },
+  "c00bf408-85dc-4d08-8349-6b2e985c73c9": {
+    "bboxes": [
+      [
+        0.55907586,
+        0.28612863,
+        0.09596005,
+        0.12651449
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "ae98c3b4121b510710d2bd16d6361833799cf08f8cc49b5517c2e97bb8643764"
+  },
+  "c3c0d82a-96f9-402e-be83-7dc8dbaf5831": {
+    "bboxes": [
+      [
+        0.21937851,
+        0.42491228,
+        0.18787955,
+        0.19872304
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "8179787b498a19f967e7c7b9d91ac2ae3d01fc65d13146061376b32c34002eff"
+  },
+  "c49064a0-4449-43ee-8bac-64f68081640c": {
+    "bboxes": [
+      [
+        0.25346714,
+        0.23197841,
+        0.07686279,
+        0.08511078
+      ],
+      [
+        0.64690844,
+        0.38778261,
+        0.08987029,
+        0.04520525
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "ee820868e29953646e3607efde4e3a522f756ba97050447e10e27297611e1d99"
+  },
+  "c6af92bc-76d4-4c42-91fd-8500f8325ee7": {
+    "bboxes": [
+      [
+        0.52709585,
+        0.31374223,
+        0.08245736,
+        0.14735279
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "e6f99a53434c3f7545b4967367a1995d83c90d485dd9d22251ec4e7f0c5d790b"
+  },
+  "c761eb29-3ad8-4466-a665-4476f3a43a20": {
+    "bboxes": [
+      [
+        0.54766474,
+        0.48327743,
+        0.11811027,
+        0.12391378
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "a86d59222e8c66eba08127dc1ef2e74776d21ae0af3c63fe68529c7730702abb"
+  },
+  "ca0d3b03-68a1-4d6e-8940-64e89c86d5d1": {
+    "bboxes": [
+      [
+        0.5281936,
+        0.42241738,
+        0.13483437,
+        0.08209404
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "09bb9eb296e5ebf30945cdfb05bf8049e6332f0f8f111505a22427826798dc08"
+  },
+  "ca60470d-b339-4cf1-bf38-8c4e7ff30994": {
+    "bboxes": [
+      [
+        0.63416627,
+        0.18830317,
+        0.33218236,
+        0.34356801
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "6c000e2ec97f8c0a5302d644115e6357b115e15a492a504a47264dbfcf55ece3"
+  },
+  "cdc869b0-b04f-4836-8976-d21a6e76b60d": {
+    "bboxes": [
+      [
+        0.292796,
+        0.44031668,
+        0.10382968,
+        0.12502704
+      ],
+      [
+        0.52290124,
+        0.82537002,
+        0.14672639,
+        0.12650709
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "c27c15e69fb642a820e468feb5a606b02674a00f5acc48e509c3ac3fbbb09715"
+  },
+  "cde25c7a-1e76-43aa-a911-36fb1497e55f": {
+    "bboxes": [
+      [
+        0.42246418,
+        0.51892772,
+        0.08147433,
+        0.07525553
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "cc422c6691dfb1766e49e1db4dd87a75db146e8335e4d6a649319f2a25ac4f38"
+  },
+  "d03a39ca-49ed-4161-be86-b918f0bada04": {
+    "bboxes": [
+      [
+        0.1920232,
+        0.1595555,
+        0.12416985,
+        0.33175801
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "55e43624a97994b7ac9866e93da97b7951cb205fdbff878eec2f92c7c108cd07"
+  },
+  "d0b9f34b-23a3-47bb-ae14-523f1aca816c": {
+    "bboxes": [
+      [
+        0.41292049,
+        0.32667334,
+        0.06887885,
+        0.06937181
+      ],
+      [
+        0.66199601,
+        0.582735,
+        0.05263428,
+        0.05353668
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "8e7ffa484f8739d39851d43e409ded73e43b788cb1f28b44c7206ecfc13cb141"
+  },
+  "d0ed1197-8140-4a6e-bb04-34243e35e8e4": {
+    "bboxes": [
+      [
+        0.44828557,
+        0.33631516,
+        0.08395945,
+        0.16055445
+      ],
+      [
+        0.71277814,
+        0.78553481,
+        0.05929348,
+        0.15461233
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "dd855f5c482e8230df5f0b3bdb8acede571aea43d31f90abb6521a279672d78c"
+  },
+  "d2135b60-9657-4e83-8949-1c8825669bd7": {
+    "bboxes": [
+      [
+        0.34940422,
+        0.35004384,
+        0.10791231,
+        0.17880775
+      ],
+      [
+        0.5921957,
+        0.87956684,
+        0.10573987,
+        0.11988941
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "070b27bee8553cd8386f8cec268fcf1f4064d8acc060ea7a4eacbd66fd5fee99"
+  },
+  "d300f9d7-a839-4872-8a05-e5261bd52bea": {
+    "bboxes": [
+      [
+        0.55351301,
+        0.42986581,
+        0.14117991,
+        0.15493282
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "e3d51a2a6985617d0e11ffeacfeba71b3b4b2d157b61e6c26087cbd8b5954fba"
+  },
+  "d32eeb63-a6ae-4c5e-a102-e36372bfd6f6": {
+    "bboxes": [
+      [
+        0.20384035,
+        0.362875,
+        0.12994437,
+        0.08744387
+      ],
+      [
+        0.61081528,
+        0.70681072,
+        0.05956217,
+        0.07340015
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "809871aa94f9f055e1ec0a3e93dc74ba2ceef00729a494c7bc53d4c0c9e199a5"
+  },
+  "d71b1d1f-1e81-43f6-a16e-8186a9e7aa6f": {
+    "bboxes": [
+      [
+        0.25059607,
+        0.54845543,
+        0.11021838,
+        0.12281175
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "5a6470d8436bc202cec70c850c1fc03415c174fab08fe020d4dd9fe2d1a4355d"
+  },
+  "d7f36c9c-f520-4b39-96fc-ecb9eba08acf": {
+    "bboxes": [
+      [
+        0.34044016,
+        0.23045469,
+        0.07490294,
+        0.16713744
+      ],
+      [
+        0.56125383,
+        0.7677235,
+        0.04932277,
+        0.15067815
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "aabf8940a8468b4c845154c371e50fa0f06e504028b06cdd6e27e9d3194abef0"
+  },
+  "da15fe97-cc67-4a23-a1ed-3f141e8f4c40": {
+    "bboxes": [
+      [
+        0.52162103,
+        0.38486438,
+        0.14205909,
+        0.14703928
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "2e6f9b2c950ff2ef39fca346c7816a850ce6393a165edf124a20752002d4835b"
+  },
+  "dd563e4b-bbf2-417a-a6ed-65cb3ab8b1f9": {
+    "bboxes": [
+      [
+        0.23166891,
+        0.39925406,
+        0.11433966,
+        0.12255027
+      ],
+      [
+        0.64838943,
+        0.7514958,
+        0.11867275,
+        0.08621726
+      ]
+    ],
+    "labels": [
+      "four",
+      "no_gesture"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "d998414cb831a1f7d2e887e166b4b8c2feeeb962695461d13404b7e33c7e3ef1"
+  },
+  "ddd76c25-09b5-439d-ad73-bd4508f9c162": {
+    "bboxes": [
+      [
+        0.39993524,
+        0.31850455,
+        0.04902774,
+        0.04831262
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "5de423c55f56eaea795eeee9665d949328d901f3c968ea8f1352b159e7c62847"
+  },
+  "de46e693-5fbe-4f85-b851-497a612deb5a": {
+    "bboxes": [
+      [
+        0.34390533,
+        0.39226501,
+        0.08760249,
+        0.17625191
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "b86e8df8edf4aa967c844620ae1ca4a2a6711a93e0dc1f061642e00ae9535ddb"
+  },
+  "e1a297b1-ce5f-4af7-8c14-bf9a827af7b6": {
+    "bboxes": [
+      [
+        0.35467538,
+        0.66956712,
+        0.09118729,
+        0.10586509
+      ],
+      [
+        0.60277691,
+        0.31193451,
+        0.07302166,
+        0.10936623
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "c7690c30f83fee1a7d8d25a41f01c769f107d64c4cde276beaee0d6857559193"
+  },
+  "e29c697f-f78a-4cdc-ae38-d12d54f26b8f": {
+    "bboxes": [
+      [
+        0.12637652,
+        0.39826737,
+        0.18945409,
+        0.19874206
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "b6f2452e15336d3fcd10e82ebe53d540020b603c477fc291514a3726b9c8ba32"
+  },
+  "e3c52a3f-1f08-4260-979c-7ca2341507b4": {
+    "bboxes": [
+      [
+        0.61123002,
+        0.29588017,
+        0.12337667,
+        0.22674507
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "65f4baf7858bbd4690da235db426652beae8ffef2ef7345df4c0b7da24b8e80f"
+  },
+  "e4c2ab84-a870-40cf-8897-187d967f9c12": {
+    "bboxes": [
+      [
+        0.58260313,
+        0.37128502,
+        0.12508056,
+        0.13472229
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "e6052fb6c0a8e92ec16e9dd7f3b979247ba6108845f92f6b3d8814b87231bde1"
+  },
+  "e92767ad-f22a-422b-98bf-7ed6aebf7422": {
+    "bboxes": [
+      [
+        0.21386408,
+        0.40792414,
+        0.16061674,
+        0.19991125
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "d743378f1c25a92fecb0d91030d7e7e45939f9a414b8a94656a96e4d5b45267d"
+  },
+  "eaece3f2-f141-4f74-9c44-7f613698f110": {
+    "bboxes": [
+      [
+        0.07180746,
+        0.54218498,
+        0.06838391,
+        0.08918387
+      ],
+      [
+        0.41284704,
+        0.17953787,
+        0.08214337,
+        0.10526541
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "c908221b3c09de3d536c3ed72ab39b55c2def7f6e9b6e8d18b494e341da3e083"
+  },
+  "ec671094-143c-4a57-806c-5b4f9fe9fea8": {
+    "bboxes": [
+      [
+        0.56329792,
+        0.55130135,
+        0.06445444,
+        0.07072164
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "450ea350162306a4d5845f66f2cef703e6694704f66832725ab0d6b2da7d6d7f"
+  },
+  "ec91695c-8939-47fc-9ccf-eeea6eb0374e": {
+    "bboxes": [
+      [
+        0.20875125,
+        0.31045996,
+        0.16321826,
+        0.16401377
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "8fe84605017371cecc6d475654f33dde887093ac0dae10bb88a98ffd7781f523"
+  },
+  "ee558f5e-367b-42c7-998d-f6a9e1397ad9": {
+    "bboxes": [
+      [
+        0.54703068,
+        0.36845982,
+        0.17601564,
+        0.18798575
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "f5e261b8a2009951c8c727330c9710c3f699f8051429d67f8cc3b1cc1169cd09"
+  },
+  "f10bce8c-76db-4027-82ee-893d49c7d967": {
+    "bboxes": [
+      [
+        0.56525785,
+        0.441171,
+        0.08707912,
+        0.09535557
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "ada6c834c25b5e0119584831786386d37eb60eec53895471f85ba46652b27f09"
+  },
+  "f148b528-294c-494d-a683-423f3300fa2e": {
+    "bboxes": [
+      [
+        0.64451022,
+        0.42489012,
+        0.13690828,
+        0.15126036
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "7ce8cb63c137f74e2d2f31c79ffe98cf0f7201abee12730228c7dcfbf0051f44"
+  },
+  "f22b45c9-3d82-46bb-8a02-ce66b830fec6": {
+    "bboxes": [
+      [
+        0.55847646,
+        0.52036669,
+        0.05966785,
+        0.1289155
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 0.8,
+    "user_id": "8bf5798d0a9db6cc887200048894f065e2446b2c955d00eb87e9ef9723dbb5e9"
+  },
+  "f3188064-b4ad-41d2-97b0-f53dd1697098": {
+    "bboxes": [
+      [
+        0.10084049,
+        0.47606018,
+        0.15069828,
+        0.15827218
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "d998414cb831a1f7d2e887e166b4b8c2feeeb962695461d13404b7e33c7e3ef1"
+  },
+  "f3ace17c-8a24-49d7-865f-c3ab83d05587": {
+    "bboxes": [
+      [
+        0.23829808,
+        0.42164224,
+        0.13864979,
+        0.14672723
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "d998414cb831a1f7d2e887e166b4b8c2feeeb962695461d13404b7e33c7e3ef1"
+  },
+  "f416c095-e782-4aa2-853c-383fc5da29c6": {
+    "bboxes": [
+      [
+        0.6673555,
+        0.36213763,
+        0.16858758,
+        0.19296908
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "81c043cdb97ba701cfdb1b789355602a6d5676227529d592d4186ed04c37f2b8"
+  },
+  "f487fb19-f70e-47a7-9bcc-44a5f7b240f2": {
+    "bboxes": [
+      [
+        0.31298857,
+        0.56415256,
+        0.14255864,
+        0.15025005
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "right",
+    "leading_conf": 1.0,
+    "user_id": "c97dce911ff456dd3827947d5c7d50dbd17cfc57a3f9469f34d670af9c9a8b00"
+  },
+  "f4d1e506-0695-4063-8aa1-3b6bbe266f19": {
+    "bboxes": [
+      [
+        0.54428906,
+        0.22922566,
+        0.1906814,
+        0.27051558
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "d530f4f19cb6658611a899f5e875f715cda917c62132b1365402eff1ace214e6"
+  },
+  "f64fe287-ef3b-4360-b9b1-71f637ad15b3": {
+    "bboxes": [
+      [
+        0.63035069,
+        0.39284707,
+        0.16875854,
+        0.19423096
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "8b5aa65a24f7f176123eb603c9b083118bce44d008b9b302ba1e45412be44969"
+  },
+  "f85d9caf-6545-4b55-bcd0-c57cc967853c": {
+    "bboxes": [
+      [
+        0.57856813,
+        0.42174424,
+        0.17240341,
+        0.19003628
+      ]
+    ],
+    "labels": [
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "c80d83e6b4ec8d543b46c7d385368d01780aa93a2361a4d2f67da11d5a4b24df"
+  },
+  "ffefdd38-12da-41b6-8c71-85b1ecae2c63": {
+    "bboxes": [
+      [
+        0.32739802,
+        0.69759552,
+        0.17510718,
+        0.14835338
+      ],
+      [
+        0.60636519,
+        0.20186247,
+        0.13075644,
+        0.16579647
+      ]
+    ],
+    "labels": [
+      "no_gesture",
+      "four"
+    ],
+    "leading_hand": "left",
+    "leading_conf": 1.0,
+    "user_id": "9180083180dc6ea00116fe2135cebb8e9a3fc39f8a966a3eb46405b193f23486"
+  }
+}
